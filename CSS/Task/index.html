@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="nav-container">
+            <div class="logo">OnePage</div>
+            <a href="#"  class="toggle" id="toggle-icon"><i class="fa-solid fa-bars"></i></a>
+            <ul>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#" >Services</a></li>
+                <li><a href="#" >Portfolio</a></li>
+                <li><a href="#" >Team</a></li>
+                <li><a href="#" >Pricing</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Dropdown
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#"  href="#">Link 1</a>
+                            <a href="#"  href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptate commodi deleniti, maxime aliquid ullam perferendis repellat ex optio, voluptates rerum ipsam corporis qui dolores magni esse? Quidem fugit consectetur natus modi aliquam! Minima voluptate dignissimos consequuntur, necessitatibus quaerat perspiciatis accusantium! Quas facere eveniet in modi hic aut fugiat aspernatur?</a>
+                            <a href="#"  href="#">Link 3</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" >Contact</a></li>
+                <li><a href="#"  class="btn">Get Started</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <hr />
+    <div class="content">
+        <img id="img1" src="./hero-bg.jpg" />
+        <header class="maindiv">
+            <h1>One Page Bootstrap Website Template</h1>
+            <p>We are team of talanted designers</p>
+            <button>Get Started</button>
+
+
+            <div class="container">
+                <main>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3>Lorem Ipsum</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nemo maiores omnis qui
+                            quibusdam
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3>Sed ut perspiciatis
+                        </h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="bi bi-command"></i>
+                        </div>
+                        <h3>Magni Dolores
+                        </h3>
+                        <p>
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-fingerprint"></i>
+                        </div>
+                        <h3>Nemo Enim
+                        </h3>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </header>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleIcon = document.getElementById("toggle-icon");
+            const menu = document.querySelector("nav ul");
+
+            // Toggle menu visibility when the toggle icon is clicked
+            toggleIcon.addEventListener("click", function () {
+                if (menu.style.display === "none" || menu.style.display === "") {
+                    menu.style.display = "flex"; // Show the menu
+                } else {
+                    menu.style.display = "none"; // Hide the menu
+                }
+            });
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

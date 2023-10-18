@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: visible;
+        }
+
+        .top-banner {
+            background-color: yellow;
+            height: 10vh;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        h2 {
+            padding: 5px;
+        }
+
+        header {
+            background-color: #1abc9c;
+            color: white;
+            height: 30vh;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        p {
+            margin-top: 15px;
+        }
+
+        nav {
+            background-color: #333333;
+            color: white;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        ul li:hover {
+            background-color: white;
+            color: black
+        }
+
+        ul {
+            margin-left: 10px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            /* border: 1px solid red; */
+
+        }
+
+        .left {
+            /* border: 1px solid black; */
+            padding: 10px;
+            padding-top: 25px;
+            width: 30vw;
+            background-color: #f1f1f1;
+            text-align: center;
+
+        }
+
+        .right {
+            /* border: 1px solid black; */
+            width: calc(100% - 30vw);
+            text-align: center;
+
+        }
+
+        .box1 {
+            padding-top: 25px;
+        }
+
+        .image {
+            background-color: #aaaaaa;
+            padding: 10px;
+            text-align: left;
+            margin-top: 10px;
+            height: 30vh;
+        }
+
+        .image2 {
+            background-color: #aaaaaa;
+            margin: 10px;
+            height: 30vh;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .imgs {
+            background-color: #aaaaaa;
+            padding: 10px;
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            height: 20vh;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        @media screen and (max-width:700px) {
+            main {
+                flex-direction: column;
+            }
+
+            .left,
+            .right {
+                width: 100%;
+            }
+
+            nav ul li {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="top-banner">
+        Check New Deals Now!
+    </section>
+
+    <header>
+        <h2>My Website</h2>
+        <p>With a flexible layout.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="left">
+            <div class="about">
+                <h2>About Me</h2>
+
+                <h5>Photo:</h5>
+                <div class="image">
+                    image
+                </div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="more">
+                <h2>More Text</h2>
+                <p>Lorem ipsum dolor sit ame.</p>
+
+                <div class="imgs">Image</div>
+                <div class="imgs">Image</div>
+                <div class="imgs">Image</div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box1">
+                <h2>Title Heading</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+
+                <div class="image2">
+                    image
+                </div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+
+            <div class="box1">
+                <h2>Title Heading</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+
+                <div class="image2">
+                    image
+                </div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+            <div>
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+
+</html>

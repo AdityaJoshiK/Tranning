@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: white;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    height: 145px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
+}
+
+nav img{
+    height: 75px;
+}
+
+nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.15vw;
+}
+
+video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+} 
+
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.326);
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#page1 h1{
+    font-size: 140px;
+    font-weight: 900;
+}
+
+#page h1::before{
+    /* content: "EAT. DRINK. PLAY."; */
+
+}
+#page1 h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

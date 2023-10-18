@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            margin: 50px;
+            padding: 10px;
+        }
+        
+        a{
+            padding: 10px 20px;
+             float: left;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        a:hover:not(:first-child,:last-child){
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a>&laquo;</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a>&raquo;</a>
+    </div>
+</body>
+</html>

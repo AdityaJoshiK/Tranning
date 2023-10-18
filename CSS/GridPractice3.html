@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border: 2px solid red;
+            display: grid;
+            height: 500px;
+            width: 100%;
+            gap: 10px;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto 
+            auto;
+            text-align: center;
+        }
+
+        nav{
+            height: 100%;
+            grid-column: span 4;
+        }
+
+        aside{
+            grid-row: span 3;
+        }
+
+        main{
+            grid-column: span 3;
+        }
+
+        footer{
+            grid-column: span 3;
+        }
+
+        nav,aside,main,.content1,.content2,.content3,footer{
+            border: 1px solid green;
+        }
+
+        @media screen and (max-width:600px){
+            .container{
+                /* background-color: red; */
+                grid-template-columns: auto ;
+                grid-template-rows: auto auto auto auto;
+            }
+
+            aside{
+            grid-row: 1;
+            grid-column: span 4;
+        }
+
+        main{
+            grid-column: span 4;
+            grid-row: span 3;
+        }
+
+        footer{
+            grid-column: span 4;
+        }
+
+        .content1{
+            grid-column: span 4;
+        }
+        .content2{
+            grid-column: span 4;
+        }
+        .content3{
+            grid-column: span 4;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>Navbar</nav>
+        <aside>Sidebar</aside>
+        <main>Main</main>
+        <div class="content1">Content1</div>
+        <div class="content2">Content2</div>
+        <div class="content3">Content3</div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

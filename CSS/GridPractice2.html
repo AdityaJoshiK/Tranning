@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            border: 2px solid red;
+            display: grid;
+            gap: 5px;   
+            grid-template-rows: 15vh auto auto 5vh;
+        }
+
+        nav{
+            /* height: 20%; */
+            background-color: red;
+            border: 2px solid black;
+        }
+
+        .div1{
+            background-color: red;
+        }
+
+        .div2{
+            background-color: red;
+        }
+
+        footer{
+            background-color: red;
+        }
+
+        .container ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container ul li{
+            list-style: none;
+            padding: 25px;
+        }
+
+        .div1{
+            display: grid;
+            grid-template-rows: auto auto;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .div1 h1{
+            text-align: center;
+        }
+
+        .div2{
+            display: grid;
+            grid-template-rows: auto auto;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .div2 h1{
+            text-align: center;
+        }
+
+        footer{
+            text-align: center;
+        }
+
+        @media (min-height:1000px) {
+            .container{
+            height: 100vh;
+            
+            grid-template-rows: 15vh auto 5vh ;
+            grid-template-columns: auto auto auto;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+                <li>link4</li>
+                <li>link5</li>
+            </ul>
+        </nav>
+
+        <div class="div1">
+            <h1>Mozila FireFox</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, tempora ullam voluptatum deserunt dolorem nihil at iste! Inventore, saepe molestiae accusantium consequatur necessitatibus, velit quaerat quisquam numquam ipsam voluptatum nostrum minima natus.
+            </p>
+        </div>
+        <div class="div2">
+            <h1>Google Chrome</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, tempora ullam voluptatum deserunt dolorem nihil at iste! Inventore, saepe molestiae accusantium consequatur necessitatibus, velit quaerat quisquam numquam ipsam voluptatum nostrum minima natus.
+            </p>
+        </div>
+
+        <footer>
+            <h3>Footer</h3>
+        </footer>
+    </div>
+</body>
+</html>

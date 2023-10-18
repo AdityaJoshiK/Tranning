@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            height: 100px;
+            /* border: 1px solid black; */
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .container label{
+            margin: 10px;
+        }
+
+        .container input{
+            width: 130px;;
+            border-radius: 5px;
+            transition: width 1.0s ease-in-out;
+        }
+
+        
+
+        input[type=text]:focus {
+
+  width: 100%;
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="s">Search:</label>
+        <input type="text" id="s" placeholder="Enter Seach Text Here"/>
+    </div>
+</body>
+</html>

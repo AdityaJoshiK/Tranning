@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box{
+            /* width: 100%; */
+            height: 500px;
+            border: 2px solid;
+            margin: 20px;
+            background-image: url("https://preview.colorlib.com/theme/education/img/s-bg.jpg.webp");
+            background-size: cover;
+            position: relative;
+            z-index: -1;
+            /* opacity: 0.5; */
+        }
+
+        .overlay{
+            background: rgba(4,9,30,0.8);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            bottom: 0;
+        }
+
+        .main{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            border: 1px solid red;
+            padding: 90px;
+        }
+
+        h2,h3,p,h5{
+            padding-top: 10px;
+        }
+
+        p{
+            font-size: 0.8rem;  
+            opacity: 0.5;
+        }
+
+        .left{
+            width: 50%;
+            border: 1px solid white;
+        }
+        .right{
+            width: 50%;
+            border: 1px solid white;
+             padding: 30px 0;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             z-index: 50;
+        }
+
+        ::selection{
+            background-color: tomato;
+            color: white;
+        }
+
+        .leftmain{
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .right input,select{
+            margin: 5px;
+            padding: 0.5rem 1.75rem;;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="overlay"></div>
+        <div class="main">
+
+            <div class="left">
+                <h2>
+                    Get reduced fee
+                    during this Summer!</h2>
+                    <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
+
+                    </p>
+
+                    <div class="leftmain">
+                        <div class="l">
+                            <h5>Expert Instructors</h5>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                        <div class="r">
+                            <h5>Certification</h5>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="right">
+                <h3>Search for Available Course</h3>
+                <input type="text" placeholder="Your Name"/>
+                <input type="text" placeholder="Your Phone Name"/>
+                <input type="text" placeholder="Your Email Address"/>
+                <select>
+                    <option>Choose Course</option>
+                    <option>Course 1</option>
+                    <option>Course 2</option>
+                    <option>Course 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            border: 2px solid black;
+            height: 100vh;
+            display: grid;
+            justify-content: space-around;
+            align-items: center;
+            grid-template-columns: auto auto;
+        }
+
+        .left{
+            border: 1px solid red;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .right{
+            border: 1px solid green;
+            width: 400px;
+            height: 400px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto auto;
+        }
+
+        .right div{
+            border: 1px solid black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right div:hover{
+            background-color: rgba(223, 227, 223, 0.504);
+            background-position: top;
+            transition: 1s all ease-in-out;
+        }
+
+        @media screen and (max-width:1024px) {
+            .right{
+                grid-template-columns: auto;
+                grid-template-rows: auto;
+            }
+        }
+
+        .water{
+            background: url("https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light;
+            grid-row: 1 / span 2;
+        }
+
+        .hills{
+            background: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light;
+            grid-column: 2 / span 2;
+        }
+
+        .rain{
+            background: url("https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmFpbnxlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light; 
+            border: 2px solid red;
+            grid-row:span 2;
+        }
+
+        .beach{
+            background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light; 
+            grid-column: span 2;
+        }
+
+        .mountains{
+            background: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light; 
+            grid-column: 1 / span 2;
+        }
+
+        .ocean{
+            background: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2NlYW58ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light; 
+        }
+
+        .trees{
+            background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJlZXN8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.379);
+            background-blend-mode: hard-light; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="water">Water</div>
+            <div class="hills">Hills</div>
+            <div class="ocean">Ocean</div>
+            <div class="rain">Rain</div>
+            <div class="mountains">Mountains</div>
+            <div class="trees">Trees</div>
+            <div class="beach">Beach</div>
+        </div>
+    </div>
+</body>
+</html>

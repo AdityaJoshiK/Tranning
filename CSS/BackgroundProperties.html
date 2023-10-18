@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("../img/images.jfif");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-clip: border-box;
+            background-attachment: scroll;
+            height: 1000px;
+        }
+
+        div{
+            background: lightblue;
+            margin: 10px;
+            padding: 15px;
+           
+        }
+        #div1{
+            border: 10px dotted black;
+            background-clip: padding-box;
+        }
+        #div2{
+            border: 10px green;
+            border-style: dotted dashed solid double;
+            background-clip: border-box;
+        }
+        #div3{
+            border: 10px dotted red;
+            background-clip:content-box ;
+            background: url(../img/images.jfif);
+            background-repeat: no-repeat;
+            height: 200px;
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="#img1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nulla, debitis animi autem perferendis ducimus atque? Ea, facere alias! Voluptatum voluptatem repellendus non maxime, perferendis, qui quis excepturi ipsa cum temporibus magni!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nulla, debitis animi autem perferendis ducimus atque? Ea, facere alias! Voluptatum voluptatem repellendus non maxime, perferendis, qui quis excepturi ipsa cum temporibus magni!</div>
+
+    <h3>background clip and origin</h3>
+
+    <div id="div1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde. Neque tempora excepturi provident libero, consequatur nostrum dolores ipsum dolorem. Animi nemo provident quod odio aliquam ex cupiditate quam consequatur! Aut aspernatur debitis laborum, adipisci tempora itaque nostrum modi atque ducimus placeat laboriosam nemo maxime.
+    </div>
+    <div id="div2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde. Neque tempora excepturi provident libero, consequatur nostrum dolores ipsum dolorem. Animi nemo provident quod odio aliquam ex cupiditate quam consequatur! Aut aspernatur debitis laborum, adipisci tempora itaque nostrum modi atque ducimus placeat laboriosam nemo maxime.
+    </div>
+    <div id="div3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde. Neque tempora excepturi provident libero, consequatur nostrum dolores ipsum dolorem. Animi nemo provident quod odio aliquam ex cupiditate quam consequatur! Aut aspernatur debitis laborum, adipisci tempora itaque nostrum modi atque ducimus placeat laboriosam nemo maxime.
+    </div>
+</body>
+</html>

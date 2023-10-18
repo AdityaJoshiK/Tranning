@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body{
+            background-color: lightblue;
+        }
+        .container{
+            border: 2px solid black;
+            height: 400px;
+            width: 50%;
+            margin: auto;
+            border-radius: 2%;
+            background-color: white;
+        }
+
+        form{
+            margin: auto;
+            width: 80%;
+            /* border: 1px solid black; */
+        }
+
+        .form-element{
+            padding: 20px;
+        }   
+
+        input{
+            margin: 10px;
+        }
+
+        #cap{
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <div class="container">
+
+        <form>  
+            <caption id="cap">Tell us something positive that happened to you today.</caption>
+
+            <div class="form-element">
+
+                <label>Name:</label>
+                <input type="text"/>
+            </div>
+
+            <div class="form-element">
+
+                <label>Email:</label>
+                <input type="email"/>
+            </div>
+
+            <div class="form-element">
+
+                <label>On a scale of 1-10, how good was it?</label>
+                <input type="number"/>
+            </div>
+
+            <div class="form-element">
+
+                <label>Name:</label>
+                <input type="text"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

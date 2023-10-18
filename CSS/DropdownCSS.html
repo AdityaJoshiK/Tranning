@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .btn{
+            cursor: pointer;
+        }
+
+        .items{
+            display: none;
+            color:  #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .items a{
+            display: block;
+            padding: 10px;
+        }
+
+        .container:hover .items{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">Dropdown</button>
+        <div class="items">
+            <a href="" id="link1">Item 1</a>
+            <a href="" id="link2">Item 2</a>
+            <a href="" id="link3">Item 3</a>
+        </div>
+    </div>
+</body>
+</html>
