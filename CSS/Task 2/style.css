@@ -193,3 +193,90 @@ input[type=search]{
     width: 40vw;
     height: 50vh;
 }
+
+/* News And Events Section */
+
+.news{
+    text-align: center;
+    margin-block: 2vh;
+    position: relative;
+}
+
+.news__cards{
+    display: flex;
+    justify-content: center;
+}
+
+.news__card{
+    background-color: #f7f5f6;
+    width: 26.2vw;
+    padding: 2rem;
+    position: relative;
+}
+
+.news__img{
+    width: 100%;
+}
+
+.card__datetext{
+    background-color: #21d478;
+    width: 90px;
+    margin: 0 auto;
+    font-size: 18px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    top: 41%;
+    left: 41%;
+}
+
+.card__text{
+    margin-top: 5vh;
+}
+
+/* Testimonial Section */
+.testimonial{
+    margin-block: 3vh;
+    padding: 5vw;
+    text-align: center;
+    color: white;
+    max-width: 100vw;
+    background: url(./img/plane\ bg.png);
+}
+
+.testimonial__content{
+    margin-top: 2rem;
+    display: flex;
+    padding-block: 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testimonial__lefticon,.testimonial__righticon{
+    border: 1px solid;
+    padding: 0.5rem;
+    height: 6vh;
+}
+
+.testimonial__box{
+    background-color: white;
+    color: black;
+    width: 25vw;
+    padding: 1rem;
+}
+
+.testimonial__img{
+    width: 6vw;
+    height: 13vh;
+}
+
+.testimonial__item{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__box p{
+    margin-top: 1rem;
+    text-align: left;
+}
