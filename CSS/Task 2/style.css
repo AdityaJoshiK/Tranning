@@ -25,13 +25,13 @@ ul {
 .header {
     background: url(./img/banner.png) no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     border: 1px solid;
 }
 
 .header__top-banner {
     background-color: #22b26b;
-    height: 14vh;
+    /* height: 14vh; */
     max-width: 100vw;
     opacity: 0.8;
     display: flex;
@@ -56,7 +56,7 @@ input[type=search]{
 }
 
 .header__logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white !important;
 }
 
@@ -117,7 +117,7 @@ input[type=search]{
     background-color: #38b767c7;
 }
 
-.header__contentright p,h2,input{
+.header__contentright p,#title,input{
     margin-top: 2vh;
 }
 
