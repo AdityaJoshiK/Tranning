@@ -300,7 +300,7 @@ input[type=search]{
 }
 
 .news__cards{
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .news__card{
@@ -342,8 +342,8 @@ input[type=search]{
 .news__card{
     width: 300px;
     height: 390px;
+    border: 1px solid;
     background: white;
-    margin: 0 auto;
     border-radius: 10px;
     text-align: center;
     box-shadow: 4px 4px 10px #999;
@@ -351,6 +351,13 @@ input[type=search]{
     box-sizing: border-box;
     overflow: hidden;
 }
+
+.news__card:hover {
+    transform: translateY(10px);
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
 .news__card .img img{
     width: 160px;
     height: 160px;
@@ -638,7 +645,7 @@ input[type=search]{
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .services__item{
         flex-basis: 33%;
     }
