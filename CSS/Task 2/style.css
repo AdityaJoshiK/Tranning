@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: auto;
+    /* overflow: auto; */
     font-family: 'Poppins', sans-serif;
 }   
 
@@ -144,6 +144,11 @@ input[type=search]{
     width: 30vw;
     padding: 5vw;
     background-color: #38b767c7;
+}
+
+.header__contentright:hover{
+    
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 1);
 }
 
 .header__contentright > p,#title,input:not(:first-child){
@@ -315,7 +320,7 @@ input[type=search]{
 }
 
 .card__datetext{
-
+    /* z-index: 1; */
     width: 90px;
     margin: 0 auto;
     text-align: center;
@@ -754,4 +759,7 @@ input[type=search]{
         font-size: 12px;
         z-index: 1;
     }
+
+    .news__card .newscard__mid-section .name {font-size: 1.2em;}
+    .news__card .newscard__mid-section .description {font-size: 0.7em;}
 }
