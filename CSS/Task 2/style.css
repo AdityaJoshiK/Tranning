@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: auto;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -71,6 +69,12 @@ input[type=search]{
 .header__logo {
     font-size: 1.5rem;
     color: white !important;
+}
+
+.toggle{
+    display: none;
+    font-size: 2rem;
+    margin-right: 1.5rem;
 }
 
 .header__nav {
@@ -497,8 +501,22 @@ input[type=search]{
 
 /* Media Queries */
 @media screen and (max-width:1100px) {
-    .header__call,.header__mail,.header__nav{
+    .header__call,.header__mail,.header__search,.nav__list{
         display: none;
+    }
+
+    .nav__list{
+        flex-direction: column;
+        background-color: #22b26b;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+
+    .toggle{
+        display: block;
+    }
+    .header__top-banner{
+        justify-content: space-between;
     }
 
     .item__img{
