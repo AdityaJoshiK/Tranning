@@ -12,6 +12,11 @@ a {
     cursor: pointer;
 }
 
+input[type="submit"]
+{
+    cursor: pointer;
+}
+
 .container{
     width: 100%;
 }
@@ -20,11 +25,6 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-
-button{
-    cursor: pointer;
-}
-
 ul {
     list-style: none;
 }
@@ -81,6 +81,14 @@ input[type=search]{
     background-color: rgba(34,43,60,255);
 }
 
+.nav__item:hover{
+    background-color: white;
+}
+
+.nav__item:hover a{
+    color: black;
+}
+
 .nav__list{
     text-transform: uppercase;
     justify-content: space-evenly;
@@ -122,7 +130,15 @@ input[type=search]{
     background-color: #24d177;
     color: white;
     border: 0;
+    transition: 0.3s ease;
 }
+
+.btn--success:hover{
+    background-color: #24d178bf;
+    color: black;
+    border: 1.5px solid;
+}
+
 .header__contentright{
     border: 1px solid;
     width: 30vw;
@@ -137,10 +153,16 @@ input[type=search]{
 .form__control{
     padding: 0.3rem 0.8rem;
     width: 100%;
+    transform: 0.5s;
 }
 
 .btn--submit{
     background-color: black;
+    color: white;
+}
+
+.btn--submit:hover{
+    background-color: rgba(0, 0, 0, 0.628);
     color: white;
 }
 
@@ -498,11 +520,10 @@ input[type=search]{
     color: white;
 }
 
-
 /* Media Queries */
 @media screen and (max-width:1100px) {
     .header__call,.header__mail,.header__search,.nav__list{
-        display: none;
+        display: none;  
     }
 
     .nav__list{
