@@ -163,7 +163,7 @@ input[type=search]{
 .form__control{
     padding: 0.3rem 0.8rem;
     width: 100%;
-    transform: 0.5s;
+    transition: 0.5s ease;
 }
 
 .btn--submit{
