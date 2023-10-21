@@ -44,6 +44,10 @@ ul {
     align-items: center;
 }
 
+.header__logo i{
+    padding-right: 2vw;
+}
+
 input[type=search]{
     width: 14vw;
     height: 40px;
@@ -558,6 +562,14 @@ input[type=search]{
     justify-content: center;
     background-color: #37be78;
     color: white;
+}
+
+.footer__title{
+    font-size: 2rem;
+}
+
+.footer__titlei{
+    padding-right: 2vw;
 }
 
 .footer__main{
