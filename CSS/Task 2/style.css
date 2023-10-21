@@ -268,7 +268,7 @@ input[type=search]{
 }
 
 .about__left{
-    margin-left: 5vw;
+    margin-left: 14vw;
     padding: 5vw;
     width: 50vw;
 }
@@ -625,6 +625,13 @@ input[type=search]{
         padding: 1rem;
   }
 
+    .footer__main{
+        padding: 1rem;
+    }
+
+    .about__left{
+        margin-left: 2vw;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -754,9 +761,6 @@ input[type=search]{
         padding: 2rem;
     }
 
-    .footer__main{
-        padding: 1rem;
-    }
 
     .footer__icons i{
         padding: 0.5rem 0.4rem;
