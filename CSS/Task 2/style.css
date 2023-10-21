@@ -77,15 +77,15 @@ input[type=search]{
     margin-right: 1.5rem;
 }
 
-.header__nav {
+.header__nav {  
     background-color: rgba(34,43,60,255);
 }
 
-.nav__item:hover{
+.nav__item:hover , .contact__footer div:hover{
     background-color: white;
 }
 
-.nav__item:hover a{
+.nav__item:hover a, .contact__footer div:hover{
     color: black;
 }
 
@@ -329,18 +329,18 @@ input[type=search]{
 
 .card__datetext{
     z-index: 1;
-    width: 90px;
+    width: 81px;
     margin: 0 auto;
     text-align: center;
     color: #090909;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #23d278;
     border-radius: 100px;
     position: absolute;
-    padding: 20px;
+    padding: 18px;
     font-weight: 500;
     /* bottom: -40px; */
-    top: 63%;
+    top: 75%;
     left: 34%;
     justify-content: center;
     display: flex;
@@ -537,6 +537,10 @@ input[type=search]{
     color: white;
     width: 100%;
     justify-content: space-around;
+    padding-inline: 7rem;
+}
+
+.contact__footer div{
     padding: 1rem;
 }
 
@@ -658,6 +662,10 @@ input[type=search]{
 
     .header__content{
         flex-direction: column;
+    }
+
+    .contact__footer{
+        padding: 1rem;
     }
 
     .header__contentleft,.header__contentright{
