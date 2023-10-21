@@ -465,7 +465,7 @@ input[type=search]{
 .testimonial__box{
     background-color: white;
     color: black;
-    width: 30vw;
+    width: 29vw;
     padding: 1rem;
 }
 
@@ -537,7 +537,7 @@ input[type=search]{
     color: white;
     width: 100%;
     justify-content: space-around;
-    padding-inline: 7rem;
+    padding-inline: 10rem;
 }
 
 .contact__footer div{
@@ -549,6 +549,7 @@ input[type=search]{
 }
 
 .footer{
+    padding-inline: 3rem;
     padding-block: 4rem;
     display: grid;
     gap: 1rem;
