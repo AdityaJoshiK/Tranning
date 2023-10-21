@@ -544,40 +544,37 @@ input[type=search]{
     margin-right: 1rem;
 }
 
-/* Footer Section */
 .footer{
-    padding-inline: 8rem;
-    background-color: #23d277;
-    width: 100%;
     padding-block: 4rem;
-    justify-content: space-around;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 35% 10% 10% 10%;
+    grid-template-rows: auto;
+    justify-content: center;
+    background-color: #37be78;
     color: white;
-    flex-wrap: nowrap;
 }
 
 .footer__main{
-    border-right: 1px solid white;
-    max-width: 50%;
-    padding: 3rem;
-}
-
-.footer__links{
-     padding: 5rem;
-     height: 100% ;
-}
-
-.footer__linktitle{
-    margin-bottom: 0.8rem;
-    font-weight: 900;
+    border-right: 2px solid white;
 }
 
 .footer__icons{
-    flex-wrap: nowrap;
-    margin-top: 2rem;
+    gap: 1rem;
+    padding-block: 1rem;
 }
 
-.footer__icons img{
-    padding-inline: 0.2vw;
+.footer__linktitle{
+    padding-bottom: 1rem;
+}
+
+.footer__links{
+    padding: 1.2rem;
+    height: 100% ;
+}
+
+.footer__text{
+    padding: 0.2rem;
 }
 
 /* Copyright Section */
@@ -619,23 +616,11 @@ input[type=search]{
     }
 
     .footer{
-        flex-wrap: wrap;
-    }
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;  
+        padding: 1rem;
+  }
 
-    .footer__main{
-        flex-basis: 100%;
-        /* width: 100vw; */
-    }
-
-    .footer__links{
-        width: 35vw;
-        flex-basis: 50%;
-    }
-
-    .footer__icons i{
-        height: 4vh;
-        padding: 0.5rem 0.5rem;
-    }
 }
 
 @media screen and (max-width:700px) {
@@ -660,12 +645,11 @@ input[type=search]{
 
     .footer{
         padding-inline: 2rem;
+        grid-template-columns: auto;
     }
 
-    .footer__icons i{
-        height: 4vh;
-        padding: 0.6rem 0.4rem;
-        width: 7vw;
+    .footer__main{
+        border: 0;
     }
 
     .item__img i{
@@ -679,12 +663,15 @@ input[type=search]{
     .header__contentleft,.header__contentright{
         width: 67vw;
     } 
+
+    .main p{
+        margin-inline: 0;
+    }
+
 }
 
 @media screen and (max-width:450px) {
-    /* *{
-        overflow: auto;
-    } */
+
     .header__contentleft,.header__contentright{
         width: 90vw;
     }
@@ -700,7 +687,7 @@ input[type=search]{
     }
 
     .main p{
-        margin-inline: auto;
+        margin-inline: 0;
     }
 
     .services__item{
