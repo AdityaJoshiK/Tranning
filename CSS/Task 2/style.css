@@ -311,7 +311,8 @@ input[type=search]{
 }
 
 .news__cards{
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .news__card{
@@ -353,8 +354,7 @@ input[type=search]{
 
 .news__card{
     width: 300px;
-    height: 440px;
-    border: 1px solid;
+    height: 440px;  
     background: white;
     border-radius: 10px;
     text-align: center;
@@ -576,16 +576,8 @@ input[type=search]{
     margin-top: 2rem;
 }
 
-.footer__icons i{
-    height: 8vh;
-    width: 5vw;
-    background-color: white;
-    padding: 1.2rem 1.4rem;
-    color: black;
-    border-radius: 50%;
-    font-size: 1.2rem;
-    margin-inline: 0.2rem;
-    text-align: center;
+.footer__icons img{
+    padding-inline: 0.2vw;
 }
 
 /* Copyright Section */
@@ -601,6 +593,10 @@ input[type=search]{
 @media screen and (max-width:1100px) {
     .header__call,.header__mail,.header__search,.nav__list{
         display: none;  
+    }
+
+    .header__contentleft h1{
+        font-size: 1.5rem;
     }
 
     .nav__list{
@@ -653,7 +649,7 @@ input[type=search]{
     }
 
     .news__cards{
-        gap: 4vh;
+        gap: 0vh;
         flex-direction: column;
         align-items: center;
     }
@@ -691,6 +687,20 @@ input[type=search]{
     } */
     .header__contentleft,.header__contentright{
         width: 90vw;
+    }
+
+    .news__card .img{
+        height: 50%;
+    }
+
+    .news__card{margin-block: 2rem;}
+
+    .news__card .newscard__mid-section{
+        margin-top: 0;
+    }
+
+    .main p{
+        margin-inline: auto;
     }
 
     .services__item{
