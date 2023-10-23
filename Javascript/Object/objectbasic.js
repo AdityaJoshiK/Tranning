@@ -29,6 +29,7 @@ user.greeting = function greet() {
 
 user.greeting = function greet(){
     console.log(`Hello ${user["full name"]}`);
+    return null
 }
 console.log(user.greeting());
 
