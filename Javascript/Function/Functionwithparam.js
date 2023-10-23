@@ -36,3 +36,13 @@ function returnSecondValue(getArray){
 }
 
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+call();//you can do this (fuctional call before define)
+function call() {
+    return
+}
+
+// called();//you can't call in this function defination it shows error
+const called = function(){
+    return
+}
