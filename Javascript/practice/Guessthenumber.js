@@ -22,6 +22,6 @@
             a = prompt("Enter Number:");
         }
         
-        console.log(`your score is ${score}`)
+        console.log(`your score is ${100 - score}`)
     }
 ;
