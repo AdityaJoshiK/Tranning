@@ -19,3 +19,5 @@ console.log(date.getDay())
 newDate.toLocaleString('default',{
     weekday : 'long'
 })
+
+console.log(date.getFullYear())
