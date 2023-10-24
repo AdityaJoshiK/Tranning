@@ -5,6 +5,7 @@ const arr = new Array(1,2,3,4)
 console.log(arr[0])
 
 arr.push(5);
+arr.sort()
 arr.push(6);
 
 arr.pop();
@@ -35,3 +36,25 @@ console.log("After slice",arr)
 console.log("Before splice",arr)
 const a2 = arr.splice(1,3);
 console.log("After splice",arr)
+
+//delete
+delete arr[0];
+console.log(arr)
+
+//merge two arays
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+
+// const arr3 = arr1.concat(arr2); //conact
+const arr3 = [...arr1,...arr2]; //second way    
+console.log(arr3)
+
+//Array Sorting
+
+const nam = ["Joshi","Aditya"];
+console.log(nam.sort())
+
+const points = [40, 100, 1, 5, 25, 10]; //sort numeic array
+points.sort(function(a, b){return a - b});
+
+console.log(points);
