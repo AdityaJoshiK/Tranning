@@ -70,6 +70,7 @@ for (let x of arr) {
 //entries - returns an Array Iterator object with key/value pairs
 arr = numbers.entries();
 for (let x of arr) {
+    debugger;
     console.log(x)
   }
 
