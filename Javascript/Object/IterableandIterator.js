@@ -18,6 +18,23 @@ let nvalue = 100;
     }
 }
 
+//change array's printing style
+arr[Symbol.iterator] = function(){
+    let i=0;
+    let _self=this; //it pints to our array
+
+    return{
+        next: function(){
+            let nextValue = _self[i]*2;
+            i++;
+            return{
+                done: i > _self.length ? true : false,
+                value: nextValue?nextValue:undefined
+            }
+        }
+    }
+}
+
 const arrIterator = arr[Symbol.iterator]();
 
 console.log(arrIterator.next())
