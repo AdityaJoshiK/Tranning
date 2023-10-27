@@ -4,7 +4,7 @@ let guesses = 10;
 let min=1,max=100;
 
 let guess = Math.floor(Math.random()*(max-min))+1;
-document.write(guess);
+// document.write(guess);
 
 form.addEventListener('submit',function(e){
     e.preventDefault();
@@ -13,6 +13,12 @@ form.addEventListener('submit',function(e){
     if(inp === guess){
         alert("Congratulations! You've got it right!");
         location.reload();
+    }
+    else if (inp<guess) {
+        document.querySelector(".lowOrHi").innerHTML = "Number is to low"
+    }
+    else{
+        document.querySelector(".lowOrHi").innerHTML = "Number is to high"
     }
 
 
@@ -23,7 +29,7 @@ form.addEventListener('submit',function(e){
     guesses--;
     document.querySelector(".lastResult").innerHTML=guesses;
     if (guesses==0) {
-        alert("Try Next Time!");
+        alert(`Try Next Time! Number is ${guess}`);
         
         location.reload();
     }
