@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <div class="text"></div>
+
+    <script>
+        let i=0;
+        const start = document.querySelector("#start")
+        const stop = document.querySelector("#stop")
+        const text = document.querySelector(".text");
+        let int;
+
+        let min=0,max=256;
+        function name(params) {
+
+            let r = Math.floor(Math.random()*(max-min));
+            let g = Math.floor(Math.random()*(max-min));
+            let b = Math.floor(Math.random()*(max-min));
+            document.body.style.backgroundColor=`rgb(${r},${g},${b})`;
+        }
+ 
+
+        start.addEventListener('click',()=>{
+             int = setInterval(call,100)
+
+        })
+        stop.addEventListener('click',()=>{
+            // text.innerHTML="Called"
+            clearInterval(int);
+        })
+        function call(){
+            name();
+            text.innerHTML="called"+i;
+            i++;
+        }
+        
+    </script>
+</body>
+</html>
