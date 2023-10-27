@@ -3,7 +3,7 @@ try{
 let url = "https://630f6650498924524a8ce046.mockapi.io/laptop";
 
 // Use fetch() to send a GET request to the API
-fetch(url)
+fetch(url)  
   // Handle the response object
   .then((response) => {
     // Check if the request was successful

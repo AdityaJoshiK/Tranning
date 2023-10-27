@@ -21,7 +21,6 @@ form.addEventListener('submit',function(e){
         document.querySelector(".lowOrHi").innerHTML = "Number is to high"
     }
 
-
     const prevNode = document.createTextNode(inp+" ");
     let prevGuesses = document.querySelector(".guesses");
     prevGuesses.appendChild(prevNode);
