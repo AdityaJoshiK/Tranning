@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>JSDay-6</title>
+    </head>
+    <body>
+        <script>
+            let dt=new Date();
+           
+            // for loop
+            let array1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60];
+            for(let i=1;i<=100000;i++)
+            {
+                console.log(array1[i]);
+            }
+
+            // while loop
+            i=1;
+            while(i<=array1.length)
+            {
+                console.log(array1[i]);
+                i++;
+            }
+
+            // for of loop 
+             for(let i of array1)
+             {
+                console.log(i);
+             }
+
+            // for in loop
+            for(let i in array1){
+                console.log(i);
+            }
+
+            // for each loop
+            array1.forEach(myFunction);
+            function myFunction(item) {
+                let text = "";
+                text += item ; 
+                console.log(text);
+                }
+
+            // do while loop
+
+            let i = 1;
+                do {
+               console.log(i)
+                i++;
+                }
+                while (i < array1.length);
+            
+            let dt1=new Date();
+            let timecount = dt1.getMilliseconds() - dt.getMilliseconds();
+            console.log("Time Count" + timecount);
+        </script>
+    </body>
+</html>

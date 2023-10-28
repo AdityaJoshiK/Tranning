@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form method="post" name="myForms" onsubmit="formVal(event)">
+    <p class="error"></p>
+    <table>
+        <tr>
+            <th colspan="2">Personal Information</th>
+        </tr>
+        <tr>
+            <td>Full Name:</td>
+            <td><input type="text" name="full_name"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Contact Number:</td>
+            <td><input type="tel" name="contact_number"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Academic Information</th>
+        </tr>
+        <tr>
+            <td>Roll Number:</td>
+            <td><input type="text" name="roll_number"></td>
+        </tr>
+        <tr>
+            <td>Department:</td>
+            <td>
+                <select name="department">
+                    <option value="CSE">Computer Science</option>
+                    <option value="ECE">Electronics and Communication</option>
+                    <option value="ME">Mechanical</option>
+                    <option value="CE">Civil</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Year of Study:</td>
+            <td>
+                <select name="year">
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                    <option>Third Year</option>
+                    <option>Fourth Year</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Choose Subjects:</td>
+            <td>
+                <input type="checkbox" name="subjects" value="Math"> Mathematics<br>
+                <input type="checkbox" name="subjects" value="Physics"> Physics<br>
+                <input type="checkbox" name="subjects" value="Chemistry"> Chemistry<br>
+            </td>
+        </tr>
+
+            <td>Upload Resume:</td>
+            <td>
+                <input type="file" name="file" > 
+            </td>
+        </tr>
+
+        <tr>
+            <td>Additional Comments:</td>
+            <td><textarea name="comments" rows="4" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center;"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
