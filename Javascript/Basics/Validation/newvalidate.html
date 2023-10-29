@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" method="post" onsubmit="login(e)">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="fname">
+
+        ,<input type="submit" value="Submit"/>
+    </form>
+</body>
+
+<script>
+    let form = document.forms["myform"];
+    console.log(form)
+
+    function login(e) {
+        e.preventDefault(); // prevent the default submit event
+        const fname = document.getElementById("name").value;    
+        console.log("printing name"+fname)
+    }
+</script>
+</html>

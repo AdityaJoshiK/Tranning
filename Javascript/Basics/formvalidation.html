@@ -12,25 +12,37 @@
     </style>
 </head>
 <body>
-    <form name="myform" onsubmit="login(e)">
-        <input type="text" id="name" name="name" placeholder="Enter your Name">
+    <form name="myform" method="post" onsubmit="login(e)">
+        <input type="text" id="name" name="id" placeholder="Enter your Name">
         <div class="error">Error</div>
         <input type="password" id="pwd" placeholder="Enter your password">
         <div class="error">Error</div>
-        <input type="submit"></input>    
+        <input type="button"></input>    
     </form>
 
     <script>
 
+        const form = document.querySelector('form');
+        console.log(form)
+
+        form.addEventListener('sudmit',(e)=>{
+            e.preventDefault();
+            debugger;
+            name = document.forms["myform"]["id"].value;
+            console.log(name)
+    })
+
         function setError(id,name)
         {
             const element = document.getElementById(id);
-
+            name = document.forms["myform"]["id"].value;
+            console.log(name)
         }
 
         function login(event) {
+            document.write('func')
             event.preventDefault();
-            name = document.forms["myform"]["name"].value;
+            name = document.forms["myform"]["id"].value;
             console.log(name)
         }
     </script>

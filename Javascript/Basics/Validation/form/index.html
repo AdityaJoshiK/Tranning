@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" name="myform">
+            <i class="fas fa-paper-plane"></i>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" name="fname" placeholder="Enter your name">
+                <span id="name-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Phone No. </label>
+                <input type="tel" name="phone" placeholder="123 456 7890">
+                <span id="phone-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Email Id</label>
+                <input type="email" name="email" placeholder="Enter Email">
+                <span id="email"></span>
+            </div>
+            <div class="input-group">
+                <label>Your Message</label>
+                <textarea rows="5" name="message" placeholder="Enter your message"></textarea>
+                <span id="message"></span>
+            </div>
+            <div class="input-group">
+                <label>Select Vehicle</label>
+                <input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+                <label for="vehicle1">bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
+                <label for="vehicle2">car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle" value="Boat">
+                <label for="vehicle3">boat</label>
+                <span id="chkerror"></span>
+            </div>
+            
+            <div class="input-group">
+                <label>Select gender</label>
+                <input type="radio" name="gender" value="Male"/>Male
+                <input type="radio" name="gender" value="Female"/>Female
+                <span id="gerror"></span>
+            </div>
+            <div class="input-group">
+                <label>Select BirthDate</label>
+                <input type="datetime-local" name="bdate"/>
+                <span id="berror"></span>
+            </div>
+            <div class="input-group">
+                <label>Select Resume</label>
+                <input type="file" name="file"/>
+                <span id="ferror"></span>
+            </div>
+            <button>Submit</button>
+            <!-- <span id="submit-error">please fix error</span> -->
+        </form>
+    </div>
+
+
+    <script>
+
+        const form = document.querySelector("form");
+        
+        form.addEventListener('input',(e)=>{
+            const name = document.forms['myform']['fname'].value;
+            const phone = document.forms['myform']['phone'].value;
+            const email = document.forms['myform']['email'].value;
+            const message = document.forms['myform']['message'].value;
+            const checkboxes = document.forms['myform']['vehicle'];
+            const gender = document.forms['myform']['gender'].value;
+            const bdate = document.forms['myform']['bdate'].value;
+            const file = document.forms['myform']['file'].value;
+            // console.log(name)
+            // console.log(phone)
+            console.log("printin",file)
+            
+            
+            let selectedSubjects = [];
+            
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    selectedSubjects.push(checkboxes[i].value);
+                }
+            }
+            console.log(selectedSubjects )
+
+            const nerror = document.getElementById('name-error')
+            const perror = document.getElementById('phone-error')
+            const eerror = document.getElementById('email')
+            const merror = document.getElementById('message')
+            const chkerror = document.getElementById('chkerror')
+            const gerror = document.getElementById('gerror')
+
+            if (name=="" || name.length<5) {
+                nerror.innerHTML="Name is required"
+                return false;
+            }
+            else{
+                nerror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+
+            if (phone=="" || phone.length!=10) {
+                perror.innerHTML="Number is required"
+                return false;
+            }
+            else{
+                perror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+            console.log(eerror)
+            if (email=="") {
+                eerror.innerHTML="Email is required"
+                return false;
+            }
+            else{
+                eerror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+            if (message=="") {
+                merror.innerHTML="Message is required"
+                return false;
+            }
+            else{
+                merror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+
+            if (selectedSubjects.length==0) {
+                chkerror.innerHTML="Select One Subject"
+                return false;
+            }
+            else{
+                chkerror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+            if (gender=="") {
+                gerror.innerHTML="Select One Gender"
+                return false;
+            }
+            else{
+                gerror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
+            }
+            return false;       
+        })
+    </script>
+</body>
+ <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+
+</html>
