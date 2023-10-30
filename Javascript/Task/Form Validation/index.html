@@ -27,8 +27,11 @@
                         <input type="password" name="pwd" class="login__input form__control" />
                         <div class="error error__pwd"></div>
 
-                        <button class="btn btn__warning form__control" onclick="return login()">Log in</button>
-                        <a href="#" class="form__control">Forgot Password?</a>
+                        <div class="loginbtns">
+
+                            <button class="btn btn__warning form__control" onclick="return login()">Log in</button>
+                            <a href="#" class="form__control">Forgot Password?</a>
+                        </div>
                     </form>
                 </section>
             </section>
@@ -83,7 +86,7 @@
                     <div class="form__input">
                         <label>Address*</label>
                         <div class="address__fields">
-                            <textarea name="address" class="reg__input regform__control"></textarea>
+                            <textarea name="address" class="reg__input"></textarea>
 
                             <!-- <div class="address__data"> -->
                             <div class="address__city">
@@ -114,7 +117,7 @@
                                 <label>Country*</label>
                                 <input type="text" name="country" />
                             </div>
-                            <button onclick="return register()">Sign Up</button>
+                            <button class="btn btn__sucess form__control" onclick="return register()">Sign Up</button>
                             <!-- </div> -->
                         </div>
                     </div>
