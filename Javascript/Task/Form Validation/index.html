@@ -21,10 +21,12 @@
                     <form method="post" name="loginform" class="loginform" action="#">
                         <label>Username</label>
                         <input type="text" name="uname" class="login__input form__control" />
-                        <div class="error error__uname"></div>
+                        <i class="fa-solid fa-user icon__user"></i>
+                        <div class="error error__uname" style="position: relative;"></div>
 
                         <label class="form__control">Password</label>
                         <input type="password" name="pwd" class="login__input form__control" />
+                        <i class="fa-solid fa-lock icon__lock"></i>
                         <div class="error error__pwd"></div>
 
                         <div class="loginbtns">
@@ -43,56 +45,77 @@
 
                     <div class="form__input">
                         <label>First Name*</label>
-                        <input type="text" name="fname" class="reg__input regform__control" />
+                        <div class="input-container">
+                            <input type="text" name="fname" id="fname" class="reg__input regform__control" />
+                        </div>
+                        <!-- <span class="fname done" style="visibility: hidden;"> </span>   -->
                     </div>
                     <div class="regerror regerror__fname"></div>
                     <div class="form__input">
                         <label>Last Name*</label>
-                        <input type="text" name="lname" class="reg__input regform__control" />
+                         <div class="input-container">
+                        <input type="text" name="lname" id="lname" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__lname"></div>
                     <div class="form__input">
                         <label>Password*</label>
-                        <input type="password" name="pwd" class="reg__input regform__control" />
+                         <div class="input-container">
+                        <input type="password" id="pwd" name="pwd" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__pwd"></div>
                     <div class="form__input">
                         <label>Confirm Password*</label>
-                        <input type="password" name="cpwd" class="reg__input regform__control" />
+                         <div class="input-container">
+                        <input type="password" id="cpwd" name="cpwd" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__cpwd"></div>
                     <div class="form__input dob">
                         <label>Date Of Birth*</label>
+                         <div class="input-container">
                         <input type="date" name="dob" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__dob"></div>
                     <div class="form__input gender" style="margin-bottom: 5vh;">
                         <label>Gender*</label>
+                         <div class="input-container">
                         <div class="g" style="margin-left: 50px;">
 
                             <input type="radio" name="gender" value="Male" />Male
                             <input type="radio" name="gender" value="Female" />Female
                         </div>
-                        <span id="regerror regerror__gender"></span>
+                        </div>
+                        <div class="regerror"></div>
                     </div>
+                    <div class="regerror regerror__gender"></div>
                     <div class="form__input">
                         <label>Mobile/Cell No.*</label>
+                         <div class="input-container">
                         <input type="text" name="phone" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__phone"></div>
                     <div class="form__input">
                         <label>Email*</label>
+                         <div class="input-container">
                         <input type="email" name="email" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__email"></div>
                     <div class="form__input">
                         <label>Confirm Email*</label>
+                         <div class="input-container">
                         <input type="email" name="cemail" class="reg__input regform__control" />
+                        </div>
                     </div>
                     <div class="regerror regerror__cemail"></div>
                     <div class="form__input">
                         <label>Select Hobby</label>
-                        <div class="chks">
+                         <div class="input-container">
+                        <div class="chks" name="chks">
                             <div class="chk">
                                 <input type="checkbox" id="hobby1" name="hobby" value="Writing">
                                 <label for="hobby1">Writing</label><br>
@@ -126,11 +149,13 @@
                                 <label for="hobby3">Dance</label>
                             </div>
                         </div>
+                        </div>
                     </div>
-                    <span id="regerror regerror__chkerror"></span>
+                    <div class="regerror regerror__chkerror"></div>
                     <div class="regerror regerror__cemail"></div>
                     <div class="form__input">
                         <label>Address*</label>
+                         <div class="input-container">
                         <div class="address__fields">
                             <div class="address">
                                 <textarea name="address" class="reg__input"></textarea>
@@ -159,6 +184,7 @@
                                     <option>Punjab</option>
                                 </select>
                             </div>
+                            <div class="regerror regerror__city"></div>
                             <div class="regerror regerror__state"></div>
                             <div class="address__code">
                                 <label>Zip Code*</label>
@@ -173,6 +199,7 @@
                             <button class="btn btn__sucess form__control" onclick="return register()">Sign Up</button>
                             <!-- </div> -->
                         </div>
+                        </div>
                     </div>
 
 
@@ -185,6 +212,7 @@
         </section>
     </section>
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

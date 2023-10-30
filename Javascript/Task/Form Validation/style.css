@@ -56,12 +56,20 @@ body{
 
 .regform__control{
     /* margin-bottom: 5vh; */
+    flex: 1;
     width: 52%;
 }
 
 .form__input{
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.input-container {
+    width: 51%;
+    display: flex;
+    align-items: center; /* Vertically center the icon with the input */
 }
 
 .dob input,.gender select{
@@ -95,6 +103,21 @@ a{
     border: 0;
 }
 
+.loginform {
+    position: relative;
+}
+
+.icon__lock{
+    position: absolute;
+    top: 90px;
+    right: 5px;
+}
+
+.icon__user{
+    position: absolute;
+    top: 22px;
+    right: 5px;
+}
 .loginbtns{
     display: flex;
     justify-content: space-between;
@@ -143,6 +166,7 @@ textarea,.code,.country{
     margin-top: 0;
     margin-bottom: 3vh;
 }
+
 .regerror{
     color: red;
     margin-top: 0;
