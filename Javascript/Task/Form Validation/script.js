@@ -1,3 +1,4 @@
+let commonerror = "This Field Is Required"
 
 function login() {
     const loginform = document.querySelector(".loginform");
@@ -11,16 +12,15 @@ function login() {
     const uerror = document.querySelector(".error__uname")
     const pwderror = document.querySelector(".error__pwd")
 
-
     if (uname=="") {
-        uerror.innerHTML="This Field Is Required"
+        uerror.innerHTML="Username Field Is Required"
         return false;
     }
     else{
         uerror.innerHTML="";
     }
     if (pwd=="") {
-        pwderror.innerHTML="This Field Is Required"
+        pwderror.innerHTML="Password Field Is Required"
         return false;
     }
     else{

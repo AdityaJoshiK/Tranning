@@ -22,7 +22,7 @@
                         <label>Username</label>
                         <input type="text" name="uname" class="login__input form__control" />
                         <div class="error error__uname"></div>
-                        
+
                         <label class="form__control">Password</label>
                         <input type="password" name="pwd" class="login__input form__control" />
                         <div class="error error__pwd"></div>
@@ -54,15 +54,19 @@
                         <label>Confirm Password*</label>
                         <input type="text" name="fname" class="reg__input regform__control" />
                     </div>
-                    <div class="dob">
-                        <div class="form__input">
-                            <label>Date Of Birth*</label>
-                            <input type="" name="fname" class="reg__input regform__control" />
+
+                    <div class="form__input dob">
+                        <label>Date Of Birth*</label>
+                        <input type="date" name="fname" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input gender" style="margin-bottom: 5vh;">
+                        <label>Gender*</label>
+                        <div class="g" style="margin-left: 50px;">
+
+                            <input type="radio" name="gender" value="Male" />Male
+                            <input type="radio" name="gender" value="Female" />Female
                         </div>
-                        <div class="form__input">
-                            <label>Gender*</label>
-                            <input type="text" name="fname" class="reg__input regform__control" />
-                        </div>
+                        <span id="gerror"></span>
                     </div>
                     <div class="form__input">
                         <label>Mobile/Cell No.*</label>
@@ -82,25 +86,35 @@
                             <textarea name="charset" class="reg__input regform__control"></textarea>
 
                             <!-- <div class="address__data"> -->
-                                <div class="address__city">
-                                    <label>City*</label>
-                                    <br/>
-                                    <input type="text" name="city" />
-                                </div>
-                                <div class="address__state">
-                                    <label>State*</label>
-                                    <br/>
-                                    <input type="text" name="state" />
-                                </div>
-                                <div class="address__code">
-                                    <label>Zip Code*</label>
-                                    <input type="text" name="state" />
-                                </div>
-                                <div class="address__country">
-                                    <label>Country*</label>
-                                    <input type="text" name="state" />
-                                </div>
-                                <button type="submit">Sign Up</button>
+                            <div class="address__city">
+                                <label>City*</label>
+                                <br />
+                                <select>
+                                    <option selected disabled>Select City</option>
+                                    <option>Delhi</option>
+                                    <option>Bangalore</option>
+                                    <option>Hyderabad</option>
+                                </select>
+                            </div>
+                            <div class="address__state">
+                                <label>State*</label>
+                                <br />
+                                <select>
+                                    <option selected disabled>Select State</option>
+                                    <option>Gujarat</option>
+                                    <option>UP</option>
+                                    <option>Punjab</option>
+                                </select>
+                            </div>
+                            <div class="address__code">
+                                <label>Zip Code*</label>
+                                <input type="text" name="state" />
+                            </div>
+                            <div class="address__country">
+                                <label>Country*</label>
+                                <input type="text" name="state" />
+                            </div>
+                            <button type="submit">Sign Up</button>
                             <!-- </div> -->
                         </div>
                     </div>

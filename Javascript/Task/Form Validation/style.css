@@ -14,7 +14,7 @@ body{
 .container{
     border: 1px solid;
     /* height: 80vh; */
-    /* width: 50vw; */
+    width: 40vw;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ body{
 }
 
 .main__right{
-    /* width: 50%; */       
+    width: 100%;       
     border: 1px solid;
 
 }
@@ -61,6 +61,10 @@ body{
 .form__input{
     display: flex;
     justify-content: space-between;
+}
+
+.dob input,.gender select{
+    width: 48%;
 }
 
 .address__fields{
