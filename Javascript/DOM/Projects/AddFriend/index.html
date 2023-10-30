@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+            height: 450px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+
+        body{
+            display: flex;
+            align-items: center;justify-content: center;     
+            background-color: cornflowerblue;
+        }
+
+        .container{
+            position: absolute;
+            left: 60px;
+            bottom: 0;
+        }
+
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        button{
+            
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div class="text">Stranger</div>
+        <div class="container">
+            <button>Add Friend</button>
+            <button>Remove</button>
+        </div>
+    </div>
+</body>
+<script>
+    const btn1 = document.querySelectorAll('button')[0];
+    const btn2 = document.querySelectorAll('button')[1];
+    const text = document.getElementsByClassName('text')[0];
+    console.log(btn1)
+    btn1.addEventListener('click',(e)=>{
+        text.innerHTML="Friend"
+    })
+    btn2.addEventListener('click',(e)=>{
+        
+        text.innerHTML="Stranger"
+        console.log(btn2)
+    })
+</script>
+</html>

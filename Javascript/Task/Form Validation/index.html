@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <section class="main">
+            <section class="main__left">
+                <section class="main__form">
+
+                    <div class="form__title form__control">
+                        My Account Login
+                    </div>
+                    <form method="post" action="#">
+                        <label>Username</label>
+                        <input type="text" name="uname" class="login__input form__control" />
+
+                        <label class="form__control">Password</label>
+                        <input type="password" name="pwd" class="login__input form__control" />
+
+                        <button class="btn btn__warning form__control">Log in</button>
+                        <a href="#" class="form__control">Forgot Password?</a>
+                    </form>
+                </section>
+            </section>
+            <section class="main__right">
+                <div class="form__title regform__control">
+                    Registartion
+                </div>
+                <form method="post" action="#">
+
+                    <div class="form__input">
+                        <label>First Name*</label>
+                        <input type="text" name="fname" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Last Name*</label>
+                        <input type="text" name="lname" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Password*</label>
+                        <input type="text" name="fname" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Confirm Password*</label>
+                        <input type="text" name="fname" class="reg__input regform__control" />
+                    </div>
+                    <div class="dob">
+                        <div class="form__input">
+                            <label>Date Of Birth*</label>
+                            <input type="" name="fname" class="reg__input regform__control" />
+                        </div>
+                        <div class="form__input">
+                            <label>Gender*</label>
+                            <input type="text" name="fname" class="reg__input regform__control" />
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <label>Mobile/Cell No.*</label>
+                        <input type="text" name="fname" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Email*</label>
+                        <input type="email" name="email" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Confirm Email*</label>
+                        <input type="email" name="charset" class="reg__input regform__control" />
+                    </div>
+                    <div class="form__input">
+                        <label>Address*</label>
+                        <div class="address__fields">
+                            <textarea name="charset" class="reg__input regform__control"></textarea>
+
+                            <!-- <div class="address__data"> -->
+                                <div class="address__city">
+                                    <label>City*</label>
+                                    <br/>
+                                    <input type="text" name="city" />
+                                </div>
+                                <div class="address__state">
+                                    <label>State*</label>
+                                    <br/>
+                                    <input type="text" name="state" />
+                                </div>
+                                <div class="address__code">
+                                    <label>Zip Code*</label>
+                                    <input type="text" name="state" />
+                                </div>
+                                <div class="address__country">
+                                    <label>Country*</label>
+                                    <input type="text" name="state" />
+                                </div>
+                                <button type="submit">Sign Up</button>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+        <section class="footer">
+
+        </section>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

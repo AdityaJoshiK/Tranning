@@ -114,8 +114,10 @@
             else{
                 perror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #18c95c;"></i>`
             }
-            console.log(eerror)
-            if (email=="") {
+            // console.log(eerror) adityajoshi2107@gmail.com
+            let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
+            console.log(regexp.test(email))
+            if (!regexp.test(email)) {
                 eerror.innerHTML="Email is required"
                 return false;
             }

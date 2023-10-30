@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;;
+}
+
+.container{
+    border: 1px solid;
+    /* height: 80vh; */
+    /* width: 50vw; */
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+}
+
+.main__left{
+    border: 1px solid;
+    width: 50%;
+}
+
+.main__right{
+    /* width: 50%; */       
+    border: 1px solid;
+
+}
+
+.main__form{
+}
+
+.form__control{
+    margin-bottom: 3vh;
+}
+
+.login__input{
+    display: block;
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.regform__control{
+    margin-bottom: 5vh;
+
+}
+
+.form__input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address__fields{
+    /* text-align: end; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    width: 51%;
+}
+
+.address__fields textarea{
+    grid-column: 1/span 2   ;
+}
+
+.address__data{
+    /* display: flex; */
+}
+
+.address__data label{
+    /* display: block; */
+}
+
+.address__city input{
+    width: 50%;
+}
+
+.address__state input{
+    width: 50%;
+}
+
+.address__code, .address__country{
+    grid-column: 1/span 2   ;
+}
