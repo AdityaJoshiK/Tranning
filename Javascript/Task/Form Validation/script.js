@@ -88,7 +88,7 @@ regform.addEventListener('input',(e)=>{
         const element = chks[index];
         if (element.checked) {
             checked.push(element.value)
-            console.log(element.value)
+            // console.log(element.value)
         }
     }
 
@@ -143,15 +143,23 @@ function register() {
             console.log(element.value)
         }
     }
-    validateFirstandLastName(fname,lname,checked);
-    validatePassword(pwd,cpwd);
-    validateDobAndGender(dob,gender);
-    validateEmailAndPhone(phone,email,cemail)
-    validateAddress(address,city,state,code,country)
+    name = validateFirstandLastName(fname,lname,checked);
+    passwd = validatePassword(pwd,cpwd);
+    dobdate = validateDobAndGender(dob,gender);
+    emailphone = validateEmailAndPhone(phone,email,cemail)
+    addressdata = validateAddress(address,city,state,code,country)
+
+    if (name && passwd && dobdate && emailphone && addressdata) {
+        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nHobbies: ${checked}`;
+
+alert("Data Submitted, Your Data is:\n" + data);
+        return true;
+    }
+    return false;
 
     // ferror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>`
    
-    console.log(checked)
+    // console.log(checked)
    
 
     return false;
@@ -169,15 +177,14 @@ const chkerror = document.querySelector(".regerror__chkerror");
 
 function validateFirstandLastName(fname,lname,checked) {
     if (fname=="" || fname.length<5) {
-        setError("fname","Name NoT Empty")
+        setError("fname","Name Not Empty")
     }
     else{
-        clearError("fname")
-        const element = document.createElement("i");
+        clearError("fname");
 
     }
     if (lname=="" || lname.length<5) {
-        setError("lname","Name NoT Empty")
+        setError("lname","Name Not Empty")
         
     }
     else{
@@ -188,8 +195,8 @@ function validateFirstandLastName(fname,lname,checked) {
     }
     else{
         clearError("chkerror")
-
     }
+    return true;
 }
 
 function validatePassword(pwd,cpwd){
@@ -210,10 +217,11 @@ function validatePassword(pwd,cpwd){
     else{
         clearError("cpwd")
     }
+    return true;
 }
 
 function validateDobAndGender(dob,gender){
-    debugger
+
     if (dob=="") {
         setError("dob","DOB Can't Be Empty")
 
@@ -229,7 +237,7 @@ function validateDobAndGender(dob,gender){
     else{
         clearError("gender")
     }
-    return false;
+    return true;
 }
 
 function validateEmailAndPhone(phone,email,cemail) {
@@ -258,6 +266,7 @@ function validateEmailAndPhone(phone,email,cemail) {
     else{
         clearError("cemail")
     }
+    return true;
 }
 
 function validateAddress(address,city,state,code,country) {
@@ -294,4 +303,5 @@ function validateAddress(address,city,state,code,country) {
     else{
         clearError("country")
     }
+    return true;
 }
