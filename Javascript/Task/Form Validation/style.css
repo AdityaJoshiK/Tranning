@@ -55,7 +55,7 @@ body{
 }
 
 .regform__control{
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
     width: 52%;
 }
 
@@ -104,14 +104,18 @@ a{
 .address__fields{
     /* text-align: end; */
     display: grid;
-    gap: 3vh;
+    /* gap: 3vh; */
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto auto;
     width: 52%;
 }
 
-.address__fields textarea{
+.address__fields .address{
     grid-column: 1/span 2   ;
+}
+
+textarea,.code,.country{
+    width: 100%;
 }
 
 .address__data{
@@ -138,4 +142,16 @@ a{
     color: red;
     margin-top: 0;
     margin-bottom: 3vh;
+}
+.regerror{
+    color: red;
+    margin-top: 0;
+    margin-bottom: 3vh;
+    margin-bottom: 5vh;
+}
+
+.chks{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 52%;
 }

@@ -45,23 +45,27 @@
                         <label>First Name*</label>
                         <input type="text" name="fname" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__fname"></div>
                     <div class="form__input">
                         <label>Last Name*</label>
                         <input type="text" name="lname" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__lname"></div>
                     <div class="form__input">
                         <label>Password*</label>
                         <input type="password" name="pwd" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__pwd"></div>
                     <div class="form__input">
                         <label>Confirm Password*</label>
                         <input type="password" name="cpwd" class="reg__input regform__control" />
                     </div>
-
+                    <div class="regerror regerror__cpwd"></div>
                     <div class="form__input dob">
                         <label>Date Of Birth*</label>
                         <input type="date" name="dob" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__dob"></div>
                     <div class="form__input gender" style="margin-bottom: 5vh;">
                         <label>Gender*</label>
                         <div class="g" style="margin-left: 50px;">
@@ -69,25 +73,70 @@
                             <input type="radio" name="gender" value="Male" />Male
                             <input type="radio" name="gender" value="Female" />Female
                         </div>
-                        <span id="gerror"></span>
+                        <span id="regerror regerror__gender"></span>
                     </div>
                     <div class="form__input">
                         <label>Mobile/Cell No.*</label>
                         <input type="text" name="phone" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__phone"></div>
                     <div class="form__input">
                         <label>Email*</label>
                         <input type="email" name="email" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__email"></div>
                     <div class="form__input">
                         <label>Confirm Email*</label>
                         <input type="email" name="cemail" class="reg__input regform__control" />
                     </div>
+                    <div class="regerror regerror__cemail"></div>
+                    <div class="form__input">
+                        <label>Select Hobby</label>
+                        <div class="chks">
+                            <div class="chk">
+                                <input type="checkbox" id="hobby1" name="hobby" value="Writing">
+                                <label for="hobby1">Writing</label><br>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby2" name="hobby" value="Blogging">
+                                <label for="hobby2">Blogging</label><br>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby3" name="hobby" value="Learning">
+                                <label for="hobby3">Learning</label>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby4" name="hobby" value="Photography">
+                                <label for="hobby3">Photography</label>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby5" name="hobby" value="Travel">
+                                <label for="hobby3">Travel</label>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby6" name="hobby" value="Yoga">
+                                <label for="hobby3">Yoga</label>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby7" name="hobby" value="Art">
+                                <label for="hobby3">Art</label>
+                            </div>
+                            <div class="chk">
+                                <input type="checkbox" id="hobby8" name="hobby" value="Dance">
+                                <label for="hobby3">Dance</label>
+                            </div>
+                        </div>
+                    </div>
+                    <span id="regerror regerror__chkerror"></span>
+                    <div class="regerror regerror__cemail"></div>
                     <div class="form__input">
                         <label>Address*</label>
                         <div class="address__fields">
-                            <textarea name="address" class="reg__input"></textarea>
+                            <div class="address">
+                                <textarea name="address" class="reg__input"></textarea>
 
+                                <div class="regerror regerror__address"></div>
+                            </div>
                             <!-- <div class="address__data"> -->
                             <div class="address__city">
                                 <label>City*</label>
@@ -99,6 +148,7 @@
                                     <option>Hyderabad</option>
                                 </select>
                             </div>
+                            <!-- <div class="regerror regerror__city"></div> -->
                             <div class="address__state">
                                 <label>State*</label>
                                 <br />
@@ -109,18 +159,23 @@
                                     <option>Punjab</option>
                                 </select>
                             </div>
+                            <div class="regerror regerror__state"></div>
                             <div class="address__code">
                                 <label>Zip Code*</label>
-                                <input type="text" name="code" />
+                                <input type="text" class="code" name="code" />
+                                <div class="regerror regerror__code"></div>
                             </div>
                             <div class="address__country">
                                 <label>Country*</label>
-                                <input type="text" name="country" />
+                                <input type="text" class="country" name="country" />
+                                <div class="regerror regerror__country"></div>
                             </div>
                             <button class="btn btn__sucess form__control" onclick="return register()">Sign Up</button>
                             <!-- </div> -->
                         </div>
                     </div>
+
+
                 </form>
             </section>
         </section>
