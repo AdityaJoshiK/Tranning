@@ -18,14 +18,16 @@
                     <div class="form__title form__control">
                         My Account Login
                     </div>
-                    <form method="post" action="#">
+                    <form method="post" name="loginform" class="loginform" action="#">
                         <label>Username</label>
                         <input type="text" name="uname" class="login__input form__control" />
-
+                        <div class="error error__uname"></div>
+                        
                         <label class="form__control">Password</label>
                         <input type="password" name="pwd" class="login__input form__control" />
+                        <div class="error error__pwd"></div>
 
-                        <button class="btn btn__warning form__control">Log in</button>
+                        <button class="btn btn__warning form__control" onclick="return login()">Log in</button>
                         <a href="#" class="form__control">Forgot Password?</a>
                     </form>
                 </section>
