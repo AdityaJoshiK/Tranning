@@ -36,7 +36,7 @@
                 <div class="form__title regform__control">
                     Registartion
                 </div>
-                <form method="post" action="#">
+                <form method="post" name="regform" class="regform" action="#">
 
                     <div class="form__input">
                         <label>First Name*</label>
@@ -48,16 +48,16 @@
                     </div>
                     <div class="form__input">
                         <label>Password*</label>
-                        <input type="text" name="fname" class="reg__input regform__control" />
+                        <input type="password" name="pwd" class="reg__input regform__control" />
                     </div>
                     <div class="form__input">
                         <label>Confirm Password*</label>
-                        <input type="text" name="fname" class="reg__input regform__control" />
+                        <input type="password" name="cpwd" class="reg__input regform__control" />
                     </div>
 
                     <div class="form__input dob">
                         <label>Date Of Birth*</label>
-                        <input type="date" name="fname" class="reg__input regform__control" />
+                        <input type="date" name="dob" class="reg__input regform__control" />
                     </div>
                     <div class="form__input gender" style="margin-bottom: 5vh;">
                         <label>Gender*</label>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="form__input">
                         <label>Mobile/Cell No.*</label>
-                        <input type="text" name="fname" class="reg__input regform__control" />
+                        <input type="text" name="phone" class="reg__input regform__control" />
                     </div>
                     <div class="form__input">
                         <label>Email*</label>
@@ -78,18 +78,18 @@
                     </div>
                     <div class="form__input">
                         <label>Confirm Email*</label>
-                        <input type="email" name="charset" class="reg__input regform__control" />
+                        <input type="email" name="cemail" class="reg__input regform__control" />
                     </div>
                     <div class="form__input">
                         <label>Address*</label>
                         <div class="address__fields">
-                            <textarea name="charset" class="reg__input regform__control"></textarea>
+                            <textarea name="address" class="reg__input regform__control"></textarea>
 
                             <!-- <div class="address__data"> -->
                             <div class="address__city">
                                 <label>City*</label>
                                 <br />
-                                <select>
+                                <select name="city">
                                     <option selected disabled>Select City</option>
                                     <option>Delhi</option>
                                     <option>Bangalore</option>
@@ -99,7 +99,7 @@
                             <div class="address__state">
                                 <label>State*</label>
                                 <br />
-                                <select>
+                                <select name="state">
                                     <option selected disabled>Select State</option>
                                     <option>Gujarat</option>
                                     <option>UP</option>
@@ -108,13 +108,13 @@
                             </div>
                             <div class="address__code">
                                 <label>Zip Code*</label>
-                                <input type="text" name="state" />
+                                <input type="text" name="code" />
                             </div>
                             <div class="address__country">
                                 <label>Country*</label>
-                                <input type="text" name="state" />
+                                <input type="text" name="country" />
                             </div>
-                            <button type="submit">Sign Up</button>
+                            <button onclick="return register()">Sign Up</button>
                             <!-- </div> -->
                         </div>
                     </div>
