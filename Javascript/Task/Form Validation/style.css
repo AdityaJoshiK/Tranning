@@ -191,13 +191,13 @@ a{
 
 .icon__lock{
     position: absolute;
-    top: 90px;
+    top: 95px;
     right: 5px;
 }
 
 .icon__user{
     position: absolute;
-    top: 22px;
+    top: 25px;
     right: 5px;
 }
 .loginbtns{

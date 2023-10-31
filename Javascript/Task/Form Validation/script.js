@@ -105,7 +105,6 @@ regform.addEventListener('input', (e) => {
 
 function register() {
 
-    // clearErrors()
     const fname = document.regform.fname.value;
     const lname = document.regform.lname.value;
     const pwd = document.regform.pwd.value;
