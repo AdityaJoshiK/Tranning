@@ -101,7 +101,28 @@ regform.addEventListener('input', (e) => {
     validateAddress(address, city, state, code, country)
 })
 
+const pwdicon = document.querySelectorAll(".eyeicon")[0];
+const cpwdicon = document.querySelectorAll(".eyeicon")[1];
+pwdicon.addEventListener('click',()=>{
+    const pwd=document.getElementById("pwd");
 
+    if (pwd.type=="password") {
+        pwd.type = "text"
+    }
+    else{
+        pwd.type="password"
+    }
+})
+cpwdicon.addEventListener('click',()=>{
+    const pwd=document.getElementById("cpwd");
+
+    if (cpwd.type=="password") {
+        cpwd.type = "text"
+    }
+    else{
+        cpwd.type="password"
+    }
+})
 
 function register() {
 
@@ -123,22 +144,7 @@ function register() {
     const file = document.regform.file.value;
     const terms = document.regform.terms.checked;
     const fileName = file.split('\\').pop();
-    console.log(fname);
-    console.log(lname);
-    console.log(pwd);
-    console.log(cpwd);
-    console.log(dob);
-    console.log(gender);
-    console.log(phone);
-    console.log(email);
-    console.log(cemail);
-    console.log(address);
-    console.log(city);
-    console.log(state);
-    console.log(code);
-    console.log(country);
-    console.log(file);
-    console.log(fileName);
+
     let checked = [];
 
     for (let index = 0; index < chks.length; index++) {
@@ -215,7 +221,11 @@ function validatePassword(pwd, cpwd, terms) {
         setDone("pwd");
 
     }
-    if (cpwd == "") {
+    if (pwd=="") {
+        setError("cpwd", "Please First Enter Password.")
+        clearDone("cpwd");
+    }
+    else if (cpwd == "") {
         setError("cpwd", "Confirm Password is required.")
         clearDone("cpwd");
     }
