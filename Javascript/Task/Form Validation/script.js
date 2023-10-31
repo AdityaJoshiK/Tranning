@@ -81,6 +81,8 @@ regform.addEventListener('input',(e)=>{
     const code = document.regform.code.value;
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
+    const file = document.regform.file.value;
+    console.log(file)
     let checked=[];
 
     for (let index = 0; index < chks.length; index++) {
@@ -94,7 +96,7 @@ regform.addEventListener('input',(e)=>{
 
     validateFirstandLastName(fname,lname,checked);
     validatePassword(pwd,cpwd);
-    validateDobAndGender(dob,gender);
+    validateDobAndGender(dob,gender,file);
     validateEmailAndPhone(phone,email,cemail)
     validateAddress(address,city,state,code,country)
 })
@@ -119,6 +121,7 @@ function register() {
     const code = document.regform.code.value;
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
+    const file = document.regform.file.value;
     console.log(fname);
     console.log(lname);
     console.log(pwd);
@@ -133,6 +136,7 @@ function register() {
     console.log(state);
     console.log(code);
     console.log(country);
+    console.log(file);
     let checked=[];
 
     for (let index = 0; index < chks.length; index++) {
@@ -145,12 +149,12 @@ function register() {
     }
     name = validateFirstandLastName(fname,lname,checked);
     passwd = validatePassword(pwd,cpwd);
-    dobdate = validateDobAndGender(dob,gender);
+    dobdate = validateDobAndGender(dob,gender,file);
     emailphone = validateEmailAndPhone(phone,email,cemail)
     addressdata = validateAddress(address,city,state,code,country)
 
     if (name && passwd && dobdate && emailphone && addressdata) {
-        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nHobbies: ${checked}`;
+        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nHobbies: ${checked}`;
 
 alert("Data Submitted, Your Data is:\n" + data);
         return true;
@@ -220,7 +224,7 @@ function validatePassword(pwd,cpwd){
     return true;
 }
 
-function validateDobAndGender(dob,gender){
+function validateDobAndGender(dob,gender,file){
 
     if (dob=="") {
         setError("dob","Date of Birth is required.")
@@ -228,6 +232,13 @@ function validateDobAndGender(dob,gender){
     }
     else{
         clearError("dob")
+
+    }
+    if (file=="") {
+        setError("file","File is required.")
+    }
+    else{
+        clearError("file")
 
     }
     if (gender=="") {
