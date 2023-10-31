@@ -60,7 +60,7 @@ function clearErrors() {
 function setAllErrors() {
     let errors = document.querySelectorAll(".regerror");
     errors.forEach((error)=>{
-        error.innerHTML="Please Fill This Field";
+        error.innerHTML="This Field Is Required";
     })
 }
 const regform = document.querySelector(".regform");
@@ -177,21 +177,21 @@ const chkerror = document.querySelector(".regerror__chkerror");
 
 function validateFirstandLastName(fname,lname,checked) {
     if (fname=="" || fname.length<5) {
-        setError("fname","Name Not Empty")
+        setError("fname","First Name is required.")
     }
     else{
         clearError("fname");
 
     }
     if (lname=="" || lname.length<5) {
-        setError("lname","Name Not Empty")
+        setError("lname","Last Name is required.")
         
     }
     else{
         clearError("lname");
     }
     if (checked.length=="") {
-        setError("chkerror","Please Select Any One Check Box")
+        setError("chkerror","Please Select at least one Hobby.")
     }
     else{
         clearError("chkerror")
@@ -208,11 +208,11 @@ function validatePassword(pwd,cpwd){
 
     }
     if (cpwd=="") {
-        setError("cpwd","Password Can't Be Empty")
+        setError("cpwd","Password is required.")
         return false
     }
     else if (pwd!=cpwd) {
-        setError("cpwd","Both Password Should Be Same")
+        setError("cpwd","Confirm Password is required.")
     }
     else{
         clearError("cpwd")
@@ -223,7 +223,7 @@ function validatePassword(pwd,cpwd){
 function validateDobAndGender(dob,gender){
 
     if (dob=="") {
-        setError("dob","DOB Can't Be Empty")
+        setError("dob","Date of Birth is required.")
 
     }
     else{
@@ -231,7 +231,7 @@ function validateDobAndGender(dob,gender){
 
     }
     if (gender=="") {
-        setError("gender","Please Select Any One")
+        setError("gender","Gender is required.")
         return false
     }
     else{
@@ -242,7 +242,7 @@ function validateDobAndGender(dob,gender){
 
 function validateEmailAndPhone(phone,email,cemail) {
     if (phone=="") {
-        setError("phone","Phone No. Can't Be Empty")
+        setError("phone","Phone is required.")
     }
     else if (phone.length<10) {
         setError("phone","Phone Number Length Should be 10")
@@ -251,13 +251,13 @@ function validateEmailAndPhone(phone,email,cemail) {
         clearError("phone")
     }
     if (email=="") {
-        setError("email","Email Can't Be Empty")
+        setError("email","Email is required.")
     }
     else{
         clearError("email")
     }
     if (cemail=="") {
-        setError("cemail","Confirm Email Can't Be Empty")
+        setError("cemail","Confirm Email is required.")
     }
     else if (email!=cemail) {
         alert(email,cemail)
@@ -272,33 +272,33 @@ function validateEmailAndPhone(phone,email,cemail) {
 function validateAddress(address,city,state,code,country) {
  
     if (address=="") {
-        setError("address","Address NoT Empty")
+        setError("address","Address is required.")
     }
     else{
         clearError("address")
 
     }
     if (city=="Select City") {
-        setError("city","City NoT Empty")
+        setError("city","City is required.")
     }
     else{
         clearError("city")
 
     }
     if (state=="Select State") {
-        setError("state","State NoT Empty")
+        setError("state","State is required.")
     }
     else{
         clearError("state")
     }
     if (code=="") {
-        setError("code","Code NoT Empty")
+        setError("code","Postal Code is required.")
     }
     else{
         clearError("code")
     }
     if (country=="") {
-        setError("country","country NoT Empty")
+        setError("country","Country is required.")
     }
     else{
         clearError("country")

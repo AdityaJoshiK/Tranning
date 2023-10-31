@@ -60,6 +60,10 @@ body{
     width: 52%;
 }
 
+.regerror__city{
+    width: 90%;
+}
+
 .form__input{
     display: flex;
     justify-content: space-between;
