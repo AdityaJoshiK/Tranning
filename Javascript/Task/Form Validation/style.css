@@ -101,12 +101,30 @@ body{
     /* margin-bottom: 5vh; */
     flex: 1;
     width: 52%;
+    position: relative;
 }
 
+.doneicon{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    visibility: hidden;
+}
+
+.address__state .doneicon,.address__city .doneicon{
+    left: 55px;
+}
 .regerror__city{
     width: 90%;
 }
 
+.regdone__dob{
+    right: -18px;
+}
+
+.form__main{
+    position: relative;
+}
 .reg__input{
     padding: 4px;
 }

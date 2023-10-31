@@ -32,22 +32,24 @@ function login() {
 function setError(element,error) {
     let errortag = document.querySelector(`.regerror__${element}`)
     errortag.innerHTML= error;
+    
+}
 
+function setDone(element) {
+    let done = document.querySelector(`.regdone__${element}`)
+    done.style.visibility="visible"
+}
+
+function clearDone(element) {
+    // alert(element)
+    let done = document.querySelector(`.regdone__${element}`)
+    // alert(done)
+    done.style.visibility="hidden"
 }
 
 function clearError(element) {
     let errortag = document.querySelector(`.regerror__${element}`)
     errortag.innerHTML= "";
-
-    const inputElement = document.getElementById(element);
-
-    // Create the icon element
-    // const iconElement = document.createElement("i");
-    // iconElement.className = "fa-solid fa-circle-check";
-    // iconElement.style.color = "#24ae66";
-
-    // // Append the icon after the input element
-    // inputElement.insertAdjacentElement("afterend", iconElement);
 }
 
 function clearErrors() {
@@ -184,23 +186,30 @@ const chkerror = document.querySelector(".regerror__chkerror");
 function validateFirstandLastName(fname,lname,checked) {
     if (fname=="" || fname.length<5) {
         setError("fname","First Name is required.")
+        
+        clearDone("fname");
     }
     else{
         clearError("fname");
+        setDone("fname");
 
     }
     if (lname=="" || lname.length<5) {
         setError("lname","Last Name is required.")
+        clearDone("lname");
         
     }
     else{
         clearError("lname");
+         setDone("lname");
     }
     if (checked.length=="") {
         setError("chkerror","Please Select at least one Hobby.")
+        clearDone("chkerror");
     }
     else{
         clearError("chkerror")
+         setDone("chkerror");
     }
     return true;
 }
@@ -208,20 +217,25 @@ function validateFirstandLastName(fname,lname,checked) {
 function validatePassword(pwd,cpwd){
     if (pwd=="") {
         setError("pwd","Password Can't Be Empty")
+        clearDone("pwd");
     }
     else{
         clearError("pwd")
+         setDone("pwd");
 
     }
     if (cpwd=="") {
         setError("cpwd","Confirm Password is required.")
+        clearDone("cpwd");
         return false
     }
     else if (pwd!=cpwd) {
         setError("cpwd","Both Password is Not Same.")
+        clearDone("cpwd");
     }
     else{
         clearError("cpwd")
+        setDone("cpwd");
     }
     return true;
 }
@@ -230,25 +244,31 @@ function validateDobAndGender(dob,gender,file){
 
     if (dob=="") {
         setError("dob","Date of Birth is required.")
+        clearDone("dob")
 
     }
     else{
         clearError("dob")
+        setDone("dob")
 
     }
     if (file=="") {
         setError("file","File is required.")
+        clearDone("file")
     }
     else{
         clearError("file")
+        setDone("file")
 
     }
     if (gender=="") {
         setError("gender","Gender is required.")
+        clearDone("gender");
         return false
     }
     else{
         clearError("gender")
+        setDone("gender");
     }
     return true;
 }
@@ -256,12 +276,15 @@ function validateDobAndGender(dob,gender,file){
 function validateEmailAndPhone(phone,email,cemail) {
     if (phone=="") {
         setError("phone","Phone is required.")
+        clearDone("phone")
     }
     else if (phone.length<10) {
         setError("phone","Phone Number Length Should be 10")
+        clearDone("phone");
     }
     else{
         clearError("phone")
+        setDone("phone")
     }
     let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
     if (email=="") {
@@ -269,18 +292,23 @@ function validateEmailAndPhone(phone,email,cemail) {
     }
     else if (!regexp.test(email)) {
         setError("email","Email is Not in Proper Format.")
+        clearDone("email")
     }
     else{
         clearError("email")
+        setDone("email")
     }
     if (cemail=="") {
         setError("cemail","Confirm Email is required.")
+        clearDone("cemail")
     }
     else if (email!=cemail) {
         setError("cemail","Both Email Should Be Same")
+        clearDone("cemail")
     }
     else{
         clearError("cemail")
+        setDone("cemail")
     }
     return true;
 }
@@ -292,32 +320,41 @@ function validateAddress(address,city,state,code,country) {
     }
     else{
         clearError("address")
+        setDone("address")
 
     }
     if (city=="Select City") {
         setError("city","City is required.")
+        clearDone("city")
     }
     else{
         clearError("city")
+        setDone("city")
 
     }
     if (state=="Select State") {
         setError("state","State is required.")
+        clearDone("state")
     }
     else{
         clearError("state")
+        setDone("state")
     }
     if (code=="") {
         setError("code","Postal Code is required.")
+        clearDone("code");
     }
     else{
-        clearError("code")
+        clearError("code");
+        setDone("code");
     }
     if (country=="") {
         setError("country","Country is required.")
+        clearDone("country")
     }
     else{
         clearError("country")
+        setDone("country")
     }
     return true;
 }
