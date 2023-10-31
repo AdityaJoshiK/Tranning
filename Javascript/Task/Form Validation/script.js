@@ -8,11 +8,18 @@ function login() {
 
     console.log(uname, pwd)
 
+    let pattern = /^[A-Za-z]+$/;
+
     const uerror = document.querySelector(".error__uname")
     const pwderror = document.querySelector(".error__pwd")
 
+    debugger
     if (uname == "") {
         uerror.innerHTML = "Username Field Is Required"
+        return false;
+    }
+    else if (!pattern.test(uname)) {
+        uerror.innerHTML = "User Name Can't be Number or Special Chaarcter."
         return false;
     }
     else {
@@ -181,9 +188,21 @@ function register() {
 }
 
 function validateFirstandLastName(fname, lname, checked) {
-    if (fname == "" || fname.length < 5) {
+    let pattern = /^[A-Za-z]+$/;
+    if (fname == "") {
         setError("fname", "First Name is required.")
-
+        clearDone("fname");
+    }
+    else if (!pattern.test(fname)) {
+        setError("fname", "First Name Can't be Number or Special Chaarcter.")
+        clearDone("fname");
+    }
+    else if (fname.length < 5) {
+        setError("fname", "First Name Length Should be minimum 5.")
+        clearDone("fname");
+    }
+    else if (fname.length>10) {
+        setError("fname", "First Name Length Should be maximum 10.")
         clearDone("fname");
     }
     else {
@@ -191,10 +210,23 @@ function validateFirstandLastName(fname, lname, checked) {
         setDone("fname");
 
     }
-    if (lname == "" || lname.length < 5) {
+    if (lname == "") {
         setError("lname", "Last Name is required.")
         clearDone("lname");
 
+    }
+    else if (!pattern.test(lname)) {
+        setError("lname", "Last Name Can't be Number or Special Chaarcter.")
+
+        clearDone("lname");
+    }
+    else if (lname.length < 5) {
+        setError("fname", "First Name Length Should be minimum 5.")
+        clearDone("fname");
+    }
+    else if (lname.length>10) {
+        setError("lname", "Last Name Length Should be maximum 10.")
+        clearDone("lname");
     }
     else {
         clearError("lname");
@@ -213,6 +245,7 @@ function validateFirstandLastName(fname, lname, checked) {
 
 function validatePassword(pwd, cpwd, terms) {
     let regexp = /[A-Z]+[a-z]+[!@#$%^&*]\d/
+    let isTrue = false;
     if (pwd == "") {
         setError("pwd", "Password Can't Be Empty")
         clearDone("pwd");
@@ -223,11 +256,12 @@ function validatePassword(pwd, cpwd, terms) {
     }
     else {
         clearError("pwd")
+        isTrue=true;
         setDone("pwd");
 
     }
-    if (pwd=="") {
-        setError("cpwd", "Please First Enter Password.")
+    if (pwd=="" || !isTrue) {
+        setError("cpwd", "Please First Enter Password Properly.")
         clearDone("cpwd");
     }
     else if (cpwd == "") {
@@ -360,16 +394,27 @@ function validateAddress(address, city, state, code, country) {
         clearError("state")
         setDone("state")
     }
+    let pattern = /^\d{6}$/;
     if (code == "") {
         setError("code", "Postal Code is required.")
+        clearDone("code");
+    }
+    else if (!pattern.test(code)) {
+        setError("code", "Postal Code is Not in Proper format.")
         clearDone("code");
     }
     else {
         clearError("code");
         setDone("code");
     }
+    let countryp = /^[A-Za-z]+$/;
+    debugger
     if (country == "") {
         setError("country", "Country is required.")
+        clearDone("country")
+    }
+    else if (!countryp.test(country)) {
+        setError("country", "Please Enter Proper Country Name.")
         clearDone("country")
     }
     else {
