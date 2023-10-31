@@ -25,8 +25,8 @@ function login() {
     else {
         pwderror.innerHTML = ""
     }
-    const data=`\nUsername:${uname}\nPassword:${pwd}`;
-    alert("Your Entered Data is:"+data)
+    const data = `\nUsername:${uname}\nPassword:${pwd}`;
+    alert("Your Entered Data is:" + data)
     return true;
 }
 
@@ -83,7 +83,7 @@ regform.addEventListener('input', (e) => {
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
     const file = document.regform.file.value;
-    console.log(file)
+    const terms = document.regform.terms.checked;
     let checked = [];
 
     for (let index = 0; index < chks.length; index++) {
@@ -95,7 +95,7 @@ regform.addEventListener('input', (e) => {
     }
 
     validateFirstandLastName(fname, lname, checked);
-    validatePassword(pwd, cpwd);
+    validatePassword(pwd, cpwd, terms);
     validateDobAndGender(dob, gender, file);
     validateEmailAndPhone(phone, email, cemail)
     validateAddress(address, city, state, code, country)
@@ -122,6 +122,7 @@ function register() {
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
     const file = document.regform.file.value;
+    const terms = document.regform.terms.checked;
     const fileName = file.split('\\').pop();
     console.log(fname);
     console.log(lname);
@@ -150,12 +151,18 @@ function register() {
         }
     }
     name = validateFirstandLastName(fname, lname, checked);
-    passwd = validatePassword(pwd, cpwd);
+    passwd = validatePassword(pwd, cpwd, terms);
     dobdate = validateDobAndGender(dob, gender, file);
     emailphone = validateEmailAndPhone(phone, email, cemail)
     addressdata = validateAddress(address, city, state, code, country)
+    console.log(name)
+    console.log(passwd)
+    console.log(dobdate)
+    console.log(emailphone)
+    console.log(addressdata)
 
     if (name && passwd && dobdate && emailphone && addressdata) {
+        alert("true")
         const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
         alert("Data Submitted, Your Data is:\n" + data);
@@ -195,13 +202,13 @@ function validateFirstandLastName(fname, lname, checked) {
     return true;
 }
 
-function validatePassword(pwd, cpwd) {
-    let regexp=/[A-Z]+[a-z]+[!@#$%^&*]\d/
+function validatePassword(pwd, cpwd, terms) {
+    let regexp = /[A-Z]+[a-z]+[!@#$%^&*]\d/
     if (pwd == "") {
         setError("pwd", "Password Can't Be Empty")
         clearDone("pwd");
     }
-    else if (!regexp.test(pwd) && pwd.length<=8) {
+    else if (!regexp.test(pwd) || pwd.length <= 8) {
         setError("pwd", "Password Should Contains Captial,Small,Number and Special Character and length 8")
         clearDone("pwd");
     }
@@ -213,7 +220,6 @@ function validatePassword(pwd, cpwd) {
     if (cpwd == "") {
         setError("cpwd", "Confirm Password is required.")
         clearDone("cpwd");
-        return false
     }
     else if (pwd != cpwd) {
         setError("cpwd", "Both Password is Not Same.")
@@ -222,6 +228,14 @@ function validatePassword(pwd, cpwd) {
     else {
         clearError("cpwd")
         setDone("cpwd");
+    }
+    if (terms) {
+        clearError("terms");
+
+    }
+    else {
+        setError("terms", "You Must Accept Terms And Conditions.");
+        return false;
     }
     return true;
 }

@@ -8,8 +8,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100vh;; */
-    /* background-color: yellow; */
+    height: 1500px;;
+    background-color: rgba(254,193,7,255);
 }
 
 .container{
@@ -268,6 +268,29 @@ textarea{
     display: grid;
     grid-template-columns: auto auto;
     width: 52%;
+}
+
+.terms{
+    grid-column: span 2;
+    /* margin-bottom: 3vh; */
+}
+
+.footer__main{
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+footer{
+    margin-bottom: 15vh;
+    text-align: center;
+    border: 1px solid;
+    text-align: center;
+    width: 50%;
+    box-shadow: 2px 2px  black;
+    /* margin: auto; */
+    background-color: rgb(247 247 247);
 }
 
 @media screen and (max-width:1250px) {
