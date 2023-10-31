@@ -122,6 +122,7 @@ function register() {
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
     const file = document.regform.file.value;
+    const fileName = file.split('\\').pop(); 
     console.log(fname);
     console.log(lname);
     console.log(pwd);
@@ -137,6 +138,7 @@ function register() {
     console.log(code);
     console.log(country);
     console.log(file);
+    console.log(fileName);
     let checked=[];
 
     for (let index = 0; index < chks.length; index++) {
@@ -154,7 +156,7 @@ function register() {
     addressdata = validateAddress(address,city,state,code,country)
 
     if (name && passwd && dobdate && emailphone && addressdata) {
-        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nHobbies: ${checked}`;
+        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
 alert("Data Submitted, Your Data is:\n" + data);
         return true;
@@ -262,7 +264,6 @@ function validateEmailAndPhone(phone,email,cemail) {
         clearError("phone")
     }
     let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
-    debugger
     if (email=="") {
         setError("email","Email is required.")
     }
