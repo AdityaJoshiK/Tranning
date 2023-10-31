@@ -122,6 +122,14 @@ body{
     right: -18px;
 }
 
+select{
+    padding: 3px;
+}
+
+.address__code input,.address__country input{
+    padding: 2px 3px;
+}
+
 .form__main{
     position: relative;
 }

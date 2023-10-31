@@ -2,72 +2,71 @@ let commonerror = "This Field Is Required"
 
 function login() {
     const loginform = document.querySelector(".loginform");
-    console.log(loginform)
 
     const uname = document.loginform.uname.value;
     const pwd = document.loginform.pwd.value;
 
-    console.log(uname,pwd)
+    console.log(uname, pwd)
 
     const uerror = document.querySelector(".error__uname")
     const pwderror = document.querySelector(".error__pwd")
 
-    if (uname=="") {
-        uerror.innerHTML="Username Field Is Required"
+    if (uname == "") {
+        uerror.innerHTML = "Username Field Is Required"
         return false;
     }
-    else{
-        uerror.innerHTML="";
+    else {
+        uerror.innerHTML = "";
     }
-    if (pwd=="") {
-        pwderror.innerHTML="Password Field Is Required"
+    if (pwd == "") {
+        pwderror.innerHTML = "Password Field Is Required"
         return false;
     }
-    else{
-        pwderror.innerHTML=""
+    else {
+        pwderror.innerHTML = ""
     }
+    const data=`\nUsername:${uname}\nPassword:${pwd}`;
+    alert("Your Entered Data is:"+data)
     return true;
 }
 
-function setError(element,error) {
+function setError(element, error) {
     let errortag = document.querySelector(`.regerror__${element}`)
-    errortag.innerHTML= error;
-    
+    errortag.innerHTML = error;
+
 }
 
 function setDone(element) {
     let done = document.querySelector(`.regdone__${element}`)
-    done.style.visibility="visible"
+    done.style.visibility = "visible"
 }
 
 function clearDone(element) {
-    // alert(element)
     let done = document.querySelector(`.regdone__${element}`)
-    // alert(done)
-    done.style.visibility="hidden"
+    done.style.visibility = "hidden"
 }
 
 function clearError(element) {
     let errortag = document.querySelector(`.regerror__${element}`)
-    errortag.innerHTML= "";
+    errortag.innerHTML = "";
 }
 
 function clearErrors() {
     let errors = document.querySelectorAll(".regerror");
-    errors.forEach((error)=>{
-        error.innerHTML="";
+    errors.forEach((error) => {
+        error.innerHTML = "";
     })
 }
 
 function setAllErrors() {
     let errors = document.querySelectorAll(".regerror");
-    errors.forEach((error)=>{
-        error.innerHTML="This Field Is Required";
+    errors.forEach((error) => {
+        error.innerHTML = "This Field Is Required";
     })
 }
 const regform = document.querySelector(".regform");
 
-regform.addEventListener('input',(e)=>{
+regform.addEventListener('input', (e) => {
     const fname = document.regform.fname.value;
     const lname = document.regform.lname.value;
     const pwd = document.regform.pwd.value;
@@ -85,28 +84,27 @@ regform.addEventListener('input',(e)=>{
     const chks = document.regform.hobby;
     const file = document.regform.file.value;
     console.log(file)
-    let checked=[];
+    let checked = [];
 
     for (let index = 0; index < chks.length; index++) {
-        
+
         const element = chks[index];
         if (element.checked) {
             checked.push(element.value)
-            // console.log(element.value)
         }
     }
 
-    validateFirstandLastName(fname,lname,checked);
-    validatePassword(pwd,cpwd);
-    validateDobAndGender(dob,gender,file);
-    validateEmailAndPhone(phone,email,cemail)
-    validateAddress(address,city,state,code,country)
+    validateFirstandLastName(fname, lname, checked);
+    validatePassword(pwd, cpwd);
+    validateDobAndGender(dob, gender, file);
+    validateEmailAndPhone(phone, email, cemail)
+    validateAddress(address, city, state, code, country)
 })
 
 
 
 function register() {
-   
+
     // clearErrors()
     const fname = document.regform.fname.value;
     const lname = document.regform.lname.value;
@@ -124,7 +122,7 @@ function register() {
     const country = document.regform.country.value;
     const chks = document.regform.hobby;
     const file = document.regform.file.value;
-    const fileName = file.split('\\').pop(); 
+    const fileName = file.split('\\').pop();
     console.log(fname);
     console.log(lname);
     console.log(pwd);
@@ -141,218 +139,213 @@ function register() {
     console.log(country);
     console.log(file);
     console.log(fileName);
-    let checked=[];
+    let checked = [];
 
     for (let index = 0; index < chks.length; index++) {
-        
+
         const element = chks[index];
         if (element.checked) {
             checked.push(element.value)
             console.log(element.value)
         }
     }
-    name = validateFirstandLastName(fname,lname,checked);
-    passwd = validatePassword(pwd,cpwd);
-    dobdate = validateDobAndGender(dob,gender,file);
-    emailphone = validateEmailAndPhone(phone,email,cemail)
-    addressdata = validateAddress(address,city,state,code,country)
+    name = validateFirstandLastName(fname, lname, checked);
+    passwd = validatePassword(pwd, cpwd);
+    dobdate = validateDobAndGender(dob, gender, file);
+    emailphone = validateEmailAndPhone(phone, email, cemail)
+    addressdata = validateAddress(address, city, state, code, country)
 
     if (name && passwd && dobdate && emailphone && addressdata) {
         const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
-alert("Data Submitted, Your Data is:\n" + data);
+        alert("Data Submitted, Your Data is:\n" + data);
         return true;
     }
     return false;
-
-    // ferror.innerHTML=`<i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>`
-   
-    // console.log(checked)
-   
-
-    return false;
 }
-const ferror = document.querySelector(".regerror__fname");
-const lerror = document.querySelector(".regerror__lname");
-const pwderror = document.querySelector(".regerror__pwd");
-const cpwderror = document.querySelector(".regerror__cpwd");
-const doberror = document.querySelector(".regerror__dob");
-const gendererror = document.querySelector(".regerror__gender");
-const phoneerror = document.querySelector(".regerror__phone");
-const emailerror = document.querySelector(".regerror__email");
-const cemailerror = document.querySelector(".regerror__cemail");
-const chkerror = document.querySelector(".regerror__chkerror");
 
-function validateFirstandLastName(fname,lname,checked) {
-    if (fname=="" || fname.length<5) {
-        setError("fname","First Name is required.")
-        
+function validateFirstandLastName(fname, lname, checked) {
+    if (fname == "" || fname.length < 5) {
+        setError("fname", "First Name is required.")
+
         clearDone("fname");
     }
-    else{
+    else {
         clearError("fname");
         setDone("fname");
 
     }
-    if (lname=="" || lname.length<5) {
-        setError("lname","Last Name is required.")
+    if (lname == "" || lname.length < 5) {
+        setError("lname", "Last Name is required.")
         clearDone("lname");
-        
+
     }
-    else{
+    else {
         clearError("lname");
-         setDone("lname");
+        setDone("lname");
     }
-    if (checked.length=="") {
-        setError("chkerror","Please Select at least one Hobby.")
+    if (checked.length == "") {
+        setError("chkerror", "Please Select at least one Hobby.")
         clearDone("chkerror");
     }
-    else{
+    else {
         clearError("chkerror")
-         setDone("chkerror");
+        setDone("chkerror");
     }
     return true;
 }
 
-function validatePassword(pwd,cpwd){
-    if (pwd=="") {
-        setError("pwd","Password Can't Be Empty")
+function validatePassword(pwd, cpwd) {
+    let regexp=/[A-Z]+[a-z]+[!@#$%^&*]\d/
+    if (pwd == "") {
+        setError("pwd", "Password Can't Be Empty")
         clearDone("pwd");
     }
-    else{
+    else if (!regexp.test(pwd) && pwd.length<=8) {
+        setError("pwd", "Password Should Contains Captial,Small,Number and Special Character and length 8")
+        clearDone("pwd");
+    }
+    else {
         clearError("pwd")
-         setDone("pwd");
+        setDone("pwd");
 
     }
-    if (cpwd=="") {
-        setError("cpwd","Confirm Password is required.")
+    if (cpwd == "") {
+        setError("cpwd", "Confirm Password is required.")
         clearDone("cpwd");
         return false
     }
-    else if (pwd!=cpwd) {
-        setError("cpwd","Both Password is Not Same.")
+    else if (pwd != cpwd) {
+        setError("cpwd", "Both Password is Not Same.")
         clearDone("cpwd");
     }
-    else{
+    else {
         clearError("cpwd")
         setDone("cpwd");
     }
     return true;
 }
 
-function validateDobAndGender(dob,gender,file){
+function validateDobAndGender(dob, gender, file) {
 
-    if (dob=="") {
-        setError("dob","Date of Birth is required.")
+    const enteredDate = new Date(dob);
+    const currentDate = new Date();
+
+    if (dob == "") {
+        setError("dob", "Date of Birth is required.")
         clearDone("dob")
-
     }
-    else{
+    else if (enteredDate > currentDate) {
+        setError("dob", "Please Enter Valid Date.")
+        clearDone("dob")
+    }
+    else {
         clearError("dob")
         setDone("dob")
 
     }
-    if (file=="") {
-        setError("file","File is required.")
+    if (file == "") {
+        setError("file", "File is required.")
         clearDone("file")
     }
-    else{
+    else {
         clearError("file")
         setDone("file")
 
     }
-    if (gender=="") {
-        setError("gender","Gender is required.")
+    if (gender == "") {
+        setError("gender", "Gender is required.")
         clearDone("gender");
         return false
     }
-    else{
+    else {
         clearError("gender")
         setDone("gender");
     }
     return true;
 }
 
-function validateEmailAndPhone(phone,email,cemail) {
-    if (phone=="") {
-        setError("phone","Phone is required.")
+function validateEmailAndPhone(phone, email, cemail) {
+    if (phone == "") {
+        setError("phone", "Phone is required.")
         clearDone("phone")
     }
-    else if (phone.length<10) {
-        setError("phone","Phone Number Length Should be 10")
+    else if (phone.length < 10) {
+        setError("phone", "Phone Number Length Should be 10")
         clearDone("phone");
     }
-    else{
+    else {
         clearError("phone")
         setDone("phone")
     }
     let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
-    if (email=="") {
-        setError("email","Email is required.")
+    if (email == "") {
+        setError("email", "Email is required.")
     }
     else if (!regexp.test(email)) {
-        setError("email","Email is Not in Proper Format.")
+        setError("email", "Email is Not in Proper Format.")
         clearDone("email")
     }
-    else{
+    else {
         clearError("email")
         setDone("email")
     }
-    if (cemail=="") {
-        setError("cemail","Confirm Email is required.")
+    if (cemail == "") {
+        setError("cemail", "Confirm Email is required.")
         clearDone("cemail")
     }
-    else if (email!=cemail) {
-        setError("cemail","Both Email Should Be Same")
+    else if (email != cemail) {
+        setError("cemail", "Both Email Should Be Same")
         clearDone("cemail")
     }
-    else{
+    else {
         clearError("cemail")
         setDone("cemail")
     }
     return true;
 }
 
-function validateAddress(address,city,state,code,country) {
- 
-    if (address=="") {
-        setError("address","Address is required.")
+function validateAddress(address, city, state, code, country) {
+
+    if (address == "") {
+        setError("address", "Address is required.")
+        clearDone("address")
     }
-    else{
+    else {
         clearError("address")
         setDone("address")
 
     }
-    if (city=="Select City") {
-        setError("city","City is required.")
+    if (city == "Select City") {
+        setError("city", "City is required.")
         clearDone("city")
     }
-    else{
+    else {
         clearError("city")
         setDone("city")
 
     }
-    if (state=="Select State") {
-        setError("state","State is required.")
+    if (state == "Select State") {
+        setError("state", "State is required.")
         clearDone("state")
     }
-    else{
+    else {
         clearError("state")
         setDone("state")
     }
-    if (code=="") {
-        setError("code","Postal Code is required.")
+    if (code == "") {
+        setError("code", "Postal Code is required.")
         clearDone("code");
     }
-    else{
+    else {
         clearError("code");
         setDone("code");
     }
-    if (country=="") {
-        setError("country","Country is required.")
+    if (country == "") {
+        setError("country", "Country is required.")
         clearDone("country")
     }
-    else{
+    else {
         clearError("country")
         setDone("country")
     }
