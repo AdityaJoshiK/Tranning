@@ -45,6 +45,10 @@ body {
 
 }
 
+.form__pwd{
+    margin-top: 2vh;
+}
+
 .form__title {
     margin-bottom: 3vh;
 }
@@ -205,7 +209,7 @@ a {
 
 .icon__lock {
     position: absolute;
-    top: 95px;
+    top: 27px;
     right: 5px;
 }
 
