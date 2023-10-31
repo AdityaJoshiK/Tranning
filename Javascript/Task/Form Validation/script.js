@@ -108,9 +108,12 @@ pwdicon.addEventListener('click',()=>{
 
     if (pwd.type=="password") {
         pwd.type = "text"
+        pwdicon.children[0].className='fa-regular fa-eye-slash'
     }
     else{
         pwd.type="password"
+        pwdicon.children[0].className='fa-regular fa-eye'
+        // console.log()
     }
 })
 cpwdicon.addEventListener('click',()=>{
@@ -118,9 +121,11 @@ cpwdicon.addEventListener('click',()=>{
 
     if (cpwd.type=="password") {
         cpwd.type = "text"
+        cpwdicon.children[0].className="fa-regular fa-eye-slash"
     }
     else{
         cpwd.type="password"
+        cpwdicon.children[0].className='fa-regular fa-eye'
     }
 })
 
