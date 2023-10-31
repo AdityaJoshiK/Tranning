@@ -161,7 +161,6 @@ function register() {
     console.log(addressdata)
 
     if (name && passwd && dobdate && emailphone && addressdata) {
-        alert("true")
         const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
         alert("Data Submitted, Your Data is:\n" + data);
