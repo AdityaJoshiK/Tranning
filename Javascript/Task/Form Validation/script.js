@@ -212,11 +212,11 @@ function validatePassword(pwd,cpwd){
 
     }
     if (cpwd=="") {
-        setError("cpwd","Password is required.")
+        setError("cpwd","Confirm Password is required.")
         return false
     }
     else if (pwd!=cpwd) {
-        setError("cpwd","Confirm Password is required.")
+        setError("cpwd","Both Password is Not Same.")
     }
     else{
         clearError("cpwd")
@@ -261,8 +261,13 @@ function validateEmailAndPhone(phone,email,cemail) {
     else{
         clearError("phone")
     }
+    let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
+    debugger
     if (email=="") {
         setError("email","Email is required.")
+    }
+    else if (!regexp.test(email)) {
+        setError("email","Email is Not in Proper Format.")
     }
     else{
         clearError("email")
@@ -271,7 +276,6 @@ function validateEmailAndPhone(phone,email,cemail) {
         setError("cemail","Confirm Email is required.")
     }
     else if (email!=cemail) {
-        alert(email,cemail)
         setError("cemail","Both Email Should Be Same")
     }
     else{

@@ -64,10 +64,22 @@ body{
     width: 90%;
 }
 
+.reg__input{
+    padding: 4px;
+}
+
 .form__input{
     display: flex;
     justify-content: space-between;
     position: relative;
+}
+
+.form__input label{
+    font-size: 3vh;
+}
+
+.chk label{
+    font-size: 2vh;
 }
 
 .input-container {
@@ -145,12 +157,17 @@ textarea,.code,.country{
     width: 100%;
 }
 
+textarea{
+    padding: 32px !important;
+}
+
 .address__data{
     /* display: flex; */
 }
 
-.address__data label{
+.address__data input{
     /* display: block; */
+    padding: 5px;
 }
 
 .address__city input{
