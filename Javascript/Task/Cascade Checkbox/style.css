@@ -17,5 +17,19 @@
 .box{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.box h3{
+    width: 10%;
+}
+
+.box div{
+    width: 50%;
+}
+
+.checkboxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2vw;
 }

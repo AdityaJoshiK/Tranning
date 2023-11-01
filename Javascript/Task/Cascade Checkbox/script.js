@@ -76,15 +76,18 @@ const cityCheckbox = document.getElementById("city");
 console.log(countryCheckbox)
 
 data.countries.forEach(element => {
+    const div = document.createElement("div")
     const input = document.createElement("input");
     const label = document.createElement("label");
 
+    div.className="chk"
     input.type = "checkbox";
     input.value = element.name;
     label.textContent = element.name;
 
-    countryCheckbox.appendChild(input);
-    countryCheckbox.appendChild(label);
+    countryCheckbox.appendChild(div);
+    div.appendChild(input);
+    div.appendChild(label);
 });
 
 countryCheckbox.addEventListener('change', (e) => {
@@ -102,15 +105,18 @@ countryCheckbox.addEventListener('change', (e) => {
             if (country.name == selectedCountry) {
                 country.states.forEach((state) => {
                     console.log(state)
+                    const div = document.createElement("div")
                     const input = document.createElement("input");
                     const label = document.createElement("label");
 
+                    div.className="chk";
                     input.type = "checkbox";
                     input.value = state.name;
                     label.textContent = state.name;
 
-                    stateCheckbox.appendChild(input);
-                    stateCheckbox.appendChild(label);
+                    stateCheckbox.appendChild(div);
+                    div.appendChild(input);
+                    div.appendChild(label);
                 })
             }
         })
@@ -127,15 +133,18 @@ stateCheckbox.addEventListener('change',(e)=>{
         country.states.forEach((state)=>{
             if(state.name==selectedState){
                 state.cities.forEach((city)=>{
+                    const div = document.createElement("div")
                     const input = document.createElement("input");
                     const label = document.createElement("label");
 
+                    div.className="chk";
                     input.type = "checkbox";
                     input.value = city;
                     label.textContent = city;
 
-                    cityCheckbox.appendChild(input);
-                    cityCheckbox.appendChild(label);
+                    cityCheckbox.appendChild(div);
+                    div.appendChild(input);
+                    div.appendChild(label);
                 })
             }
         })
