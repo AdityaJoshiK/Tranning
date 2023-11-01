@@ -258,6 +258,7 @@ stateCheckbox.addEventListener('change', (e) => {
                         div.appendChild(label);
                     }
                     if (!checked) {
+                        selectedStates.delete(state.name)
                         if (i != state.cities.length) {
                             document.querySelector(`#${city.replace(/\s/g, '')}`).parentNode.remove()
                             i++;
