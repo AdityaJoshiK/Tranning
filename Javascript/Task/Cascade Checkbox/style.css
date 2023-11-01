@@ -11,7 +11,7 @@
     justify-content: center;
     width: 100%;
     gap: 15vh;
-    margin-top: 25vh;
+    margin-block: 25vh;
 }
 
 .box{
