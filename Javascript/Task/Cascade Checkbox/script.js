@@ -68,8 +68,6 @@ const data = {
     ]
 }
 
-//now i want to above same using checkox instead of dropdown but in this code label is not coming
-
 const countryCheckbox = document.getElementById("country");
 const stateCheckbox = document.getElementById("state");
 const cityCheckbox = document.getElementById("city");
@@ -92,19 +90,23 @@ data.countries.forEach(element => {
 
 countryCheckbox.addEventListener('change', (e) => {
     console.log(e)
-    if (!e.target.checked) {
+    // if (!e.target.checked) {
         
-        stateCheckbox.innerHTML=""
-    }
-    if (e.target.checked) {
-
+    //     stateCheckbox.innerHTML=""
+    // }
+    const checked = e.target.checked;
+            
+    i=0;
         const selectedCountry = e.target.value;
         console.log(e.target.value)
         data.countries.forEach((country) => {
 
             if (country.name == selectedCountry) {
                 country.states.forEach((state) => {
-                    console.log(state)
+                    // alert(country.states.length)
+            
+                    if (e.target.checked) {
+
                     const div = document.createElement("div")
                     const input = document.createElement("input");
                     const label = document.createElement("label");
@@ -112,16 +114,33 @@ countryCheckbox.addEventListener('change', (e) => {
                     div.className="chk";
                     input.type = "checkbox";
                     input.value = state.name;
+                    input.id = state.name.replace(/\s/g, '');
                     label.textContent = state.name;
 
                     stateCheckbox.appendChild(div);
                     div.appendChild(input);
-                    div.appendChild(label);
+                    div.appendChild(label);}
+                    if (!checked) {
+                        console.log(checked)
+                        if(i!=country.states.length){
+                            console.log(i)
+                            console.log(state.name)
+                            debugger
+                            document.querySelector(`#${state.name.replace(/\s/g, '')}`).parentNode.remove()
+                            i++;
+                        }
+                        else{
+                            checked=true;
+                        }
+                        
+                    }
                 })
             }
         })
-    }
+    
 })
+
+//i want to remove middle space in "Tamil Nadu" in javascript
 
 stateCheckbox.addEventListener('change',(e)=>{
     const selectedState = e.target.value;
