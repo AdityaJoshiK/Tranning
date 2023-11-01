@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15vh;
+    margin-top: 25vh;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

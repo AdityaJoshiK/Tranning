@@ -96,8 +96,8 @@ countrydropdown.addEventListener("change", () => {
                 const option = document.createElement("option")
                 option.text = n.name;
                 stateDropdown.appendChild(option)
+                return;
             })
-            return true
         }
     });
 });
@@ -113,6 +113,7 @@ stateDropdown.addEventListener('change', () => {
                     const option = document.createElement("option")
                     option.text = city;
                     cityDropdown.appendChild(option)
+                    return;
                 })
             }
         })
