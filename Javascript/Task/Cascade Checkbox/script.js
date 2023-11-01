@@ -170,22 +170,16 @@ data.countries.forEach(element => {
 var selectedCountry;
 
 countryCheckbox.addEventListener('change', (e) => {
-    // console.log(e)
-    // if (!e.target.checked) {
 
-    //     stateCheckbox.innerHTML=""
-    // }
     const checked = e.target.checked;
     console.log(checked)
 
     i = 0;
     selectedCountry = e.target.value;
-    // console.log(e.target.value)
     data.countries.forEach((country) => {
 
         if (country.name == selectedCountry) {
             country.states.forEach((state) => {
-                // alert(country.states.length)
                 let cityLength = state.cities.length;
                 let j = 0;
 
