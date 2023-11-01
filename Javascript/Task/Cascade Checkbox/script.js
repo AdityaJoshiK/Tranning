@@ -57,7 +57,7 @@ const data = {
             "states": [
                 {
                     "name": "São Paulo",
-                    "cities": ["São Paulo", "Campinas", "Santo André"]
+                    "cities": ["São Paulon", "Campinas", "Santo André"]
                 },
                 {
                     "name": "Rio de Janeiro",
