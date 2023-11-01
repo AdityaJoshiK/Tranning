@@ -61,7 +61,7 @@ const data = {
                 },
                 {
                     "name": "Rio de Janeiro",
-                    "cities": ["Rio de Janeiro", "Niterói", "Nova Iguaçu"]
+                    "cities": ["Rio", "Niterói", "Nova Iguaçu"]
                 }
             ]
         }
@@ -71,14 +71,14 @@ const data = {
 const countryCheckbox = document.getElementById("country");
 const stateCheckbox = document.getElementById("state");
 const cityCheckbox = document.getElementById("city");
-console.log(countryCheckbox)
+// console.log(countryCheckbox)
 
 data.countries.forEach(element => {
     const div = document.createElement("div")
     const input = document.createElement("input");
     const label = document.createElement("label");
 
-    div.className="chk"
+    div.className = "chk"
     input.type = "checkbox";
     input.value = element.name;
     label.textContent = element.name;
@@ -88,30 +88,35 @@ data.countries.forEach(element => {
     div.appendChild(label);
 });
 
+var selectedCountry;
+
 countryCheckbox.addEventListener('change', (e) => {
-    console.log(e)
+    // console.log(e)
     // if (!e.target.checked) {
-        
+
     //     stateCheckbox.innerHTML=""
     // }
     const checked = e.target.checked;
-            
-    i=0;
-        const selectedCountry = e.target.value;
-        console.log(e.target.value)
-        data.countries.forEach((country) => {
+    console.log(checked)
 
-            if (country.name == selectedCountry) {
-                country.states.forEach((state) => {
-                    // alert(country.states.length)
-            
-                    if (e.target.checked) {
+    i = 0;
+    selectedCountry = e.target.value;
+    // console.log(e.target.value)
+    data.countries.forEach((country) => {
+
+        if (country.name == selectedCountry) {
+            country.states.forEach((state) => {
+                // alert(country.states.length)
+                let cityLength = state.cities.length;
+                let j=0;
+
+                if (e.target.checked) {
 
                     const div = document.createElement("div")
                     const input = document.createElement("input");
                     const label = document.createElement("label");
 
-                    div.className="chk";
+                    div.className = "chk";
                     input.type = "checkbox";
                     input.value = state.name;
                     input.id = state.name.replace(/\s/g, '');
@@ -119,54 +124,74 @@ countryCheckbox.addEventListener('change', (e) => {
 
                     stateCheckbox.appendChild(div);
                     div.appendChild(input);
-                    div.appendChild(label);}
+                    div.appendChild(label);
+                }
+                if (!checked) {
+                    if (i != country.states.length) {
+                        document.querySelector(`#${state.name.replace(/\s/g, '')}`).parentNode.remove()
+                        i++;
+                    }
+                    else {
+                        checked = true;
+                    }
+                    console.log(state,selectedStates.get(state.name))
+                    console.log(selectedStates.get(state.name.replace(/\s/g, '')))
+                    console.log(selectedStates)
+                    if (selectedStates.has(state.name)) {
+                        // alert("true")
+                            state.cities.forEach((city)=>{
+                                document.querySelector(`#${city.replace(/\s/g, '')}`).parentNode.remove()
+                                selectedStates.delete(state.name)
+                            })
+                    }
+                }
+                
+            })
+        }
+    })
+})
+let selectedStates=new Map();
+stateCheckbox.addEventListener('change', (e) => {
+     const selectedState = e.target.value;
+    
+    const checked = e.target.checked;
+    i=0;
+
+    data.countries.forEach((country) => {
+        country.states.forEach((state) => {
+            if (state.name == selectedState) {
+                selectedStates.set(selectedState,country.name)
+                state.cities.forEach((city) => {
+                    if (checked) {
+                        const div = document.createElement("div")
+                        const input = document.createElement("input");
+                        const label = document.createElement("label");
+
+                        div.className = "chk";
+                        input.type = "checkbox";
+                        input.value = city;
+                        input.id = city.replace(/\s/g, '');
+                        label.textContent = city;
+
+                        cityCheckbox.appendChild(div);
+                        div.appendChild(input);
+                        div.appendChild(label);
+                    }
                     if (!checked) {
-                        console.log(checked)
-                        if(i!=country.states.length){
-                            console.log(i)
-                            console.log(state.name)
-                            debugger
-                            document.querySelector(`#${state.name.replace(/\s/g, '')}`).parentNode.remove()
+                        if (i != state.cities.length) {
+                            document.querySelector(`#${city.replace(/\s/g, '')}`).parentNode.remove()
                             i++;
                         }
-                        else{
-                            checked=true;
+                        else {
+                            checked = true;
                         }
-                        
+    
                     }
-                })
-            }
-        })
-    
-})
 
-//i want to remove middle space in "Tamil Nadu" in javascript
-
-stateCheckbox.addEventListener('change',(e)=>{
-    const selectedState = e.target.value;
-
-    if (e.target.checked) {
-        
-    
-    data.countries.forEach((country)=>{
-        country.states.forEach((state)=>{
-            if(state.name==selectedState){
-                state.cities.forEach((city)=>{
-                    const div = document.createElement("div")
-                    const input = document.createElement("input");
-                    const label = document.createElement("label");
-
-                    div.className="chk";
-                    input.type = "checkbox";
-                    input.value = city;
-                    label.textContent = city;
-
-                    cityCheckbox.appendChild(div);
-                    div.appendChild(input);
-                    div.appendChild(label);
                 })
             }
         })
     })
-}
+
+    console.log(selectedStates)
 })
