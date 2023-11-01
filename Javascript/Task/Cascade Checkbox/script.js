@@ -109,7 +109,7 @@ const data = {
             "states": [
                 {
                     "name": "Tokyo",
-                    "cities": ["Tokyo", "Yokohama", "Chiba"]
+                    "cities": ["Tokyo City", "Yokohama", "Chiba"]
                 },
                 {
                     "name": "Osaka",
