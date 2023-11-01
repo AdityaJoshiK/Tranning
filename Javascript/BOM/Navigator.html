@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // let key="age"
+    // let value=18
+    let key="-/*:=;"//not work to solve use encode and decode
+    let value=18
+
+    // console.log(document.cookie)
+    // document.cookie=`${key}=${value}`
+    document.cookie=`${encodeURIComponent(key)}=${encodeURIComponent(value)}`
+    console.log(document.cookie)
+</script>
+</html>
