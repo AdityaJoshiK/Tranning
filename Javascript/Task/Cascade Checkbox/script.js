@@ -134,7 +134,7 @@ const data = {
             "name": "Mexico",
             "states": [
                 {
-                    "name": "Mexico",
+                    "name": "Yucatan",
                     "cities": ["Mexico City", "Ecatepec", "Nezahualcóyotl"]
                 },
                 {
