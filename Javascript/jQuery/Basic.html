@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="para1">This is para 1</p>
+    <p class="para2">This is para 2</p>
+    <p class="para3">This is para 3</p>
+    <p class="para4">This is para 4</p>
+
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        //both is print same means we can usejQuery using $ or jQuery
+        console.log($)
+        console.log(jQuery)
+
+        //syntax
+        //$('selector').action() - action is like function  
+
+        $('p').click(function() {
+            console.log("Clicked")
+            // $('p').hide(); //now if you click on one para then it will hide all to resolve this use this keywoard
+            $(this).hide();
+        })
+    </script>
+</html>
