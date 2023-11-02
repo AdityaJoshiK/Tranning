@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <style>
+    #container {
+  position: relative;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="menu-button">Click me</div>
+    <div id="menu">This is the menu</div>
+  </div>
+  <script>
+    const container = document.getElementById('container');
+const menuButton = document.getElementById('menu-button');
+const menu = document.getElementById('menu');
+
+let isOpen = false;
+
+menuButton.addEventListener('click', () => {
+  if (isOpen) {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'block';
+  }
+  isOpen = !isOpen;
+});
+
+
+
+  </script>
+</body>
+</html>

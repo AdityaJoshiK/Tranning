@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    console.log("first")
+    let url = "https://630f6650498924524a8ce046.mockapi.io/laptop";
+    let d = fetch((url)).then(response=>{
+        return response.json()
+    }).then(data=>{
+        console.log(data)
+        return data
+    })
+    
+</script>
+</body>
+</html>
