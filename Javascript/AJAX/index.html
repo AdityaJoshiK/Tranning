@@ -6,25 +6,50 @@
     <title>Document</title>
 </head>
 <body>
-    <buttton id="getdata">Get Data</buttton>
+    <button id="getdata">Get Data</button>
 </body>
 <script>
     let button = document.getElementById("getdata");
-    button.addEventListener('click',()=>{
+    button.addEventListener('click', function () {
         let xhr = new XMLHttpRequest();
 
-        xhr.open('get',"https://630f6650498924524a8ce046.mockapi.io/laptop",true)
-        xhr.setRequestHeader('Content-type','application/json')
+        xhr.open('get', "https://630f6650498924524a8ce046.mockapi.io/laptop", true);
+        xhr.setRequestHeader('Content-type', 'application/json');
+        let data;
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                console.log(xhr.responseText);
+               data = xhr.responseText;
+                console.log(xhr.status);
+            console.log(xhr.statusText)
+  console.log(JSON.parse(data))
+            
+                // console.log("Data added");
+            } else {
+                console.log("Request failed with status: " + xhr.status);
+            }
+        };
 
-        xhr.onload = ()=>{
-            console.log(this.responseText)
+        xhr.onerror = function () {
+            console.log(xhr.statusText)
         }
 
-        xhr.onprogress = ()=>{
-            console.log("In Progress")
-        }
+        xhr.onprogress = function () {
+            console.log("In Progress");
+        };
 
-        xhr.send()
-    })
+        let parms = `{
+    "name": "New ASUS ROG Zephyrus G14",
+    "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1658747220/Croma%20Assets/Computers%20Peripherals/Laptop/Images/259162_uctb1q.png/mxw_2048,f_auto",
+    "price": "20,49,990",
+    "ram": "32GB",
+    "hdd": "2TB",
+    "processor": "AMD Ryzen 7 6800HS",
+    "graphicscard": "NVIDIA GeForce RTX 3060 Graphics",
+    "id": "25"
+  },`
+        // xhr.send(parms);
+        xhr.send();
+    });
 </script>
 </html>
