@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm">
+        <label>Uname:</label>
+        <input type="text" id="uname"/>
+        <label>pwd:</label>
+        <input type="password" id="pwd"/>
+        <input type="submit"/>
+    </form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        console.log("first");
+
+        let form = $('form[name="myForm"]');
+        console.log(form); // Verify that "form" is a valid selection
+
+        // Attach an "input" event handler to the form
+        form.on('input', function () {
+            console.log("User input detected");
+            let uname = $('#uname');
+        console.log(uname.val())
+            let pwd = $('#pwd');
+        console.log(pwd.val())
+        });
+    })
+</script>
+</html>

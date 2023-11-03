@@ -25,7 +25,7 @@
         $(".box").mouseenter(
             function() {
                 
-                console.log("Enter")
+                console.log("Enter");
             }   )
         $(".box").mouseleave( function() {
                 
@@ -51,6 +51,9 @@
                 console.log("Mouse Down Using Multiple Event Handlers")
             }
         })
+
+        //to remove events added using on we can use off
+        // $('.box').off("click mouseleave") //it will remove both event from box
 
         $('.box').hide(1000,()=>{
             console.log("HIde completed")

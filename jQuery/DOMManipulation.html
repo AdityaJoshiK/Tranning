@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" style="border:1px solid">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quod ullam sequi saepe earum magnam, omnis nam ex! Iusto, autem. Quos suscipit ipsa nulla fugit repudiandae cum ullam consequatur quidem sed laborum sequi saepe nesciunt sunt eos blanditiis eum, adipisci facilis incidunt similique ratione! Molestiae quae consequatur cum maiores neque.
+    </div>
+    
+    <br/>
+    <button id="appendbtn">Append</button>
+    <button id="prepandbtn">Prepand</button>
+    <br/>
+    <br/>
+    <button id="appendto">Append To</button>
+    <button id="prepandto">Prepand To</button>
+    <br/>
+    <br/>
+    <button id="afterbtn">After</button>
+    <button id="beforebtn">Before</button>
+
+    <p class="empty">Para</p>
+    <p class="remove">Para</p>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    //append & Prepand
+    //append add element after the given element's content
+    //prepand add element befoore the given element's content
+
+    //after & before
+     //after add element after the given element
+    //befoew add element before the given element
+    $(document).ready(function () {
+        console.log($("body").html()) //gives html
+        console.log($(".box").text()) //gives text
+        $("#appendbtn").click(function() {
+            $(".box").append("<h3>Appended</h3>")
+        })
+        $("#prepandbtn").click(function() {
+            $(".box").prepend("<h3>Prepended</h3>")
+        })
+        $("#afterbtn").click(function() {
+            $(".box").after("<h3>After</h3>")
+        })
+        $("#beforebtn").click(function() {
+            $(".box").before("<h3>Before</h3>")
+        })
+
+        $(".empty").empty(); //tag remains but content empty
+        $(".remove").remove(); //tag removed from dom
+
+        $("#appendbtn").addClass("btn");
+        $("#appendbtn").css("padding","10px")//add single property
+        $("#appendbtn").css({"margin":"5px","color":"white","background-color":"green"})
+        // $(".appendbtn").removeClass("btn");
+
+        $("#appendto").click(function() {
+            $("<h3>Append To</h3>").appendTo(".box")
+        })
+        $("#prepandto").click(function() {
+            $("<h3>Prepand To</h3>").prependTo(".box")
+        })
+
+        
+    })
+</script>
+</html>
