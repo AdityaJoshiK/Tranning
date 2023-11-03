@@ -24,6 +24,13 @@
 
     <p class="empty">Para</p>
     <p class="remove">Para</p>
+
+    <p id="replace">This is content</p>
+    <p class="replaceall">This is content</p>
+    <p class="replaceall">This is content</p>
+<p>Wrapinner Demo</p>
+
+    <div class="wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cum!</div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -48,10 +55,12 @@
         $("#afterbtn").click(function() {
             $(".box").after("<h3>After</h3>")
         })
+        
         $("#beforebtn").click(function() {
             $(".box").before("<h3>Before</h3>")
         })
 
+        $(".beforebtn").remove();
         $(".empty").empty(); //tag remains but content empty
         $(".remove").remove(); //tag removed from dom
 
@@ -67,7 +76,18 @@
             $("<h3>Prepand To</h3>").prependTo(".box")
         })
 
-        
+        $("#replace").replaceWith("hi i am replaced")
+
+        $("<div>Replace</div>").replaceAll(".replaceall")//replace all not replace content it only replace tag to replace content ther can be only with replaceWith
+
+        $(".wrap").wrap("<b></b>") 
+        // $(".wrap").unwrap() it remove it's parent element and unwrap it
+
+        // $("div").wrapAll("<b></b>"); //wrap all elements
+
+        //all above wrap element but wrapinner element add new tag inside given element
+        $("p").wrapInner("<b></b>")
+
     })
 </script>
 </html>

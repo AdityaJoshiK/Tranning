@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 10px solid;
+            padding: 15px;
+            /* box-sizing: border-box; */
+            margin: 20px;
+        }
+
+        .boxnew{
+            position: relative;
+            border: 1px solid;
+            padding: 10px;
+            height: 80px;
+        }
+
+        p{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente excepturi sunt soluta nisi repellendus magni, facere velit quo cumque nemo?
+    </div>
+
+    <div class="boxnew">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus dolores officiis, impedit ex repellat eius vitae explicabo qui! Magnam!</p>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        
+        console.log($(".box").width()); //content width
+        console.log($(".box").innerWidth());//width with padding
+        console.log($(".box").outerWidth());//width with bordwer
+        console.log($(".box").outerWidth(true));//width with outside margin
+        console.log("\n")
+        console.log($(".box").height()); //content height
+        console.log($(".box").innerHeight());//height with padding
+        console.log($(".box").outerHeight());//height with bordwer
+        console.log($(".box").outerHeight(true));//height with outside margin
+
+        let pos = $(".boxnew").position();
+
+        console.log("top:"+pos.top)
+        console.log("left:"+pos.left)
+
+        let offset =$("p").offset();
+        console.log("top:"+offset.top)
+        console.log("left:"+offset.left)
+        // p.css({"top":pos.top,"left":pos.left});
+    })
+</script>
+</html>
