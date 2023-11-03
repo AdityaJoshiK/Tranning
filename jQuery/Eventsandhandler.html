@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim maxime excepturi, unde eos aliquid eveniet. Praesentium possimus, impedit maiores dolorem dignissimos perspiciatis autem obcaecati dolorum saepe reprehenderit nesciunt velit recusandae placeat officiis sunt, accusantium nam beatae fugit totam reiciendis laudantium cum repellendus. Beatae voluptatum ducimus placeat, veniam quas voluptas fugiat!
+    </div>
+    <div id='wiki'>
+
+
+        Code With Harry(1770–3854) was the first person born in British America to be ordained a Catholic priest. Originally from the colonial Province of Maryland, he became influential in the establishment of Catholicism in Washington, D.C. through his parochial service and founding of several educational institutions. He was the second pastor of St. Patrick's Church, the President of Georgetown College (later known as Georgetown University), and the head of the Washington Catholic Seminary, which became Gonzaga College High School, in addition to being co-founder and president of the Washington Library Company, the first public library in the District of Columbia. He founded several orphanages, schools, and parishes, and was co-director of the District of Columbia Public Schools. In 1832 he officiated at the wedding of a French diplomat and Mary Anne Lewis, a ward of President Andrew Jackson, in the first Catholic ceremony to be held in the White House. 
+    </div>
+    <button id='but'>Toggle now</button>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        // $(".box").click(console.log("clicked"))
+        $(".box").mouseenter(
+            function() {
+                
+                console.log("Enter")
+            }   )
+        $(".box").mouseleave( function() {
+                
+                console.log("Leave")
+            }  )
+
+        $(".box").on('click',function() {
+            console.log("clicked");
+        })//event handler
+
+        //also add multiple event handlers
+        $('.box').on({
+            click : function () {
+                console.log("Clicked Using Multiple Event Handlers")
+            },
+            mouseleave : function() {
+                console.log("Leave Using Multiple Event Handlers")
+            },
+            mouseup : function() {
+                console.log("Mouse Up Using Multiple Event Handlers")
+            },
+            mousedown : function() {
+                console.log("Mouse Down Using Multiple Event Handlers")
+            }
+        })
+
+        $('.box').hide(1000,()=>{
+            console.log("HIde completed")
+        });
+        $('.box').show(1000,()=>{
+            console.log("Show completed")
+        });
+
+        $('#but').click(function () {
+            console.log("called")
+            $("#wiki").fadeToggle(2000)
+        })
+
+    })
+</script>
+</html>

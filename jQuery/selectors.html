@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="numbers">
+        <li id="one">one</li>
+        <li>two
+            <a href="#" target="_blank">Click</a>
+        </li>
+        <li>three
+            <input type="button" value="button"/>
+        </li>
+        <li>four
+            <table border="1">
+                <tr>
+                    <td>One</td>
+                    <td>One</td>
+                </tr>
+                <tr>
+                    <td>Two</td>
+                    <td>Two</td>
+                </tr>
+                <tr>
+                    <td>Three</td>
+                    <td>Three</td>
+                </tr>
+                <tr>
+                    <td>Four</td>
+                    <td>Four</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $('ul').click(function () {
+            console.log("Click")
+        })
+        $('ul.numbers').click(function () {
+            console.log("Clicked")
+        })
+        $('ul li').click(function () {
+            console.log("Clicked ul")
+        })
+        $('ul li:first-child').click(function () {
+            console.log("Clicked First");
+        })
+        $('ul li#one').click(function () {
+            console.log("Clicked One Using id")
+        })
+        $('[href]').click(function () {
+            console.log("Clicked on link")
+        })
+        $(':button').click(function () {//select all input elements with type button
+            console.log("Clicked on button")
+        })
+        $("tr").ready(function() {
+            console.log("All Tr Selected");
+        })
+        $("td:odd").ready(function() {
+            console.log("All Odd td Selected");
+        })
+        $("tr:even").ready(function() {
+            console.log("All even Tr Selected");
+        })
+    })
+</script>
+</html>
