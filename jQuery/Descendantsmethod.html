@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-outer,#outer,#inner{
+            border: 2px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-outer">
+        <h2>Main Outer</h2>
+        <div id="outer">
+            <h2>Outer</h2>
+            <div id="inner">
+                <h2 id="child-head">Inner</h2>
+                <div>A</div>
+                <div>B</div>
+                <div id="child-C">C</div>
+                <div>D</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+        // $("#main-outer").children().css("background","red"); //it's do all children's background color red
+        // $("#main-outer").children("#outer").css("background","red"); //it's do all children's background color red
+        $("#main-outer").find("#inner").css("background","red"); //it's do all children's background color red
+
+
+        //children vs find
+        // children method find inside it's element's if ul>li>a div>a if we select ul.children("a") then it do only ul color red but find method also search inside other element like it also change div a's background color to red
+    })
+</script>
+</html>

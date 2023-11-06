@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-outer,
+        #outer,
+        #inner {
+            border: 2px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-outer">
+        <h2>Main Outer</h2>
+        <div id="outer">
+            <h2>Outer</h2>
+            <div id="inner">
+                <h2 id="child-head">Inner</h2>
+                <div class="test">A</div>
+                <div>B</div>
+                <div id="child-C">C</div>
+                <div class="test">D</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        // $("#child-C").siblings().css("background","red") //all siblings bg red
+        // $("#child-C").siblings(".test").css("background","red") // only .test class bg red
+        $("#child-C").next().css("background","red") // only next siblings bg red
+        // $("#child-C").nextAll().css("background","red") //  next All siblings bg red
+        $("#child-C").nextUntil(".test").css("background","red") //  next All siblings bg red
+        $("#child-C").prev().css("background","red") // only prev siblings bg red
+        // $("#child-C").prevAll().css("background","red") // all prev siblings bg red
+        $("#child-C").prevUntil(".test").css("background","red") // only prev siblings bg red
+    })
+</script>
+
+</html>

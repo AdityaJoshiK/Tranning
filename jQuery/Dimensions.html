@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            width: 2500px;
+            height: 1500px;
+        }
         .box{
             border: 10px solid;
             padding: 15px;
@@ -32,6 +36,9 @@
     <div class="boxnew">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus dolores officiis, impedit ex repellat eius vitae explicabo qui! Magnam!</p>
     </div>
+
+    <button id="scrollLeft">Scroll Left</button>
+    <button id="scrolltop">Scroll Top</button>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -58,6 +65,19 @@
         console.log("top:"+offset.top)
         console.log("left:"+offset.left)
         // p.css({"top":pos.top,"left":pos.left});
+
+        //scroll - get detail of scroll and set scroll
+        $(window).scroll(function () {
+            console.log("Left",$(window).scrollLeft())
+            console.log("Top",$(window).scrollTop())
+        })
+
+        $("#scrollLeft").on('click',()=>{
+            $(window).scrollLeft(500);
+        })
+        $("#scrolltop").on('click',()=>{
+            $(window).scrollTop(500);
+        })
     })
 </script>
 </html>

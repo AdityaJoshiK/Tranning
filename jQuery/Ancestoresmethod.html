@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-outer,#outer,#inner{
+            border: 2px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-outer">
+        <h2>Main Outer</h2>
+        <div id="outer" style="position: relative;">
+            <h2>Outer</h2>
+            <div id="inner">
+                <h2 id="child-head">Inner</h2>
+                <div>A</div>
+                <div>B</div>
+                <div id="child-C">C</div>
+                <div>D</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        // $("#child-C").parent().css("background","red"); //it change background color of it's parent to red
+        // $("#child-C").parents().css("background","red"); //it change background color of it's all parents to red
+        // $("#child-C").parentsUntil("#main-outer").css("background","red"); //it change background color of it's all parents to red until main-outer
+        // $("#child-C").closest("div").css("background","red"); //it change background color of it's closet div
+        $("#child-C").offsetParent().css("background","red"); //it change background color of it's closet parent who's position is set
+        
+    })
+</script>
+
+</html>

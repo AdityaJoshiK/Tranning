@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima labore sit similique non neque veniam soluta dolores illo.</p>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li><div class="hastest">third</div></li>
+        <li>fourth</li>
+    </ul>
+    <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima labore sit similique non neque veniam soluta dolores illo.</p>
+    <p class="test">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima labore sit similique non neque veniam soluta dolores illo.</p>
+    <p class="demo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima labore sit similique non neque veniam soluta dolores illo.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima labore sit similique non neque veniam soluta dolores illo.</p>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $("p").first().css("background","red")
+        $("p").last().css("background","red")
+        
+        //we can target other element using eq method where we provide index
+        
+        $("p").eq(1).css("background","yellow")
+
+        //we can get specific element by filter
+        $("p").filter(".test").css("background","green")
+        // $("p").not(".demo").css("background","green") //it apply to all other than element wit class demo
+
+        $("li").slice(0,2).css("background","orange"); //first 2 elemets's css change
+
+        $("li").has(".hastest").css("background","pink")
+        console.log( $("li").is(".hastest"))
+    })
+</script>
+</html>
