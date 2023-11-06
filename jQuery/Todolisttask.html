@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="text" placeholder="Add New Item"/>
+    <input type="submit" id="add"  value="Add"/>
+
+    <ul>
+    </ul>
+    
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#add').click(function (e) {
+            let item = $("#text").val()
+            $("ul").append(`<li>${item}</li><button type="button" value="Remove">Remove</button>`);
+            console.log($("#text").val())
+            $("#text").val('');
+         })
+    })
+</script>
+</html>

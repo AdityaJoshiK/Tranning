@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h3>Current MSB : <span id="data"></span></h3>
+        <button onclick="clickHandler('inc')" value="inc">+</button>
+        <button onclick="clickHandler('dec')" value="dec">-</button>
+
+    </div>
+</body>
+
+<script>
+    let url = "https://6548db23dd8ebcd4ab23c010.mockapi.io/MyData";
+
+    const newurl = "https://6548db23dd8ebcd4ab23c010.mockapi.io/MyData/1"; // Specify the URL for the specific ID
+
+    let getdata; // Define a variable to store the data
+
+    let text = document.getElementById("data");
+
+
+    fetch(url)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            getdata = data; // Store the data in the variable
+            text.innerText = getdata[0].id;
+
+        })
+        .catch(function (error) {
+            console.error("Error fetching data: " + error);
+        });
+
+
+    function clickHandler(action) {
+        console.log("Action: " + action);
+
+        fetch(url)
+            .then(function (response) {
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch data.");
+                }
+                return response.json();
+            })
+            .then(function (currentData) {
+                //   console.log("Currentdata",currentData)
+                //   console.log("Currentdata[0] b",currentData[0].msb)
+                console.log(action)
+                if (action == "inc") {
+                    console.log("Incrementing")
+                    currentData[0].msb++; // Increment "msb" by 1
+                }
+                else {
+                    console.log("Decrementing")
+                    currentData[0].msb--; // Increment "msb" by 1
+
+                }
+                
+                text.innerText = currentData[0].msb;
+                //   console.log("Currentdata[0] a",currentData[0].msb)
+
+                // Step 3: Send a PUT request to update the "msb" value
+                fetch(newurl, {
+                    method: "PUT", // Use the PUT method to update the existing data
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ msb: currentData[0].msb }), // Update only the "msb" property
+                })
+                    .then(function (response) {
+                        if (!response.ok) {
+                            throw new Error("Failed to update data.");
+                        }
+                        return response.json();
+                    })
+                    .then(function (updatedData) {
+                        console.log("Data updated:", updatedData);
+                    })
+                    .catch(function (error) {
+                        console.error("Error updating data:", error);
+                    });
+            })
+            .catch(function (error) {
+                console.error("Error fetching data:", error);
+            });
+    }
+
+
+
+
+</script>

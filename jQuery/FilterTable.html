@@ -48,14 +48,19 @@
         let tabel=$("#datatable");
         $("#search").on('keyup',()=>{
             let search = $("#search").val();
-            
+
+
             $("tr").each(function (value) {
+                if (value!=0) {
+                
+                console.log($("tr").eq(value).html())
                 if ($("tr").eq(value).text().toLowerCase().indexOf(search.toLowerCase()) !== -1){
                     $("tr").eq(value).show();
                 }
                 else{
                     $("tr").eq(value).hide();
                 }
+            }
             })
         })
     })
