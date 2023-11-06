@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ajax"></div>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "animation.html",
+            type: 'GET',
+            dataType: 'text',
+            success: successFunc,
+            error: errorFunc,
+            complete: function (xhr,satus) {
+                console.log("Request is completed")
+            }
+        })
+    })
+
+    function successFunc(result) {
+        $(".ajax").html(result);
+        console.log("Success",result);
+    }
+
+    function errorFunc(xhr,status,error) {
+        console.log("Error",xhr,status,error)
+    }
+</script>
+</html>
