@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+
+    <div class="text"></div>
+
+    <a href="www.google.com">google</a>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, ad.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, ad.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, ad.</p>
+    </div>
+
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+    </ul>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        $(document).mousemove(function(event) {
+            // console.log("X:",event.pageX+"     Y:"+event.pageY)
+        })
+
+        $(".box").on('dblclick mouseover mouseout mousedown',function(event) {
+            $(".text").html(event.type + " "+event.which+" "+event.target.nodeName)
+        })
+        $(".box").on('click ',function(event) {
+            alert("div clicked")
+        })
+
+        $("a").on("click",function (event) {
+            event.preventDefault();
+            console.log(event.isDefaultPrevented());
+        })
+
+        $("p").on("click",function (event) {
+            //it first print p clicked then div clicked to stop this we use event.stopprogratiion()
+            event.stopPropagation();
+            alert("P Clicked")
+        })
+
+        $("li").each(function (i) { //i means index
+            console.log($(this).text(),i)
+            $(this).on("click",{value:i},function (event) {
+                console.log(event.data.value)
+            })
+        })
+    })
+</script>
+</html>
