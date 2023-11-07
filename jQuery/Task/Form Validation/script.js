@@ -130,18 +130,18 @@ $(document).ready(function () {
 
 function register(e) {
 
-    name = validateFirstandLastName(fname, lname, checked);
+    namev = validateFirstandLastName(fname, lname, checked);
     passwd = validatePassword(pwd, cpwd, terms);
     dobdate = validateDobAndGender(dob, gender, file);
     emailphone = validateEmailAndPhone(phone, email, cemail)
     addressdata = validateAddress(address, city, state, code, country)
     const fileName = file.split('\\').pop();
-    console.log(name)
+    console.log(namev)
     console.log(passwd)
     console.log(dobdate)
     console.log(emailphone)
     console.log(addressdata)
-    if (name && passwd && dobdate && emailphone && addressdata && (e == undefined || e == "")) {
+    if (namev && passwd && dobdate && emailphone && addressdata && (e == undefined || e == "")) {
         const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
         //Send Email to User
@@ -185,271 +185,309 @@ function register(e) {
 
 function validateFirstandLastName(fname, lname, checked) {
     let pattern = /^[A-Za-z]+$/;
+    let fnamevalidate=false;
+    let lnamevalidate=false;
+    let checkedvalidate=false;
     if (fname == "") {
         setError("fname", "First Name is required.")
         clearDone("fname");
+        fnamevalidate=false;
     }
     else if (!pattern.test(fname)) {
         setError("fname", "First Name Can't be Number or Special Chaarcter.")
         clearDone("fname");
+        fnamevalidate=false;
     }
     else if (fname.length < 5) {
         setError("fname", "First Name Length Should be minimum 5.")
         clearDone("fname");
+        fnamevalidate=false;
     }
     else if (fname.length > 10) {
         setError("fname", "First Name Length Should be maximum 10.")
         clearDone("fname");
+        fnamevalidate=false;
     }
     else {
         clearError("fname");
         setDone("fname");
+        fnamevalidate=true;
 
     }
     if (lname == "") {
         setError("lname", "Last Name is required.")
         clearDone("lname");
+        lnamevalidate=false;
 
     }
     else if (!pattern.test(lname)) {
         setError("lname", "Last Name Can't be Number or Special Chaarcter.")
-
         clearDone("lname");
+        lnamevalidate=false;
     }
     else if (lname.length < 5) {
         setError("lname", "First Name Length Should be minimum 5.")
         clearDone("fname");
+        lnamevalidate=false;
     }
     else if (lname.length > 10) {
         setError("lname", "Last Name Length Should be maximum 10.")
         clearDone("lname");
+        lnamevalidate=false;
     }
     else {
         clearError("lname");
         setDone("lname");
+        lnamevalidate=true;
     }
     if (checked.length == "") {
         setError("chkerror", "Please Select at least one Hobby.")
         clearDone("chkerror");
+        checkedvalidate=false;
     }
     else {
         clearError("chkerror")
         setDone("chkerror");
+        checkedvalidate=true;
+    }
+    if (!checkedvalidate || !fnamevalidate || !lnamevalidate) {
+        return false
     }
     return true;
 }
 
 function validatePassword(pwd, cpwd, terms) {
     let regexp = /[A-Z]+[a-z]+[!@#$%^&*]\d/
-    let isTrue = false;
+    let pwdvalidate = false;
+    let cpwdvalidate = false;
+    let termsvalidate = false;
     if (pwd == "") {
         setError("pwd", "Password Can't Be Empty")
         clearDone("pwd");
+        pwdvalidate = false;
     }
     else if (!regexp.test(pwd) || pwd.length <= 8) {
         setError("pwd", "Password Should Contains Captial,Small,Number and Special Character and length 8")
         clearDone("pwd");
+        pwdvalidate = false;
     }
     else {
         clearError("pwd")
         isTrue = true;
         setDone("pwd");
-
+        pwdvalidate = true;
     }
     if (pwd == "" || !isTrue) {
         setError("cpwd", "Please First Enter Password Properly.")
         clearDone("cpwd");
+        cpwdvalidate = false;
     }
     else if (cpwd == "") {
         setError("cpwd", "Confirm Password is required.")
         clearDone("cpwd");
+        cpwdvalidate = false;
     }
     else if (pwd != cpwd) {
         setError("cpwd", "Both Password is Not Same.")
         clearDone("cpwd");
+        cpwdvalidate = false;
     }
     else {
         clearError("cpwd")
         setDone("cpwd");
+        cpwdvalidate = true;
     }
     if (terms) {
         clearError("terms");
-
+        termsvalidate = true;
     }
     else {
         setError("terms", "You Must Accept Terms And Conditions.");
+        termsvalidate = false;;
+    }
+    if (!pwdvalidate || !cpwdvalidate || !termsvalidate) {
         return false;
     }
     return true;
 }
 
 function validateDobAndGender(dob, gender, file) {
-    let validate = false;
+    let dobvalidate = false;
+    let gendervalidate = false;
+    let filevalidate = false;
     const enteredDate = new Date(dob);
     const currentDate = new Date();
 
     if (dob == "") {
         setError("dob", "Date of Birth is required.")
         clearDone("dob")
-        validate = false;
+        dobvalidate = false;
     }
     else if (enteredDate > currentDate) {
         setError("dob", "Please Enter Valid Date.")
         clearDone("dob")
-        validate = false;
+        dobvalidate = false;
     }
     else {
         clearError("dob")
         setDone("dob")
-        validate = true;
+        dobvalidate = true;
     }
+    console.log("file"+file)
     if (file == "") {
         setError("file", "File is required.")
         clearDone("file")
-        validate = false;
+        filevalidate = false;
     }
     else {
         clearError("file")
         setDone("file")
-        validate = true;
+        filevalidate = true;
     }
     if (gender == "") {
         setError("gender", "Gender is required.")
         clearDone("gender");
-        validate = false;
+        gendervalidate = false;
     }
     else {
         clearError("gender")
         setDone("gender");
-        validate = true;
+        gendervalidate = true;
     }
-    if (!validate) {
+    
+    if (!dobvalidate || !gendervalidate || !filevalidate) {
         return false;
     }
     return true;
 }
 
 function validateEmailAndPhone(phone, email, cemail) {
-    let solved = false;
+    let phonevalidate=false;
+    let emailvalidate=false;
+    let cemailvalidate=false;
     if (phone == "") {
         setError("phone", "Phone is required.")
         clearDone("phone")
-        solved = false;
+        phonevalidate = false;
     }
     else if (phone.length < 10) {
         setError("phone", "Phone Number Length Should be 10")
         clearDone("phone");
-        solved = false;
+        phonevalidate = false;
     }
     else {
         clearError("phone")
         setDone("phone")
-        solved = true;
+        phonevalidate = true;
     }
     let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
     if (email == "") {
         setError("email", "Email is required.")
-        solved = false;
+        emailvalidate = false;
     }
     else if (!regexp.test(email)) {
         setError("email", "Email is Not in Proper Format.")
         clearDone("email")
-        solved = false;
+        emailvalidate = false;
     }
     else {
         clearError("email")
         setDone("email")
-        solved = true;
+        emailvalidate = true;
     }
     if (cemail == "") {
         setError("cemail", "Confirm Email is required.")
         clearDone("cemail")
-        solved = false;
+        cemailvalidate = false;
     }
     else if (email != cemail) {
         setError("cemail", "Both Email Should Be Same")
         clearDone("cemail")
-        solved = false;
+        cemailvalidate = false;
     }
     else {
         clearError("cemail")
         setDone("cemail")
-        solved = true;
+        cemailvalidate = true;
     }
-    if (!solved) {
+    if (!phonevalidate || !emailvalidate || !cemailvalidate) {
         return false;
     }
     return true;
 }
 
 function validateAddress(address, city, state, code, country) {
-    let validate = false;
+    let addressvalidate = false;
+    let cityvalidate = false;
+    let statevalidate = false;
+    let codevalidate = false;
+    let countryvalidate = false;
     if (address == "") {
         setError("address", "Address is required.")
         clearDone("address")
-        validate = false;
+        addressvalidate = false;
     }
     else {
         clearError("address")
         setDone("address")
-        validate = true;
+        addressvalidate = true;
 
     }
     if (city == "Select City" || city == "") {
         setError("city", "City is required.")
         clearDone("city")
-        validate = false;
+        cityvalidate = false;
     }
     else {
         clearError("city")
         setDone("city")
-        validate = true;
+        cityvalidate = true;
 
     }
     if (state == "Select State" || state == "") {
         setError("state", "State is required.")
         clearDone("state")
-        validate = false;
+        statevalidate = false;
     }
     else {
         clearError("state")
         setDone("state")
-        validate = true;
+        statevalidate = true;
     }
     let pattern = /^\d{6}$/;
     if (code == "") {
         setError("code", "Postal Code is required.")
         clearDone("code");
-        validate = false;
+        codevalidate = false;
     }
     else if (!pattern.test(code)) {
         setError("code", "Postal Code is Not in Proper format.")
         clearDone("code");
-        validate = false;
+        codevalidate = false;
     }
     else {
         clearError("code");
         setDone("code");
-        validate = true;
+        codevalidate = true;
     }
     let countryp = /^[A-Za-z]+$/;
     if (country == "") {
         setError("country", "Country is required.")
         clearDone("country")
-        validate = false;
+        countryvalidate = false;
     }
     else if (!countryp.test(country)) {
         setError("country", "Please Enter Proper Country Name.")
         clearDone("country")
-        validate = false;
+        countryvalidate = false;
     }
     else {
         clearError("country")
         setDone("country")
-        validate = true;
+        countryvalidate = true;
     }
 
-    if (!validate) {
+    if (!addressvalidate || !cityvalidate || !statevalidate || !codevalidate || !countryvalidate) {
         return false;
     }
     return true;
