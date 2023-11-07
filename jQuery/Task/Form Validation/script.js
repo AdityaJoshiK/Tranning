@@ -52,7 +52,6 @@ function login(e) {
 }
 // Login Form Validation End
 
-
 // Common Functions Start
 function setError(element, error) {
     let errortag = $(`.regerror__${element}`);
@@ -98,39 +97,39 @@ let terms = "";
 let checked = [];
 
 $(document).ready(function () {
-regform.on('input', function (e) {
-    fname = regform[0].fname.value;
-    lname = regform[0].lname.value;
-    pwd = regform[0].pwd.value;
-    cpwd = regform[0].cpwd.value;
-    dob = regform[0].dob.value;
-    gender = regform[0].gender.value;
-    phone = regform[0].phone.value;
-    email = regform[0].email.value;
-    cemail = regform[0].cemail.value;
-    address = regform[0].address.value;
-    city = regform[0].city.value;
-    state = regform[0].state.value;
-    code = regform[0].code.value;
-    country = regform[0].country.value;
-    chks = regform[0].hobby;
-    file = regform[0].file.value;
-    terms = regform[0].terms.checked;
-    checked = [];
+    regform.on('input', function (e) {
+        fname = regform[0].fname.value;
+        lname = regform[0].lname.value;
+        pwd = regform[0].pwd.value;
+        cpwd = regform[0].cpwd.value;
+        dob = regform[0].dob.value;
+        gender = regform[0].gender.value;
+        phone = regform[0].phone.value;
+        email = regform[0].email.value;
+        cemail = regform[0].cemail.value;
+        address = regform[0].address.value;
+        city = regform[0].city.value;
+        state = regform[0].state.value;
+        code = regform[0].code.value;
+        country = regform[0].country.value;
+        chks = regform[0].hobby;
+        file = regform[0].file.value;
+        terms = regform[0].terms.checked;
+        checked = [];
 
-    $("[name|='hobby']").each(function(i) {
-        const element = $("[name|='hobby']")[i];
-        if (element.checked) {
-            checked.push(element.value)
-        }
+        $("[name|='hobby']").each(function (i) {
+            const element = $("[name|='hobby']")[i];
+            if (element.checked) {
+                checked.push(element.value)
+            }
+        })
+
+        register(e);
     })
-
-    register(e);
-}) 
 })
 
 function register(e) {
-       
+
     name = validateFirstandLastName(fname, lname, checked);
     passwd = validatePassword(pwd, cpwd, terms);
     dobdate = validateDobAndGender(dob, gender, file);
@@ -142,19 +141,19 @@ function register(e) {
     console.log(dobdate)
     console.log(emailphone)
     console.log(addressdata)
-    if (name && passwd && dobdate && emailphone && addressdata && (e==undefined || e=="")) {
-        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`; 
+    if (name && passwd && dobdate && emailphone && addressdata && (e == undefined || e == "")) {
+        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
 
         //Send Email to User
         Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "support@aditya.com",
-            Password : "95925A6454AD1084D736E481AC4C09BD7C4F",
+            Host: "smtp.elasticemail.com",
+            Username: "support@aditya.com",
+            Password: "95925A6454AD1084D736E481AC4C09BD7C4F",
             Port: 2525,
-            From : "demoabcd17@gmail.com",
-            To : `${email}`,
-            Subject : "Thanks For Submiiting Form",
-            Body : `<html>
+            From: "demoabcd17@gmail.com",
+            To: `${email}`,
+            Subject: "Thanks For Submiiting Form",
+            Body: `<html>
             <body>
             <h3>Your Submitted Data is</h3><br/> 
                 <p><strong>First Name:</strong> ${fname}</p>
@@ -177,11 +176,11 @@ function register(e) {
             </body>
         </html>`
         }).then(
-        message => alert("Data is Submitted Sucessfully, Please Check Your Mail. (If you not found then please check your Spam Folder)")
+            message => alert("Data is Submitted Sucessfully, Please Check Your Mail. (If you not found then please check your Spam Folder)")
         );
         console.clear();
         alert("Data Submitted, Your Data is:\n" + data);
-        
+
         return true;
     }
     return false;
@@ -201,7 +200,7 @@ function validateFirstandLastName(fname, lname, checked) {
         setError("fname", "First Name Length Should be minimum 5.")
         clearDone("fname");
     }
-    else if (fname.length>10) {
+    else if (fname.length > 10) {
         setError("fname", "First Name Length Should be maximum 10.")
         clearDone("fname");
     }
@@ -224,7 +223,7 @@ function validateFirstandLastName(fname, lname, checked) {
         setError("fname", "First Name Length Should be minimum 5.")
         clearDone("fname");
     }
-    else if (lname.length>10) {
+    else if (lname.length > 10) {
         setError("lname", "Last Name Length Should be maximum 10.")
         clearDone("lname");
     }
@@ -256,11 +255,11 @@ function validatePassword(pwd, cpwd, terms) {
     }
     else {
         clearError("pwd")
-        isTrue=true;
+        isTrue = true;
         setDone("pwd");
 
     }
-    if (pwd=="" || !isTrue) {
+    if (pwd == "" || !isTrue) {
         setError("cpwd", "Please First Enter Password Properly.")
         clearDone("cpwd");
     }
@@ -288,44 +287,44 @@ function validatePassword(pwd, cpwd, terms) {
 }
 
 function validateDobAndGender(dob, gender, file) {
-    let validate=false;
+    let validate = false;
     const enteredDate = new Date(dob);
     const currentDate = new Date();
 
     if (dob == "") {
         setError("dob", "Date of Birth is required.")
         clearDone("dob")
-        validate=false;
+        validate = false;
     }
     else if (enteredDate > currentDate) {
         setError("dob", "Please Enter Valid Date.")
         clearDone("dob")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("dob")
         setDone("dob")
-        validate=true;
+        validate = true;
     }
     if (file == "") {
         setError("file", "File is required.")
         clearDone("file")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("file")
         setDone("file")
-        validate=true;
+        validate = true;
     }
     if (gender == "") {
         setError("gender", "Gender is required.")
         clearDone("gender");
-        validate=false;
+        validate = false;
     }
     else {
         clearError("gender")
         setDone("gender");
-        validate=true;
+        validate = true;
     }
     if (!validate) {
         return false;
@@ -334,51 +333,51 @@ function validateDobAndGender(dob, gender, file) {
 }
 
 function validateEmailAndPhone(phone, email, cemail) {
-    let solved=false;
+    let solved = false;
     if (phone == "") {
         setError("phone", "Phone is required.")
         clearDone("phone")
-        solved=false;
+        solved = false;
     }
     else if (phone.length < 10) {
         setError("phone", "Phone Number Length Should be 10")
         clearDone("phone");
-        solved=false;
+        solved = false;
     }
     else {
         clearError("phone")
         setDone("phone")
-        solved=true;
+        solved = true;
     }
     let regexp = /^([a-z0-9\.-]+)@([a-z0.9-]+).([a-z]{2,8})(.[a-z]{2,8})$/
     if (email == "") {
         setError("email", "Email is required.")
-        solved=false;
+        solved = false;
     }
     else if (!regexp.test(email)) {
         setError("email", "Email is Not in Proper Format.")
         clearDone("email")
-        solved=false;
+        solved = false;
     }
     else {
         clearError("email")
         setDone("email")
-        solved=true;
+        solved = true;
     }
     if (cemail == "") {
         setError("cemail", "Confirm Email is required.")
         clearDone("cemail")
-        solved=false;
+        solved = false;
     }
     else if (email != cemail) {
         setError("cemail", "Both Email Should Be Same")
         clearDone("cemail")
-        solved=false;
+        solved = false;
     }
     else {
         clearError("cemail")
         setDone("cemail")
-        solved=true;
+        solved = true;
     }
     if (!solved) {
         return false;
@@ -387,70 +386,70 @@ function validateEmailAndPhone(phone, email, cemail) {
 }
 
 function validateAddress(address, city, state, code, country) {
-    let validate=false;
+    let validate = false;
     if (address == "") {
         setError("address", "Address is required.")
         clearDone("address")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("address")
         setDone("address")
-        validate=true;
+        validate = true;
 
     }
-    if (city == "Select City" || city=="") {
+    if (city == "Select City" || city == "") {
         setError("city", "City is required.")
         clearDone("city")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("city")
         setDone("city")
-        validate=true;
+        validate = true;
 
     }
-    if (state == "Select State" || state=="") {
+    if (state == "Select State" || state == "") {
         setError("state", "State is required.")
         clearDone("state")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("state")
         setDone("state")
-        validate=true;
+        validate = true;
     }
     let pattern = /^\d{6}$/;
     if (code == "") {
         setError("code", "Postal Code is required.")
         clearDone("code");
-        validate=false;
+        validate = false;
     }
     else if (!pattern.test(code)) {
         setError("code", "Postal Code is Not in Proper format.")
         clearDone("code");
-        validate=false;
+        validate = false;
     }
     else {
         clearError("code");
         setDone("code");
-        validate=true;
+        validate = true;
     }
     let countryp = /^[A-Za-z]+$/;
     if (country == "") {
         setError("country", "Country is required.")
         clearDone("country")
-        validate=false;
+        validate = false;
     }
     else if (!countryp.test(country)) {
         setError("country", "Please Enter Proper Country Name.")
         clearDone("country")
-        validate=false;
+        validate = false;
     }
     else {
         clearError("country")
         setDone("country")
-        validate=true;
+        validate = true;
     }
 
     if (!validate) {
@@ -460,16 +459,40 @@ function validateAddress(address, city, state, code, country) {
 }
 
 //Toggle Password Icons
-const pwdicon = $(".eyeicon")[0];
-const cpwdicon = $(".eyeicon")[1];
+// const pwdicon = $(".eyeicon")[0];
+// const cpwdicon = $(".eyeicon")[1];
 
-$(pwdicon).click(function() {
-    const pwd = $("#pwd")[0];
-    console.log(pwd.type)
-    if ($("pwd").type=="password") {
-        pwd.type = "text"
-        $(pwdicon).children.addClass("fa-regular fa-eye-slash")
+// $(pwdicon).click(function () {
+//     const pwd = $("#pwd")[0];
+//     console.log(pwd.type)
+//     if ($("pwd").type == "password") {
+//         pwd.type = "text"
+//         $(pwdicon).children.addClass("fa-regular fa-eye-slash")
+//     }
+// });
+$(".eyeicon:eq(0)").click(function () {
+    const pwd = $("#pwd");
+
+    if (pwd.attr("type") === "password") {
+        pwd.attr("type", "text");
+        $(".eyeicon:eq(0) i").attr("class", "fa-regular fa-eye-slash");
+    } else {
+        pwd.attr("type", "password");
+        $(".eyeicon:eq(0) i").attr("class", "fa-regular fa-eye");
     }
 });
+
+$(".eyeicon:eq(1)").click(function () {
+    const cpwd = $("#cpwd");
+
+    if (cpwd.attr("type") === "password") {
+        cpwd.attr("type", "text");
+        $(".eyeicon:eq(1) i").attr("class", "fa-regular fa-eye-slash");
+    } else {
+        cpwd.attr("type", "password");
+        $(".eyeicon:eq(1) i").attr("class", "fa-regular fa-eye");
+    }
+});
+
 
 //Registration Form Validaton End
