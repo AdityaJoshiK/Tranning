@@ -97,6 +97,7 @@ let file = "";
 let terms = "";
 let checked = [];
 
+$(document).ready(function () {
 regform.on('input', function (e) {
     fname = regform[0].fname.value;
     lname = regform[0].lname.value;
@@ -125,9 +126,11 @@ regform.on('input', function (e) {
     })
 
     register(e);
+}) 
 })
 
 function register(e) {
+       
     name = validateFirstandLastName(fname, lname, checked);
     passwd = validatePassword(pwd, cpwd, terms);
     dobdate = validateDobAndGender(dob, gender, file);
@@ -140,9 +143,43 @@ function register(e) {
     console.log(emailphone)
     console.log(addressdata)
     if (name && passwd && dobdate && emailphone && addressdata && (e==undefined || e=="")) {
-        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`;
-
+        const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`; 
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "support@aditya.com",
+            Password : "95925A6454AD1084D736E481AC4C09BD7C4F",
+            Port: 2525,
+            From : "demoabcd17@gmail.com",
+            To : `${email}`,
+            Subject : "Thanks For Submiiting Form",
+            Body : `<html>
+            <body>
+            <h3>Your Submitted Data is</h3><br/> 
+                <p><strong>First Name:</strong> ${fname}</p>
+                <p><strong>Last Name:</strong> ${lname}</p>
+                <p><strong>Password:</strong> ${pwd}</p>
+                <p><strong>Confirm Password:</strong> ${cpwd}</p>
+                <p><strong>Date of Birth:</strong> ${dob}</p>
+                <p><strong>Gender:</strong> ${gender}</p>
+                <p><strong>Phone:</strong> ${phone}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Confirm Email:</strong> ${cemail}</p>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>City:</strong> ${city}</p>
+                <p><strong>State:</strong> ${state}</p>
+                <p><strong>Postal Code:</strong> ${code}</p>
+                <p><strong>Country:</strong> ${country}</p>
+                <p><strong>File:</strong> ${file}</p>
+                <p><strong>Filename:</strong> ${fileName}</p>
+                <p><strong>Hobbies:</strong> ${checked}</p>
+            </body>
+        </html>`
+        }).then(
+        message => alert("Data is Submitted Sucessfully, Please Check Your Mail. (If you not found then please check your Spam Folder")
+        );
+        console.clear();
         alert("Data Submitted, Your Data is:\n" + data);
+        
         return true;
     }
     return false;
@@ -338,7 +375,6 @@ function validateAddress(address, city, state, code, country) {
         setDone("address")
 
     }
-    console.log(city)
     if (city == "Select City" || city=="") {
         setError("city", "City is required.")
         clearDone("city")
