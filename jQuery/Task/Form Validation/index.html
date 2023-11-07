@@ -26,16 +26,16 @@
                     <!-- Login Form Start -->
                     <form method="post" name="loginform" class="loginform" action="#">
                         <label>Username</label>
-                        <input type="text" name="uname" class="login__input form__control" />
+                        <input type="text" name="uname" class="login__input form__control" min="5" max="10" />
                         <i class="fa-solid fa-user icon__user"></i>
-                        <div class="error error__uname"></div>
+                        <div class="error regerror__uname"></div>
 
                         <div class="form__main">
                             <label class="form__control">Password</label>
-                            <input type="password" name="pwd" class="login__input form__control" />
+                            <input type="password" name="loginpwd" class="login__input form__control" />
                             <i class="fa-solid fa-lock icon__lock"></i>
                         </div>
-                        <div class="error error__pwd"></div>
+                        <div class="error regerror__loginpwd"></div>
 
                         <div class="loginbtns">
 
@@ -76,7 +76,7 @@
                 <div class="form__title regform__control">
                     Registartion
                 </div>
-                   <!-- Registartion Form Start -->
+                <!-- Registartion Form Start -->
                 <form method="post" name="regform" class="regform" action="#">
                     <div class="form__main">
                         <div class="form__input">
@@ -323,6 +323,9 @@
         <!-- Main Section End-->
     </section>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
 
