@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,318 @@
         href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
-    
+    <section class="container">
+        <!-- Main Section Start-->
+        <section class="main">
+            <!-- Login Section Start -->
+            <section class="main__left">
+                <section class="main__form">
+                    <div class="form__title form__control">
+                        My Account Login
+                    </div>
+                    <!-- Login Form Start -->
+                    <form method="post" name="loginform" class="loginform" action="#">
+                        <label>Username</label>
+                        <input type="text" name="uname" class="login__input form__control" />
+                        <i class="fa-solid fa-user icon__user"></i>
+                        <div class="error error__uname"></div>
+
+                        <div class="form__main">
+                            <label class="form__control">Password</label>
+                            <input type="password" name="pwd" class="login__input form__control" />
+                            <i class="fa-solid fa-lock icon__lock"></i>
+                        </div>
+                        <div class="error error__pwd"></div>
+
+                        <div class="loginbtns">
+
+                            <button class="btn btn__warning form__control" onclick="return login()">Log in</button>
+                            <a href="#" class="form__control">Forgot Password?</a>
+                        </div>
+                        <div class="form__signup">
+                            <p>Or Sign In With</p>
+                            <div class="signup__icons">
+                                <div class="signup__box signup__twitter">
+                                    <span class="icon">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </span>
+                                    <span class="text">Twitter</span>
+                                </div>
+                                <div class="signup__box signup__facebook">
+                                    <span class="icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </span>
+                                    <span class="text">Facebook</span>
+                                </div>
+                                <div class="signup__box signup__google">
+                                    <span class="icon">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </span>
+                                    <span class="text">Google+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Login Form End -->
+                </section>
+            </section>
+            <!-- Login Section End -->
+
+            <!-- Registartion Section Start -->
+            <section class="main__right">
+                <div class="form__title regform__control">
+                    Registartion
+                </div>
+                   <!-- Registartion Form Start -->
+                <form method="post" name="regform" class="regform" action="#">
+                    <div class="form__main">
+                        <div class="form__input">
+                            <label>First Name*</label>
+                            <div class="input-container">
+                                <input type="text" name="fname" id="fname" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__fname">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__fname"></div>
+                    <div class="form__main">
+                        <div class="form__input" style="position: relative;">
+                            <label>Last Name*</label>
+                            <div class="input-container" style="position: relative;">
+                                <input type="text" name="lname" id="lname" class="reg__input regform__control" />
+                            </div>
+                        </div>
+
+                        <span class="doneicon regdone__lname">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__lname"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>Password*</label>
+                            <div class="input-container">
+                                <input type="password" id="pwd" name="pwd" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="eyeicon">
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span class="doneicon regdone__pwd">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__pwd"></div>
+                    <div class="form__main">
+                        <div class="form__input">
+                            <label>Confirm Password*</label>
+                            <div class="input-container">
+                                <input type="password" id="cpwd" name="cpwd" class="reg__input regform__control" />
+                            </div>
+
+                        </div>
+                        <span class="eyeicon">
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span class="doneicon regdone__cpwd">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__cpwd"></div>
+                    <div class="form__main ">
+                        <div class="form__input dob">
+                            <label>Date Of Birth*</label>
+                            <div class="input-container">
+                                <input type="date" name="dob" class="reg__input regform__control" />
+                            </div>
+
+                        </div>
+                        <span class="doneicon regdone__dob">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__dob"></div>
+                    <div class="form__main ">
+                        <div class="form__input gender">
+                            <label>Gender*</label>
+                            <div class="g" style="margin-left: 50px;">
+                                <input type="radio" name="gender" value="Male" />Male
+                                <input type="radio" name="gender" value="Female" />Female
+                            </div>
+                            <div class="regerror"></div>
+                        </div>
+                        <span class="doneicon regdone__gender">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+
+                    <div class="regerror regerror__gender"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>Mobile/Cell No.*</label>
+                            <div class="input-container">
+                                <input type="number" name="phone" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__phone">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__phone"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>Email*</label>
+                            <div class="input-container">
+                                <input type="email" name="email" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__email">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__email"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>Confirm Email*</label>
+                            <div class="input-container">
+                                <input type="email" name="cemail" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__cemail">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__cemail"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>File*</label>
+                            <div class="input-container">
+                                <input type="file" name="file" class="reg__input regform__control" />
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__file">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__file"></div>
+                    <div class="form__main ">
+                        <div class="form__input">
+                            <label>Select Hobby</label>
+                            <div class="chks" name="chks">
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby1" name="hobby" value="Writing">
+                                    <label for="hobby1">Writing</label><br>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby2" name="hobby" value="Blogging">
+                                    <label for="hobby2">Blogging</label><br>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby3" name="hobby" value="Learning">
+                                    <label for="hobby3">Learning</label>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby4" name="hobby" value="Photography">
+                                    <label for="hobby3">Photography</label>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby5" name="hobby" value="Travel">
+                                    <label for="hobby3">Travel</label>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby6" name="hobby" value="Yoga">
+                                    <label for="hobby3">Yoga</label>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby7" name="hobby" value="Art">
+                                    <label for="hobby3">Art</label>
+                                </div>
+                                <div class="chk">
+                                    <input type="checkbox" id="hobby8" name="hobby" value="Dance">
+                                    <label for="hobby3">Dance</label>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="doneicon regdone__chkerror">
+                            <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                        </span>
+                    </div>
+                    <div class="regerror regerror__chkerror"></div>
+                    <div class="form__input">
+                        <label>Address*</label>
+                        <div class="address__fields">
+                            <div class="address form__main">
+                                <textarea name="address" class="reg__input"></textarea>
+                                <span class="doneicon regdone__address">
+                                    <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                                </span>
+                                <div class="regerror regerror__address"></div>
+                            </div>
+                            <div class="address__city form__main">
+                                <label>City*</label>
+                                <br />
+                                <select name="city">
+                                    <option selected disabled>Select City</option>
+                                    <option>Delhi</option>
+                                    <option>Bangalore</option>
+                                    <option>Hyderabad</option>
+                                </select>
+                                <span class="doneicon regdone__city">
+                                    <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                                </span>
+                            </div>
+                            <div class="address__state form__main">
+                                <label>State*</label>
+                                <br />
+                                <select name="state">
+                                    <option selected disabled>Select State</option>
+                                    <option>Gujarat</option>
+                                    <option>UP</option>
+                                    <option>Punjab</option>
+                                </select>
+                                <span class="doneicon regdone__state">
+                                    <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                                </span>
+                            </div>
+                            <div class="regerror regerror__city"></div>
+                            <div class="regerror regerror__state"></div>
+                            <div class="address__code form__main">
+                                <label>Zip Code*</label>
+                                <input type="number" class="code" name="code" />
+                                <span class="doneicon regdone__code">
+                                    <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                                </span>
+                                <div class="regerror regerror__code"></div>
+                            </div>
+                            <div class="address__country form__main">
+                                <label>Country*</label>
+                                <input type="text" class="country" name="country" />
+                                <span class="doneicon regdone__country">
+                                    <i class="fa-solid fa-circle-check" style="color: #24ae66;"></i>
+                                </span>
+                                <div class="regerror regerror__country"></div>
+                            </div>
+                            <div class="terms">
+                                <input type="checkbox" name="terms" />
+                                Agreed Terms and Conditions
+                                <div class="regerror regerror__terms"></div>
+                            </div>
+                            <button class="btn btn__sucess form__control" onclick="return register()">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- Registartion Form End -->
+            </section>
+            <!-- Registartion Section End -->
+        </section>
+        <!-- Main Section End-->
+    </section>
 </body>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+
 </html>
