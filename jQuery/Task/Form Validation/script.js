@@ -144,6 +144,8 @@ function register(e) {
     console.log(addressdata)
     if (name && passwd && dobdate && emailphone && addressdata && (e==undefined || e=="")) {
         const data = `First Name: ${fname}\nLast Name: ${lname}\nPassword: ${pwd}\nConfirm Password: ${cpwd}\nDate of Birth: ${dob}\nGender: ${gender}\nPhone: ${phone}\nEmail: ${email}\nConfirm Email: ${cemail}\nAddress: ${address}\nCity: ${city}\nState: ${state}\nPostal Code: ${code}\nCountry: ${country}\nFile: ${file}\nFilename: ${fileName}\nHobbies: ${checked}`; 
+
+        //Send Email to User
         Email.send({
             Host : "smtp.elasticemail.com",
             Username : "support@aditya.com",
