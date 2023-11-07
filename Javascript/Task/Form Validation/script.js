@@ -13,7 +13,6 @@ function login() {
     const uerror = document.querySelector(".error__uname")
     const pwderror = document.querySelector(".error__pwd")
 
-    debugger
     if (uname == "") {
         uerror.innerHTML = "Username Field Is Required"
         return false;
