@@ -217,7 +217,7 @@ function validateFirstandLastName(fname, lname, checked) {
         clearDone("lname");
     }
     else if (lname.length < 5) {
-        setError("fname", "First Name Length Should be minimum 5.")
+        setError("lname", "First Name Length Should be minimum 5.")
         clearDone("fname");
     }
     else if (lname.length > 10) {
