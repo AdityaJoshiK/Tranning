@@ -459,17 +459,7 @@ function validateAddress(address, city, state, code, country) {
 }
 
 //Toggle Password Icons
-// const pwdicon = $(".eyeicon")[0];
-// const cpwdicon = $(".eyeicon")[1];
 
-// $(pwdicon).click(function () {
-//     const pwd = $("#pwd")[0];
-//     console.log(pwd.type)
-//     if ($("pwd").type == "password") {
-//         pwd.type = "text"
-//         $(pwdicon).children.addClass("fa-regular fa-eye-slash")
-//     }
-// });
 $(".eyeicon:eq(0)").click(function () {
     const pwd = $("#pwd");
 
