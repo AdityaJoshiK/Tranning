@@ -38,7 +38,7 @@ function login() {
 
 function setError(element, error) {
     let errortag = document.querySelector(`.regerror__${element}`)
-    errortag.innerHTML = error;
+    errortag.innerHTML = error
 }
 
 function setDone(element) {

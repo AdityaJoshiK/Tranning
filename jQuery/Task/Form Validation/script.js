@@ -3,15 +3,16 @@ let uname="",loginpwd="";
 
 // Login Form Validation Start
 $(document).ready(function () {
-    form.on("keyup",function() {
+    form.on("keyup",function(e) {
         uname = form[0].uname.value;
         loginpwd = form[0].loginpwd.value;
-        login();
+        login(e);
     })
 })
 
 //Login Validation Function
-function login() {
+function login(e) {
+    
     //Validating Username
     let pattern = /^[A-Za-z]+$/;
     if (uname == "") {
@@ -41,9 +42,13 @@ function login() {
     }
     else {
         clearError("loginpwd")
+        if (e=="" || e==undefined) {
+            const data = `\nUsername:${uname}\nPassword:${loginpwd}`;
+        alert("Your Entered Data is:" + data)
+        }
         return true;
-
     }
+
     return false;
 }
 // Login Form Validation End
