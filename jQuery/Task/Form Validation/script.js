@@ -146,10 +146,7 @@ function register(e) {
 
         //Send Email to User
         Email.send({
-            Host: "smtp.elasticemail.com",
-            Username: "support@aditya.com",
-            Password: "95925A6454AD1084D736E481AC4C09BD7C4F",
-            Port: 2525,
+            SecureToken : "c437e42c-4b86-4553-b964-63decbeb71a9",
             From: "demoabcd17@gmail.com",
             To: `${email}`,
             Subject: "Thanks For Submiiting Form",
