@@ -814,6 +814,28 @@ SQL(W3School) = Viraj Sir
 
 Hackerrank Problem Solving= Viraj Sir
 
+Good Evening
+Hello Sir,
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- Revision and Practice Of JavaScript & jQuery (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Introduction (Done)
+	- SQL Syntax With Practical (Done)
+	- SQL SELECT Statement With Practical (Done)
+	- SQL SELECT DISTINCT Statement With Practical (Done)
+	- SQL WHERE Clause With Practical (Done)
+	- SQL ORDER BY Keyword With Practical (Done)
+	- SQL AND Operator With Practical (Done)
+	- SQL OR Operator With Practical (Done)
+	- SQL NOT Operator With Practical (Done)
+	- SQL INSERT INTO Statement With Practical (Done)
+	- SQL NULL Values With Practical (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+    - A Very Big Sum Problem (Done)
+
 SQL
 ASp .net Types
 datatable to JSON
