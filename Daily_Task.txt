@@ -1,0 +1,823 @@
+09/10/2023
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+HTML(W3 Schools) = Viraj Sir
+	- HTML Introduction and Various attributes
+	- HTML Tags
+	- HTML Images
+	- HTML Tables
+	- HTML  Lists
+
+10/10/2023
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+HTML(W3 Schools) = Viraj Sir
+    - HTML IFrames(Revision)
+	- HTML File Path Relative & Absolute(Revision)
+	- HTML Forms
+	- HTML Form Attributes
+	- HTML Form Elements
+	- HTML Input Types
+	- HTML Input Attributes
+	- HTML Input Form Attributes
+
+11/10/2023
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+HTML(W3 Schools) = Viraj Sir
+	- Revision Of HTML
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS Introduction
+	- CSS Style Types
+	- CSS Selectors
+	- CSS Comments
+	- CSS Colors
+	- CSS Backgrounds
+	- CSS Borders
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+HTML(W3 Schools) = Viraj Sir
+    - Revision Of HTML (Done)
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS Introduction (Done)
+	- CSS Style Types With Practical (Done)
+	- CSS Selectors With Practical (Done)
+	- CSS Comments With Practical (Done)
+	- CSS Font With Practical (Done)
+	- CSS Colors With Practical (Done)
+	- CSS Background With Practical (Done)
+	- CSS Borders With Practical (Done)
+	- CSS Display With Practical (Done)
+	- CSS BoxModel With Practical (Done)
+	- CSS Position With Practical (Done)
+
+12/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- Revision Of CSS BOX Model & Position 
+	- CSS Outline
+	- CSS Text
+	- CSS Icons
+	- CSS Links
+	- CSS Lists
+	- CSS Tables
+	- CSS Max-Width & Height 
+	- CSS Z-Index
+
+13/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- Revision Of CSS Flexbox
+	- CSS Overflow
+	- CSS Horizontal & Vertical Align
+	- CSS Combinators
+	- CSS Pseudo-classe
+	- CSS Pseudo-elements
+	- CSS Opacity / Transparency
+	- CSS Navigation Bar
+	- CSS Dropdowns
+	- CSS Image Gallery & Sprites
+	- CSS Attribute Selectors
+	- CSS Forms
+	- CSS Counters
+	- CSS Website Layout
+	- CSS Units
+	- CSS Specificity
+	- CSS important Rule	
+	- CSS Math Functions
+
+14/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS Rounded Corners
+	- CSS Border Images
+	- CSS Backgrounds
+	- CSS Colors
+	- CSS Color Keywords
+	- CSS Gradients
+	- CSS Shadows
+	- CSS Text Effects
+	- CSS Web Fonts
+	- CSS 2D Transforms
+	- CSS 3D Transforms
+	- CSS Transitions
+	- CSS Animations
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS Rounded Corners With Practical (Done)
+	- CSS Border Images With Practical (Done)
+	- CSS Backgrounds With Practical (Done)
+	- CSS Colors With Practical (Done)
+	- CSS Color Keywords With Practical (Done)
+	- CSS Shadows With Practical (Done)
+	- CSS Text Effects With Practical (Done)
+	- CSS Web Fonts With Practical (Done)
+	- CSS Transitions With Practical (Done)
+	- CSS Gradients With Practical (Doing)
+	- CSS 2D & 3D Transforms With Practical (Doing)
+	- CSS Animations With Practical (Doing)
+
+Learning
+	- Toptal Blog: The 5 Most Common Mistakes HTML5 Developers Make: A Beginner’s Guide
+
+16/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS 2D Transforms
+	- CSS 3D Transforms
+	- CSS Transitions
+	- CSS Animations
+	- CSS Tooltip
+	- CSS Styling Images
+	- CSS Image Reflection
+	- CSS object-fit Property
+	- CSS object-position Property
+	- CSS Masking
+	- CSS Buttons
+	- CSS Pagination 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools & YouTube) = Viraj Sir
+	- CSS 2D Transforms With Practical (Done)
+	- CSS 3D Transforms With Practical (Done)
+	- CSS Transitions With Practical (Done)
+	- CSS Animations With Practical (Done)
+	- CSS Tooltip With Practical (Done)
+	- CSS object-fit Property With Practical (Done)
+	- CSS object-position Property With Practical (Done)
+	- CSS Masking With Practical (Done)
+	- CSS Buttons With Practical (Done)
+	- CSS Image Reflection With Practical (Done)
+	- CSS Styling Images (Doing)
+	- CSS Pagination  (Doing)
+
+
+17/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+CSS(W3 Schools) = Viraj Sir
+	- CSS Image Reflection
+	- CSS Styling Images
+	- CSS Pagination 
+	- CSS Multiple Columns
+	- CSS User Interface
+	- CSS Variables
+	- CSS Box Sizing
+	- CSS Media Queries
+	- CSS Responsive
+		->Viewport
+		->Grid view
+		->Media Queries
+		->Images and videoes
+		->Frameworks
+		->Templates
+	- CSS Grid Layout
+
+Good Evening
+Hello Sir,
+Today's Learning:
+CSS(W3 Schools & YouTube) = Viraj Sir
+	- CSS Image Reflection With Practical (Done)
+	- CSS Styling Images With Practical (Done)
+	- CSS Pagination With Practical (Done) 
+	- CSS Multiple Columns With Practical (Done)
+	- CSS User Interface With Practical (Done)
+	- CSS Variables With Practical (Done)
+	- CSS Box Sizing With Practical (Done)
+	- CSS Media Queries With Practical (Done)
+	- CSS Responsive With Practical (Done)
+		->Viewport With Practical (Done)
+		->Grid view With Practical (Done)
+		->Media Queries With Practical (Done)
+		->Images and videoes With Practical (Done)
+		->Frameworks With Practical (Done)
+		->Templates With Practical (Done)
+	- CSS Grid Layout With Practical (Done)
+
+18/10/22
+Good Morning
+Hello Sir,
+Today's Task:
+
+HTML & CSS:
+	-Webpage Design Using HTML & CSS = Hardik Sir	
+
+Good Evening
+Hello Sir,
+Today's Task:
+
+HTML & CSS:
+	-Webpage Design Using HTML & CSS (90% Done) = Hardik Sir
+
+19/10/22
+Good Morning
+Hello Sir,
+Today's Task:
+
+HTML & CSS = Hardik Sir	
+	- Naming convention Methodology
+	- Block Element Modifier Naming Convention 
+	- Webpage Design Using HTML & CSS
+
+Good Evening
+Hello Sir,
+Today's Task:
+
+HTML & CSS = Hardik Sir	
+	- Naming convention Methodology (Done)
+	- Block Element Modifier Naming Convention (Done)
+	- Webpage Design Using HTML & CSS (70% Done)
+
+20/10/22
+Good Morning
+Hello Sir,
+Today's Task:
+	- Webpage Design Using HTML & CSS (Continue)= Hardik Sir
+
+Good Evening
+Hello Sir,
+Today's Task:
+	- Webpage Design Using HTML & CSS (90% Done)= Hardik Sir
+
+21/10/22
+Good Morning
+Hello Sir,
+Today's Task:
+	- Webpage Design Using HTML & CSS (Continue)= Hardik Sir
+
+Hello Sir,
+Today's Learning = Jay Sir
+	- .Net Core vs .Net Core MVC
+	- DB First vs Code First
+	- View Engine
+	- Read a Blog of Benchmark Concept
+	- Bootstrap
+
+Today's Task:
+	- Webpage Design Using HTML & CSS (Done)= Hardik Sir
+
+23/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+JS(W3 Schools) = Hardik Sir
+	- JS Introduction
+	- JS Statements
+	- JS Syntax
+	- JS Comments
+	- JS Variables
+		-> var
+		-> let
+		-> const
+	- JS Types of Operators
+	- JS Data Types
+	- JS Objects
+	- JS Events
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+Javascript(W3 Schools) = Hardik Sir
+	- JS Introduction (Done)
+	- JS Statements With Practical (Done)
+	- JS Syntax With Practical (Done)
+	- JS Comments With Practical (Done)
+	- JS Variables With Practical (Done)
+		-> var
+		-> let
+		-> const
+	- JS Types of Operators With Practical (Done)
+	- JS Data Types With Practical (Done)
+	- JS Functions With Practical (Done)
+	- JS Objects With Practical (Done)
+	- JS Events With Practical (Done)
+	- JS Strings With Practical (Done)
+	- JS String Methods With Practical (Doing)
+
+24/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3 Schools) = Hardik Sir
+	- JS String Methods
+	- JS String Search
+	- JS String Templates
+	- JS Numbers Properties & Methods
+	- JS Arrays
+		-> Methods
+		-> Sort
+		-> Iteration
+		-> Const Array
+	- JS Date Object
+		-> Date Formats
+		-> Get & Set Methods
+	- JS Math Object & Methods
+	- JS Booleans
+	- JS Comparison Operators
+	- JS If Else
+	- JS Switch
+	- JS Loops
+		-> For Loop
+		-> For In Loop
+		-> For Of Loop
+		-> While Loop
+	- JS Break and Continue
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3 Schools) = Hardik Sir
+	- JS String Search With Practical (Done)
+	- JS String Templates With Practical (Done)
+	- JS Numbers Properties & Methods With Practical (Done)
+	- JS Arrays With Practical (Done)
+		-> Methods
+		-> Sort
+		-> Iteration
+		-> Const Array
+	- JS Date Object With Practical (Done)
+		-> Date Formats
+		-> Get & Set Methods
+	- JS Math Object & Methods With Practical (Done)
+	- JS Booleans With Practical (Done)
+	- JS Comparison Operators With Practical (Done)
+	- JS If Else With Practical (Done)
+	- JS Switch With Practical (Done)
+	- JS Loops With Practical (Done)
+		-> For Loop
+		-> For In Loop
+		-> For Of Loop
+		-> While Loop
+	- JS Break and Continue With Practical (Done)
+
+
+25/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- JS Iterables
+	- JS Sets
+	- JS Maps
+	- JS Typeof
+	- JS Type Conversion
+	- JS Bitwise Operations
+	- JS RegExp
+	- JS Precedence
+	- JS Errors
+	- JS Scope
+	- JS Hoisting
+	- JS Strict Mode
+	- JS this Keyword
+	- JS Arrow Function
+	- JS Classes
+	- JS Modules
+	- JS JSON
+	- JS Debugging
+	- JS Style Guide	  
+	- JS Perforamnce 
+	- JS Mistakes 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- JS Iterables With Practical (Done)
+	- JS Sets With Practical (Done)
+	- JS Maps With Practical (Done)
+	- JS Typeof With Practical (Done)
+	- JS Type Conversion With Practical (Done)
+	- JS Bitwise Operations With Practical (Done)
+	- JS RegExp With Practical (Done)
+	- JS Precedence With Practical (Done)
+	- JS Errors With Practical (Done)
+	- JS Scope With Practical (Done)
+	- JS Hoisting With Practical (Done)
+	- JS Strict Mode With Practical (Done)
+	- JS this Keyword With Practical (Done)
+	- JS Arrow Function With Practical (Done)
+	- JS Classes With Practical (Done)
+	- JS Modules (Done)
+	- JS Debugging With Practical (Done)
+	- JS JSON (Done)
+	- JS Style Guide (Done)	  
+	- JS Perforamnce (Done) 
+	- JS Mistakes (Done) 
+
+26/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+
+JavaScript(W3School) = Hardik sir
+- JS Objects
+		-> Object Defination
+		-> Object Properties
+		-> Object Methods
+		-> Objects Display
+		-> Object Accessors
+		-> Object Constructors
+		-> Object Prototypes
+		-> Object Iterables
+		-> Object Sets
+		-> Object Maps
+		-> JS ES5 Object Methods
+	- JS Functions
+		-> Function Definitions
+		-> Function Parameters
+		-> Function Invocation
+		-> Function call
+		-> Function apply
+		-> Function bind
+		-> Function Closures
+	- JS Classes
+		-> Class Definition
+		-> Class Inheritance
+		-> Class Static Methods
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- JS Objects (Done)
+		-> Object Defination With Practical (Done)
+		-> Object Properties With Practical (Done)
+		-> Object Methods With Practical (Done)
+		-> Objects Display With Practical (Done)
+		-> Object Accessors With Practical (Done)
+		-> Object Constructors With Practical (Done)
+		-> Object Prototypes With Practical (Done)
+		-> Object Iterables With Practical (Done)
+		-> Object Sets With Practical (Done)
+		-> Object Maps With Practical (Done)
+		-> JS ES5 Object Methods With Practical (Done)
+	- JS Functions (Done)
+		-> Function Definitions With Practical (Done)
+		-> Function Parameters With Practical (Done)
+		-> Function Invocation With Practical (Done)
+		-> Function call With Practical (Done)
+		-> Function apply With Practical (Done)
+		-> Function bind With Practical (Done)
+		-> Function Closures With Practical (Done)
+	- JS Classes (Done)
+		-> Class Definition With Practical (Done)
+		-> Class Inheritance With Practical (Done)
+		-> Class Static Methods With Practical (Done)
+
+27/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- JS Async
+		-> Callbacks
+		-> Asynchronous JavaScript
+		-> Promises
+		-> Async/Await
+	- JS HTML DOM
+		-> Introduction
+		-> Methods
+		-> Document
+		-> Changing HTML
+		-> Forms
+		-> Changing CSS
+		-> Animation
+		-> Events
+		-> EventListener
+		-> Navigation
+		-> Elements(Nodes)
+		-> Collections
+		-> Node Lists
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- JS Async (Done)
+		-> Callbacks With Practical (Done)
+		-> Asynchronous JavaScript With Practical (Done)
+		-> Promises With Practical (Done)
+		-> Async/Await With Practical (Done)
+	- JS HTML DOM (Done)
+		-> Introduction (Done)
+		-> Methods With Practical (Done)
+		-> Document With Practical (Done)
+		-> Changing HTML With Practical (Done)
+		-> Forms With Practical (Done)
+		-> Changing CSS With Practical (Done)
+		-> Animation With Practical (Done)
+		-> Events With Practical (Done)
+		-> EventListener With Practical (Done)
+		-> Navigation With Practical (Done)
+		-> Elements(Nodes) With Practical (Done)
+		-> Collections With Practical (Done)
+		-> Node Lists With Practical (Done)
+
+
+28/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- Revision & Practice Of JS Async/Await
+	- Revision & Practice Of JS Promises
+	- Revision & Practice Of HTML DOM
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+JavaScript(W3School) = Hardik sir
+	- Revision & Practice Of JS Async/Await (Done)
+	- Revision & Practice Of JS Promises (Done)
+	- Revision & Practice Of HTML DOM (Done)
+		-> Form Validation Basic Practice (Done)
+
+Comparing execution time of all loop in JS (done) = Viraj Sir
+
+
+30/10/22
+Good Morning
+Hello Sir,
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- JS Browser Object Model
+		-> Window Object
+		-> Window Screen
+		-> Window Location
+		-> Window History
+		-> Window Navigator
+		-> Popup Boxes
+		-> Cookies
+
+Today's Task:
+	- JS Form Validation Task = Hardik Sir
+	- Hackerrank Problem Solving Practice = Viraj Sir
+
+Good Evening
+Hello Sir,
+Today's Task:
+	- JS Form Validation Task (80% Done) = Hardik Sir
+
+31/10/23
+Good Morning
+Hello Sir,
+Today's Task:
+	- JS Form Validation Task (Continue) = Hardik Sir
+
+Good Evening
+Hello Sir,
+
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- JS Browser Object Model (Done)
+		-> Window Object With Practical (Done)
+		-> Window Screen With Practical (Done)
+		-> Window Location With Practical (Done)
+		-> Window History With Practical (Done)
+		-> Window Navigator With Practical (Done)
+		-> Popup Boxes With Practical (Done)
+		-> Cookies With Practical (Doing)
+
+Today's Task:
+	- JS Form Validation Task (Done) = Hardik Sir
+
+01/11/23
+Good Morning
+Hello Sir,
+Today's Task: = Viraj Sir
+	- JS Cascade Dropdown
+	- JS Cascade Checkbox
+
+Good Evening
+Hello Sir,
+Today's Task: = Viraj Sir
+	- JS Cascade Dropdown (Done)
+	- JS Cascade Checkbox (Done)
+
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- JS Browser Object Model (Done)
+		-> Cookies With Practical (Done)
+
+02/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- JS Web APIs
+		-> Introduction
+		-> Validation API
+		-> Web History API
+		-> Web Storage API
+		-> Web Workers API
+		-> Geolocation API
+	- JS AJAX
+		-> Introduction
+		-> XMLHttpRequest Object
+		-> XMLHttpRequest
+		-> Server Response
+
+Good Evening
+Hello Sir,
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- JS Web APIs (Done)
+		-> Introduction (Done)
+		-> Validation API With Practical (Done)
+		-> History API With Practical (Done)
+		-> Storage API With Practical (Done)
+		-> Workers API With Practical (Done)
+		-> Geolocation API With Practical (Done)
+	- JS AJAX (Done)
+		-> Introduction (Done)
+		-> XMLHttpRequest Object With Practical (Done)
+		-> XMLHttpRequest With Practical (Done)
+		-> Server Response With Practical (Done)
+	- JS JSON (Done)
+		-> Introduction (Done)
+		-> Syntax With Practical (Done)
+		-> JSON vs XML (Done)
+		-> Data Types With Practical (Done)
+		-> Parsing JSON With Practical (Done)
+		-> Stringify a JavaScript Object With Practical (Done)
+		-> Object Literals With Practical (Done)
+		-> Array Literals With Practical (Done)
+		-> Display JSON Data In HTML Table With Practical (Done)
+
+02/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+jQuery(W3School) = Hardik sir
+	- jQuery Introduction
+	- jQuery Syntax
+	- jQuery Selectors
+	- jQuery Events
+	- jQuery Effects
+		-> Hide and Show
+		-> Fading
+		-> Sliding
+		-> Animation With Practical (Done)
+		-> Stop Animations
+		-> Callback Functions
+		-> Chaining
+
+Good Evening
+Hello Sir,
+Today's Learning:
+jQuery(W3School) = Hardik sir
+	- jQuery Introduction (Done)
+	- jQuery Syntax With Practical (Done)
+	- jQuery Selectors With Practical (Done)
+	- jQuery Events With Practical (Done)
+	- jQuery Effects (Done)
+		-> Hide and Show With Practical (Done)
+		-> Fading With Practical (Done)
+		-> Sliding With Practical (Done)
+		-> Animation With Practical (Done)
+		-> Stop Animations With Practical (Done)
+		-> Callback Functions With Practical (Done)
+		-> Chaining With Practical (Done)
+	- jQuery HTML (Done)
+		-> Get Content and Attributes With Practical (Done)
+		-> Set Content and Attributes With Practical (Done)
+		-> Add Elements With Practical (Done)
+		-> Remove Elements With Practical (Done)
+		-> Get and Set CSS Classes With Practical (Done)
+		-> css() Method With Practical (Done)
+		-> Dimensions With Practical (Done)
+
+06/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+jQuery(W3School) = Hardik sir
+	- jQuery Traversing
+		-> Traversing
+		-> Traversing Ancestors
+		-> Traversing Descendants
+		-> Traversing Siblings
+		-> Traversing Filtering
+	- jQuery AJAX
+		-> Introduction
+		-> AJAX load() Method
+		-> AJAX get() and post() Methods
+	- jQuery Mis
+		-> noConflict() Method
+		-> Filters
+
+Hackerrank Problem Solving= Viraj Sir
+
+Good Evening
+Hello Sir,
+Today's Learning:
+jQuery(W3School) = Hardik sir
+	- jQuery Traversing (Done)
+		-> Traversing With Practical (Done)
+		-> Traversing Ancestors With Practical (Done)
+		-> Traversing Descendants With Practical (Done)
+		-> Traversing Siblings With Practical (Done)
+		-> Traversing Filtering With Practical (Done)
+	- jQuery AJAX (Done)
+		-> Introduction (Done)
+		-> AJAX load() Method With Practical (Done)
+		-> AJAX get() and post() Methods With Practical (Done)
+	- jQuery Misc (Done)
+		-> noConflict() Method With Practical (Done)
+		-> Filters With Practical (Done)
+
+Hackerrank Problem Solving (Done)= Viraj Sir
+
+07/11/23
+Good Morning
+Hello Sir,
+
+Today's Task:
+	- Form Validation Using jQuery = Hardik sir
+	
+Hackerrank Problem Solving= Viraj Sir
+
+Good Evening
+Hello Sir,
+
+Today's Task:
+	- Form Validation Using jQuery and Implemented SMTP JS library (Done) = Hardik sir
+	
+Hackerrank Problem Solving (Done)= Viraj Sir
+
+08/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+JavaScript(W3School) = Hardik sir
+	- Revision and Practice Of JavaScript & jQuery
+
+SQL(W3School) = Viraj Sir
+	- SQL Introduction
+	- SQL Syntax
+	- SQL SELECT Statement
+	- SQL SELECT DISTINCT Statement
+	- SQL WHERE Clause
+	- SQL ORDER BY Keyword
+	- SQL AND Operator
+	- SQL OR Operator
+	- SQL NOT Operator
+	- SQL INSERT INTO Statement
+	- SQL NULL Values
+
+Hackerrank Problem Solving= Viraj Sir
+
+SQL
+ASp .net Types
+datatable to JSON
+json to all Conversion
+
+5table
+5 column
