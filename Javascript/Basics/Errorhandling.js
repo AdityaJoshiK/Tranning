@@ -19,7 +19,7 @@ fetch(url)
   // Handle the JSON data
   .then((data) => {
     // Loop through the array of users
-    debugger;
+    // debugger;
     for (let user of data) {
       // Display the name and email of each user
       console.log(user.name);
