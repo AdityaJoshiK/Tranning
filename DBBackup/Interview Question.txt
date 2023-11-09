@@ -1,0 +1,48 @@
+1. What is MVC architecture?
+2. what is attribute in MVC?
+3. what is Entity Framework 
+4. What is MVC and it's life cycle?
+5. What is partial view in MVC?
+6. How to pass data from control to view and view to controller?
+7. what is partial view?
+8. return type of controller
+9. 
+
+
+Give your brife intro
+Tell me about your company and project
+What is c# ?
+What is Oops?
+What are the access modifier?
+Why we use static ?
+What is abstract class and interface ?
+Diffrence between 3 tier and MVC.
+Which is better 3 tier or MVC ?
+Type of validatior  in Web forms ?
+Give one real time example of of each validator ?
+What is MVC ?
+Different type of filter ?
+Different type of attribute?
+Which filter you used ?
+What is Sql ?
+What is Diffrence between sp and function ?
+What are the clasuse  ?
+What are the keys ?
+Explained composite key ?
+Give real time example of trigger?
+What is api ?
+Diffrence between soap and rest ?
+How you secure your API ?
+Diffrence between get and post ?
+Give real time example of GET ?
+In login if we are not use GET What other things we should use theire ?
+What is. Net core ?
+How it's better then MVC and 3 tier?
+What is angular?
+
+After I sadi I just 3 month Exprience he said ok fine 
+No problem 
+
+What are tech challenges you faced ?
+
+Are you like to ask anything to me ?
