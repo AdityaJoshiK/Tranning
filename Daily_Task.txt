@@ -836,6 +836,34 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
     - A Very Big Sum Problem (Done)
 
+09/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj sir
+	- .Net History
+	- All .Net Versions
+	- Installing aspnet mvc
+	- determine version of asp.net mvc in existing mvc application
+	- Creating aspnet mvc application
+	- Controllers in an mvc application
+	- Views in an mvc application
+	- ViewData and ViewBag in mvc
+	- Models in an mvc application
+
+SQL(W3School) = Viraj Sir
+	- SQL Data Types
+	- SQL UPDATE Statement
+	- SQL DELETE Statement
+	- SQL SELECT TOP Statement
+	- SQL MIN() and MAX() Functions
+	- SQL COUNT() Function
+	- SQL SUM() Function
+	- SQL AVG() Function
+	- SQL LIKE Operator
+
+Hackerrank Problem Solving= Viraj Sir
+
 SQL
 ASp .net Types
 datatable to JSON
