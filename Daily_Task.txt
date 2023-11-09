@@ -864,6 +864,11 @@ SQL(W3School) = Viraj Sir
 
 Hackerrank Problem Solving= Viraj Sir
 
+Compare the triplets
+diagonal difference of square matrix
+in array calculate the ratios of positive, negative and zero.
+Staircase Pattern Problem
+
 SQL
 ASp .net Types
 datatable to JSON
