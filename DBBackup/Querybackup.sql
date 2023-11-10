@@ -30,8 +30,9 @@ set NEwamount=amount,
 amount=NEwamount
 
 Select * from DEPOSIT
-Select AVG(AMOUNT) From DEPOSIT
-order by AMOUNT DESC
+Select COUNT(AMOUNT),Date From BORROW
+Group by BNAME
+order by Date DESC
 
 Select DISTINCT COUNT(ACTNO) from DEPOSIT
 Select  COUNT(DISTINCT ACTNO) from DEPOSIT
@@ -59,3 +60,38 @@ INSERT INTO MANAGER (NAME,CITY,STATE,COUNTRY) VALUES ('John Doe','Mumbai','Mahar
 INSERT INTO MANAGER (NAME,CITY,STATE,COUNTRY) VALUES ('Jane Doe','Delhi','Delhi','India');
 INSERT INTO MANAGER (NAME,CITY,STATE,COUNTRY) VALUES ('Peter Parker','Chennai','Tamil Nadu','India');
 INSERT INTO MANAGER (NAME,CITY,STATE,COUNTRY) VALUES ('Mary Jane Watson','Kolkata','West Bengal','India');
+
+select * from CUSTOMERS
+
+select * from CUSTOMERS
+where CNAME Like '%e' --name ends with e
+
+select * from CUSTOMERS
+where cname like '%a%'
+
+select * from CUSTOMERS
+where CITY like '_umbai'
+
+select * from CUSTOMERS
+where cname like '[a]%'
+
+select * from CUSTOMERS
+where cname like '[a-z]%'
+
+select * from CUSTOMERS
+where state in ('Gujarat','Delhi')
+
+	select * from BORROW
+	where AMOUNT between 10000 and 20000
+
+select * from CUSTOMERS
+inner join Employee
+on CUSTOMERS.ID=Employee.EmployeeID
+
+select * from CUSTOMERS
+inner join DEPOSIT
+on CUSTOMERS.ID=DEPOSIT.ACTNO
+
+select * from CUSTOMERS
+left join Employee
+on CUSTOMERS.ID=Employee.EmployeeID
