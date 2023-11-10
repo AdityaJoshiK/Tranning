@@ -864,10 +864,64 @@ SQL(W3School) = Viraj Sir
 
 Hackerrank Problem Solving= Viraj Sir
 
-Compare the triplets
-diagonal difference of square matrix
-in array calculate the ratios of positive, negative and zero.
-Staircase Pattern Problem
+Good Evening
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj sir
+	- .Net History (Done)
+	- All .Net Versions (Done)
+	- Installing aspnet mvc With Practical (Done)
+	- determine version of asp.net mvc in existing mvc application With Practical (Done)
+	- Creating aspnet mvc application With Practical (Done)
+	- Controllers in an mvc application With Practical (Done)
+	- Views in an mvc application With Practical (Done)
+	- ViewData and ViewBag in mvc With Practical (Done)
+	- Models in an mvc application With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Data Types With Practical (Done)
+	- SQL UPDATE Statement With Practical (Done)
+	- SQL DELETE Statement With Practical (Done)
+	- SQL SELECT TOP Statement With Practical (Done)
+	- SQL MIN() and MAX() Functions With Practical (Done)
+	- SQL COUNT() Function With Practical (Done)
+	- SQL SUM() Function With Practical (Done)
+	- SQL AVG() Function With Practical (Done)
+	- SQL LIKE Operator With Practical (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Compare the triplets (Done)
+	- diagonal difference of square matrix (Done)
+	- in array calculate the ratios of positive, negative and zero. (Done)
+	- Staircase Pattern Problem (Done)
+	- breaking best and worst records (Done)
+
+10/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj sir
+	- Models in an mvc application
+	- Data access in mvc using entity framework
+	- Generate hyperlinks using actionlink html helper
+	- Working with multiple tables in mvc	
+
+SQL(W3School) = Viraj Sir
+	- SQL Wildcards
+	- SQL IN Operator
+	- SQL BETWEEN Operator
+	- SQL Aliases
+	- SQL Joins
+	- SQL INNER JOIN
+	- SQL LEFT JOIN Keyword
+
+Hackerrank Problem Solving= Viraj Sir
+	- Birthday Cake Candles
+	- Time Conversion
+	- Strong Password
+	- Birthday Cake Candles (count max elements)
+	- Time Conversion(Convert 12 hour format to 24 hour)
+
 
 SQL
 ASp .net Types
