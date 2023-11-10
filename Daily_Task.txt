@@ -901,6 +901,29 @@ Good Morning
 Hello Sir,
 Today's Learning:
 ASP .Net MVC(kudvenkat) = Viraj sir
+	- Models in an mvc application With Practical (Done)
+	- Data access in mvc using entity framework With Practical (Done)
+	- Generate hyperlinks using actionlink html helper With Practical (Done)
+	- Working with multiple tables in mvc With Practical (Done)	
+
+SQL(W3School) = Viraj Sir
+	- SQL Wildcards With Practical (Done)
+	- SQL IN Operator With Practical (Done)
+	- SQL BETWEEN Operator With Practical (Done)
+	- SQL Aliases With Practical (Done)
+	- SQL Joins With Practical (Done)
+	- SQL INNER JOIN With Practical (Done)
+	- SQL LEFT JOIN Keyword With Practical (Done)
+
+Hackerrank Problem Solving (Done)= Viraj Sir
+	- Birthday Cake Candles (count max elements)
+	- Time Conversion(Convert 12 hour format to 24 hour)
+	- Strong Password
+
+Good Evening
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj sir
 	- Models in an mvc application
 	- Data access in mvc using entity framework
 	- Generate hyperlinks using actionlink html helper
@@ -916,11 +939,9 @@ SQL(W3School) = Viraj Sir
 	- SQL LEFT JOIN Keyword
 
 Hackerrank Problem Solving= Viraj Sir
-	- Birthday Cake Candles
-	- Time Conversion
-	- Strong Password
 	- Birthday Cake Candles (count max elements)
 	- Time Conversion(Convert 12 hour format to 24 hour)
+	- Strong Password
 
 
 SQL
@@ -929,3 +950,5 @@ datatable to JSON
 json to all Conversion
 
 5 table, each table has 5 column
+
+09-11-23-4
