@@ -1,0 +1,28 @@
+﻿@model TranningMVCApp.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<table>
+    <tr>
+        <td>EmployeeID</td>
+        <td>@Model.EmployeeId</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>@Model.Gender</td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td>@Model.City</td>
+    </tr>
+</table>
+@Html.ActionLink("back to list", "GetByDepartmentID", new { departmentid = Model.DepartmentID})

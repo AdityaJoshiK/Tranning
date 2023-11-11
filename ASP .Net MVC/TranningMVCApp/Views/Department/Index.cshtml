@@ -1,0 +1,20 @@
+﻿@using TranningMVCApp.Models
+
+@model IEnumerable<Department>
+
+@{
+    ViewBag.Title = "Departments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Departments</h2>
+
+<ul>
+    @foreach (var department in Model)
+    {
+        <li>
+            @Html.ActionLink(department.Name, "GetByDepartmentID", "Employee", new { departmentid = department.Id }, null)
+        </li>
+
+    }
+</ul>

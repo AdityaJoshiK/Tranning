@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "States";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>States</h2>
+@foreach (string str in ViewData["States"] as List<String>)
+{
+<li>@str</li>
+}
