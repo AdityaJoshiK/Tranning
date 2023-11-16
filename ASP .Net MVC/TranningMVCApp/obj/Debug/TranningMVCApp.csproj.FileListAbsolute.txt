@@ -168,3 +168,4 @@ D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.csproj.CoreComp
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.csproj.CopyComplete
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.dll
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.pdb
+D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\BusinessLayer.dll.config

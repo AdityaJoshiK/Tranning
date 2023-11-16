@@ -33,6 +33,7 @@ namespace BusinessLayer
                         employee.Name = rdr["Name"].ToString();
                         employee.Gender = rdr["Gender"].ToString();
                         employee.City = rdr["City"].ToString();
+                        employee.DepartmentID = Convert.ToInt32(rdr["DepartmentID"]);
                         employee.DateOfBirth = Convert.ToDateTime(rdr["DateOfBirth"]);
 
                         employees.Add(employee);
@@ -66,6 +67,11 @@ namespace BusinessLayer
                 paramCity.ParameterName = "@City";
                 paramCity.Value = employee.City;
                 cmd.Parameters.Add(paramCity);
+
+                SqlParameter paramDid = new SqlParameter();
+                paramDid.ParameterName = "@DepartmentID";
+                paramDid.Value = employee.DepartmentID;
+                cmd.Parameters.Add(paramDid);
 
                 SqlParameter paramDateOfBirth = new SqlParameter();
                 paramDateOfBirth.ParameterName = "@DateOfBirth";

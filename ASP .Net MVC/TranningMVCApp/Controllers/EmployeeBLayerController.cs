@@ -30,12 +30,14 @@ namespace TranningMVCApp.Controllers
         [ActionName("Create")]
         public ActionResult Create_Post()
         {
-            if (ModelState.IsValid)
-            {
                 EmployeeBuisnessLayer employeeblayer = new EmployeeBuisnessLayer();
 
                 Employee employee = new Employee();
-                UpdateModel<Employee>(employee);
+                //UpdateModel<Employee>(employee); //it will return exception 
+                TryUpdateModel<Employee>(employee); //it will return true or false
+            if (ModelState.IsValid)
+            {
+
                 employeeblayer.addEmployee(employee);
                 return RedirectToAction("Index");
             }

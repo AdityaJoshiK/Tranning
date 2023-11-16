@@ -11,10 +11,15 @@ namespace BusinessLayer
     {
         [Key]
         public int EmployeeId { get; set; }
+        [Required]
         public string Name { get; set; }
-        public string Gender { get; set; }  
+        [Required]
+        public string Gender { get; set; }
+        [Required]
         public string City { get; set; }
+        [Required]
         public int DepartmentID { get; set; }
+        [Required]
         public DateTime DateOfBirth { get; set; }
     }
 }

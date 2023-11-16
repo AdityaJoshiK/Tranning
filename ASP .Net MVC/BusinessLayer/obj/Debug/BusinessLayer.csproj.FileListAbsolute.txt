@@ -10,3 +10,9 @@ D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyRe
 D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
