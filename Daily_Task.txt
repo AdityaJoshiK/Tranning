@@ -961,6 +961,10 @@ SQL(W3School) = Viraj Sir
 
 Hackerrank Problem Solving= Viraj Sir
 	- Grading Students
+	- Apple and Orange Count Problem
+	- Number Line Jumps
+	- Between Two Sets
+
 
 SQL
 ASp .net Types
