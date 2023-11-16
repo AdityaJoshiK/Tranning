@@ -89,11 +89,18 @@ namespace TranningMVCApp.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(Employee employee)
+        [ActionName("Edit")]
+        public ActionResult Edit_Data(int id)
         {
+            //to prevent unintended updates means change data of read only fields while requesting to solve this we can pass specific paraters in updatemodel function
+            EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();
+
+            Employee employee = employeeBuisnessLayer.Employees.Single(x => x.EmployeeId == id);
+            UpdateModel(employee, new string[] { "EmployeeId", "Gender", "City", "DateOfBirth" });
+            //Now Name will be not updated
+
             if (ModelState.IsValid)
             {
-                EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();
                 employeeBuisnessLayer.saveEmployee(employee);
 
                 return RedirectToAction("Index");
