@@ -200,6 +200,7 @@
     <Content Include="Views\EmployeeBLayer\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\EmployeeBLayer\Create.cshtml" />
+    <Content Include="Views\EmployeeBLayer\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -80,6 +80,27 @@ namespace TranningMVCApp.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();  
+            Employee employee = employeeBuisnessLayer.Employees.Single(emp => emp.EmployeeId == id);
+            return View(employee);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Employee employee)
+        {
+            if (ModelState.IsValid)
+            {
+                EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();
+                employeeBuisnessLayer.saveEmployee(employee);
+
+                return RedirectToAction("Index");
+            }
+            return View(employee);
+        }
+
         public ActionResult NotFound()
         {
             // Code logic here

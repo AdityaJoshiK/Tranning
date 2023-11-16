@@ -27,7 +27,7 @@ namespace BusinessLayer
                     con.Open();
                     SqlDataReader rdr = cmd.ExecuteReader();
                     while (rdr.Read())
-                    {
+                    {   
                         Employee employee = new Employee();
                         employee.EmployeeId = Convert.ToInt32(rdr["EmployeeId"]);
                         employee.Name = rdr["Name"].ToString();
@@ -70,6 +70,50 @@ namespace BusinessLayer
 
                 SqlParameter paramDid = new SqlParameter();
                 paramDid.ParameterName = "@DepartmentID";
+                paramDid.Value = employee.DepartmentID;
+                cmd.Parameters.Add(paramDid);
+
+                SqlParameter paramDateOfBirth = new SqlParameter();
+                paramDateOfBirth.ParameterName = "@DateOfBirth";
+                paramDateOfBirth.Value = employee.DateOfBirth;
+                cmd.Parameters.Add(paramDateOfBirth);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void saveEmployee(Employee employee)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("SaveEmploeyee", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                SqlParameter paramid = new SqlParameter();
+                paramid.ParameterName = "@EmpId";
+                paramid.Value = employee.EmployeeId;
+                cmd.Parameters.Add(paramid);
+
+                SqlParameter paramName = new SqlParameter();
+                paramName.ParameterName = "@Name";
+                paramName.Value = employee.Name;
+                cmd.Parameters.Add(paramName);
+
+                SqlParameter paramGender = new SqlParameter();
+                paramGender.ParameterName = "@Gender";
+                paramGender.Value = employee.Gender;
+                cmd.Parameters.Add(paramGender);
+
+                SqlParameter paramCity = new SqlParameter();
+                paramCity.ParameterName = "@City";
+                paramCity.Value = employee.City;
+                cmd.Parameters.Add(paramCity);
+
+                SqlParameter paramDid = new SqlParameter();
+                paramDid.ParameterName = "@Did";
                 paramDid.Value = employee.DepartmentID;
                 cmd.Parameters.Add(paramDid);
 
