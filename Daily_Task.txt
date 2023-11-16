@@ -943,6 +943,24 @@ Hackerrank Problem Solving= Viraj Sir
 	- Time Conversion(Convert 12 hour format to 24 hour)
 	- Strong Password
 
+10/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Using business objects as model in mvc
+	- Creating a view to insert data using mvc
+	- FormCollection in mvc
+	- Mapping asp.net request data to controller action simple parameter types
+
+SQL(W3School) = Viraj Sir
+	- SQL Revision
+	- SQL RIGHT JOIN
+	- SQL FULL OUTER JOIN
+	- Self Join
+
+Hackerrank Problem Solving= Viraj Sir
+	- Grading Students
 
 SQL
 ASp .net Types
