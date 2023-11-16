@@ -4,3 +4,9 @@ C:\AJ\.Net\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
 C:\AJ\.Net\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 C:\AJ\.Net\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\AJ\.Net\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Debug\BusinessLayer.pdb

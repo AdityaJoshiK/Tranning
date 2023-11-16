@@ -17,5 +17,12 @@ namespace TranningMVCApp.Controllers
             List<Employee> employees = e.Employees.ToList();
             return View(employees);
         }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+
+            return View();
+        }
     }
 }
