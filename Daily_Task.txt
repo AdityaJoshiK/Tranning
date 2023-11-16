@@ -952,12 +952,24 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- Creating a view to insert data using mvc
 	- FormCollection in mvc
 	- Mapping asp.net request data to controller action simple parameter types
+	- Updatemodel function in mvc
+	- Difference between updatemodel and tryupdatemodel
+	- Editing a model in mvc
+	- Updating data in mvc
 
 SQL(W3School) = Viraj Sir
 	- SQL Revision
 	- SQL RIGHT JOIN
 	- SQL FULL OUTER JOIN
-	- Self Join
+	- SQL Self Join	
+	- SQL Hackerrank
+		-> Revising Select Query I
+		-> Revising Select Query II
+		-> Select All
+		-> Select By ID
+		-> Japanese Cities' Attributes
+		-> Japanese Cities' Names
+		-> Weather Observation Station 1
 
 Hackerrank Problem Solving= Viraj Sir
 	- Grading Students
@@ -965,6 +977,38 @@ Hackerrank Problem Solving= Viraj Sir
 	- Number Line Jumps
 	- Between Two Sets
 
+Good Evening
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Using business objects as model in mvc With Practical (Done)
+	- Creating a view to insert data using mvc With Practical (Done)
+	- FormCollection in mvc With Practical (Done)
+	- Mapping asp.net request data to controller action simple parameter types With       Practical (Done)
+	- Updatemodel function in mvc With Practical (Done)
+	- Difference between updatemodel and tryupdatemodel With Practical (Done)
+	- Editing a model in mvc With Practical (Done)
+	- Updating data in mvc With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Revision (Done)
+	- SQL RIGHT JOIN With Practical (Done)
+	- SQL FULL OUTER JOIN With Practical (Done)
+	- SQL Self Join With Practical (Done)	
+	- SQL Hackerrank
+		-> Revising Select Query I (Done)
+		-> Revising Select Query II (Done)
+		-> Select All (Done)
+		-> Select By ID (Done)
+		-> Japanese Cities' Attributes (Done)
+		-> Japanese Cities' Names (Done)
+		-> Weather Observation Station 1 (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Grading Students (Done)
+	- Apple and Orange Count Problem (Done)
+	- Number Line Jumps (Done)
+	- Between Two Sets (Done)
 
 SQL
 ASp .net Types
