@@ -27,7 +27,7 @@ namespace BusinessLayer
                     con.Open();
                     SqlDataReader rdr = cmd.ExecuteReader();
                     while (rdr.Read())
-                    {   
+                    {
                         Employee employee = new Employee();
                         employee.EmployeeId = Convert.ToInt32(rdr["EmployeeId"]);
                         employee.Name = rdr["Name"].ToString();
@@ -43,12 +43,12 @@ namespace BusinessLayer
                 return employees;
             }
         }
- 
+
         public void addEmployee(Employee employee)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
 
-            using(SqlConnection con = new SqlConnection(connectionString))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = new SqlCommand("AddEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -126,19 +126,19 @@ namespace BusinessLayer
                 cmd.ExecuteNonQuery();
             }
         }
-    
+
         public void deleteEmployee(int id)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
 
-            using(SqlConnection con = new SqlConnection(connectionString))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = new SqlCommand("DeleteEmployee", con);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter parmaId = new SqlParameter();
                 parmaId.ParameterName = "@Id";
-                parmaId.Value= id;
+                parmaId.Value = id;
                 cmd.Parameters.Add(parmaId);
 
                 con.Open();
