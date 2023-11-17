@@ -90,14 +90,19 @@ namespace TranningMVCApp.Controllers
 
         [HttpPost]
         [ActionName("Edit")]
-        public ActionResult Edit_Data(int id)
+        public ActionResult Edit_Data([Bind(Include ="EmployeeId,Gender,City,DateOfBirth")] Employee employee)
+        //public ActionResult Edit_Data([Bind(Exclude ="Name")] Employee employee) //we can also exclude it
         {
-            //to prevent unintended updates means change data of read only fields while requesting to solve this we can pass specific paraters in updatemodel function
+            //to prevent unintended updates means change data of read only fields while requesting to solve this we can pass specific parameters in updatemodel function
             EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();
-
-            Employee employee = employeeBuisnessLayer.Employees.Single(x => x.EmployeeId == id);
+            
+            //Employee employee = employeeBuisnessLayer.Employees.Single(x => x.EmployeeId == id); //Normal Edit
+            employee.Name = employeeBuisnessLayer.Employees.Single(x => x.EmployeeId == employee.EmployeeId).Name; //Bind Practice
             UpdateModel(employee, new string[] { "EmployeeId", "Gender", "City", "DateOfBirth" });
             //Now Name will be not updated
+
+            //We can also give one param which will be not passed
+            //UpdateModel(employee,null,null,new string[] {"Name"}
 
             if (ModelState.IsValid)
             {
