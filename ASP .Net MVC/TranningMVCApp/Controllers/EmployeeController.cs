@@ -35,7 +35,7 @@ namespace TranningMVCApp.Controllers
 
             //Databse Connection
             EmployeeContext context = new EmployeeContext();
-            Employee employee = context.Employees.Single(emp => emp.EmployeeId == id);
+            Employee employee = context.Employees.Single(emp => emp.EmployeeID == id);
 
             return View(employee);
         }
