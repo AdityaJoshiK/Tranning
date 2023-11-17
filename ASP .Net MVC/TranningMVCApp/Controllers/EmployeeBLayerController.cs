@@ -16,6 +16,7 @@ namespace TranningMVCApp.Controllers
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
 
             List<Employee> employees = e.Employees.ToList();
+            TempData["msg"] = "Hii From Index";
             return View(employees);
         }
 
@@ -23,6 +24,13 @@ namespace TranningMVCApp.Controllers
         [ActionName("Create")]
         public ActionResult Create_Get()
         {
+            ViewBag.msg = TempData["msg"];
+            //We Already Use TempData msg so now it will be empty and below Edit method it will be empty to solve we need to add Tempdata.Keep method it will keep data in tempdata
+            TempData.Keep();
+
+            //it will save all data in tempdatas if we need to use specific then we can pass name also Tempdata.Keep("msg)
+
+            //ViewBag.msg = TempData.Peek("msg"); it is same as above but it will keep and display both
             return View();
         }
 
@@ -83,6 +91,8 @@ namespace TranningMVCApp.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
+            //We Already Use TempData msg in above Create method so here tempdata is empty to solve we need to add Tempdata.Keep method it will keep data in tempdata 
+            ViewBag.msg = TempData["msg"];
             EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();  
             Employee employee = employeeBuisnessLayer.Employees.Single(emp => emp.EmployeeId == id);
             return View(employee);
