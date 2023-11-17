@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +14,7 @@ namespace TranningMVCApp.Controllers
         public ActionResult Index()
         {
             CustomerContext customerContext = new CustomerContext();
-            List<Customer> customerList = customerContext.Customers.ToList();
+            List<Customers> customerList = customerContext.Customers.ToList();
             return View(customerList);
         }
     }

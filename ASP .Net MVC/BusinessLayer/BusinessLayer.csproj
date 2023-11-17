@@ -52,6 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers.cs" />
+    <Compile Include="CustomersBusinessLayer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeBuisnessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -11,6 +12,6 @@ namespace TranningMVCApp.Models
         public DbSet<Employee> Employees { get; set;}
         public DbSet<Department> Departments { get; set; }
 
-        public System.Data.Entity.DbSet<TranningMVCApp.Models.Customer> Customers { get; set; }
+        public System.Data.Entity.DbSet<Customers> Customers { get; set; }
     }
 }
