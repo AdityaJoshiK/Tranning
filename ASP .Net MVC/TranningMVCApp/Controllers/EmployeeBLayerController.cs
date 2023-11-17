@@ -113,6 +113,15 @@ namespace TranningMVCApp.Controllers
             return View(employee);
         }
 
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();
+            employeeBuisnessLayer.deleteEmployee(id);
+
+            return RedirectToAction("Index");
+        }
+
         public ActionResult NotFound()
         {
             // Code logic here
