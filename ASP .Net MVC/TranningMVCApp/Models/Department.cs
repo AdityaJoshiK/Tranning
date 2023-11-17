@@ -11,7 +11,9 @@ namespace TranningMVCApp.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    [Table("Department")]
     public partial class Department
     {
         public int Id { get; set; }

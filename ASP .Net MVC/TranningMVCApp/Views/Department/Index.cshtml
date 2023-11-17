@@ -1,4 +1,6 @@
 ﻿@using TranningMVCApp.Models
+@using System.Web.Mvc
+@using System.Web.Mvc.Html
 
 @model IEnumerable<Department>
 
@@ -13,7 +15,7 @@
     @foreach (var department in Model)
     {
         <li>
-            @Html.ActionLink(department.Name, "GetByDepartmentID", "Employee", new { departmentid = department.Id }, null)
+            @Html.ActionLink(department.name, "GetByDepartmentID", "Employee", new { departmentid = department.Id }, null)
         </li>
 
     }

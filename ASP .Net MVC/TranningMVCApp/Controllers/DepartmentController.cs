@@ -13,6 +13,7 @@ namespace TranningMVCApp.Controllers
         public ActionResult Index()
         {
             EmployeeContext employeeContext = new EmployeeContext();
+            //List<Department> departments = employeeContext.Departments.ToList();
             List<Department> departments = employeeContext.Departments.ToList();
             return View(departments);
         }
