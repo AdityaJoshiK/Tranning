@@ -943,7 +943,7 @@ Hackerrank Problem Solving= Viraj Sir
 	- Time Conversion(Convert 12 hour format to 24 hour)
 	- Strong Password
 
-10/11/23
+16/11/23
 Good Morning
 Hello Sir,
 Today's Learning:
@@ -1009,6 +1009,32 @@ Hackerrank Problem Solving= Viraj Sir
 	- Apple and Orange Count Problem (Done)
 	- Number Line Jumps (Done)
 	- Between Two Sets (Done)
+
+17/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Unintended updates in mvc
+	- Preventing unintended updates in mvc
+	- Including and excluding properties from model binding using bind attribute
+	- ViewBag,ViewData and Tempdata
+	- Including and excluding properties from model binding using interfaces
+	- Why deleting database records using get request is bad
+	- Deleting database records using post request in mvc
+	- Insert update delete in mvc using entity framework
+
+SQL(W3School) = Viraj Sir
+	- SQL UNION Operator
+	- SQL GROUP BY Statement
+	- SQL HAVING Clause
+	- SQL Hackerrank
+
+Hackerrank Problem Solving= Viraj Sir
+	- Number Line Jumps
+	- Subarray Division
+	- Divisible Sum Pairs
+	- Migratory Birds (Continue)
 
 SQL
 ASp .net Types
