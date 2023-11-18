@@ -11,8 +11,10 @@ namespace TranningMVCApp.Models
 {
     using System;
     using System.Collections.Generic;
-    
-    public partial class Employee
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    [Table("Employee")]
+    public class Employee
     {
         public int EmployeeID { get; set; }
         public string Name { get; set; }
@@ -20,5 +22,10 @@ namespace TranningMVCApp.Models
         public string City { get; set; }
         public Nullable<int> DepartmentID { get; set; }
         public Nullable<System.DateTime> DateOfBirth { get; set; }
+
+        public Department Department { get; set; }
+        
     }
+
+
 }

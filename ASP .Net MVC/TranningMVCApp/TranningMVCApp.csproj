@@ -162,6 +162,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\DepartmentTotal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -246,6 +247,7 @@
     <Content Include="Views\EmployeesNew\Details.cshtml" />
     <Content Include="Views\EmployeesNew\Edit.cshtml" />
     <Content Include="Views\EmployeesNew\Index.cshtml" />
+    <Content Include="Views\Employee\EmployeesByDepartment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

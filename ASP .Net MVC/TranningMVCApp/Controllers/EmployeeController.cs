@@ -39,5 +39,27 @@ namespace TranningMVCApp.Controllers
 
             return View(employee);
         }
+
+        public ActionResult EmployeesByDepartment() {
+
+            EmployeeContext context = new EmployeeContext();
+
+            var departmentTotals = context.Employees
+     .GroupBy(x => x.Department.name)
+     .Select(y => new
+     {
+         DepartmentName = y.Key,
+         Total = y.Count()
+     })
+     .AsEnumerable() // Switch to LINQ to Objects for the projection
+     .Select(z => new DepartmentTotal
+     {
+         Name = z.DepartmentName,
+         Total = z.Total
+     })
+     .ToList();
+
+            return View(departmentTotals);
+        }
     }
 }

@@ -139,7 +139,6 @@ namespace TranningMVCApp.Controllers
             // Code logic here
             return HttpNotFound("Testing The resource was not found.");
         }
-
         public ActionResult JSON()
         {
             // Code logic here
