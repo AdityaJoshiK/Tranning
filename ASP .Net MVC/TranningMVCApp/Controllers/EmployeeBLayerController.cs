@@ -10,13 +10,14 @@ namespace TranningMVCApp.Controllers
 {
     public class EmployeeBLayerController : Controller
     {
-        // GET: EmployeeBusinessLayer
+        // With Viewbag and Viewdata We can't use in another view if we write in Controller Index method then it is avaialble only in index view not other
         public ActionResult Index()
         {
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
 
             List<Employee> employees = e.Employees.ToList();
             TempData["msg"] = "Hii From Index";
+            ViewData["Check"] = "Check From Index";
             return View(employees);
         }
 
@@ -93,6 +94,7 @@ namespace TranningMVCApp.Controllers
         {
             //We Already Use TempData msg in above Create method so here tempdata is empty to solve we need to add Tempdata.Keep method it will keep data in tempdata 
             ViewBag.msg = TempData["msg"];
+            var msg = ViewData["Check"];
             EmployeeBuisnessLayer employeeBuisnessLayer = new EmployeeBuisnessLayer();  
             Employee employee = employeeBuisnessLayer.Employees.Single(emp => emp.EmployeeId == id);
             return View(employee);
