@@ -135,6 +135,7 @@
     <Compile Include="Controllers\EmployeeBLayerController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\EmployeesNewController.cs" />
+    <Compile Include="Controllers\HelperPracticeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -248,6 +249,7 @@
     <Content Include="Views\EmployeesNew\Edit.cshtml" />
     <Content Include="Views\EmployeesNew\Index.cshtml" />
     <Content Include="Views\Employee\EmployeesByDepartment.cshtml" />
+    <Content Include="Views\HelperPractice\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

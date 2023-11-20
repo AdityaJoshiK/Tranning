@@ -14,7 +14,7 @@ namespace TranningMVCApp.Controllers
         {
             EmployeeContext employeeContext = new EmployeeContext();
             //List<Department> departments = employeeContext.Departments.ToList();
-            List<Department> departments = employeeContext.Departments.ToList();
+            List<Department> departments = employeeContext.Department.ToList();
             return View(departments);
         }
     }
