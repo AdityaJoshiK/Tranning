@@ -140,6 +140,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Company.cs" />
     <Compile Include="Models\CustomerContext.cs" />
     <Compile Include="Models\Department.cs">
       <DependentUpon>EmployeeDataModel.tt</DependentUpon>
@@ -250,6 +251,8 @@
     <Content Include="Views\EmployeesNew\Index.cshtml" />
     <Content Include="Views\Employee\EmployeesByDepartment.cshtml" />
     <Content Include="Views\HelperPractice\Index.cshtml" />
+    <Content Include="Views\Home\Company.cshtml" />
+    <Content Include="Views\Home\CompanyUsingHtmlFor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

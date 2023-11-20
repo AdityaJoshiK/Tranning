@@ -46,7 +46,6 @@ namespace TranningMVCApp.Controllers
                 TryUpdateModel<Employee>(employee); //it will return true or false
             if (ModelState.IsValid)
             {
-
                 employeeblayer.addEmployee(employee);
                 return RedirectToAction("Index");
             }

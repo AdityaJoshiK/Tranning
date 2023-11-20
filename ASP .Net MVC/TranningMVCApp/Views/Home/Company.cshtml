@@ -1,0 +1,12 @@
+﻿@model IEnumerable<TranningMVCApp.Models.Company>
+
+@{
+    ViewBag.Title = "Company";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Company</h2>
+
+@Html.TextBox("CompanyName", (string)ViewBag.CompanyName)
+<br/>
+@Html.DropDownList("Departments", "Select Department")

@@ -1,0 +1,12 @@
+﻿@model TranningMVCApp.Models.Company
+
+@{
+    ViewBag.Title = "CompanyUsingHtmlFor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CompanyUsingHtmlFor</h2>
+
+@Html.TextBoxFor(m => m.CompanyName)
+<br/>
+@Html.DropDownListFor(m => m.Departments, new SelectList(Model.Departments,"Id","name"),"Select Department")

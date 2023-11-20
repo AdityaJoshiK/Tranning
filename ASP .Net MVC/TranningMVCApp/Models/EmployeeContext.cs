@@ -15,5 +15,7 @@ namespace TranningMVCApp.Models
         public System.Data.Entity.DbSet<Customers> Customers { get; set; }
 
         public System.Data.Entity.DbSet<TranningMVCApp.Models.DepartmentTotal> DepartmentTotals { get; set; }
+
+        public System.Data.Entity.DbSet<TranningMVCApp.Models.Company> Companies { get; set; }
     }
 }
