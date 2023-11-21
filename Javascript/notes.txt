@@ -92,6 +92,11 @@ console.log(words);
 
 -> padStart() and padEnd() are string methods used to pad a string with a specified character or a repeated sequence of characters until it reaches a specified length.
 
+(8) at vs charAt
+
+-> With charAt, if the index is out of range, it returns an empty string.
+-> With at, if the index is out of range, it returns undefined.
+
 ------------------------------------------------------
 
 
@@ -127,3 +132,9 @@ Key Differences:
 
 -> Both startsWith() and endsWith() return true if the specified string is found at the respective beginning or end of the calling string; otherwise, they return false. These methods are useful for checking prefixes and suffixes in strings.
 ------------------------------------------------------
+
+Arithmetic     
+Comparison     
+Bitwise     
+Compound     
+Logical     

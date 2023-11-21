@@ -20,3 +20,16 @@ console.log(x)
 x = "a,b,c,d,e"
 console.log(x.split(','))
 console.log(x)
+
+let string1 = 'apple';
+let string2 = 'banana';
+
+let result = string1.localeCompare(string2);
+
+if (result < 0) {
+  console.log(`${string1} comes before ${string2}`);
+} else if (result > 0) {
+  console.log(`${string1} comes after ${string2}`);
+} else {
+  console.log(`${string1} is equal to ${string2}`);
+}
