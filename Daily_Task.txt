@@ -1126,16 +1126,77 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- View engines in asp net mvc
 	- Using custom view engines with asp net mvc
 	- How does a controller find a view in mvc
+	- Html helpers in mvc
+	- Generating a dropdownlist control in mvc using HTML helpers
+	- How to set an item selected when an asp net mvc dropdownlist is loaded
 
 SQL(W3School) = Viraj Sir
 	- SQL SELECT INTO Statement
 	- SQL INSERT INTO SELECT Statement
 	- SQL CASE Expression
+	- SQL Hackerrank
+		-> Weather Observation Station 12
+		-> Higher Than 75 Marks
+		-> Employee Names
+		-> Employee Salaries
+		-> Type of Triangle
+		-> Average Population
 
 Hackerrank Problem Solving= Viraj Sir
 	- Bill Division
 
+Good Evening
+Hello Sir,
+Today's Learning:
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Using data transfer object as the model in mvc With Practical (Done)
+	- View engines in asp net mvc (Done)
+	- Using custom view engines with asp net mvc (Done)
+	- How does a controller find a view in mvc With Practical (Done)
+	- Html helpers in mvc With Practical (Done)
+	- Generating a dropdownlist control in mvc using HTML helpers With Practical (Done)
+	- How to set an item selected when an asp net mvc dropdownlist is loaded With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL SELECT INTO Statement With Practical (Done)
+	- SQL INSERT INTO SELECT Statement With Practical (Done)
+	- SQL CASE Expression With Practical (Done)
+	- SQL Hackerrank
+		-> Weather Observation Station 12 (Done)
+		-> Higher Than 75 Marks (Done)
+		-> Employee Names (Done)
+		-> Employee Salaries (Done)
+		-> Type of Triangle (Done)
+		-> Average Population (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Bill Division (Done)
+
+21/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Difference between Html TextBox and Html TextBoxFor
+	- Generating a radiobuttonlist control in mvc using HTML helpers
+	- CheckBoxList in asp net mvc
+
+- Revision Of Javascript String Search Methods = Viraj Sir
+
+SQL(W3School) = Viraj Sir
+	- SQL NULL Functions
+	- SQL Stored Procedures
+	- SQL Comments
+	- SQL Operators
+
+Hackerrank Problem Solving= Viraj Sir
+	- Mini-Max Sum
+
 SQL
+js methods replace state,indexof,lastindexof,index,match,format
+
+//js format?
 ASp .net Types
 datatable to JSON
 json to all Conversion

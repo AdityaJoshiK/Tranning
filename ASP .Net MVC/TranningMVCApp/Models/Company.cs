@@ -15,6 +15,8 @@ namespace TranningMVCApp.Models
         [Key]
         public int Id { get; set; }
 
+        public string SelectedDepartment { get; set; }
+
         public Company(string name)
         {
             this._name = name;

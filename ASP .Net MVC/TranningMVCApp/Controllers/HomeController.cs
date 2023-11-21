@@ -66,10 +66,23 @@ namespace TranningMVCApp.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult CompanyUsingHtmlFor()
         {
             Company company = new Company("A");
             return View(company);
+        }
+        [HttpPost]
+        public string CompanyUsingHtmlFor(Company company)
+        {
+            if(string.IsNullOrEmpty(company.SelectedDepartment))
+            {
+                return "You did not select any department";
+            }
+            else
+            {
+                return "You selected department with ID = " + company.SelectedDepartment;
+            }
         }
     }
 }

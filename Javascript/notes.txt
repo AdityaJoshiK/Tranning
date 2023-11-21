@@ -1,0 +1,80 @@
+-----------------------------------------------------
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const
+
+-----------------------------------------------------
+Types of JavaScript Operators:
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+
+1. Arithmetic operators ( +, -, *, / )
+2. Assignment operators (=)
+3. Comparison operators ( == , === , > , < , >= , <= )
+4. Logical operators ( && , || , ! )
+5. Bitwise operators ( & , | , ^ , ~ , << , >> )
+6. String concatenation operator (+)
+7. Type casting operators ( Number() , String() , Boolean() , Array() , Object() )
+8. Increment and Decrement operators ( ++ , -- )        
+9. Ternary conditional operator (? : )
+------------------------------------------------------
+
+------------------------------------------------------
+Data Types
+JavaScript has 8 Datatypes
+1. Number
+2. Boolean
+3. String
+4. Object
+5. NULL
+6. undefined
+7. BigInt
+8. Symbol
+------------------------------------------------------
+
+------------------------------------------------------
+String Methods
+
+(1)trim && trimleft && trimstart && trimend && trimright
+
+-> trim removes white space from both side
+-> trimleft and trimstart both are same old Browser use trimleft and new use trimstart
+-> same for trimend and trimright
+
+(2)slice vs substr vs substring
+
+-> slice returns portion of string 
+    let str="Aditya Hii"
+    str.slice(0,3) gives "Adi"
+
+-> substr returns portion of string but it's second param is length of sub string
+    str.substr(0,3) gives "Adi"
+
+-> substring is same as slice
+
+Differences:
+
+-> substr uses the second parameter as the length of the substring, while substring and slice use it as the index to stop at.
+-> substring treats a negative startIndex as 0, while slice and substr consider it as counting from the end of the string.
+-> All three methods can be used with negative indices to extract characters from the end of the string, but the exact behavior differs.
+
+(3) replace vs replaceall
+-> replace replaces only first occurance of a value
+-> replaceall replaces all the occurrances of a value
+
+-> replace(searchValue, newValue)
+-> replaceAll(searchValue, newValue)
+
+->Both methods accept regular expressions as the searchValue, providing more advanced pattern matching capabilities.
+
+------------------------------------------------------

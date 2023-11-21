@@ -7,6 +7,19 @@
 
 <h2>CompanyUsingHtmlFor</h2>
 
-@Html.TextBoxFor(m => m.CompanyName)
-<br/>
-@Html.DropDownListFor(m => m.Departments, new SelectList(Model.Departments,"Id","name"),"Select Department")
+@*@Html.TextBoxFor(m => m.CompanyName)
+    <br />
+    @Html.DropDownListFor(m => m.Departments, new SelectList(Model.Departments, "Id", "name"), "Select Department")*@
+
+<br />
+<br />
+@using (Html.BeginForm("CompanyUsingHtmlFor", "Home",FormMethod.Post))
+{
+    foreach (var department in Model.Departments)
+    {
+        @Html.RadioButtonFor(m => m.SelectedDepartment, department.Id) @department.name
+    }
+    <br />
+    <br />
+    <input type="submit" value="Submit" />
+}
