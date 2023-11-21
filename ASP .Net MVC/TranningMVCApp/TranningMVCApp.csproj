@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\CustomersBLayerController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
@@ -139,6 +140,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\City.cs">
+      <DependentUpon>SampleDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\CustomerContext.cs" />
@@ -165,6 +169,21 @@
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\DepartmentTotal.cs" />
+    <Compile Include="Models\SampleDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SampleDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SampleDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleDataModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -197,6 +216,16 @@
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
       <LastGenOutput>EmployeeDataModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\SampleDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SampleDataModel.edmx</DependentUpon>
+      <LastGenOutput>SampleDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\SampleDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SampleDataModel.edmx</DependentUpon>
+      <LastGenOutput>SampleDataModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -209,6 +238,13 @@
     </EntityDeploy>
     <Content Include="Models\EmployeeDataModel.edmx.diagram">
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\SampleDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SampleDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\SampleDataModel.edmx.diagram">
+      <DependentUpon>SampleDataModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -253,6 +289,8 @@
     <Content Include="Views\HelperPractice\Index.cshtml" />
     <Content Include="Views\Home\Company.cshtml" />
     <Content Include="Views\Home\CompanyUsingHtmlFor.cshtml" />
+    <Content Include="Views\City\Index.cshtml" />
+    <Content Include="Views\City\EditorTemplates\City.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+<script>
+    let currentDate = new Date();
+
+// Format date and time
+let formattedDateTime = moment(currentDate).format('YYYY-MM-DD HH:mm:ss');
+console.log(formattedDateTime);
+
+// Format date only
+let formattedDate = moment(currentDate).format('YYYY-MM-DD');
+console.log(formattedDate);
+
+// Format time only
+let formattedTime = moment(currentDate).format('HH:mm:ss');
+console.log(formattedTime);
+
+// More advanced formatting
+let customFormattedDate = moment(currentDate).format('MMMM Do YYYY, h:mm:ss a');
+console.log(customFormattedDate);
+</script>
+</html>

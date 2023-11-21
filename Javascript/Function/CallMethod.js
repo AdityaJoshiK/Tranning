@@ -4,7 +4,6 @@ function setUsername(username) {
 }
 
 function createUser(username,email,pwd) {
-    debugger;
     setUsername.call(this,username);
     this.email=email;
     this.pwd=pwd;

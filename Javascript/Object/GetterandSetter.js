@@ -11,4 +11,4 @@ const person = {
 }
 
 person.lang = 'in'; // Use "lang" to set the property
-console.log(person.langu); // This will work as expected
+console.log(person.lang); // This will work as expected
