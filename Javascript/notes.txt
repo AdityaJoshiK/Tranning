@@ -77,4 +77,53 @@ Differences:
 
 ->Both methods accept regular expressions as the searchValue, providing more advanced pattern matching capabilities.
 
+(4)String concat()
+
+(5)String charAt(index)
+    String charCodeAt(index)
+
+(6)string.split(separator, limit) (also use for string to array conversion string.split(""))
+let sentence = "Hello, World! How are you?";
+let words = sentence.split(" ");
+console.log(words);
+// Output: ["Hello,", "World!", "How", "are", "you?"]
+
+(7)padStart(targetLength, padString) vs padEnd(targetLength, padString)
+
+-> padStart() and padEnd() are string methods used to pad a string with a specified character or a repeated sequence of characters until it reaches a specified length.
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+String Search Methods
+
+(1) indexOf(searchValue, startIndex) and lastIndexOf(searchValue, startIndex) vs Search(string or regexp)
+
+-> The indexOf() method returns the first occurrence of the specified substring in the calling string. If the substring is not found, it returns -1.
+
+-> The lastIndexOf() method returns the last occurrence of the specified substring in the calling string. If the substring is not found, it returns -1.
+
+->Note indexOf and lastIndexOf take a string as an argument.
+
+->search() method expects a regular expression as its argument. If you attempt to pass a string, it will be implicitly converted to a regular expression.
+
+(2) match and matchall
+
+-> The match() method is used to search a string for a specified pattern and returns the first match found as an array. If no match is found, it returns null.
+
+-> The matchAll() method is used to find all matches of a regular expression in a string. It returns an iterator containing all the matches and their capturing groups.
+
+Key Differences:
+
+-> match returns the first match as an array.
+-> matchAll returns an iterator over all matches, allowing you to iterate through them.
+
+(3) includes(searchValue, startIndex)
+
+->check if a particular value exists in the string or array. The method returns a boolean value: true if the specified value is found, and false otherwise.
+
+(4) startsWith(searchString, position) and endsWith(searchString, length)
+
+-> Both startsWith() and endsWith() return true if the specified string is found at the respective beginning or end of the calling string; otherwise, they return false. These methods are useful for checking prefixes and suffixes in strings.
 ------------------------------------------------------
