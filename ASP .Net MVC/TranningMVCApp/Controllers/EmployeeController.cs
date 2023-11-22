@@ -20,11 +20,12 @@ namespace TranningMVCApp.Controllers
         public ActionResult GetByDepartmentID(int departmentid)
         {
             EmployeeContext context = new EmployeeContext();
-            List<Employee> employees = context.Employees.Where(emp => emp.DepartmentID==departmentid).ToList();
-            return View("Index",employees);
+            List<Employee> employees = context.Employees.Where(emp => emp.DepartmentID == departmentid).ToList();
+            return View("Index", employees);
         }
         public ActionResult Details(int id)
         {
+            //static
             //Employee employee = new Employee()
             //{
             //    EmployeeId = 1,
@@ -40,26 +41,27 @@ namespace TranningMVCApp.Controllers
             return View(employee);
         }
 
-        public ActionResult EmployeesByDepartment() {
+        public ActionResult EmployeesByDepartment()
+        {
 
             EmployeeContext context = new EmployeeContext();
 
             var departmentTotals = context.Employees
-     .GroupBy(x => x.Department.name)
-     .Select(y => new
-     {
-         DepartmentName = y.Key,
-         Total = y.Count()
-     })
-     .AsEnumerable() // Switch to LINQ to Objects for the projection
-     .Select(z => new DepartmentTotal
-     {
-         Name = z.DepartmentName,
-         Total = z.Total
-     })
-     .ToList();
+            .GroupBy(x => x.Department.name)
+            .Select(y => new
+            {
+                DepartmentName = y.Key,
+                Total = y.Count()
+            })
+            .AsEnumerable() // Switch to LINQ to Objects for the projection
+            .Select(z => new DepartmentTotal
+            {
+                Name = z.DepartmentName,
+                Total = z.Total
+            })
+            .ToList();
 
-            return View(departmentTotals);
-        }
+                   return View(departmentTotals);
+            }
     }
 }

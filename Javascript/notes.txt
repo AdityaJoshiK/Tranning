@@ -132,9 +132,3 @@ Key Differences:
 
 -> Both startsWith() and endsWith() return true if the specified string is found at the respective beginning or end of the calling string; otherwise, they return false. These methods are useful for checking prefixes and suffixes in strings.
 ------------------------------------------------------
-
-Arithmetic     
-Comparison     
-Bitwise     
-Compound     
-Logical     

@@ -1193,8 +1193,58 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Mini-Max Sum
 
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Difference between Html TextBox and Html TextBoxFor With Practical (Done)
+	- Generating a radiobuttonlist control in mvc using HTML helpers With Practical (Done)
+	- CheckBoxList in asp net mvc With Practical (Done)
+
+- Revision Of Javascript Methods(Done) = Viraj Sir
+
+SQL(W3School) = Viraj Sir
+	- SQL NULL Functions With Practical (Done)
+	- SQL Stored Procedures With Practical (Done)
+	- SQL Comments With Practical (Done)
+	- SQL Operators (Done)
+	- SQL Hackerrank
+		-> Revising Aggregations - The Count Function (Done)
+		-> Revising Aggregations - The Sum Function (Done)
+		-> Revising Aggregations - Averages (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Mini-Max Sum (Done)
+
+22/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- ListBox in asp net mvc
+	- Using displayname, displayformat, scaffoldcolumn attributes
+	- Using datatype and displaycolumn attributes in asp net mvc application
+	- Opening a page in new browser window in asp net mvc application
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE DATABASE Statement
+	- SQL DROP DATABASE Statement
+	- SQL Backup DATABASE Statement
+	- SQL Create Table Statement
+	- SQL Drop Table Statement
+
+Hackerrank Problem Solving= Viraj Sir
+	- Drawing Book
+	- Counting Valleys (Continue)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
+
+metadata(typeofmetadata)
+partial
+why diffrent methods we can do with post also
 
 //js format?
 ASp .net Types
