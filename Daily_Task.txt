@@ -1234,9 +1234,42 @@ SQL(W3School) = Viraj Sir
 	- SQL Backup DATABASE Statement
 	- SQL Create Table Statement
 	- SQL Drop Table Statement
+	- SQL Hackerrank
+		-> Population Density Difference
+		-> Top Earners
+		-> Weather Observation Station 13
+		-> Weather Observation Station 14
+		-> Weather Observation Station 15
 
 Hackerrank Problem Solving= Viraj Sir
 	- Drawing Book
+	- Counting Valleys (Continue)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- ListBox in asp net mvc With Practical (Done)
+	- Using displayname, displayformat, scaffoldcolumn attributes With Practical (Done)
+	- Using datatype and displaycolumn attributes in asp net mvc application With Practical (Done)
+	- Opening a page in new browser window in asp net mvc application With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE DATABASE Statement With Practical (Done)
+	- SQL DROP DATABASE Statement With Practical (Done)
+	- SQL Backup DATABASE Statement With Practical (Done)
+	- SQL Create Table Statement With Practical (Done)
+	- SQL Drop Table Statement With Practical (Done)
+	- SQL Hackerrank
+		-> Population Density Difference (Done)
+		-> Top Earners (Done)
+		-> Weather Observation Station 13 (Done)
+		-> Weather Observation Station 14 (Done)
+		-> Weather Observation Station 15 (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Drawing Book (Done)
 	- Counting Valleys (Continue)
 
 SQL
