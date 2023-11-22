@@ -33,10 +33,48 @@ namespace TranningMVCApp.Controllers
                 {
                     if (city.IsSelected)
                     {
-                        stringBuilder.Append(city.Name+" ");
+                        stringBuilder.Append(city.Name + " ");
                     }
                 }
 
+                return stringBuilder.ToString();
+            }
+        }
+
+        [HttpGet]
+        public ActionResult CityListBox()
+        {
+            SampleDataEntities SampleDataEntities = new SampleDataEntities();
+            List<SelectListItem> selectList = new List<SelectListItem>();
+
+            foreach (City city in SampleDataEntities.Cities)
+            {
+                SelectListItem selectListItem = new SelectListItem()
+                {
+                    Text = city.Name,
+                    Value = city.ID.ToString(),
+                    Selected = city.IsSelected,
+                };
+                selectList.Add(selectListItem);
+            }
+
+            CitiesViewModel citiesViewModel = new CitiesViewModel();
+            citiesViewModel.Cities = selectList;
+
+            return View(citiesViewModel);
+        }
+
+        [HttpPost]
+        public string CityListBox(IEnumerable<string> selectedCities)
+        {
+            if (selectedCities == null)
+            {
+                return "No City Selected";
+            }
+            else
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append("You Selected " + string.Join(",", selectedCities));
                 return stringBuilder.ToString();
             }
         }

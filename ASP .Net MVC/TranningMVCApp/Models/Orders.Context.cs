@@ -13,10 +13,10 @@ namespace TranningMVCApp.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SampleDataEntities : DbContext
+    public partial class OrderEntities : DbContext
     {
-        public SampleDataEntities()
-            : base("name=SampleDataEntities")
+        public OrderEntities()
+            : base("name=OrderEntities")
         {
         }
     
@@ -25,8 +25,6 @@ namespace TranningMVCApp.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<City> Cities { get; set; }
-
-        public System.Data.Entity.DbSet<TranningMVCApp.Models.CitiesViewModel> CitiesViewModels { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
     }
 }

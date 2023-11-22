@@ -1245,6 +1245,7 @@ js methods replace state,indexof,lastindexof,index,match,format
 metadata(typeofmetadata)
 partial
 why diffrent methods we can do with post also
+ienumerable
 
 //js format?
 ASp .net Types
