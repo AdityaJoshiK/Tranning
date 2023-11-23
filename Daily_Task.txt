@@ -1283,18 +1283,56 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- Display and edit templated helpers
 	- Customize display and edit templates
 	- Accessing model metadata from custom templated helpers
+	- Displaying images
 
 SQL(W3School) = Viraj Sir
 	- SQL ALTER TABLE Statement
 	- SQL Constraints
 	- SQL NOT NULL Constraint
 	- SQL UNIQUE Constraint
+	- SQL Hackerrank
+		-> Weather Observation Station 17
+		-> Weather Observation Station 18
+		-> Population Census
+		-> African Cities
+		-> Average Population of Each Continent
+		-> The Report
 
 Hackerrank Problem Solving= Viraj Sir
 	- Counting Valleys (Continue)
 	- Electronics Shop
 	- Cats and a Mouse
 	- Sales by Match
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Hiddeninput and readonly attributes With Practical (Done)
+	- Display and edit templated helpers With Practical (Done)
+	- Customize display and edit templates With Practical (Done)
+	- Accessing model metadata from custom templated helpers With Practical (Done)
+	- Displaying images With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL ALTER TABLE Statement With Practical (Done)
+	- SQL Constraints With Practical (Done)
+	- SQL NOT NULL Constraint With Practical (Done)
+	- SQL UNIQUE Constraint With Practical (Done)
+	- SQL Hackerrank
+		-> Weather Observation Station 17 (Done)
+		-> Weather Observation Station 18 (Done)
+		-> Population Census (Done)
+		-> African Cities (Done)
+		-> Average Population of Each Continent (Done)
+		-> The Report (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Counting Valleys (Done)
+	- Electronics Shop (Done)
+	- Cats and a Mouse (Done)
+	- Sales by Match (Done)
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format

@@ -2,7 +2,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     language: "en",
-    get lang(){
+     lang(){
         return this.language;
     },
     set lang(lang){ 
