@@ -1267,10 +1267,34 @@ SQL(W3School) = Viraj Sir
 		-> Weather Observation Station 13 (Done)
 		-> Weather Observation Station 14 (Done)
 		-> Weather Observation Station 15 (Done)
+		-> Weather Observation Station 16 (Done)
 
 Hackerrank Problem Solving= Viraj Sir
 	- Drawing Book (Done)
 	- Counting Valleys (Continue)
+
+22/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Hiddeninput and readonly attributes
+	- Display and edit templated helpers
+	- Customize display and edit templates
+	- Accessing model metadata from custom templated helpers
+
+SQL(W3School) = Viraj Sir
+	- SQL ALTER TABLE Statement
+	- SQL Constraints
+	- SQL NOT NULL Constraint
+	- SQL UNIQUE Constraint
+
+Hackerrank Problem Solving= Viraj Sir
+	- Counting Valleys (Continue)
+	- Electronics Shop
+	- Cats and a Mouse
+	- Sales by Match
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format

@@ -16,5 +16,21 @@ namespace TranningMVCApp.Controllers
             Order order = orderEntities.Orders.Single(x => x.OrderID == id);
             return View(order);
         }
+
+        //Displaymodel For Practice
+        public ActionResult Details(int id)
+        {
+            OrderEntities orderEntities = new OrderEntities();
+            Order order = orderEntities.Orders.Single(x => x.OrderID == id);
+            return View(order);
+        }
+
+        //Editmodelfor practice
+        public ActionResult Edit(int id)
+        {
+            OrderEntities orderEntities = new OrderEntities();
+            Order order = orderEntities.Orders.Single(x => x.OrderID == id);
+            return View(order);
+        }
     }
 }

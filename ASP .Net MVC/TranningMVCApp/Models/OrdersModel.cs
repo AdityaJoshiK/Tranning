@@ -4,11 +4,12 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace TranningMVCApp.Models
 {
     [MetadataType(typeof(OrdersMetaData))]
-    public partial class Order
+    public partial class Orders
     {
     }
 
@@ -73,5 +74,14 @@ namespace TranningMVCApp.Models
 
         //UIhint use to specify how this url will be treated
          */
+
+        //HiddenInput attribute is useful when you want to render a property using input type=hidden.
+        [HiddenInput(DisplayValue = false)]
+        public int Id { get; set; }
+
+        //Readonly attribute, in view it is visible and we can change it also but it will be not updatedin db because it is readonly
+        [ReadOnly(true)]
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; }
     }
 }
