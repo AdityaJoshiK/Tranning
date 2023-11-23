@@ -29,7 +29,7 @@ namespace TranningMVCApp.Models
         //To get time in 12 hour notation with AM PM
         //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy hh:mm:ss tt}")]
         [DisplayName("Order Date")]
-        [DisplayFormat(DataFormatString = "{0:d}")]
+        [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode =true)]
         public Nullable<System.DateTime> OrderDateTime { get; set; }
 
         // Display mailto hyperlink

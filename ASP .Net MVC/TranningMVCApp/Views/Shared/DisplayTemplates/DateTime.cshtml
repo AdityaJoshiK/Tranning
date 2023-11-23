@@ -1,0 +1,7 @@
+﻿@model DateTime?
+
+@* Static *@
+@Html.TextBox("", (Model.HasValue ? Model.Value.ToString("dd/MM/yyyy") : string.Empty), new { @class = "date" })
+
+@* Dynamic *@
+@Html.TextBox("", (Model.HasValue ? ViewData.TemplateInfo.FormattedModelValue : string.Empty), new { @class = "date" })
