@@ -7,6 +7,8 @@
     <Property Name="OrderID" Type="Int32" Nullable="false" />
     <Property Name="OrderDateTime" Type="DateTime" Precision="3" />
     <Property Name="CustomerID" Type="Int32" />
+    <Property Name="Photo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="AlternateText" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityContainer Name="OrderEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Orders" EntityType="Self.Order" />

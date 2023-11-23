@@ -18,6 +18,13 @@ namespace TranningMVCApp.Controllers
         }
 
         //Displaymodel For Practice
+        public ActionResult DetailsWithDisplayfor(int id)
+        {
+            OrderEntities orderEntities = new OrderEntities();
+            Order order = orderEntities.Orders.Single(x => x.OrderID == id);
+            return View(order);
+        }
+
         public ActionResult Details(int id)
         {
             OrderEntities orderEntities = new OrderEntities();

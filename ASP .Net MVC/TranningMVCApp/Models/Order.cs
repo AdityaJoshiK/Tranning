@@ -17,5 +17,7 @@ namespace TranningMVCApp.Models
         public int OrderID { get; set; }
         public Nullable<System.DateTime> OrderDateTime { get; set; }
         public Nullable<int> CustomerID { get; set; }
+        public string Photo { get; set; }
+        public string AlternateText { get; set; }
     }
 }

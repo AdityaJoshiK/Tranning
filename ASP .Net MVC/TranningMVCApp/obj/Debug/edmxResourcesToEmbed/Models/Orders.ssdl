@@ -7,6 +7,8 @@
     <Property Name="OrderID" Type="int" Nullable="false" />
     <Property Name="OrderDateTime" Type="datetime" />
     <Property Name="CustomerID" Type="int" />
+    <Property Name="Photo" Type="nvarchar" MaxLength="100" />
+    <Property Name="AlternateText" Type="nvarchar" MaxLength="100" />
   </EntityType>
   <EntityContainer Name="ModelsStoreContainer">
     <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />

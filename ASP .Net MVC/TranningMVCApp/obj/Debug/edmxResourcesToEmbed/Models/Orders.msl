@@ -4,6 +4,8 @@
     <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="Models.Order">
         <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="AlternateText" ColumnName="AlternateText" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
           <ScalarProperty Name="OrderID" ColumnName="OrderID" />
           <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
