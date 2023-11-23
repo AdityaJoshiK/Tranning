@@ -38,6 +38,9 @@
 
             @* Using Custom Html Helper *@
             @Html.Images(Model.Photo,Model.AlternateText)
+
+            @* if we use return type string then it return html tag so use html raw *@
+            @*@Html.Raw(Html.Images(Model.Photo, Model.AlternateText))*@
         </dd>
 
     </dl>

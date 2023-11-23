@@ -14,6 +14,8 @@ namespace TranningMVCApp.CustomeHtmlHelpers
             tb.Attributes.Add("src", VirtualPathUtility.ToAbsolute(src));
             tb.Attributes.Add("alt", alt);
 
+            //If you not want to return as IHtmlString and want to return as string then it will display as html tag to solve this use IHtmlString
+
             return new MvcHtmlString(tb.ToString(TagRenderMode.SelfClosing));
         }
     }
