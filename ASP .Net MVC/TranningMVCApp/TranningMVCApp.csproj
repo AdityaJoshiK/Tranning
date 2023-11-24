@@ -375,6 +375,8 @@
     <Content Include="Views\Orders\Edit.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\DateTime.cshtml" />
     <Content Include="Views\Orders\Details.cshtml" />
+    <Content Include="Views\City\PartialviewPractice.cshtml" />
+    <Content Include="Views\Shared\PartialViewDemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

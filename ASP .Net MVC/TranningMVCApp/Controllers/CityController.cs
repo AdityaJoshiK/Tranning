@@ -78,5 +78,11 @@ namespace TranningMVCApp.Controllers
                 return stringBuilder.ToString();
             }
         }
+
+        public ActionResult PartialviewPractice()
+        {
+            SampleDataEntities sampleDataEntities = new SampleDataEntities();
+            return View(sampleDataEntities.Cities);
+        }
     }
 }

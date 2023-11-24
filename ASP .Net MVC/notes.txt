@@ -1,0 +1,42 @@
+-> Ways To Pass Data From Controllers to View
+1. ViewBag or ViewData
+2. Dynamic type
+3. Strongly typed view
+
+Advantages Of Using strongly typed Views
+1. Intellisense and
+2. Compile-time error checking
+
+Note:- With ViewBag and Dynamic type, we don't have these advantages.
+
+(1) Using Static
+-> @ViewBag.EmployeeData.FullName
+
+(2) Using Dynamic Model Type
+-> @model dynamic
+-> it will render model which is passed from controller
+
+(3) Strongly Typed View
+-> We use full model name in view
+
+
+-> Partal View
+
+-> It is use to create view componenets, it can be create in inside shared folder or view folder and we can use it in any view and it render section
+
+
+
+
+
+
+Department, DepartmentSetting
+
+20 10 which Common which are active in Department
+
+table1 which are not in table2
+
+SELECT Department.Name, COUNT(Department.Id) AS DepartmentCount
+FROM Department
+INNER JOIN DepartmentSetting ON Department.Id = DepartmentSetting.DepartmentId
+WHERE DepartmentSetting.isActive = 1
+GROUP BY Department.Name;

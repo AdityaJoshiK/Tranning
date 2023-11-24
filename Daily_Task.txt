@@ -1334,8 +1334,32 @@ Hackerrank Problem Solving= Viraj Sir
 	- Cats and a Mouse (Done)
 	- Sales by Match (Done)
 
+22/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Custom html helpers in mvc
+	- Html encoding 
+	- Detect errors in views at compile time
+	- Advantages of using strongly typed views
+
+SQL(W3School) = Viraj Sir
+	- SQL PRIMARY KEY Constraint
+	- SQL FOREIGN KEY Constraint
+	- SQL CHECK Constraint
+	- SQL DEFAULT Constraint
+
+Hackerrank Problem Solving= Viraj Sir
+	- Picking Numbers
+	- Climbing the Leaderboard (Continue)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
+
+uniquekey Constraint
+seelct date,id,name from tbl where orderby date
 
 metadata(typeofmetadata)
 partial

@@ -151,6 +151,7 @@ D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\System.Web.WebPages.dll
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\System.Web.WebPages.Razor.dll
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\WebGrease.dll
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\BusinessLayer.pdb
+D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\BusinessLayer.dll.config
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\EntityFramework.xml
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\EntityFramework.SqlServer.xml
 D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\System.Web.Helpers.xml
@@ -168,4 +169,3 @@ D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.csproj.CoreComp
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.csproj.CopyComplete
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.dll
 D:\Tranning\ASP .Net MVC\TranningMVCApp\obj\Debug\TranningMVCApp.pdb
-D:\Tranning\ASP .Net MVC\TranningMVCApp\bin\BusinessLayer.dll.config
