@@ -1384,28 +1384,48 @@ Good Morning
 Hello Sir,
 Today's Learning:
 
-Good Morning
-Hello Sir,
-Today's Learning:
-
 ASP .Net MVC(kudvenkat) = Viraj Sir
 	- Difference between html.partial and html.renderpartial
 	- T4 templates in asp net mvc
 	- What is cross site scripting attack
 	- How to prevent cross site scripting attack
+	- Razor views in mvc
+
+ASP .Net MVC(WebGentle) = Viraj Sir
+	- Validation in MVC in loosely binding
+	- Validation in MVC with strongly binding 
+	- Validation Summary in MVC
 
 SQL(W3School) = Viraj Sir
 	- SQL CREATE INDEX Statement
 	- SQL AUTO INCREMENT Field	
 
 Hackerrank Problem Solving= Viraj Sir
-	- Climbing the Leaderboard (Continue)
-
-
-
 	- Find Digits
 
-	
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Difference between html.partial and html.renderpartial With Practical (Done)
+	- T4 templates in asp net mvc With Practical (Done)
+	- What is cross site scripting attack With Practical (Done)
+	- How to prevent cross site scripting attack With Practical (Done)
+	- Razor views in mvc With Practical (Done)
+
+ASP .Net MVC(WebGentle) = Viraj Sir
+	- Validation in MVC in loosely binding With Practical (Done)
+	- Validation in MVC with strongly binding With Practical (Done) 
+	- Validation Summary in MVC With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL AUTO INCREMENT Field With Practical (Done)	
+	- SQL CREATE INDEX Statement (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Find Digits (Done)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
