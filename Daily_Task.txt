@@ -1334,7 +1334,49 @@ Hackerrank Problem Solving= Viraj Sir
 	- Cats and a Mouse (Done)
 	- Sales by Match (Done)
 
-22/11/23
+24/11/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Difference between html.partial and html.renderpartial
+	- T4 templates in asp net mvc
+	- What is cross site scripting attack
+	- How to prevent cross site scripting attack
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE INDEX Statement
+	- SQL AUTO INCREMENT Field	
+
+Hackerrank Problem Solving= Viraj Sir
+	- Climbing the Leaderboard (Continue)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Custom html helpers in mvc With Practical (Done)
+	- Html encoding  With Practical (Done)
+	- Detect errors in views at compile time With Practical (Done)
+	- Advantages of using strongly typed views With Practical (Done)
+	- Partial views in mvc With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL PRIMARY KEY Constraint With Practical (Done)
+	- SQL FOREIGN KEY Constraint With Practical (Done)
+	- SQL CHECK Constraint With Practical (Done)
+	- SQL DEFAULT Constraint With Practical (Done)
+	- SQL Hackerrank
+		-> The Blunder (Done)
+		-> Weather Observation Station 19 (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Picking Numbers (Done)
+	- Climbing the Leaderboard (Continue)
+
+25/11/23
 Good Morning
 Hello Sir,
 Today's Learning:
@@ -1344,22 +1386,30 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- Html encoding 
 	- Detect errors in views at compile time
 	- Advantages of using strongly typed views
+	- Partial views in mvc
 
 SQL(W3School) = Viraj Sir
 	- SQL PRIMARY KEY Constraint
 	- SQL FOREIGN KEY Constraint
 	- SQL CHECK Constraint
 	- SQL DEFAULT Constraint
+	- SQL Hackerrank
+		-> The Blunder
+		-> Weather Observation Station 19
 
 Hackerrank Problem Solving= Viraj Sir
 	- Picking Numbers
 	- Climbing the Leaderboard (Continue)
 
+	- Find Digits
+
+	
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
 uniquekey Constraint
 seelct date,id,name from tbl where orderby date
+column as string alias and table
 
 metadata(typeofmetadata)
 partial

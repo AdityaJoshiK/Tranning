@@ -34,7 +34,7 @@
         </dt>
 
         <dd>
-            @*<img src="@Url.Content(Model.Photo)" alt="@Model.AlternateText"/>*@
+            <img src="@Url.Content(Model.Photo)" alt="@Model.AlternateText"/>
 
             @* Using Custom Html Helper *@
             @Html.Images(Model.Photo,Model.AlternateText)

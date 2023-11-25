@@ -130,6 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CityController.cs" />
+    <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\CustomersBLayerController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
@@ -146,6 +147,24 @@
     <Compile Include="Models\CitiesViewModel.cs" />
     <Compile Include="Models\City.cs">
       <DependentUpon>SampleDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comment.cs">
+      <DependentUpon>Comments.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comments.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comments.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comments.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comments.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comments.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\CustomerContext.cs" />
@@ -247,6 +266,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\Comments.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Comments.edmx</DependentUpon>
+      <LastGenOutput>Comments.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Comments.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Comments.edmx</DependentUpon>
+      <LastGenOutput>Comments.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\EmployeeDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
@@ -322,6 +351,13 @@
     <Content Include="Models\Orders.edmx.diagram">
       <DependentUpon>Orders.edmx</DependentUpon>
     </Content>
+    <EntityDeploy Include="Models\Comments.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Comments.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Comments.edmx.diagram">
+      <DependentUpon>Comments.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -377,6 +413,11 @@
     <Content Include="Views\Orders\Details.cshtml" />
     <Content Include="Views\City\PartialviewPractice.cshtml" />
     <Content Include="Views\Shared\PartialViewDemo.cshtml" />
+    <Content Include="Views\Comments\Create.cshtml" />
+    <Content Include="Views\Comments\Delete.cshtml" />
+    <Content Include="Views\Comments\Details.cshtml" />
+    <Content Include="Views\Comments\Edit.cshtml" />
+    <Content Include="Views\Comments\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
