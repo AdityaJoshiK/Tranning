@@ -1,0 +1,13 @@
+﻿@model TranningMVCApp.Models.City
+
+@{
+    ViewBag.Title = "City";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@Html.HiddenFor(m => m.ID)
+@Html.HiddenFor(m => m.Name)
+
+@Html.CheckBoxFor(m => m.IsSelected)
+@Html.DisplayFor(x => x.Name)

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<TranningMVCApp.Models.Employee>
+
+@using TranningMVCApp.Models;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<ul>
+    @foreach (Employee employee in Model)
+    {
+        <li>
+            @Html.ActionLink(employee.Name, "Details", new { id = employee.EmployeeID })
+        </li>
+    }
+</ul>
+
+@Html.ActionLink("back to list", "Index","Department")

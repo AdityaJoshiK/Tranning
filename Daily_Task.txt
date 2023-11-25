@@ -1335,21 +1335,24 @@ Hackerrank Problem Solving= Viraj Sir
 	- Sales by Match (Done)
 
 24/11/23
-Good Morning
-Hello Sir,
-Today's Learning:
-
 ASP .Net MVC(kudvenkat) = Viraj Sir
-	- Difference between html.partial and html.renderpartial
-	- T4 templates in asp net mvc
-	- What is cross site scripting attack
-	- How to prevent cross site scripting attack
+	- Custom html helpers in mvc
+	- Html encoding 
+	- Detect errors in views at compile time
+	- Advantages of using strongly typed views
+	- Partial views in mvc
 
 SQL(W3School) = Viraj Sir
-	- SQL CREATE INDEX Statement
-	- SQL AUTO INCREMENT Field	
+	- SQL PRIMARY KEY Constraint
+	- SQL FOREIGN KEY Constraint
+	- SQL CHECK Constraint
+	- SQL DEFAULT Constraint
+	- SQL Hackerrank
+		-> The Blunder
+		-> Weather Observation Station 19
 
 Hackerrank Problem Solving= Viraj Sir
+	- Picking Numbers
 	- Climbing the Leaderboard (Continue)
 
 Good Evening
@@ -1381,25 +1384,24 @@ Good Morning
 Hello Sir,
 Today's Learning:
 
+Good Morning
+Hello Sir,
+Today's Learning:
+
 ASP .Net MVC(kudvenkat) = Viraj Sir
-	- Custom html helpers in mvc
-	- Html encoding 
-	- Detect errors in views at compile time
-	- Advantages of using strongly typed views
-	- Partial views in mvc
+	- Difference between html.partial and html.renderpartial
+	- T4 templates in asp net mvc
+	- What is cross site scripting attack
+	- How to prevent cross site scripting attack
 
 SQL(W3School) = Viraj Sir
-	- SQL PRIMARY KEY Constraint
-	- SQL FOREIGN KEY Constraint
-	- SQL CHECK Constraint
-	- SQL DEFAULT Constraint
-	- SQL Hackerrank
-		-> The Blunder
-		-> Weather Observation Station 19
+	- SQL CREATE INDEX Statement
+	- SQL AUTO INCREMENT Field	
 
 Hackerrank Problem Solving= Viraj Sir
-	- Picking Numbers
 	- Climbing the Leaderboard (Continue)
+
+
 
 	- Find Digits
 
@@ -1426,3 +1428,13 @@ json to all Conversion
 09-11-23-4
 20-11-23-4
 21-11-23-4
+
+
+https://somee.com/
+
+http://adityaportfolio.somee.com/Employee
+
+DB Details Live:-
+AdityaPractice.mssql.somee.com
+demoabcd_SQLLogin_1
+f7f98ljvxs

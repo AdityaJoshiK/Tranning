@@ -392,11 +392,6 @@
     <Content Include="Views\EmployeeBLayer\Edit.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\CustomersBLayer\Index.cshtml" />
-    <Content Include="Views\EmployeesNew\Create.cshtml" />
-    <Content Include="Views\EmployeesNew\Delete.cshtml" />
-    <Content Include="Views\EmployeesNew\Details.cshtml" />
-    <Content Include="Views\EmployeesNew\Edit.cshtml" />
-    <Content Include="Views\EmployeesNew\Index.cshtml" />
     <Content Include="Views\Employee\EmployeesByDepartment.cshtml" />
     <Content Include="Views\HelperPractice\Index.cshtml" />
     <Content Include="Views\Home\Company.cshtml" />

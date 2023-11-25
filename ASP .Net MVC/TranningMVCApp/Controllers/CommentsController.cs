@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using TranningMVCApp.Models;
@@ -49,6 +50,19 @@ namespace TranningMVCApp.Controllers
         [ValidateInput(false)]
         public ActionResult Create([Bind(Include = "Id,Name,Comments")] Comment comment)
         {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(HttpUtility.HtmlEncode(comment.Comments));
+
+            sb.Replace("&lt;b&gt;", "<b>");
+            sb.Replace("&lt;/b&gt;", "</b>");
+            sb.Replace("&lt;u&gt;", "<u>");
+            sb.Replace("&lt;/u&gt;", "</u>");
+
+            comment.Comments = sb.ToString();
+
+            string strname = HttpUtility.HtmlEncode(comment.Name);
+            comment.Name = strname;
+
             if (ModelState.IsValid)
             {
                 db.Comments.Add(comment);

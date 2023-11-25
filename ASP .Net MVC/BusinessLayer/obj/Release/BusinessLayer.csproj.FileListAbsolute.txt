@@ -1,0 +1,12 @@
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\BusinessLayer.dll.config
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\BusinessLayer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\BusinessLayer.pdb
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\EntityFramework.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\EntityFramework.xml
+D:\Tranning\ASP .Net MVC\BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Release\BusinessLayer.dll
+D:\Tranning\ASP .Net MVC\BusinessLayer\obj\Release\BusinessLayer.pdb

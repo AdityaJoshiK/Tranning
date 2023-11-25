@@ -1,0 +1,31 @@
+﻿@model TranningMVCApp.Models.Order
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (@Html.BeginForm())
+{
+    //It display given data in edit format i textbox
+    @Html.EditorForModel()
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $("input:text.date").datepicker(
+            {
+                dateFormat: "dd/mm/yy"
+            });
+    });
+</script>
+
+
+@*<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>*@
+@*<link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />*@

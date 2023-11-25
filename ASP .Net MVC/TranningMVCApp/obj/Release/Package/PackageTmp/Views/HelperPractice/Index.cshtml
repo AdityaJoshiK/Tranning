@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@*<input type="text" name="Firstname"/>*@
+@*both are same*@
+@Html.TextBox("Firstname")
+
+@Html.Label("fisrtname", "First Name")
+@* With Value *@
+@Html.TextBox("Firstname", "Aditya")
+
+@* With Style *@
+@Html.Label("Enter Password", new { style = "background-color:Red; color:White; font-weight:bold", title = "Please enter your first name" })
+@Html.Password("Password")
+
+@* Textarea *@
+@Html.TextArea("Comments", "", 5, 20, null)
+
+@Html.Hidden("id")  
+
+<br/>
+
+@*@Html.DropDownList("Departments",new List<SelectListItem>
+{
+    new SelectListItem { Text="IT",Value="1",Selected=true},-		$exception	{"An error occurred while executing the command definition. See the inner exception for details."}	System.Data.Entity.Core.EntityCommandExecutionException
+
+    new SelectListItem { Text="HR",Value="2"},
+    new SelectListItem { Text="Payroll",Value="3"},
+},"Select")*@
+
+@Html.DropDownList("Departments","Select")
