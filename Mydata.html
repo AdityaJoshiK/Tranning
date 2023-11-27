@@ -12,6 +12,11 @@
         <h3>Current MSB : <span id="data"></span></h3>
         <button onclick="clickHandler('inc')" value="inc">+</button>
         <button onclick="clickHandler('dec')" value="dec">-</button>
+        <h3>Current Days : <span id="days"></span></h3>
+        <button onclick="clickHandler('dinc')" value="inc">+</button>
+        <button onclick="clickHandler('ddec')" value="dec">-</button>
+        <button onclick="clickHandler('setzero')" value="setzero">Set to zero</button>
+        <h4>Max Days : <span id="maxdays"></span></h4>
         <h3 id="error"></h3>
     </div>
 </body>
@@ -24,6 +29,8 @@
     let getdata; // Define a variable to store the data
 
     let text = document.getElementById("data");
+    let days = document.getElementById("days");
+    let maxdays = document.getElementById("maxdays");
     let error = document.getElementById("error");
 
 
@@ -34,9 +41,8 @@
         .then(function (data) {
             getdata = data; // Store the data in the variable
             text.innerText = getdata[0].msb;
-
-           
-
+            days.innerText = getdata[0].days;
+            maxdays.innerText = getdata[0].maxday;
         })
         .catch(function (error) {
             console.error("Error fetching data: " + error);
@@ -63,13 +69,31 @@
                     console.log("Incrementing")
                     currentData[0].msb++; // Increment "msb" by 1
                 }
-                else {
+                else if(action == "dec"){
                     console.log("Decrementing")
                     currentData[0].msb--; // Increment "msb" by 1
-
+                }
+                else if (action == "dinc") {
+                    console.log("Incrementing Days")
+                    currentData[0].days++; // Increment "msb" by 1
+                }
+                else{
+                    console.log("Decrementing Days")
+                    currentData[0].days--; // Increment "msb" by 1
                 }
                 
                 text.innerText = currentData[0].msb;
+                days.innerText = currentData[0].days;
+
+                if (currentData[0].maxday<currentData[0].days) {
+                    maxdays.innerText = currentData[0].days;
+                }
+
+                if(action == "setzero")
+                {
+                    days.innerText=0;
+                    currentData[0].days=0;
+                }
 
                 if (currentData[0].msb>=5) {
                 error.innerText = "Warning"
@@ -92,7 +116,7 @@
                     headers: {
                         "Content-Type": "application/json",
                     },
-                    body: JSON.stringify({ msb: currentData[0].msb }), // Update only the "msb" property
+                    body: JSON.stringify({ msb: currentData[0].msb, days: currentData[0].days, maxday: maxdays.innerText }), // Update only the "msb" property
                 })
                     .then(function (response) {
                         if (!response.ok) {
