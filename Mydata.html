@@ -32,7 +32,12 @@
     let days = document.getElementById("days");
     let maxdays = document.getElementById("maxdays");
     let error = document.getElementById("error");
-    let todaydate =new Date().toISOString().split('T')[0];
+    let today = new Date();
+    let dd = String(today.getDate()).padStart(2, '0');
+    let mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+    let yyyy = today.getFullYear();
+
+    let todaydate = yyyy + '-' + mm + '-' + dd;
 
 
     fetch(url)
@@ -60,6 +65,8 @@
                 }
 
             console.log("Difference in days:", daysDifference, lastDay, today);
+
+            clickHandler()
         })
         .catch(function (error) {
             console.error("Error fetching data: " + error);
