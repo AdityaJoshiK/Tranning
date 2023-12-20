@@ -14,6 +14,7 @@ namespace TranningMVCApp
         protected void Application_Start()
         {
             Database.SetInitializer<TranningMVCApp.Models.EmployeeContext>(null);
+            Database.SetInitializer<Models.ProductContext>(null);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
