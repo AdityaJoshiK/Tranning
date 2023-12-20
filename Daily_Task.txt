@@ -1426,6 +1426,40 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Find Digits (Done)
 
+
+20/12/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) Revision = Viraj Sir
+
+SQL(W3School) Revision= Viraj Sir
+
+SQL Hackerrank= Viraj Sir
+	- Binary Tree Nodes
+
+Hackerrank Problem Solving= Viraj Sir
+	- The Hurdle Race
+	- Designer PDF Viewer
+	- Utopian Tree (Continue)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) Revision (Done) = Viraj Sir
+
+SQL(W3School) Revision (Done)= Viraj Sir
+
+SQL Hackerrank= Viraj Sir
+	- Binary Tree Nodes (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- The Hurdle Race (Done)
+	- Designer PDF Viewer (Done)
+	- Utopian Tree (Continue)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 

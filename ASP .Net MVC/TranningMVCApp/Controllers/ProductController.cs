@@ -16,5 +16,23 @@ namespace TranningMVCApp.Controllers
             List<ProductModel> products = productContext.Products.ToList();
             return View(products);
         }
+
+        public ActionResult Practice()
+        {
+            ProductContext productContext = new ProductContext();
+            List<ProductModel> products = productContext.Products.ToList();
+            return View(products);
+        }
+
+        public ActionResult Practice(ProductModel model)
+        {
+            ProductContext productContext = new ProductContext();   
+            productContext.Products.Add(model);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Create() { 
+            return View();
+        }
     }
 }

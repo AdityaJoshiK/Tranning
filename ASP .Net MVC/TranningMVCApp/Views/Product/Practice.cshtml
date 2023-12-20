@@ -1,0 +1,17 @@
+﻿@model IEnumerable<TranningMVCApp.Models.ProductModel>
+
+@{
+    ViewBag.Title = "Practice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Practice</h2>
+
+@using (Html.BeginForm())
+{
+    foreach (var item in Model)
+    {
+        @Html.RadioButtonFor(modelItem => item.ProductName, item.ProductID) @item.ProductName
+        @*@Html.CheckBoxFor(modelItem => item.ProductID, new { value = item.ProductID }) @item.ProductName*@
+    }
+}
