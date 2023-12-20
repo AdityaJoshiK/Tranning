@@ -29,7 +29,7 @@ namespace TranningMVCApp.Controllers
             //We Already Use TempData msg so now it will be empty and below Edit method it will be empty to solve we need to add Tempdata.Keep method it will keep data in tempdata
             TempData.Keep();
 
-            //it will save all data in tempdatas if we need to use specific then we can pass name also Tempdata.Keep("msg)
+            //it will save all data in tempdata if we need to use specific then we can pass name also Tempdata.Keep("msg)
 
             //ViewBag.msg = TempData.Peek("msg"); it is same as above but it will keep and display both
             return View();
@@ -44,12 +44,12 @@ namespace TranningMVCApp.Controllers
                 Employee employee = new Employee();
                 //UpdateModel<Employee>(employee); //it will return exception 
                 TryUpdateModel<Employee>(employee); //it will return true or false
-            if (ModelState.IsValid)
-            {
-                employeeblayer.addEmployee(employee);
-                return RedirectToAction("Index");
-            }
-            return View();
+                if (ModelState.IsValid)
+                {
+                    employeeblayer.addEmployee(employee);
+                    return RedirectToAction("Index");
+                }
+                return View();
         }
 
         //Create Using Form Collection
