@@ -1478,6 +1478,28 @@ Hackerrank Problem Solving= Viraj Sir
 	- Utopian Tree (Continue)
 	- Angry Professor
 
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Razor views in mvc
+	- Razor views in mvc Part 2
+	- Layout view
+	- Multiple Layout
+	- Section View
+	- ViewStart in asp net mvc
+	- Search functionality 
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE INDEX Statement
+	- SQL DROP INDEX Statement
+	- SQL Dates
+
+Hackerrank Problem Solving= Viraj Sir
+	- Utopian Tree (Continue)
+	- Angry Professor
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
