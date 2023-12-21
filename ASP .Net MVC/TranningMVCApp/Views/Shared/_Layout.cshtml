@@ -24,6 +24,20 @@
             </div>
         </div>
     </nav>
+    @* Render specific section *@
+    @RenderSection("Menu", false)
+    @* Second parameter to check section is required or not *@
+
+    @* if it is defined then this otherwise we can use other *@
+    @if (IsSectionDefined("Menu"))
+    {
+        @RenderSection("Menu", false)
+    }
+    else
+    {
+        @Html.ActionLink("List","Index")
+    }
+
     <div class="container body-content">
         @RenderBody()
         <hr />

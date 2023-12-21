@@ -1460,6 +1460,24 @@ Hackerrank Problem Solving= Viraj Sir
 	- Designer PDF Viewer (Done)
 	- Utopian Tree (Continue)
 
+21/12/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Razor views in mvc
+	- Layout view in mvc
+	- ViewStart in asp net mvc
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE INDEX Statement
+	- SQL Dates
+
+Hackerrank Problem Solving= Viraj Sir
+	- Utopian Tree (Continue)
+	- Angry Professor
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
