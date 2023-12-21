@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using BusinessLayer;
 //using TranningMVCApp.Models;
+//using TranningMVCApp.Models;
 
 namespace TranningMVCApp.Controllers
 {
@@ -19,6 +20,20 @@ namespace TranningMVCApp.Controllers
             TempData["msg"] = "Hii From Index";
             ViewData["Check"] = "Check From Index";
             return View(employees);
+        }
+
+        [HttpGet]
+        public ActionResult Search(string searchBy,string search)
+        {
+            EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
+            if (searchBy == "Gender")
+            {
+                return View("Index",e.Employees.Where(x => x.Gender == search || search == null).ToList());
+            }
+            else
+            {
+                return View("Index",e.Employees.Where(x => x.Name.StartsWith(search) || search == null).ToList());
+            }
         }
 
         [HttpGet]
@@ -77,7 +92,7 @@ namespace TranningMVCApp.Controllers
 
         //Create Using Model
         [HttpPost]
-        public ActionResult CreateUsingModel(Employee employee)
+        public ActionResult CreateUsingModel(BusinessLayer.Employee employee)
         {
             if (ModelState.IsValid)
             {
