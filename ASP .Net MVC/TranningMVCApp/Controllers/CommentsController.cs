@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -41,6 +42,27 @@ namespace TranningMVCApp.Controllers
         {
             return View();
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(IEnumerable<int> commentIdsToDelete)
+        {
+            foreach (var commentId in commentIdsToDelete)
+            {
+                var comment = db.Comments.Find(commentId);
+
+                if (comment != null)
+                {
+                    db.Comments.Remove(comment);
+                }
+            }
+
+            db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
 
         // POST: Comments/Create you want to bind to, for 
 
@@ -120,7 +142,7 @@ namespace TranningMVCApp.Controllers
         }
 
         // POST: Comments/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

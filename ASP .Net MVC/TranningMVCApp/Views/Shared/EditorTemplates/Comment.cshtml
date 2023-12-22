@@ -1,0 +1,17 @@
+﻿@model TranningMVCApp.Models.Comment
+
+@{
+    ViewBag.Title = "Comment";
+}
+
+<tr>
+    <td>
+        <input type="checkbox" name="commentIdsToDelete" id="commentIdsToDelete" value="@Model.Id" />
+    </td>
+    <td>
+        @Model.Name
+    </td>
+    <td>
+        @Model.Comments
+    </td>
+</tr>
