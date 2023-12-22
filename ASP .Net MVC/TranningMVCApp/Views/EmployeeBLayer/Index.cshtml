@@ -1,4 +1,7 @@
-﻿@model IEnumerable<BusinessLayer.Employee>
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<BusinessLayer.Employee>
 
 @{
     ViewBag.Title = "Index";
@@ -24,19 +27,19 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.First().Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Gender)
+            @Html.DisplayNameFor(model => model.First().Gender)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.City)
+            @Html.DisplayNameFor(model => model.First().City)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DepartmentID)
+            @Html.DisplayNameFor(model => model.First().DepartmentID)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DateOfBirth)
+            @Html.DisplayNameFor(model => model.First().DateOfBirth)
         </th>
         <th></th>
     </tr>
@@ -68,6 +71,10 @@
                 </td>
             </tr>
         }
-    }
+    }n
 
 </table>
+
+@Html.PagedListPager(Model, page => Url.Action("Search", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["seacrh"] }),
+        new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation= true, DisplayItemSliceAndTotal = true}
+    )

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using BusinessLayer;
+using PagedList;
 //using TranningMVCApp.Models;
 //using TranningMVCApp.Models;
 
@@ -12,27 +14,27 @@ namespace TranningMVCApp.Controllers
     public class EmployeeBLayerController : Controller
     {
         // With Viewbag and Viewdata We can't use in another view if we write in Controller Index method then it is avaialble only in index view not other
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
 
             List<Employee> employees = e.Employees.ToList();
             TempData["msg"] = "Hii From Index";
             ViewData["Check"] = "Check From Index";
-            return View(employees);
+            return View(employees.ToPagedList(page ?? 1, 3));
         }
 
         [HttpGet]
-        public ActionResult Search(string searchBy,string search)
+        public ActionResult Search(string searchBy,string search,int? page)
         {
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
             if (searchBy == "Gender")
             {
-                return View("Index",e.Employees.Where(x => x.Gender == search || search == null).ToList());
+                return View("Index",e.Employees.Where(x => x.Gender == search || search == null).ToList().ToPagedList(page ?? 1,3));
             }
             else
             {
-                return View("Index",e.Employees.Where(x => x.Name.StartsWith(search) || search == null).ToList());
+                return View("Index",e.Employees.Where(x => x.Name.StartsWith(search) || search == null).ToList().ToPagedList(page ?? 1,3));
             }
         }
 
