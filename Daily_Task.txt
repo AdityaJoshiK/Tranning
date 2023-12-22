@@ -1478,27 +1478,44 @@ Hackerrank Problem Solving= Viraj Sir
 	- Utopian Tree (Continue)
 	- Angry Professor
 
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Razor views in mvc With Practical (Done)
+	- Razor views in mvc Part 2 With Practical (Done)
+	- Layout view With Practical (Done)
+	- Multiple Layout With Practical (Done)
+	- Section View With Practical (Done)
+	- ViewStart in asp net mvc With Practical (Done)
+	- Search functionality With Practical (Done) 
+
+SQL(W3School) = Viraj Sir
+	- SQL CREATE INDEX Statement With Practical (Done)
+	- SQL DROP INDEX Statement With Practical (Done)
+	- SQL Dates With Practical (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Utopian Tree (Done)
+	- Angry Professor (Done)
+
+22/12/23
 Good Morning
 Hello Sir,
 Today's Learning:
 
 ASP .Net MVC(kudvenkat) = Viraj Sir
-	- Razor views in mvc
-	- Razor views in mvc Part 2
-	- Layout view
-	- Multiple Layout
-	- Section View
-	- ViewStart in asp net mvc
-	- Search functionality 
+	- Search functionality
+	- Implementing Paging
+	- Implementing Sorting
 
 SQL(W3School) = Viraj Sir
-	- SQL CREATE INDEX Statement
-	- SQL DROP INDEX Statement
+	- SQL Index In Detail With Types
 	- SQL Dates
 
 Hackerrank Problem Solving= Viraj Sir
-	- Utopian Tree (Continue)
-	- Angry Professor
+	- Sequence Equation
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format

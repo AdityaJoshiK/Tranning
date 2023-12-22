@@ -27,10 +27,12 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.First().Name)
+            @*@Html.DisplayNameFor(model => model.First().Name)*@
+            @Html.ActionLink("Name","Search",new { sortBy = ViewBag.SortNameParameter, searchBy= Request.QueryString["searchBy"], search = Request.QueryString["search"] })
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.First().Gender)
+            @*@Html.DisplayNameFor(model => model.First().Gender)*@
+            @Html.ActionLink("Gender", "Search", new { sortBy = ViewBag.SortGenderParamneter, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"] })
         </th>
         <th>
             @Html.DisplayNameFor(model => model.First().City)
@@ -71,7 +73,7 @@
                 </td>
             </tr>
         }
-    }n
+    }
 
 </table>
 

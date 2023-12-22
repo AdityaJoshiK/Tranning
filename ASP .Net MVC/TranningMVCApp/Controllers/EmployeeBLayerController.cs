@@ -14,8 +14,11 @@ namespace TranningMVCApp.Controllers
     public class EmployeeBLayerController : Controller
     {
         // With Viewbag and Viewdata We can't use in another view if we write in Controller Index method then it is avaialble only in index view not other
-        public ActionResult Index(int? page)
+        public ActionResult Index(int? page, string sortBy)
         {
+
+            ViewBag.SortNameParameter = string.IsNullOrEmpty(sortBy) ? "Name desc" : "";
+            ViewBag.SortGenderParamneter = sortBy == "Gender" ? "Gender desc" : "Gender";
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
 
             List<Employee> employees = e.Employees.ToList();
@@ -25,17 +28,46 @@ namespace TranningMVCApp.Controllers
         }
 
         [HttpGet]
-        public ActionResult Search(string searchBy,string search,int? page)
+        public ActionResult Search(string searchBy,string search,int? page, string sortBy)
         {
+
+            ViewBag.SortNameParameter = string.IsNullOrEmpty(sortBy) ? "Name desc" : "";
+            ViewBag.SortGenderParamneter = sortBy == "Gender" ? "Gender desc" : "Gender";
             EmployeeBuisnessLayer e = new EmployeeBuisnessLayer();
+
+            var employees = e.Employees.AsQueryable();
+
             if (searchBy == "Gender")
             {
-                return View("Index",e.Employees.Where(x => x.Gender == search || search == null).ToList().ToPagedList(page ?? 1,3));
+                employees = employees.Where(x => x.Gender == search || search == null);
+                //return View("Index",e.Employees.Where(x => x.Gender == search || search == null).ToList().ToPagedList(page ?? 1,3));
             }
-            else
+            else if(searchBy == "Name")
             {
-                return View("Index",e.Employees.Where(x => x.Name.StartsWith(search) || search == null).ToList().ToPagedList(page ?? 1,3));
+                //return View("Index",e.Employees.Where(x => x.Name.StartsWith(search) || search == null).ToList().ToPagedList(page ?? 1,3));
+                employees = employees.Where(x => x.Name.StartsWith(search) || search == null);
             }
+
+            switch(sortBy)
+            {
+                case "Name desc":
+                    employees = employees.OrderByDescending(x=>x.Name); 
+                    break;
+
+                case "Gender desc":
+                    employees = employees.OrderByDescending(x => x.Gender);
+                    break;
+
+                case "Gender":
+                    employees = employees.OrderBy(x => x.Gender);
+                    break;
+
+                default:
+                    employees = employees.OrderBy(x => x.Name);
+                    break;
+            }
+
+            return View("Index",employees.ToPagedList(page ?? 1,3));
         }
 
         [HttpGet]
