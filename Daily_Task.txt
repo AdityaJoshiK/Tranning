@@ -1517,6 +1517,69 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Sequence Equation
 
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Search functionality With Practical (Done)
+	- Implementing Paging With Practical (Done)
+	- Implementing Sorting With Practical (Done)
+	- Delete Multiple Rows With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Clusterd Index (Done)
+	- SQL Non-Clusterd Index (Done)
+	- SQL Dates (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Sequence Equation (Done)
+
+
+23/12/23
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Check Uncheck All Checkbox
+	- action selectors
+	- nonaction attribute
+	- action filter
+
+SQL(W3School) = Viraj Sir
+	- SQL Views
+	- SQL Index Practice
+
+Hackerrank Problem Solving= Viraj Sir
+	- Service Lane
+
+Hackerrank SQL Problem Solving= Viraj Sir
+	- New Companies
+	- Contest Leaderboard (Done)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Check Uncheck All Checkbox With Practical (Done)
+	- action selectors With Practical (Done)
+	- nonaction attribute With Practical (Done)
+	- action filter (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Views With Practical (Done)
+	- SQL Index Practice (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Service Lane (Done)
+
+Hackerrank SQL Problem Solving= Viraj Sir
+	- New Companies (Done)	
+	- Contest Leaderboard (Done)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 

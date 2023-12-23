@@ -1,4 +1,9 @@
 ﻿@model IEnumerable<TranningMVCApp.Models.Comment>
+<script src="~/Scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script>
+    $(function () {        $("#checkAll").click(function () {            $("input[name='commentIdsToDelete']").prop("checked", this.checked);        });        $("input[name='commentIdsToDelete']").click(function () {            if ($("input[name='commentIdsToDelete']").length === $("input[name='commentIdsToDelete']:checked").length) {                $("#checkAll").prop("checked", true);            } else {                $("#checkAll").prop("checked", false);            }        });        $("#btnSubmit").click(function () {            var count = $("input[name='commentIdsToDelete']:checked").length;            if (count === 0) {                alert("No rows selected to delete");                return false;            } else {                return confirm(count + " row(s) will be deleted");            }        });    });
+</script>
+
 
 @{
     ViewBag.Title = "Index";
@@ -15,9 +20,10 @@
     @Html.AntiForgeryToken()
     <table class="table">
         <tr>
-            <th>
+            <th><input type="checkbox" id="checkAll"/></th>
+            @*<th>
                 @Html.DisplayName("Select")
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -55,5 +61,5 @@
 
     </table>
 
-    <input type="submit" value="Delete Selected Comments" />
+    <input type="submit" id="btnSubmit" value="Delete Selected Comments" />
 }
