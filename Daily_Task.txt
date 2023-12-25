@@ -1580,6 +1580,39 @@ Hackerrank SQL Problem Solving= Viraj Sir
 	- New Companies (Done)	
 	- Contest Leaderboard (Done)
 
+25/12/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Authorize and AllowAnonymous action filters
+	- childactiononly attribute
+	- HandleError attribute
+
+SQL(W3School) = Viraj Sir
+	- SQL Triggers
+	- SQL String Data Types
+
+Hackerrank Problem Solving= Viraj Sir
+	- Beautiful Triplets
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Authorize and AllowAnonymous action filters With Practical (Done)
+	- childactiononly attribute With Practical (Done)
+	- HandleError attribute With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL String Data Types (Done)
+	- SQL Triggers (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Beautiful Triplets (Done)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
