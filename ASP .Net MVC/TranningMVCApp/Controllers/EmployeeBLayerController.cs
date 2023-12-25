@@ -84,6 +84,12 @@ namespace TranningMVCApp.Controllers
             return View();
         }
 
+        [NonAction] //this attribute is use when method can't be call by url we can use this attribute or make method private
+        private void fetchdata()
+        {
+
+        }
+
         [HttpPost]
         [ActionName("Create")]
         public ActionResult Create_Post()
