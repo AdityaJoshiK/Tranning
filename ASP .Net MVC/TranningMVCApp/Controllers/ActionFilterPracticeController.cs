@@ -31,7 +31,11 @@ namespace TranningMVCApp.Controllers
         //custom error page can't handle not found error so we create new error controller and register in web.config
 
         //Output cache use to store output of method fo given duaration
-        [OutputCache(Duration = 10)]
+        //[OutputCache(Duration = 10)]
+
+        //For example if we need to use OutputCache with same  duration then if we need to change then we want to chage all but we can
+        //create cacheprofile to store duration
+        [OutputCache(CacheProfile = "1MiniuteCache")]
         public ActionResult Data()
         {
             System.Threading.Thread.Sleep(2); 

@@ -1605,6 +1605,7 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- Authorize and AllowAnonymous action filters With Practical (Done)
 	- childactiononly attribute With Practical (Done)
 	- HandleError attribute With Practical (Done)
+	- OutputCache attribute in mvc with practical (done)
 
 SQL(W3School) = Viraj Sir
 	- SQL String Data Types (Done)
