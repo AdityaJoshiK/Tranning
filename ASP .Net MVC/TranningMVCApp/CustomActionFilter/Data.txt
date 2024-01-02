@@ -1,0 +1,7 @@
+﻿
+ActionFilterPractice -> CustomFilter-> OnActionExecuting 	- 02-01-2024 10:28:08
+-----------------------------------
+ActionFilterPractice -> CustomFilter-> OnActionExecuted 	- 02-01-2024 10:28:17
+-----------------------------------
+ActionFilterPractice -> CustomFilter->Exception Occured 	- 02-01-2024 10:28:17
+-----------------------------------
