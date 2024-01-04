@@ -148,6 +148,7 @@
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HelperPracticeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewEmployeesController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="CustomActionFilter\TrackExecutionTime.cs" />
@@ -221,6 +222,24 @@
       <DependentUpon>Employeenew.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EmployeeNewModel.cs" />
+    <Compile Include="Models\NewEmployee.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewEmployee.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NewEmployee.cs">
+      <DependentUpon>NewEmployee.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NewEmployee.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewEmployee.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NewEmployee1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewEmployee.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Order.cs">
       <DependentUpon>Orders.tt</DependentUpon>
     </Compile>
@@ -311,6 +330,16 @@
       <DependentUpon>Employeenew.edmx</DependentUpon>
       <LastGenOutput>Employeenew1.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\NewEmployee.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NewEmployee.edmx</DependentUpon>
+      <LastGenOutput>NewEmployee.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\NewEmployee.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NewEmployee.edmx</DependentUpon>
+      <LastGenOutput>NewEmployee1.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\Orders.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Orders.edmx</DependentUpon>
@@ -374,6 +403,13 @@
       <DependentUpon>Comments.edmx</DependentUpon>
     </Content>
     <Content Include="Areas\Employee\Views\web.config" />
+    <EntityDeploy Include="Models\NewEmployee.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>NewEmployee.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\NewEmployee.edmx.diagram">
+      <DependentUpon>NewEmployee.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -436,6 +472,11 @@
     <Content Include="Views\ActionFilterPractice\Index.cshtml" />
     <Content Include="Views\ActionFilterPractice\Countries.cshtml" />
     <Content Include="Views\Shared\NotFound.cshtml" />
+    <Content Include="Views\NewEmployees\Create.cshtml" />
+    <Content Include="Views\NewEmployees\Delete.cshtml" />
+    <Content Include="Views\NewEmployees\Details.cshtml" />
+    <Content Include="Views\NewEmployees\Edit.cshtml" />
+    <Content Include="Views\NewEmployees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -443,6 +484,7 @@
     <Folder Include="Areas\Employee\Data\" />
     <Folder Include="Areas\Employee\Views\Shared\" />
     <Folder Include="Views\Error\" />
+    <Folder Include="Views\NewEmployee\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
