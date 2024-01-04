@@ -38,7 +38,7 @@ namespace TranningMVCApp.Controllers
         }
 
         // GET: Comments/Create
-        [Authorize]
+        //[Authorize]
         public ActionResult Create()
         {
             return View();
