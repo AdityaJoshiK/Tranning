@@ -57,6 +57,11 @@ namespace TranningMVCApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "EmployeeID,FirstName,LastName,BirthDate,JoiningDate,Salary,IsActive,DepartmentID")] NewEmployee newEmployee)
         {
+            if(db.NewEmployees.Any(x=>x.FirstName == newEmployee.FirstName))
+            {
+                ModelState.AddModelError("UserName", "UserName Already Exists!");
+            }
+
             if (ModelState.IsValid)
             {
                 db.NewEmployees.Add(newEmployee);
