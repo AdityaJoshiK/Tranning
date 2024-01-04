@@ -12,6 +12,7 @@ namespace TranningMVCApp.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.Web.Mvc;
     using TranningMVCApp.Common;
 
     public partial class NewEmployee
@@ -20,6 +21,7 @@ namespace TranningMVCApp.Models
         public int EmployeeID { get; set; }
 
         [Required]
+        [Remote("isUserNameExists", "NewEmployees",ErrorMessage ="FirstName Already Exists!")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Nullable<System.DateTime> BirthDate { get; set; }

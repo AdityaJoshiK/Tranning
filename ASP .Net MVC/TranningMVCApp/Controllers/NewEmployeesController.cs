@@ -20,6 +20,15 @@ namespace TranningMVCApp.Controllers
             return View(db.NewEmployees.ToList());
         }
 
+        public JsonResult isUserNameExists(string FirstName)
+        {
+            using (var context = new NewEmployeeEntities())  // Assuming NewEmployeeEntities is a database context
+            {
+                return Json(!context.NewEmployees.Any(user => user.FirstName == FirstName),JsonRequestBehavior.AllowGet);
+            }
+        }
+
+
         // GET: NewEmployees/Details/5
         public ActionResult Details(int? id)
         {
