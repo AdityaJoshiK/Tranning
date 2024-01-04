@@ -12,15 +12,22 @@ namespace TranningMVCApp.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using TranningMVCApp.Common;
 
     public partial class NewEmployee
     {
+        [Range(1,100)]
         public int EmployeeID { get; set; }
+
+        [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Nullable<System.DateTime> BirthDate { get; set; }
 
-        [Range(typeof(DateTime),"01/01/2020","01/01/2023")]
+        //In Range is fix what if we use current date as max so we create custom attribute
+        //[Range(typeof(DateTime),"01/01/2020","01/01/2023")]
+        [DateRange("01/01/2020")] //for maximum range
+        [CurrentDate] //for minimum date
         [DisplayFormat(DataFormatString = "{0:d}",ApplyFormatInEditMode = true)]
         public Nullable<System.DateTime> JoiningDate { get; set; }
         public Nullable<decimal> Salary { get; set; }

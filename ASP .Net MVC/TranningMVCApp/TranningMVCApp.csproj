@@ -136,6 +136,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Employee\EmployeeAreaRegistration.cs" />
+    <Compile Include="Common\CurrentDateAttribute.cs" />
+    <Compile Include="Common\DateRangeAttribute.cs" />
     <Compile Include="Controllers\ActionFilterPracticeController.cs" />
     <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\CommentsController.cs" />
