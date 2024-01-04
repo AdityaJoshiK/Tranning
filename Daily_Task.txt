@@ -1614,12 +1614,81 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Beautiful Triplets (Done)
 
+04/01/23
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- HandleError attribute
+	- OutputCache attribute
+	- CacheProfiles in mvc
+	- RequireHttps attribute
+	- ValidateInput attribute
+	- Custom action filters
+	- Different types of ActionResult
+	- Areas in asp net mvc
+	- StringLength attribute
+
+ASP .Net MVC(WebGentle) = Viraj Sir
+	- Get Data In jQuery
+	- Get data using ajax in mvc
+
+SQL(W3School) = Viraj Sir
+	- SQL Triggers
+		-> Instead Of
+		-> After
+	- SQL Numeric Data Types
+	- SQL Datetime Data Types
+	- SQL User Defined Function
+		-> Scalar Valued Function
+		-> Inline table function
+		-> Multi Statement Table Valued Function
+
+Hackerrank Problem Solving= Viraj Sir
+	- Cut the sticks
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- HandleError attribute With Practical (Done)
+	- OutputCache attribute With Practical (Done)
+	- CacheProfiles in mvc With Practical (Done)
+	- RequireHttps attribute With Practical (Done)
+	- ValidateInput attribute With Practical (Done)
+	- Custom action filters With Practical (Done)
+	- Different types of ActionResult With Practical (Done)
+	- Areas in asp net mvc With Practical (Done)
+	- StringLength attribute With Practical (Done)
+
+ASP .Net MVC(WebGentle) = Viraj Sir
+	- Add jQuery With Practical (Done)
+	- Get data using ajax in mvc With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL Triggers
+		-> Instead Of (Done)
+		-> After (Done)
+	- SQL Numeric Data Types (Done)
+	- SQL Datetime Data Types (Done)
+	- SQL User Defined Function
+		-> Scalar Valued Function (Done)
+		-> Inline table function (Done)
+		-> Multi Statement Table Valued Function (Pending)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Cut the sticks (Done)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
 uniquekey Constraint
 seelct date,id,name from tbl where orderby date
 column as string alias and table
+userdefined type
+loader
 
 metadata(typeofmetadata)
 partial
@@ -1632,6 +1701,9 @@ datatable to JSON
 json to all Conversion
 
 5 table, each table has 5 column
+
+area
+range
 
 09-11-23-4
 20-11-23-4
