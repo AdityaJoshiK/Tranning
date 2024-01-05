@@ -11,6 +11,8 @@ end
 
 Select dbo.Addition(2,5)
 
+
+
 --inline table function
 --returns table
 create function GetEmployees()
@@ -23,5 +25,20 @@ returns table
 as
 return (select * from Employee where EmployeeID=@id)
 
-select * from GetEmployees()
+select * from dbo.GetEmployees()
 select * from GetEmployeesById(2)
+
+
+
+--Multi Statement Table Valued Function
+create function GetEmployeesByGender(@gender varchar(20))
+returns @myTable table (emp_id int, emp_name varchar(50),gender varchar(50))
+as
+begin
+	insert into @myTable
+	select EmployeeID,Name,Gender from Employee where Gender=@gender
+
+	return
+end
+
+select * from dbo.GetEmployeesByGender('Female')

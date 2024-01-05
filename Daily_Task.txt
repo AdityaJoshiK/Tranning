@@ -1702,6 +1702,38 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Equalize the Array
 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Range attribute in asp net mvc With Practical (Done)
+	- Creating custom validation attribute in asp net mvc With Practical (Done)
+	- RegularExpression attribute in asp net mvc With Practical (Done)
+	- Compare attribute in asp net mvc With Practical (Done)
+	- Enable client side validation in asp net mvc With Practical (Done)
+	- ValidationSummary in asp net mvc With Practical (Done)
+	- Unobtrusive JavaScript With Practical (Done)
+	- Unobtrusive validation in asp net mvc With Practical (Done)
+	- Remote validation in asp net mvc With Practical (Done)
+	- Remote validation in mvc when javascript is disabled With Practical (Done)
+
+SQL(W3School) = Viraj Sir
+	- SQL User Defined Function
+		-> Multi Statement Table Valued Function (Done)
+	- SQL String Functions
+		-> ASCII (Done)
+		-> CHAR (Done)
+		-> CHARINDEX (Done)
+		-> CONCAT (Done)
+		-> CONCAT_WS (Done)
+		-> DATALENGTH (Done)
+	- SQL User Defined Datatype (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Equalize the Array (Continue)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
