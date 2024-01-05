@@ -1681,6 +1681,27 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Cut the sticks (Done)
 
+05/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Range attribute in asp net mvc
+	- Creating custom validation attribute in asp net mvc
+	- RegularExpression attribute in asp net mvc
+	- Compare attribute in asp net mvc
+	- Enable client side validation in asp net mvc
+	- ValidationSummary in asp net mvc
+
+SQL(W3School) = Viraj Sir
+	- SQL User Defined Function
+		-> Multi Statement Table Valued Function (Continue)
+	- SQL User Defined Datatype
+
+Hackerrank Problem Solving= Viraj Sir
+	- Equalize the Array
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 

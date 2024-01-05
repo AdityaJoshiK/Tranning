@@ -22,6 +22,8 @@ namespace TranningMVCApp.Models
 
         [Required]
         [Remote("isUserNameExists", "NewEmployees",ErrorMessage ="FirstName Already Exists!")]
+        [RemoteClientServer("IsUserNameAvailable", "Home",
+        ErrorMessage = "UserName already in use")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Nullable<System.DateTime> BirthDate { get; set; }
