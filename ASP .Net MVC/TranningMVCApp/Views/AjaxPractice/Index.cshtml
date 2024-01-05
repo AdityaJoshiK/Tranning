@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js" integrity="sha512-DedNBWPF0hLGUPNbCYfj8qjlEnNE92Fqn7xd3Sscfu7ipy7Zu33unHdugqRD3c4Vj7/yLv+slqZhMls/4Oc7Zg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+@Ajax.ActionLink("All", "All", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "divEmployees",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "divloading"
+})
+
+
+@Ajax.ActionLink("Top3", "Top3", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "divEmployees",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "divloading"
+})
+
+
+@Ajax.ActionLink("Bottom3", "Bottom3", new AjaxOptions()
+{
+    HttpMethod = "GET",
+    UpdateTargetId = "divEmployees",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "divloading"
+})
+
+<div id="divloading" style="display:none">
+    <img src="~/Photos/loader.gif"/>
+</div>
+
+<div id="divEmployees"></div>

@@ -140,6 +140,7 @@
     <Compile Include="Common\DateRangeAttribute.cs" />
     <Compile Include="Common\RemoteClientServerAttribute.cs" />
     <Compile Include="Controllers\ActionFilterPracticeController.cs" />
+    <Compile Include="Controllers\AjaxPracticeController.cs" />
     <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
@@ -363,6 +364,7 @@
       <DependentUpon>SampleDataModel.edmx</DependentUpon>
       <LastGenOutput>SampleDataModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Photos\loader.gif" />
     <Content Include="Photos\logo.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -480,6 +482,8 @@
     <Content Include="Views\NewEmployees\Details.cshtml" />
     <Content Include="Views\NewEmployees\Edit.cshtml" />
     <Content Include="Views\NewEmployees\Index.cshtml" />
+    <Content Include="Views\Shared\_NewEmployees.cshtml" />
+    <Content Include="Views\AjaxPractice\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -488,6 +492,7 @@
     <Folder Include="Areas\Employee\Views\Shared\" />
     <Folder Include="Views\Error\" />
     <Folder Include="Views\NewEmployee\" />
+    <Folder Include="Views\Shared\Ajaxpractice\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
