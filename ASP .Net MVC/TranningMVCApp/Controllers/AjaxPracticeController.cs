@@ -11,6 +11,8 @@ namespace TranningMVCApp.Controllers
     {
         // GET: AjaxPractice
         NewEmployeeEntities newEmployeeEntities = new NewEmployeeEntities();
+
+        [Route("/GetData")]
         public ActionResult Index()
         {
             return View();

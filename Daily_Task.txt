@@ -1734,6 +1734,35 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Equalize the Array (Continue)
 
+06/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Create a custom remote attribute and override IsValid) method
+	- Ajax with asp net mvc
+	- What is Ajax and why should we use it
+	- Providing visual feedback using LoadingElementId AjaxOption
+	- OnBegin, OnComplete, OnSuccess and OnFailure properties of AjaxOptions class
+        
+SQL(W3School) = Viraj Sir
+	- SQL User Defined Datatype (Continue)
+	- SQL String Functions (Continue)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Ajax with asp net mvc (Done)
+	- What is Ajax and why should we use it (Done)
+	- Providing visual feedback using LoadingElementId AjaxOption (Done)
+	- OnBegin, OnComplete, OnSuccess and OnFailure properties of AjaxOptions class (Done)
+	- JavaScript minification (Done)
+	- CDN Content Deliver	y Network (Done)
+	- What if CDN is down (Done)
+	
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 
@@ -1742,6 +1771,7 @@ seelct date,id,name from tbl where orderby date
 column as string alias and table
 userdefined type
 loader
+sinalr
 
 metadata(typeofmetadata)
 partial
