@@ -1762,6 +1762,42 @@ ASP .Net MVC(kudvenkat) = Viraj Sir
 	- JavaScript minification (Done)
 	- CDN Content Deliver	y Network (Done)
 	- What if CDN is down (Done)
+
+08/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Identity Framework
+        
+SQL(W3School) = Viraj Sir
+	- SQL User Defined Datatype (Continue)
+	- SQL String Functions (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Equalize the Array (Continue)
+	- Minimum Distances
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC(kudvenkat) = Viraj Sir
+	- Identity Framework (Done)
+        
+SQL(W3School) = Viraj Sir
+	- SQL User Defined Datatype (Done)
+	- SQL String Functions
+		-> FORMAT (Done)
+		-> LEFT (Done)
+		-> LEN (Done)
+		-> NCHAR (Done)
+		-> PATINDEX (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Equalize the Array (Done)
+	- Minimum Distances (Continue)
 	
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
@@ -1771,6 +1807,7 @@ seelct date,id,name from tbl where orderby date
 column as string alias and table
 userdefined type
 loader
+js version maintain
 sinalr
 
 metadata(typeofmetadata)
