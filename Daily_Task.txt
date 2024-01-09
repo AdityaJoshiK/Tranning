@@ -1798,6 +1798,44 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Equalize the Array (Done)
 	- Minimum Distances (Continue)
+
+09/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Using AJAX call
+        
+SQL(W3School) = Viraj Sir
+	- SQL String Functions (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Minimum Distances (Continue)
+	- Chocolate Feasts
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Using AJAX call With Practical (Done)
+        
+SQL(W3School) = Viraj Sir
+	- SQL String Functions
+		-> QUOTENAME (Done)
+		-> REPLACE (Done)
+		-> REPLICATE (Done)
+		-> REVERSE (Done)
+		-> RIGHT (Done)
+		-> RTRIM (Done)
+		-> SOUNDEX (Done)
+		-> SPACE (Done)
+		-> STR (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Minimum Distances (Done)
+	- Chocolate Feasts (Continue)
 	
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
