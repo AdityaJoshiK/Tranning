@@ -66,8 +66,8 @@ SELECT REPLACE('SQL Tutorial', 'T', 'M');
 --Duplicate
 SELECT REPLICATE('SQL Tutorial', 5);
 
-SELECT REPLICATE(FirstName, 2) as Name
-FROM NewEmployee;
+SELECT REPLICATE(Name, 2) as Name
+FROM Employee;
 
 
 --Reverse

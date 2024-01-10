@@ -1836,6 +1836,20 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Minimum Distances (Done)
 	- Chocolate Feasts (Continue)
+
+10/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Using AJAX call
+        
+SQL(W3School) = Viraj Sir
+	- SQL String Functions (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Chocolate Feasts (Continue)
 	
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
