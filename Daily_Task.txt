@@ -1846,11 +1846,55 @@ ASP .Net MVC = Viraj Sir
 	- CRUD Using AJAX call
         
 SQL(W3School) = Viraj Sir
-	- SQL String Functions (Continue)
+	- SQL String Functions (Done)
 
 Hackerrank Problem Solving= Viraj Sir
 	- Chocolate Feasts (Continue)
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Using AJAX call (Done)
+        
+SQL(W3School) = Viraj Sir
+	- SQL String Functions (Done)
+	- SQL Numeric Functions (Done)
+		
+Hackerrank Problem Solving= Viraj Sir
+	- Chocolate Feasts (Done)
+
+09/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- GetData Using AJAX Call and Bind datatable
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Functions
+
+Hackerrank Problem Solving= Viraj Sir
+	- Lisa's Workbook
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- GetData Using AJAX Call and Bind datatable (Done)
+	- CRUD Table in one page Using AJAX (80% Done)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Date Functions (Done) 
+
+Hackerrank Problem Solving= Viraj Sir
+	- Lisa's Workbook (Continue)
 	
+	- Dynamic Dropdown using isActive Flag
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 

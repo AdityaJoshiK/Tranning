@@ -70,6 +70,8 @@ SELECT REPLICATE(Name, 2) as Name
 FROM Employee;
 
 
+
+
 --Reverse
 SELECT REVERSE('SQL Tutorial');
 
