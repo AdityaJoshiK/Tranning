@@ -17,6 +17,7 @@ SELECT CONCAT_WS('.', 'www', 'W3Schools', 'com');--seprate given words with . or
 
 --DataLength
 SELECT DATALENGTH('W3Schools.com');
+SELECT LEN('W3Schools.com');
 
 --difference of both
 SELECT DIFFERENCE('Juice', 'Jucy');

@@ -1865,7 +1865,7 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Chocolate Feasts (Done)
 
-09/01/24
+11/01/24
 Good Morning
 Hello Sir,
 Today's Learning:
@@ -1893,6 +1893,35 @@ SQL(W3School) = Viraj Sir
 
 Hackerrank Problem Solving= Viraj Sir
 	- Lisa's Workbook (Continue)
+
+12/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Table in one page Using AJAX (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Advanced Functions
+
+Hackerrank Problem Solving= Viraj Sir
+	- Lisa's Workbook (Continue)
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Table in one page Using AJAX (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Advanced Functions (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Lisa's Workbook (Done)
+	
 	
 	- Dynamic Dropdown using isActive Flag
 SQL
