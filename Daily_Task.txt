@@ -1922,8 +1922,60 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Lisa's Workbook (Done)
 	
+
+13/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Table in one page Using AJAX (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Advanced Functions
+
+Hackerrank Problem Solving= Viraj Sir
+	- CamelCase
+	- Library Fine
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+ASP .Net MVC = Viraj Sir
+	- CRUD Table in one page Using AJAX (Done)
+	- Dynamic Dropdown using isActive Flag (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- CamelCase (Done)
+	- Library Fine (Done)
+
+16/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Defination Understanding and Analysis
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Advanced Functions
+
+Hackerrank Problem Solving= Viraj Sir
+	- Halloween Sale
 	
-	- Dynamic Dropdown using isActive Flag
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Defination Understanding and Analysis (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Advanced Functions (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Halloween Sale (Continue)
+
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
 

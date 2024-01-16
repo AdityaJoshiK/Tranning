@@ -1,0 +1,4 @@
+Commit format is: {Task Details} {Date} {Name}
+
+Folder Name: ProjectScript
+FileName: CommonFunctionScript	

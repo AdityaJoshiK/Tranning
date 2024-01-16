@@ -1,0 +1,123 @@
+### 1 - Company:
+- **Table:** `Companies`
+  - Fields:
+    - `CompanyID`
+    - `CompanyName`
+    - `Address`
+    - `ContactEmail`
+    - `ContactPhone`
+    - `RegistrationDate`
+    - `CEO`
+
+### 2 - Sites/Locations:
+- **Table:** `Sites`
+  - Fields:
+    - `SiteID`
+    - `SiteName`
+    - `Address`
+    - `ContactPhone`
+    - `Manager`
+    - `Capacity`
+    - `OpeningDate`
+    - `CompanyID` (foreign key referencing `Companies`)
+
+### 3 - Designation:
+- **Table:** `Designations`
+  - Fields:
+    - `DesignationID`
+    - `DesignationName`
+    - `DesignationDescription`
+
+### 4 - Team:
+- **Table:** `Teams`
+  - Fields:
+    - `TeamID`
+    - `TeamName`
+    - `TeamDescription`
+    - `DesignationID` (foreign key referencing `Designations`)
+
+### 5 - Menu Master:
+- **Table:** `MenuItems`
+  - Fields:
+    - `MenuItemID`
+    - `Category`
+    - `Subcategory`
+    - `Modifier`
+    - `Price`
+    - `Seasonal`
+    - `Indexing`
+    - `ProductOfDay`
+
+### 6 - Taxes Master:
+- **Table:** `Taxes`
+  - Fields:
+    - `TaxID`
+    - `TaxType`
+    - `Slab`
+    - `ItemID` (foreign key referencing `MenuItems`)
+
+### 7 - Ads Master:
+- **Table:** `Ads`
+  - Fields:
+    - `AdID`
+    - `Banner`
+    - `Text`
+    - `Location`
+
+### 8 - Seat Mapping:
+- **Table:** `SeatMappings`
+  - Fields:
+    - `SeatID`
+    - `SiteID` (foreign key referencing `Sites`)
+    - `SeatNumber`
+
+### 9 - Per seat QR Generation to Seat Mapping:
+- **Table:** `SeatQRs`
+  - Fields:
+    - `QRCode`
+    - `SeatID` (foreign key referencing `SeatMappings`)
+
+### 10 - Order Management:
+- **Table:** `Orders`
+  - Fields:
+    - `OrderID`
+    - `UserID`
+    - `SiteID` (foreign key referencing `Sites`)
+    - `QRCode`
+    - `Status`
+    - `OrderDate`
+
+### 11 - Cash Book/Sales Register:
+- **Table:** `Transactions`
+  - Fields:
+    - `TransactionID`
+    - `OrderID` (foreign key referencing `Orders`)
+    - `Amount`
+    - `TransactionDate`
+
+### 12 - Feedback Management:
+- **Tables:** `FeedbackQuestions`, `FeedbackResponses`
+  - Fields:
+    - **`FeedbackQuestions` Table:**
+      - `QuestionID`
+      - `QuestionText`
+
+    - **`FeedbackResponses` Table:**
+      - `FeedbackID`
+      - `UserID`
+      - `QuestionID` (foreign key referencing `FeedbackQuestions`)
+      - `Comment`
+      - `RewardID`
+
+### 13 - Reward/Loyalty Master:
+- **Table:** `Rewards`
+  - Fields:
+    - `RewardID`
+    - `RewardName`
+    - `LoyaltyPoints`
+
+### User Order:
+- **Table:** `UserOrders`
+  - Fields:
+    - `MobileNumber`
+    - `SMSDeliveryStatus`

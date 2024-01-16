@@ -1,0 +1,126 @@
+1. **SocietyOrCommercialTower:**
+   - `SocietyOrCommercialTowerID` (Primary Key)
+   - `Name`
+   - `Type`
+   - `Description`
+   - `Address`
+   - `City`
+   - `State`
+   - `Country`
+   - `ZipCode`
+   - `IsActive`
+
+2. **TowerWings:**
+   - `WingID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `WingName`
+   - `Description`
+
+3. **EntryExitGates:**
+   - `GateID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `EntryGatesCount`
+   - `ExitGatesCount`
+
+4. **Owners:**
+   - `OwnerID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `Name`
+   - `MemberCount`
+   - `SizeUsed`
+   - `IsMultipleOffices`
+   - `Email`
+   - `ContactNumber`
+   - `EmergencyContactNumber`
+
+5. **OwnerVehicles:**
+   - `VehicleID` (Primary Key)
+   - `OwnerID` (Foreign Key referencing `Owners`)
+   - `VehicleType`
+   - `Count`
+
+6. **Notices:**
+   - `NoticeID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `Title`
+   - `Content`
+   - `StartDate`
+   - `EndDate`
+   - `TargetMembers`
+   - `TargetFloors`
+   - `IsSocietyLevel`
+
+7. **EntryLog:**
+   - `EntryID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `GateID` (Foreign Key referencing `EntryExitGates`)
+   - `OwnerID` (Foreign Key referencing `Owners`)
+   - `VehicleType`
+   - `EntryType`
+   - `EntryTime`
+   - `ExitTime`
+   - `ApprovalStatus`
+
+8. **Assets:**
+   - `AssetID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `AssetType`
+   - `AssetName`
+   - `Description`
+
+9. **Agencies:**
+   - `AgencyID` (Primary Key)
+   - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+   - `AgencyName`
+   - `MaintenanceAgreementDate`
+   - `AgreementCopy`
+   - `Amount`
+   - `ServiceRating`
+
+10. **AgencyContacts:**
+    - `ContactID` (Primary Key)
+    - `AgencyID` (Foreign Key referencing `Agencies`)
+    - `ContactPersonName`
+    - `ContactEmail`
+    - `ContactNumber`
+
+11. **ParkingSlots:**
+    - `SlotID` (Primary Key)
+    - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+    - `SlotNumber`
+    - `OwnerID` (Foreign Key referencing `Owners`)
+    - `VehicleTag`
+    - `IsPaid`
+
+12. **MaintenanceReports:**
+    - `ReportID` (Primary Key)
+    - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+    - `ReportingZone`
+    - `ReportType`
+    - `BeforePicture`
+    - `AfterPicture`
+    - `ReportTime`
+
+13. **Complaints:**
+    - `ComplaintID` (Primary Key)
+    - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+    - `OwnerID` (Foreign Key referencing `Owners`)
+    - `ComplaintText`
+    - `ComplaintTime`
+    - `ResolutionStatus`
+
+14. **Events:**
+    - `EventID` (Primary Key)
+    - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+    - `Title`
+    - `Description`
+    - `EventDate`
+    - `Expense`
+
+15. **OutstandingMaintenance:**
+    - `OutstandingID` (Primary Key)
+    - `SocietyOrCommercialTowerID` (Foreign Key referencing `SocietyOrCommercialTower`)
+    - `OwnerID` (Foreign Key referencing `Owners`)
+    - `BalanceAmount`
+    - `DueDate`
+    - `LastReminderSent`

@@ -1,0 +1,73 @@
+1 - Society Master / Commercial Tower Master [Names]
+
+2 - Wings / Sections of Multiple Tower [ 1 / 2 or A / B]
+
+3 - Number of entry gates and number of exit gate master
+
+4 - Owner Master
+	a) Name
+	b) No of Members / Number of Employees
+	c) Size used / Multiple Offices / single unit
+	d) Email - multiples
+	e) Owner Contact Number / Entry Contact Number / Event Contact Number / Emergency Contact Number
+	f) Vehicles of the owners [ Count only - bikes , cars, others ]
+
+5 - Notice Board
+	a) Per member
+	b) Per Floor
+	c) custom selection [ o/s maintenance or 1, 4, 5]
+	d) Society level
+
+6 - Vehicle Master
+	a) Map all vechiles to the owner
+
+7 - Entry management
+	a) Vechile [ gate entry - regular / causal]
+	b) Person [ Authorised , Casual ]
+	c) if causal [ in / out / time in premises
+	d) Entry to owner approval [ process to be defined - tablet or mobile and approval by owner - notifying owner and approval]
+
+8) - Assest management
+	a) lifts
+	b) A/Cs
+	c) general windows
+	d) pressure pumps
+	e) solar installed 
+	f) Head Pumps
+	g) Swimming pools
+	9) Garden areas
+	10) Gym
+	11) Fountains & water body
+	12) Theater
+	13) Parking areas 
+	14) Children Play area
+	15) Skating Ring
+	16) Cricket Ring
+
+9) - Agency Master
+	a) List of agencies to which contract is given to be added
+	b) Maintenance agreement date
+	c) Agreement copy upload
+	d) Amount
+	e) Service rating 
+	f) Key contact person of agencies
+
+10) Allotted Parking 
+	a) Slot Marking
+	b) Slot allottment - name of owner , vechile tag, paid or free
+
+
+11) Cleanliess and Maitenance activity reporting
+	a) Agency
+	b) Manager
+	c) Staff reporting zones pictures [ before and after ]
+
+12) Society Complain management
+	a) user entering complaint [with or without picture][Giving user a form to enter complaint]
+	b) master of complaint to be acknowledg by the manager in charge [ mapping of manager in charge is pending]
+
+13) Events
+	a) Notification of events with date / expense
+
+
+14) Outstanding Maitenance automation system
