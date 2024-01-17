@@ -1,6 +1,6 @@
 1 - Society Master / Commercial Tower Master [Names]
 
-2 - Wings / Sections of Multiple Tower [ 1 / 2 or A / B]
+2 - Wings / Sections of Multiple Tower [ 1 / 2 or A / B	]
 
 3 - Number of entry gates and number of exit gate master
 
@@ -71,3 +71,9 @@
 
 
 14) Outstanding Maitenance automation system
+
+
+
+
+
+https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=2939&context=etd

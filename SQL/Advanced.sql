@@ -34,7 +34,12 @@ SELECT SESSIONPROPERTY('ANSI_NULLS');
 
 --Row Number
 SELECT 
-    ROW_NUMBER() OVER (ORDER BY Id) AS RowNumber,
+    ROW_NUMBER() OVER (ORDER BY EmailAddress DESC) AS RowNumber,
+    *
+FROM Employeenew;
+
+SELECT 
+    ROW_NUMBER() OVER (Partition BY Gender Order By Age) AS RowNumber,
     *
 FROM Employeenew;
 
@@ -52,9 +57,10 @@ FROM Employeenew;
 SELECT 
     FullName,
     Age,
-    LEAD(Age) OVER (ORDER BY Age) AS NextAge,
+    LEAD(Age) OVER (ORDER BY Age ) AS NextAge,
     LAG(Age) OVER (ORDER BY Age) AS PreviousAge
-FROM Employeenew;
+FROM Employeenew
+Order by Age DESC
 
 
 CREATE FUNCTION dbo.GetSalaryDetails(@salary INT)
@@ -90,3 +96,36 @@ FROM Employeenew e
 OUTER APPLY dbo.GetSalaryDetails(e.Salary) s;
 
 
+--Ntile (The NTILE() window function is used to divide the result set into a specified number of roughly equal groups or buckets. I)
+SELECT
+    FullName,
+    Salary,
+    NTILE(4) OVER (ORDER BY Salary DESC) AS SalaryPercentile
+FROM Employeenew;
+
+
+--FIRST_VALUE()-Returns First value for the column
+SELECT
+    FullName,
+    Salary,
+    FIRST_VALUE(Salary) OVER (ORDER BY Salary desc) AS FirstSalary
+FROM Employeenew;
+
+
+--LAST_VALUE()-Returns LAST value for the column
+SELECT
+    FullName,
+    Salary,
+    LAST_VALUE(Salary) OVER (ORDER BY Salary) AS LastSalary
+FROM Employeenew;
+
+SELECT
+    FullName,
+    Salary,
+    LAST_VALUE(Salary) OVER (ORDER BY Salary desc) AS LastSalary
+FROM Employeenew;
+
+select * from Employeenew
+-- Inserting data with a NULL salary
+INSERT INTO Employeenew (FullName, Gender, Age, HireDate, EmailAddress, Salary, PersonalWebSite)
+VALUES ('Eve Johnson1', 'Female', 32, '2022-05-15', 'eve.j@email.com', NULL, 'http://www.evej.com');

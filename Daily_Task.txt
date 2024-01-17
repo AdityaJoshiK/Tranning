@@ -1972,9 +1972,38 @@ Today's Learning:
         
 SQL(W3School) = Viraj Sir
 	- SQL Server Advanced Functions (Done)
+	- SQL Server Window Function (Continue)
 
 Hackerrank Problem Solving= Viraj Sir
 	- Halloween Sale (Continue)
+
+17/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Defination Understanding and Analysis (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Window Function (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Halloween Sale (Continue)
+	- Fair Rations
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Defination Understanding and Analysis = Viraj Sir (Continue)
+        
+SQL(W3School) = Viraj Sir
+	- SQL Server Window Function (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Halloween Sale (Done)
+	- Fair Rations (Continue)
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format

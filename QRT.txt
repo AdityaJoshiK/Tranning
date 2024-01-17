@@ -14,3 +14,10 @@
 13 - reward master / loyalty master.
 
 User order - capture mobile number (SMS delivery of bills)
+
+(1) Multiple comapines in Company table or only one?
+(2) Seat mapping
+
+
+
+https://dev.to/lontchi12/database-design-of-a-restaurant-management-system-from-user-story-to-relational-model-2jp1
