@@ -129,3 +129,44 @@ select * from Employeenew
 -- Inserting data with a NULL salary
 INSERT INTO Employeenew (FullName, Gender, Age, HireDate, EmailAddress, Salary, PersonalWebSite)
 VALUES ('Eve Johnson1', 'Female', 32, '2022-05-15', 'eve.j@email.com', NULL, 'http://www.evej.com');
+
+
+select * from Employeenew
+
+--Cube - Calculate subtotal and grandtotal for all groups created by groupby
+SELECT
+    FullName,
+    Gender,
+    SUM(Salary) AS TotalSalary
+FROM Employeenew
+GROUP BY CUBE (FullName, Gender);
+
+SELECT
+     COALEsce(FullName,'Total'),
+    Gender,
+    SUM(Salary) AS TotalSalary
+FROM Employeenew
+GROUP BY FullName, Gender with cube;
+
+
+--Rollup -- First Group by then rollup total in one column
+SELECT
+    COALEsce(FullName,'Total'),
+    Gender,
+    SUM(Salary) AS TotalSalary
+FROM Employeenew
+GROUP BY ROLLUP (FullName, Gender);
+
+
+--Grouping Sets - it first give output of first parameter and then continus for next parameters and for empty parameters gives total
+SELECT
+    FullName,
+    Gender,
+    SUM(Salary) AS TotalSalary
+FROM Employeenew
+GROUP BY GROUPING SETS (
+(FullName, Gender), --sum by Fullname & Gender
+(FullName),  -- sum by fullname
+(Gender),  --sum by gender
+()) -- grand total
+ORDER BY GROUPING(FullName), GROUPING(Gender), FullName, Gender;

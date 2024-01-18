@@ -1982,7 +1982,7 @@ Good Morning
 Hello Sir,
 Today's Learning:
 
-- Project Defination Understanding and Analysis (Continue)
+- Project Definition Understanding and Analysis (Continue)
         
 SQL(W3School) = Viraj Sir
 	- SQL Server Window Function (Continue)
@@ -1996,7 +1996,7 @@ Good Evening
 Hello Sir,
 Today's Learning:
 
-- Project Defination Understanding and Analysis = Viraj Sir (Continue)
+- Project Definition  Understanding and Analysis = Viraj Sir (Continue)
         
 SQL(W3School) = Viraj Sir
 	- SQL Server Window Function (Done)
@@ -2004,6 +2004,39 @@ SQL(W3School) = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Halloween Sale (Done)
 	- Fair Rations (Continue)
+
+18/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server ROLLUP Function
+	- SQL Server Cursor
+
+Hackerrank Problem Solving= Viraj Sir
+	- Fair Rations (Continue)
+	- Cavity Map
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server ROLLUP Function (Done)
+	- SQL Server Cube Function (Done)
+	- SQL Server Grouping Sets (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Fair Rations (Done)
+	- Cavity Map (Done)
+
+ROLLUP
+
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
