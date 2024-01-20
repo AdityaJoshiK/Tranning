@@ -2035,8 +2035,55 @@ Hackerrank Problem Solving= Viraj Sir
 	- Fair Rations (Done)
 	- Cavity Map (Done)
 
+19/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor
+
+Hackerrank Problem Solving= Viraj Sir
+	- Super Reduced String
+	- Modified Kaprekar Numbers
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Super Reduced String (Done)
+	- Modified Kaprekar Numbers (Continue)
+
+
+20/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Modified Kaprekar Numbers (Continue)
+
 ROLLUP
 
+
+proxy in javascript,
+object.assign,
+arithmatic opration,
+function factory
 
 SQL
 js methods replace state,indexof,lastindexof,index,match,format
