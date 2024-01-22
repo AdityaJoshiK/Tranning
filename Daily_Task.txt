@@ -2077,6 +2077,55 @@ SQL = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Modified Kaprekar Numbers (Continue)
 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+
+Saturday Learning = Jay Sir
+	- Object.Assign function (Done)
+	- Arithmatic function  (Done)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Modified Kaprekar Numbers (Continue)
+
+
+22/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Modified Kaprekar Numbers (Continue)
+	- Mars Exploration
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+
+ASP .Net MVC = Viraj Sir
+	- Session and Cookies in mvc (Done)
+	- ASP .net MVC Web Api (Continue)
+        
+SQL = Viraj Sir
+	- SQL Server Cursor (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Modified Kaprekar Numbers (Done)
+	- Mars Exploration (Continue)
+
 ROLLUP
 
 
@@ -2100,6 +2149,8 @@ metadata(typeofmetadata)
 partial
 why diffrent methods we can do with post also
 ienumerable
+
+
 
 //js format?
 ASp .net Types
