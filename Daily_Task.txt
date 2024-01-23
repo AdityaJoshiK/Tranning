@@ -2126,6 +2126,23 @@ Hackerrank Problem Solving= Viraj Sir
 	- Modified Kaprekar Numbers (Done)
 	- Mars Exploration (Continue)
 
+23/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+
+ASP .Net MVC = Viraj Sir
+	- ASP .net MVC Web Api (Continue)
+            
+SQL = Viraj Sir
+	- SQL Loops
+	- SQL Common Table Expression
+
+Hackerrank Problem Solving= Viraj Sir
+	- Mars Exploration (Continue)
+
 ROLLUP
 
 

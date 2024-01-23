@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web API MVC", "Web API MVC.csproj", "{12B560C5-D826-4C55-93C1-2F1BD1F946F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDataAccess", "..\EmployeeDataAccess\EmployeeDataAccess.csproj", "{2D51F7C3-6EF9-4554-BF60-EE4309B3895C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B560C5-D826-4C55-93C1-2F1BD1F946F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B560C5-D826-4C55-93C1-2F1BD1F946F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B560C5-D826-4C55-93C1-2F1BD1F946F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B560C5-D826-4C55-93C1-2F1BD1F946F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D51F7C3-6EF9-4554-BF60-EE4309B3895C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D51F7C3-6EF9-4554-BF60-EE4309B3895C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D51F7C3-6EF9-4554-BF60-EE4309B3895C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D51F7C3-6EF9-4554-BF60-EE4309B3895C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D2EF3D-9E5F-4ED2-8C47-177E056E9B6D}
+	EndGlobalSection
+EndGlobal
