@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Scanner";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Scanner</h2>
+
+<!-- include the library -->
+<script src="https://unpkg.com/html5-qrcode@2.0.9/dist/html5-qrcode.min.js"></script>
+<style>
+    .result {
+        background-color: green;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+    }
+</style>
+
+<div id="qr-reader" style="width: 600px"></div>
+
+<script type="text/javascript">
+    function onScanSuccess(decodedText, decodedResult) {
+        console.log(`Code scanned = ${decodedText}`, decodedResult);
+
+        // Parse the JSON string to an object
+        var employeeData = JSON.parse(decodedText);
+
+        // Make an AJAX request to the controller method
+        $.ajax({
+            url: '/Employeenews/ScanQR',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(employeeData),
+            success: function (response) {
+                //window.location.href = '/Employeenews/ScanQR_Get?employee=' + encodeURIComponent(JSON.stringify(response.employee));
+                document.cookie = "employeeData=" + JSON.stringify(response.employee);
+                window.location.href = "/Employeenews/ScanQR_Get";
+                console.log('Server response:', response);
+            },
+            error: function (error) {
+                console.error('Error:', error);
+            }
+        });
+    }
+
+    var html5QrcodeScanner = new Html5QrcodeScanner(
+        "qr-reader", { fps: 10, qrbox: 250 });
+    html5QrcodeScanner.render(onScanSuccess);
+</script>
+
+@*<video id="qr-video" width="300" height="200" playsinline></video>
+    <div id="qr-result"></div>
+
+    @section Scripts{
+        <script>
+            @Html.Raw("src='https://cdn.jsdelivr.net/npm/@zxing/library@0.20.0/umd/index.min.js' integrity='sha256-pWCocBH/dCRB1XcMxasPZM+/t7IolmxUM3g+O6lt1BA=' crossorigin='anonymous'")
+        </script>
+
+
+        <script>
+            // Access the video element and result container
+            const video = document.getElementById('qr-video');
+            const resultContainer = document.getElementById('qr-result');
+
+            // Initialize ZXing library
+            const codeReader = new ZXing.BrowserQRCodeReader();
+
+            // Start the video stream from the user's camera
+            codeReader
+                .getVideoInputDevices()
+                .then((videoInputDevices) => {
+                    return codeReader.decodeFromInputVideoDevice(videoInputDevices[0].deviceId, 'qr-video');
+                })
+                .then((result) => {
+                    // Display the decoded QR code content
+                    resultContainer.textContent = result.text;
+                })
+                .catch((err) => {
+                    console.error(err);
+                });
+        </script>
+
+    }*@

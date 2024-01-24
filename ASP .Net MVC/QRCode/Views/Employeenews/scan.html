@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@zxing/library@0.20.0/umd/index.min.js" integrity="sha256-pWCocBH/dCRB1XcMxasPZM+/t7IolmxUM3g+O6lt1BA=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <video id="qr-video" width="300" height="200" playsinline></video>
+    <div id="qr-result"></div>
+
+</body>
+</html>
+<script>
+    // Access the video element and result container
+    const video = document.getElementById('qr-video');
+    const resultContainer = document.getElementById('qr-result');
+
+    // Initialize ZXing library
+    const codeReader = new ZXing.BrowserQRCodeReader();
+
+    // Start the video stream from the user's camera
+    codeReader
+        .getVideoInputDevices()
+        .then((videoInputDevices) => {
+            return codeReader.decodeFromInputVideoDevice(videoInputDevices[0].deviceId, 'qr-video');
+        })
+        .then((result) => {
+            // Display the decoded QR code content
+            resultContainer.textContent = result.text;
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+</script>

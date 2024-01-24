@@ -2143,6 +2143,47 @@ SQL = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Mars Exploration (Continue)
 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+
+ASP .Net MVC = Viraj Sir
+	- ASP .net MVC Web Api
+		-> ASP NET Web API Introduction  (Done)
+		-> Creating a Web API Project  (Done)
+		-> HTTP GET PUT POST DELETE  (Done)
+		-> ASP NET Web API and SQL Server  (Done)
+            
+SQL = Viraj Sir
+	- SQL Loops (Done)
+	- SQL Common Table Expression  (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Mars Exploration (Done)
+
+
+24/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+
+ASP .net MVC Web Api(kudvenkat) = Viraj Sir
+	- ASP NET Web API Content Negotiation
+	- ASP NET Web API MediaTypeFormatter
+	- Implementing post method in ASP NET Web API
+	- Implementing Delete method in ASP NET Web API
+
+SQL = Viraj Sir
+	- SQL Pivot
+
+Hackerrank Problem Solving= Viraj Sir
+	- Manasa and Stones
+
 ROLLUP
 
 
