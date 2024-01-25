@@ -2184,6 +2184,37 @@ SQL = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Manasa and Stones
 
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Project Definition Understanding and Analysis = Viraj Sir (Continue)
+- Sample QR Code Generation and Scan and Read in Asp .Net MVC (Done) 
+- Attended Meeting Of Project (Done)  = Hardik Sir 
+
+SQL = Viraj Sir
+	- SQL Draw the Triangle 1 (Done) 
+	- SQL Draw the Triangle 2 (Done) 
+	- SQL Print Prime Numbers (Continue) 
+
+Hackerrank Problem Solving= Viraj Sir
+	- Manasa and Stones (Continue)
+
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Identifying Db Schema
+
+SQL = Viraj Sir
+	- SQL Pivot
+
+Hackerrank Problem Solving= Viraj Sir
+	- Manasa and Stones (Continue)
+
 ROLLUP
 
 

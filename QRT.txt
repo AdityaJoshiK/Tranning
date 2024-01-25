@@ -1,6 +1,6 @@
 1 - Company [under which multiple sites will be mapped ]
 2 - Sites / Locations
-3 - Designation
+3 - Designation(Roles) - Admin,CEO,GM-site wise,operator,chef,Deliveryboy,user
 4 - Team [ This will lead to access management ]
 5 - Menu master [ categories / sub categories / modifiers / pricing / seasonal / indexing in category - product / product of day with on - off feature ]
 6 - Taxes master - multiple slabs - CGST / SGST / Cess / Surcharge / Luxury tax / additional taxes [mapping to each item]
@@ -8,7 +8,7 @@
 8 - Seat Mapping [ need to be discussed and optional in phase 1 ]
 9 - Per seat QR Generation to Seat Mapping [ i.e. which QR is Which Seat ]
 10 - Order management [ web responsive page and APIs ] - 
-	Process - User will Scan QR > You pickup seat automatically > Show menu > allow ordering (lock max value in qty/value) > Payment Gateway > Show KOT on order dashboard > Status - Received/Processing/Out for Delivery)
+	Process - User will Scan QR > You pickup seat automatically > Show menu > allow ordering (lock max value in qty/value) > Payment Gateway > Show KOT on order dashboard > Status - Received/Processing/Out for Delivery/Delivered)
 11 - Cash book / sales register
 12 - feedback management [master of questions / open box - give reward]
 13 - reward master / loyalty master.
@@ -21,3 +21,9 @@ User order - capture mobile number (SMS delivery of bills)
 
 
 https://dev.to/lontchi12/database-design-of-a-restaurant-management-system-from-user-story-to-relational-model-2jp1
+
+
+
+SQL User name: QRTDBUser#2024
+
+SQL Password: DBQrT##DBUser#2024
