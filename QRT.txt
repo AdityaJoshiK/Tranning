@@ -27,3 +27,48 @@ https://dev.to/lontchi12/database-design-of-a-restaurant-management-system-from-
 SQL User name: QRTDBUser#2024
 
 SQL Password: DBQrT##DBUser#2024
+
+every week jay ne project ni copy aapi devi jethi a aapdi GDRIVE ma upload kari dese
+
+
+
+
+<add name="DefaultConnection"  connectionString="server=LAPTOP-NF336APB;database=DBQRT2; Integrated Security=SSPI" providerName="System.Data.SqlClient" />
+
+auto complete false
+copy paste in name
+in user profile toaster msg
+
+company:-
+same company validation
+validation focus
+company type dropdown validation issue
+company email validation
+number valid
+country,state,city dropdown issue using pincode and validation
+register date validation
+image preview
+clearfields in model
+
+category:
+title change in model
+fk issue
+
+subcategory:-
+dropdown
+change order of form fields
+
+registration-
+password not match
+password and confirm pwd clear
+gender based profile picture
+
+companytype code:-
+static return (use outval and outmsg)
+
+
+
+
+
+
+

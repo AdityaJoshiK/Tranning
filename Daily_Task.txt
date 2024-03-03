@@ -2202,6 +2202,7 @@ Hackerrank Problem Solving= Viraj Sir
 	- Manasa and Stones (Continue)
 
 
+25/01/24
 Good Morning
 Hello Sir,
 Today's Learning:
@@ -2215,8 +2216,869 @@ SQL = Viraj Sir
 Hackerrank Problem Solving= Viraj Sir
 	- Manasa and Stones (Continue)
 
-ROLLUP
 
+Good Evening
+Hello Sir,
+Today's Learning:
+
+- Asp .net mvc Identity Practice With Multiple Roles Access Management (Done)
+
+QRT = Hardik Sir
+	- Identifying Db Schema (Continue)
+
+SQL = Viraj Sir
+	- SQL Pivot (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Manasa and Stones (Done)
+
+
+26/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Identifying Db Schema (Continue)
+	- Theme Integration
+
+SQL = Viraj Sir
+	- SQL Pivot (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- HackerRank in a String!
+	- PrepareAlgorithmsStringsGemstones
+
+
+Good Afternoon
+Today's Learning:
+
+QRT = Hardik Sir
+	- Theme Integration (Continue)
+
+Hackerrank Problem Solving= Viraj Sir
+	- HackerRank in a String! (Done)
+	- PrepareAlgorithmsStringsGemstones (Continue)
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Identifying Db Schema (Continue)
+	- Theme Integration (Done)
+		-> Basic Layout Changes (Done)
+
+SQL = Viraj Sir
+	- Average Population (Done)
+	- African Cities (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- HackerRank in a String! (Done)
+	- PrepareAlgorithmsStringsGemstones (Continue)
+
+
+29/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Db Schema Verification (Continue)
+
+SQL = Viraj Sir
+	- Sql Transaction
+
+Hackerrank Problem Solving= Viraj Sir
+	- PrepareAlgorithmsStringsGemstones (Continue)
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+Paytm Integration = Hardik Sir
+	- Paytm JS Checkout Integration (Done) 
+	- Testing Of Payment Gateway (Continue)   
+
+QRT = Hardik Sir
+	- Schema Verification (Done)
+	- Created Table Of Country,State,City (Done)
+
+SQL = Viraj Sir
+	- Sql Transaction (Pending)
+
+Hackerrank Problem Solving= Viraj Sir
+	- PrepareAlgorithmsStringsGemstones (Continue)
+
+
+30/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+Paytm Integration = Hardik Sir
+	- Testing Of Payment Gateway (Continue)
+
+QRT = Hardik Sir
+	- Understanding SQL helper
+	- Creating table and sp of Companytype Master 
+
+SQL = Viraj Sir
+	- Sql Transaction
+
+Hackerrank Problem Solving= Viraj Sir
+	- Gemstones (Continue)
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+Paytm Integration = Hardik Sir
+	- Display Response Of Payment (Done)
+	- Testing Of Payment Gateway (Done)
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Implemented Register page (Done)
+	- Register New User With Role (Done)
+	- Login Form With Validation (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Gemstones (Done)
+
+31/01/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Configured role-based dropdown to add new roles during user registration
+	- Added fields CreationDate, CreatedBy, UpdationDate, UpdatedBy, and IsActive in the AspNetUsers table
+	- Modified the AspNetUsers_Update stored procedure to update the CreatedBy and ModifiedBy fields
+	- Created method to Update new User in RegisterLogic
+	- Created SP For deleting users and changing the status of IsActive
+	- Implemented the GetAllUsers method to display all user details.
+	- Modified Register Model to add new User
+	- Implemented validation for all fields in user registration
+
+SQL = Viraj Sir
+	- Sql Transaction
+
+Hackerrank Problem Solving= Viraj Sir
+	- Pangrams
+
+
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+		-> ExecuteProceduerWithMessageNValue (Done)
+	- Configured role-based dropdown to add new roles during user registration (Done)
+	- Added fields CreationDate, CreatedBy, UpdationDate, UpdatedBy, and IsActive in the AspNetUsers table (Done)
+	- Changed the AspNetUsers_Update stored procedure (Done)
+	- Created Userupdate method in RegisterLogic (Done)
+	- Created SP For deleting users and change status (Done)
+	- Implemented the GetAllUsers method to display all user (Done)
+	- Changed Register User Model (Done)
+	- Add validation in user registration (Continue)
+	- Add Password Show/Hide functionality in Login Page(Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Pangrams(Done)
+
+
+31/01/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Added Password Show/Hide functionality in registation page (Done)
+	- Add validation in user Registration (Done)
+	- Integrated Loader and Toaster components on the User Page (Done)
+	- Developed a Stored Procedure to select users by ID (Done)
+	- Client Side Validation In Login Page (Done)
+	- Added IsLogin In Session to Change Default Routing (Done)
+	- Modified AspNetUsers_Update SP to Update Email and Phone Number (Done)
+	- Created Insert/Update Function to Save Updated User Detail (Done)
+	- Added Email,Phone and Username in RegisterModel
+	- Modified the Register method to handle both user insertion and update functionalities (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Missing Numbers (Done)
+
+02/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+		-> ExecuteProceduerWithValue (Done)
+	- Added functionality to Check if the email exists during user registration (Done)
+	- Fix design issues in the dashboard. (Done)
+	- Created AspNetUsers_CheckUserStatus to update user status. (Done)
+	- Created CheckUserStatus Function In RegisterLogic (Done)
+	- Modify the login method to allow login only for active users (Done)
+	- Added functionality to allow only active users to log in. (Done)
+	- Created UserProfile Method to display user Profile (Done)
+	- Added Method In Home Controller to Show User Detail (Done)
+	- Create a new method to save updated user details. (Done)
+	- Created Table Of ExceptionLogs (Done)
+
+Hackerrank Problem Solving= Viraj Sir
+	- Caesar Cipher (Done)
+
+02/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- On Insertion Of New Company Insert New company Ceo Details Into AspNetUsers Table
+	- Mapped CompanyID and SiteID to AspnetUsers Table
+	- Store CompanyID and SiteID In Cookies In Login
+	- UserProfile Page Toaster On Submit
+	- Add Insert functionality In Sites  
+	- Cretaed sp  SitesMaster_Insert_Update
+	- created sp of AspNetUsers_GetCompanyandSiteID
+	- created insertOrUpdate function to send ajax request
+	- created InsertorUpdate Function in controller to recerive request
+	- Created sp of SitesMaster_GetSiteByID
+	- Created GetByID In SitesLogic
+	- Created sp of SitesMaster_DeleteOrUpdateStatus
+	- Added Insert New Site Model
+	- Created Method to change status and delete site
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Closest Numbers (Done)
+
+
+05/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- On insertion of a new company, insert the new company CEO details into the AspNetUsers table. (Done)
+	- Mapped CompanyID and SiteID to AspnetUsers Table (Done)
+	- Store CompanyID and SiteID In Cookies In Login (Done)
+	- Display a toaster notification on the user profile page on submission. (Done)
+	- Created stored procedure SitesMaster_Insert_Update. (Done)
+	- created sp of AspNetUsers_GetCompanyandSiteID (Done)
+	- Developed the insertOrUpdate function to send AJAX requests. (Done)
+	- Implemented InsertOrUpdate function in the controller to receive requests. (Done)
+	- Implement the insert functionality in sites. (Done)
+	- Created stored procedure SitesMaster_GetSiteByID. (Done)
+	- Added GetByID method in SitesLogic. (Done)
+	- Created stored procedure SitesMaster_DeleteOrUpdateStatus. (Done)
+	- Created Method to change status and delete site (Done)
+	- Adding Validation in SitesMaster (Continue)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Closest Numbers (Done)
+
+
+06/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Adding Validation in SitesMaster (Done)
+	- Displayed Company and Site Names on the Registration Page (Done)
+	- Developed EmailSender Class with SendEmail Method. (Done)
+	- Integrated Email Sending Method in the Register Function. (Done)
+	- Configured Email Sending Functionality for User Registration. (Done)
+	- Enhanced AspNetUsers_GetAll Stored Procedure to Retrieve Users by Company. (Done)
+	- Updated CompanyMaster_Insert_Update to Manage Site Insertion and Update. (Done)
+	- Mapped Company and Site in User Register (Done)
+	- Resolved Dropdown issue in User Register (Done)
+	- Created Stored Procedure to Retrieve All Sites by Company and UserID. (Done)
+	- Created Getallsites method to fill dropdown (Done)
+	- For CEO Created Dynamic Dropdown of sites (Done)
+	- Revised CompanyMaster_GetAll Stored Procedure to Retrieve Data for Each Company. (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Repeated String (Continue)
+
+
+07/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Resolved the password validation issue in user registration. (Done)
+	- Added gender and password fields in both the AspNetUsers table and the Register Model. (Done)
+	- Updated the AspNetUsers_GetAll stored procedure, AspNetUsers_GetByID stored procedure, and GetAllUsers method to retrieve user gender. (Done)
+	- Modified the AspNetUsers_Update stored procedure and Insert_Update method to handle updates for user gender and password. (Done)
+	- Changed AspNetUsers_GetCompanyandSiteID SP to get gender of Current User (Done)
+	- Implemented a gender-based user profile section in the layout page. (Done)
+	- Updated the SitesMaster_GetAll, SitesMaster_GetSiteByID, and SitesMaster_Insert_Update procedures to include the SiteContactNumber field. (Done)
+	- Added the SiteContactNumber field to the model and applied validation in the view. (Done)
+	- Configured the Web.Config file to set the CompanyID and SiteID globally. (Done)
+	- Set a condition in the Register method to send emails only to CEOs. (Done)
+	- Added an information button to retrieve detailed information about a site. (Done)
+	- Created a method to populate the Site Info Model. (Done)
+	- Modified SiteMaster_Insert_Update stored procedure to update the company on site updates. (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Repeated String (Done)
+
+
+08/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Resolving Company Edit issue (Done)
+	- Resolved Info Model Issue in Sites (Done)
+	- Modified SitesMaster_Insert_Update SP to Return Error (Done)
+	- Set Outval and Outmsg in Controller Response (Done)
+	- Added Outval Condition to Show Toaster  (Done)
+	- Error solve of Registration Date in companyMaster table (Done)
+	- Added Condition in Sits Master Show Role Based Columns  (Done)
+	- Code Review Of Sites Master (Done)
+	- Added Tooltip On Action Buttons in SiteMaster (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Funny String (Continue)
+
+
+09/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Changes In Db Schema
+		- Discussion Of Db Schema With Viraj Sir and Ashish Sir(Done)
+	- Added Insert Exception Procedure Call In Sites Master (Done)
+	- Change in Design Of Table In Sites (Done)
+	- Added trycatch in Sites sp and Name Formating (Done)
+	- Modified Index Method In Registration Controller to Display Site Dropdown (Done)
+	- Added Exception Log Method in Registration Method (Done)
+	- Added Exception Log Method in Category,Subccategory,Feedback and Companytype Controller (Done)
+	- Adding Server Side Validation In Sites Master (Done)
+	- Added Server Side Validation in registartion (Continue)
+	- Display Dynamic Server or SQL Side Error at Client Side In Sites (Done)
+	- Added Server Side Validation In Subcategory Master (Continue)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Funny String (Continue)
+
+10/02/24
+Good Evening
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Added Server Side Validation in registration (Done)
+	- Added Server Side Validation in Subcategory Master (Done)
+	- Loader added in userprofile (Done)
+	- Modified AspNetUsers_GenralAction to Return Masking (Done)
+	- Added Dynamic Error Msg In Sites Master GetAll. (Done)	
+	- Display Dynamic Server or SQL Side Error at Client Side In Users  (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Funny String (Continue)
+
+
+12/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Understanding SQL helper (Continue)
+	- Changepassword In CompanyMaster (Done)	
+	- Created ChangepasswordAsync Method to Update User Password In Company Master (Done)	
+	- Modified Sitemaster Insert_Update sp to Return New Site ID (Done)	
+	- Resolved Validation Issue In Sites Master (Done)	
+	- Changing SiteIDF to UNIQUEIDENTIFIER to Nvarchar(max) (Done)	
+	- Created dbo.splitstring function (Done)	
+	- Mapping Of Multiple Site to User (Done)	
+	- Modified AspNetUsers_Update to Update SiteID (Done)	
+	- Created Dynamic Dropdown Of Sites (Done)	
+	- Modified Register Metod to add Multiple Site (Done)	
+	- Modified Signin method to Store ActiveSiteid and CompanyID (Done)	
+	- Created UpdateActiveSiteID Method to store new site id (Done)	
+	- Modified Javascript Method to ajax call to update Active site (Done)	
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Funny String (Done)
+	
+13/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Modify Sites and Register Controller to Get Required From Cache (Done)
+	- Resolving Username issue in Register Method (Done)
+	- Adding Method In Register To Get Data Site Wise (Done)
+	- Adding Loder in Login (Done)
+	- Added Condition In Basecontroller For ViewBag (Done)
+	- Added Check Condition in Cache and Session  (Done)
+	- Resolved Issue In Get Deatils Of User for CEO (Done)
+	- Modified AspNetUsers_ComapanyandSite Sp To Get Company and Siteid On Login (Done)
+	- Modified AspNetUsers_GetAll Sp to Get Records Of Particular Users (Done)
+	- Added Tab based Data in User (Done)
+	- Resolved Issued On Add and Edit New User (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Beautiful Binary String (Continue)
+
+14/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Dynamic Site Dropdown For User In User (Done)
+	- Active Site ID Mapping On User Register (Continue)
+	- Display Multiple Site Of Users (Done) 
+	- Resolving Validation Issue in Register User (Done)
+	- Resolved Cache Empty Issue in all pages (Done)
+	- Resolved Category Master Site Dropdown Issue For CEO (Done) 
+	- Resolved Category Master Site Active and Delete Issue (Done)
+	- Resolved ActiveSiteID Mapping Issue (Done)  
+	- Functionality Review With Viraj Sir (Done) 
+	- Code Review With Viraj Sir (Continue)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Beautiful Binary String (Continue)
+
+
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Dropdown Of Company and Site in User registartion For Admin (Done) 
+	- Dropdown Of Company in Site registartion For Admin (Done) 
+	- Role Based Access For All Masters (Done) 
+	- Added Dropdown Of Select Company For CEO In SitesMaster (Done) 
+	- Modified SitesMaster Save Mehtod to Insert Company (Done) 
+	- Added Validation For Company Dropdown in SitesMaster (Done) 
+	- In SitesMaster_Insert_Update Added Condtion to Update CompanyIDF (Done) 
+	- Added Rolebased Dynamic Navbar In Layout (Done) 
+	- Added Authorize Roles Attribute in All Controllers (Done) 
+	- Modified AspNetUsers_GetAll to Get All Sites Comma Seprated (Done) 
+	- Resolved Back Button Issue In User Profile (Done) 
+	- Modified AspNetUsers_Update to Get First Siteid and Insert or Update that into ActiveSiteID (Done) 
+	- Modified Registration GetAll Method to Fill Company Data in ViewBag (Done) 
+	- Added Dynamic Dropdown Of Site in User For All Roles (Done) 
+	- Added Dropdown Of Company in User Register (Done) 
+	- Added Validation For Company Dropdown In User Registration (Done) 
+	- Modify Register Method to insert Company and Site (Continue)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Beautiful Binary String (Continue)
+
+16/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Modify Register Method to insert Company and Site (Continue)
+	- Resolving User Registration Phone Number Validation Issue (Done) 
+	- Modify tab layout to display one site  (Done) 
+	- Created SitesMaster_GetSitesByCompany SP (Done) 
+	- Added GetSitesByCompany Method In Sites Logic and Base Controller (Done) 
+	- Added Global GetSitesByCompany Method in _Layout to Generate Dynamic Dropdown By Company (Done)  	
+	- Added Condition In FeedbackQuestionsMaster_GetAll to Get Admin Records (Done) 
+	- Validation Focus Added in All fields Of User Register (Done) 
+	- Resolved Address Validation Issue (Done) 
+	- Modified SitesMaster_Insert_Update to Update AspnetUser Email and Username (Done) 
+	- Resolved User Deatils Update Issue (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Beautiful Binary String (Done)
+
+
+19/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Add Consructor In All Class to Get Company and Site From Cache (Done)
+	- Designed QR Code For QRT (Done)
+	- Creating table of Seat Mapping (Done)
+	- Created SeatMappingMaster_GetAll SP (Done)
+	- Created Model,Controller and Logic File Of SeatMappingMaster (Done)
+	- Added Getdata Method In Controller,Logic and View (Done)
+	- Created Insert Seat Details Form In Seat Mapping (Done)
+	- Created Dynamic Seat type Selection Option (Done)
+	- Created Save Method In Seat Mapping Page,Controller and Logic (Done)
+	- Created GenerateQRCode Method to Generate QR Code With Background And Seat Details (Done)
+	- Added SelectAll in MultiSelect Dropdown In User Register (Done)
+	- Modified Save Method to Send All Seats Comma Seprated to Controller (Done)
+	- Added Foreach Loop In Constructor to Store All Seat One by One and Generate QR (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Making Anagrams (Continue)
+
+20/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Adding SeatID in QR Code (Done)
+	- Creating Dynamic Add Form Of Seat Mapping Master (Done)
+	- Modified SeatMappingMaster_Insert_Update to  Return New SeatID (Done)
+	- Modified Save Method to Generate Dynamic Image name and Get New SeatID (Done)
+	- Modified GenerateQRCode Method to Store Seatid in QR Code (Done)
+	- Added Validation In Insertion Of New Seats (Done)
+	- Conditional Display of Form Fields Based on Selection  (Done)
+	- Implementing Input Field Validation and Event Handling for Form Fields (Done)
+	- Added Condition In QRCode Create Method to Display Seattype Dynamic (Done)
+	- Added Download and Print Button For QR (Done)
+	- Creatde PrintQR Function to Print QR and Download QR Code (Done)
+	- Created Dynamic Role Based Dropdown In SubCategoryMaster (Done)
+	- Added Function Call to Update Dropdown On Change Site tab (Done)
+	- Created SeatMappingMaster_GeneralAction SP to Delete and Change Status (Done)
+	- Created Generalaction Method to Delete and Change Status Of Seat In Logic and Controller (Done)
+	- Added QR Code Download Button In Table (Done) 
+	- Code Functionality Review With Viraj Sir (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Making Anagrams (Continue)
+
+21/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Adding DownloadAll Button to Download All QRCode (Done)
+	- Edit Operation In SeatMappingMaster (Done)
+	- Resolving Dropdown Design Issue (Done)
+	- Added Functionality to Store all QR Code Of Table into zip file for DownloadAll (Done)
+	- Added Functionality to Store all QR Code Of Table into pdf file for DownloadAll (Done)
+	- Modified GeneratePDF to Print One Page Two QR COde (Done)
+	- Added Old QR Delete Method On Seat Delete (Done)
+	- Modified Generalaction to Delete Old QR Code Image (Done)
+	- Code Cleanup Of Sites and User (Done)
+	- Cascade Dropdown Issue Resolved With Help Of Viraj Sir (Done)
+	- Helped Prashant to Resolved Dynamic Dropdown Issue  (Done)
+	- Discussion Of CartMastr With Jay sir (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Making Anagrams (Done)
+
+22/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Added Given Changes In SitesMaster and User Register (Done)
+	- Validation For New Seat Insertion (Done)
+	- Resolved Print QR Function Issue (Done)
+	- Changed Condition In PrintQR to Print QRCode (Done)
+	- Modified SitesMaster_GetAll Sp to Get Role Wise Records (Done)
+	- Resolved Cache Empty Issue (Done)
+	- Added Constructor In Base Controller to Check Cache and Redirect to Login Page (Done)
+	- Code Cleanup Of SitesMaster and UserMaster (Done)
+	- Added Validation Of Seat Insert type (Done)
+	- Added Validation Message Of New Seat Div (Done) 
+	- Modified validateInput and validateAllFields Method to Work For All Seat type (Done)
+	- Modified Save Method to Get All New Seat Details (Done)
+	- Initialized Array to Get All Seat and Bind it Dynamically and Send to Controller (Done)
+	- Added ClearData Function In SeatMappingMaster (Done)
+	- Resolved Dropdown Issue For Other User (Done)
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Marc's Cakewalk (Continue)
+
+23/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Adding Validation On New Seat Input Box in SeatMappingMaster
+	- Added Event On Seattype to Disable Rado Button Of Inserttype
+	- Modified validateAllFields Function 
+	- Modified addNewSeatTypeDiv to Insert Event
+	- Added toaster of DownloadAll Successfully in Export to Pdf function 
+	- Dynamic Role Based Data In SeatMappingMaster
+	- Modified AspNetUsers_GetAll SP
+	- Added Condition In SeatMappingMaster Index to Get Records For Other User
+	- Resolve Issue of Dynamic dropdown of Sites as per Role in CategoryMaster
+	- Added Hidden Field of OtherSites
+	- Change in SP of GetSitesByCompany to Access Records UserID Wise
+	- Change in SP of CategoryMaster_GetAll Access Records RoleWise
+	- Change in Save and Edit ajax Method
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Marc's Cakewalk (Continue)
+
+24/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Resolve Issue of Dynamic dropdown of Sites as per Role in UserMaster (Done)	
+	- Resolving Issues in SeatMappingMaster (Done)	
+	- Modified AspNetUsers_GetAll SP To Get Records UserWise (Done)	
+	- Change in Save and Edit ajax Method In User (Done)	
+	- Resolved Active tab issue in User (Done)	
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Marc's Cakewalk (Done)	
+
+26/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Get Rolewise Records In SeatMappingMaster (Done)	
+	- Multiple Delete In SeatMappingMaster (Done)	
+	- Added Toaster Message On Download QR Code Image (Done)
+	- Resolved Getdata Issue In SeatMappingMaster (Done)
+	- Added Checkbox to Delete All Records (Done)
+	- Added DeleteSelected Method to Iterate SeatID and Delete (Done)
+	- Resolve Issue OF Delete Related Sites In General Manager  (Done)	
+	- Modified SeatMappingMaster_GetAll Sp to Get Data Role Wise (Done)	
+	- Added ActiveSiteID and Tab Functionality In SeatMappingMaster (Done)	
+	- Resolved Parsing Error In GetData (Done)	
+	- Discussion Of QRT With Hardik Sir (Done)	
+
+ASPX Learning(kudvenkat) = Jay Sir
+	- What is Asp .Net (Done)	
+	- Create Project Of Asp .Net WebForm (Done)	
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Two Strings (Continue)
+
+27/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Adding Validation In SeatMappingMaster (Done)	
+	- Resolving Print QR Issue In SeatMappingMaster (Done)	
+	- Modify Generalaction to Delete QR Code (Done)	
+	- Discussion Flow Of QRT With Viraj (Done)	
+	- Modified PrintQR Method to Print Proper Size QR (Done)	
+	- Added ServerSide Validation In SeatMappingMaster (Done)	
+	- Resolved Data Clear Issue In Model (Done)	
+	- Modified SeatMappingMaster_Insert_Update SP to Check Is Seat EXISTS Or notification (Done)	
+	- Modified Save Method In Controller to Set errors in ErrorList and Send It to View (Done)	
+	- Added Condition to Capture Error From SP and SQLHelper and Display In View (Done)	
+	- In View Modified AJAX Method to Get Errors and Display In View (Done)	
+	- Display Toaster Of Successfully Inserted Record and Already Exists Record (Done)	
+	- Modify GeneralAction to Delete QRCode Image On Deleteing Record (Done)	
+	- Added Validation For DownloadAll QR (Done)	
+
+ASPX Learning(kudvenkat) = Jay Sir
+	- Learned ViewState In ASPX (Done)	
+	- Server Side and HTML Input Controls (Done)	
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Two Strings (Continue)
+
+28/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Add Validation In Download QR Image (Done)
+	- Rolewise Testing Of SeatMappingMaster (Done)
+	- Resolved DownloadAll Button Issue If No Records In table (Done)
+	- Added Condition In Download QRCode to Check If Image Exists Or notification (Done)
+	- Modified SeatMappingMaster_Insert_Update to Check User Exists Or Not (Done)
+	- Created Table Of Orders (Done)
+	- Removed All Theme Erros From Console (Done)
+	- Added SeletAll Records Functionality In MultiSelect Dropdown (Done)
+	- Added Change Event to Dropdown to Dynamically Set Checkbox (Done)
+	- Created Function to SelectAll Options In Dropdown  (Done)
+
+ASPX Learning(kudvenkat) = Jay Sir
+		- Events in the life cycle of a web application (Done)
+		- Difference between ViewState, SessionState and ApplicationState in asp.net (Done) 
+		- ASP.NET page life cycle events (Done) 
+
+Hackerrank Problem Solving (In C#)= Viraj Sir
+	- Two Strings (Done)
+
+29/02/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Created table of Orders (Done)
+	- Cloned MenuMaster To Check AddToCart Functionality (Done)
+	- Added AddToCart For Each Records In Cart Demo (Done)
+	- Created Javascript Function To Insert Item Deatils In Cookies (Done)
+	- Created GetTaxRates SP to Get All Tax Detaiils By Company (Done)
+	- Added ViewCart Functionality (Done)
+	- Created Model to Display Current CartItems (Done)
+	- Created Function to Dynamically General Html Element and Display Added CartItem (Done)
+	- Created Function UpdatePrice to Update Subtotal and total of all Cart CartItems (Done)
+	- Created CalculateTaxes Function To calculate tax of item (Done)
+	- Created RemoveFromCart Function to Remove Particular Item From Cookies (Done)
+	- Created GetCartItems Function to Get Data Fron Cookie and Display In Cart Model (Done)
+	- Created UpdateCart Function to Update Cart On Delete Item (Done)
+
+ASPX Learning (Kudvenkat)= Jay Sir
+	- ASP.NET Server control events (Done)
+	- IsPostBack in asp.net (Done)
+
+Hackerank Problem Solving(c#) 
+	- Separate the Numbers (Continue)
+
+01/03/24
+Good Morning
+Hello Sir,
+Today's Learning:
+
+QRT = Hardik Sir
+	- Discussion Of TempCart table With Hardik Sir (Done)
+	- Resolved Cart Price Issue (Done)
+	- In Cart Displayed Subototal Of All CartItems (Done)
+	- Modified TaxesMaster_GetAllTaxRates SP to Get Taxes (Done)
+	- In CartDemo Stored All taxes in viewbag and in view get it and set globally (Done)
+	- Created Table and Model Of TempCartDetails (Done)
+	- Created Dynamic Tax Calculation Method to Calculate tax based on total Price (Done)
+	- Created SP TempCartDetails_Insert to Insert Cart Details (Done)
+	- Modified addTocart() JS Function to Insert Item into TempCartDetail table (Done)
+	- Created SP TempCartDetails_RemoveItem to Delete Item From TempCart table (Done)
+	- Modified UpdateCart() Function to Add New Element In Body and Bind all Data Using AJAX (Done)
+	- Modified RemoveFromCart Method to Send ajax request to Delete From TempCart (Done)
+	- Created TempCart Logic and Method to Perform Operations In TempCartDetail (Done)
+	- Created SP TempCartDetails_GetAll and Controller Method to Get All Cart Items By TempOrderID (Done)
+
+ASPX Learning (Kudvenkat)= Jay Sir
+	- IIS Internet Information Services and ASP.NET (Done)
+	- ASP.NET TextBox Control (Done)
+	- ASP.NET Radio Button control (continue)
+
+Hackerank Problem Solving(c#) 
+	- Separate the Numbers (Continue)
+
+
+Created Card Layout to Display Menu Items
+Added ModifierIDFs Column in TempCartDetail
+Modified TempCartDetails_Insert to Insert ModifierIDFs 
+Modified GetAll Method to Get Comma Seprated Modifier Names
+Modified TempCartDetails_RemoveItem to Remove Item
+Updated UpdateCart Function to Display Modifier added by User
+Added Checkbox of Modifier In All Menu Item
+Modified AddtoCart Function to Get Selected Modifier and Send it to Controller
+
+taxes master
+-Chnage Model title
+-duplicate validation
+-tax rate validation
+-Edit site drodpown not coming
+
+item wise Modifier mapping
+add modfierid in cartmaster
+
+
+multi tab login token issue
+
+rakesh@foodfresho.com
+https://apalfrey.github.io/select2-bootstrap-5-theme/getting-started/basic-usage/
+
+
+--paytm
+https://docs.stripe.com/testing?testing-method=card-numbers
+https://business.paytm.com/docs/test-instruments/testing-integration/
+https://business.paytm.com/docs/jscheckout-integration-overview?ref=jsCheckoutdoc
+
+https://developer-assets.paytm.com/sftp/upload/cmsuploads/Transaction_response_codes_and_messages_78114f80f6.pdf
+
+https://business.paytm.com/docs/payment-status/
+
+select * from FeedbaquestionsMaster
+
+Delete from AspNetUsers
+where email!='admin@admin.com'
+
+sp_helptext 'SitesMaster_GetAll'
+
+select * from AspNetUsers
+where email='chris@mcdonald.com'
+
+select * from AspNetUsers where Id='8A211DC0-AD23-4B80-8BB5-F613EFB446B4'
+
+select * from ErrorLogs order by EntryDate desc
+select * from ProcErrorLog order by EntryDateTime desc
+select * from AspNetUSers order by CreationDate desc
+
+
+select * from SitesMaster where SiteIDP='F56317C9-5857-457B-ADEF-257092EF3417'
+select * from CompanyMaster where ContactEmail='chris@mcdonald.com'
+
+--4EE08F5A-167C-4CF4-BE5F-107579F4E32F
+--6CB14B37-9CD4-457C-B4A5-86083C17E156
+
+SELECT 
+    U.Email AS UserEmail,
+	U.CompanyIDF,
+	U.SiteIDF,
+    R.Name AS CurrentRole
+FROM 
+    AspNetUsers U
+JOIN 
+    AspNetUserRoles UR ON U.Id = UR.UserId
+JOIN 
+    AspNetRoles R ON UR.RoleId = R.Id;
+
+select * from CategoryMaster where SiteIDF='6cb14b37-9cd4-457c-b4a5-86083c17e156'
+
+select * from SubCategoryMaster where SiteIDF='96948819-7f12-4a5b-82f1-b007efc6b159'
+
+select * from SubCategoryMaster where SiteIDF='6cb14b37-9cd4-457c-b4a5-86083c17e156'
+
+
+
+lifecycle of sp
+
+
+
+
+
+
+
+
+Register edit dropdown issue
+  
+
+ROLLUP
+ROLLUP
+-- login email,password verify
+-- registation validation
+-- toaster
+-- register Layout
 
 proxy in javascript,
 object.assign,
@@ -2255,6 +3117,8 @@ range
 20-11-23-4
 21-11-23-4
 
+
+	  <!--<add name="DefaultConnection" connectionString=" Data Source=149.56.23.109; Initial Catalog=DBQRT; User Id=QRTDBUser#2024; Password=DBQrT##DBUser#2024;" providerName="System.Data.SqlClient" />-->
 
 https://somee.com/
 
