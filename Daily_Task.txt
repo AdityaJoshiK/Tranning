@@ -2983,15 +2983,39 @@ ASPX Learning (Kudvenkat)= Jay Sir
 Hackerank Problem Solving(c#) 
 	- Separate the Numbers (Continue)
 
+04/03/24
+Good Morning
+Hello Sir,
+Today's Learning:
 
-Created Card Layout to Display Menu Items
-Added ModifierIDFs Column in TempCartDetail
-Modified TempCartDetails_Insert to Insert ModifierIDFs 
-Modified GetAll Method to Get Comma Seprated Modifier Names
-Modified TempCartDetails_RemoveItem to Remove Item
-Updated UpdateCart Function to Display Modifier added by User
-Added Checkbox of Modifier In All Menu Item
-Modified AddtoCart Function to Get Selected Modifier and Send it to Controller
+QRT = Hardik sir
+	- Created Card Layout to Display Menu Items
+	- Added ModifierIDFs Column in TempCartDetail
+	- Changed SP 'TempCartDetails_Insert' For Insert ModifierIDFs Detail
+	- Changed SP 'TempCartDetails_GetAll' Method For Get Comma Seprated Modifier Names
+	- Changed SP 'TempCartDetails_RemoveItem' For Remove Item
+	- Display Userwise Modifier Item
+	- Updated UpdateCart Function to Display Modifier added by User
+	- Added Modifiers Checkbox In All Menu Item
+	- Display Final Items,Payment Methods and Total Amount in Payment View Page
+	- Designed Payment View Page
+	- Created Payment Method In Controller Which Add Detaiils In CartMaster
+	- Created Checkout Method to Check If User Login Then Process Order 
+	- Changed the "AddtoCart" function to get the selected modifier 
+	- Created SP 'CartMaster_Insert' to Insert Data From TempCartDetails table
+	- Changed SP 'OrdersMaster_Insert' to Insert Detaiils Of Order After Payment
+	- Created ProcessOrder Method to Process Order After Payment Page
+	- Added TotalTaxAmount Column In OrdersMaster
+	- Added OrderIDF Column In CartMaster 
+	- Changed SP 'TempCartDetails_RemoveItem' to Resolve Issue While Deleteing Item From Cart
+
+ASPX Learning (Kudvenkat)= Jay Sir
+	- ASP.NET Radio Button control (Done)
+
+Hackerank Problem Solving(c#) 
+	- Separate the Numbers (Done)
+
+
 
 taxes master
 -Chnage Model title
