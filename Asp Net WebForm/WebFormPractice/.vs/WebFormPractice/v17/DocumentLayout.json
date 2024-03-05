@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\commandeventpractice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:commandeventpractice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\dropdownusingxml.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:dropdownusingxml.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\commandeventpractice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:commandeventpractice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\countries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:countries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\buttonpractice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:buttonpractice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\dropdownusingxml.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:dropdownusingxml.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\buttonpractice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:buttonpractice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\dropdownwithdb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:dropdownwithdb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\dropdownwithdb.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:dropdownwithdb.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,53 +51,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CommandEventPractice.aspx.cs",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\CommandEventPractice.aspx.cs",
-              "RelativeDocumentMoniker": "CommandEventPractice.aspx.cs",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\CommandEventPractice.aspx.cs",
-              "RelativeToolTip": "CommandEventPractice.aspx.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAuwFAAAAANAAAA",
+              "Title": "DropdownUsingXML.aspx.cs",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\DropdownUsingXML.aspx.cs",
+              "RelativeDocumentMoniker": "DropdownUsingXML.aspx.cs",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\DropdownUsingXML.aspx.cs",
+              "RelativeToolTip": "DropdownUsingXML.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:48:21.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommandEventPractice.aspx",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\CommandEventPractice.aspx",
-              "RelativeDocumentMoniker": "CommandEventPractice.aspx",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\CommandEventPractice.aspx*",
-              "RelativeToolTip": "CommandEventPractice.aspx*",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-04T12:48:11.902Z",
+              "WhenOpened": "2024-03-05T12:34:29.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ButtonPractice.aspx.cs",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\ButtonPractice.aspx.cs",
-              "RelativeDocumentMoniker": "ButtonPractice.aspx.cs",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\ButtonPractice.aspx.cs",
-              "RelativeToolTip": "ButtonPractice.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "DropdownUsingXML.aspx",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\DropdownUsingXML.aspx",
+              "RelativeDocumentMoniker": "DropdownUsingXML.aspx",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\DropdownUsingXML.aspx",
+              "RelativeToolTip": "DropdownUsingXML.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-05T12:34:19.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Countries.xml",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Countries.xml",
+              "RelativeDocumentMoniker": "Countries.xml",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Countries.xml",
+              "RelativeToolTip": "Countries.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-05T12:33:43.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-05T12:24:01.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dropdownwithdb.aspx.cs",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Dropdownwithdb.aspx.cs",
+              "RelativeDocumentMoniker": "Dropdownwithdb.aspx.cs",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Dropdownwithdb.aspx.cs",
+              "RelativeToolTip": "Dropdownwithdb.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAewAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:38:45.564Z",
+              "WhenOpened": "2024-03-05T12:21:25.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ButtonPractice.aspx",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\ButtonPractice.aspx",
-              "RelativeDocumentMoniker": "ButtonPractice.aspx",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\ButtonPractice.aspx",
-              "RelativeToolTip": "ButtonPractice.aspx",
+              "Title": "Dropdownwithdb.aspx",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Dropdownwithdb.aspx",
+              "RelativeDocumentMoniker": "Dropdownwithdb.aspx",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Dropdownwithdb.aspx",
+              "RelativeToolTip": "Dropdownwithdb.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-04T12:37:58.423Z",
+              "WhenOpened": "2024-03-05T12:11:28.937Z",
               "EditorCaption": ""
             }
           ]

@@ -2989,33 +2989,90 @@ Hello Sir,
 Today's Learning:
 
 QRT = Hardik sir
-	- Created Card Layout to Display Menu Items
-	- Added ModifierIDFs Column in TempCartDetail
-	- Changed SP 'TempCartDetails_Insert' For Insert ModifierIDFs Detail
-	- Changed SP 'TempCartDetails_GetAll' Method For Get Comma Seprated Modifier Names
-	- Changed SP 'TempCartDetails_RemoveItem' For Remove Item
-	- Display Userwise Modifier Item
-	- Updated UpdateCart Function to Display Modifier added by User
-	- Added Modifiers Checkbox In All Menu Item
-	- Display Final Items,Payment Methods and Total Amount in Payment View Page
-	- Designed Payment View Page
-	- Created Payment Method In Controller Which Add Detaiils In CartMaster
-	- Created Checkout Method to Check If User Login Then Process Order 
-	- Changed the "AddtoCart" function to get the selected modifier 
-	- Created SP 'CartMaster_Insert' to Insert Data From TempCartDetails table
-	- Changed SP 'OrdersMaster_Insert' to Insert Detaiils Of Order After Payment
-	- Created ProcessOrder Method to Process Order After Payment Page
-	- Added TotalTaxAmount Column In OrdersMaster
-	- Added OrderIDF Column In CartMaster 
-	- Changed SP 'TempCartDetails_RemoveItem' to Resolve Issue While Deleteing Item From Cart
+	- Created Card Layout to Display Menu Items (Done)
+	- Added ModifierIDFs Column in TempCartDetail (Done)
+	- Changed SP 'TempCartDetails_Insert' For Insert ModifierIDFs Detail (Done)
+	- Changed SP 'TempCartDetails_GetAll' Method For Get Comma Seprated Modifier Names (Done)
+	- Changed SP 'TempCartDetails_RemoveItem' For Remove Item (Done)
+	- Display Userwise Modifier Item (Done)
+	- Updated UpdateCart Function to Display Modifier added by User (Done)
+	- Added Modifiers Checkbox In All Menu Item (Done)
+	- Display Final Items,Payment Methods and Total Amount in Payment View Page (Done)
+	- Designed Payment View Page (Done)
+	- Created Payment Method In Controller Which Add Detaiils In CartMaster (Done)
+	- Created Checkout Method to Check If User Login Then Process Order (Done) 
+	- Changed the "AddtoCart" function to get the selected modifier (Done) 
+	- Created SP 'CartMaster_Insert' to Insert Data From TempCartDetails table (Done)
+	- Changed SP 'OrdersMaster_Insert' to Insert Detaiils Of Order After Payment (Done)
+	- Created ProcessOrder Method to Process Order After Payment Page (Done)
+	- Added TotalTaxAmount Column In OrdersMaster (Done)
+	- Added OrderIDF Column In CartMaster (Done) 
+	- Changed SP 'TempCartDetails_RemoveItem' to Resolve Issue While Deleteing Item From Cart (Done)
 
 ASPX Learning (Kudvenkat)= Jay Sir
 	- ASP.NET Radio Button control (Done)
+	- ASP NET CheckBox Control (Done)
+	- ASP NET Hyperlink Control (Done) 
+	- ASP.NET Button, LinkButton and ImageButton Controls (Done)
+	- Command Event of an asp.net button control (Done)
 
 Hackerank Problem Solving(c#) 
 	- Separate the Numbers (Done)
 
+05/03/24
+Good Morning
+Hello Sir,
+Today's Learning:
 
+QRT = Hardik sir
+	- Create OrderDetails table
+	- Create SP 'OrdersMaster_GetAll' SP For Get Orders Data
+	- Create OrderMasterLogic File and Controller
+	- Create GetData Function For Data View In OrdersMaster Index Page
+	- Change Cookie Verify Condition In CartDemo
+	- Removed Condition In CartDemo Index Method
+	- Add UserID Parameter In SP 'CartMaster_Insert'
+	- Create SP 'OrderDetails_GetAll' For Get All Order 
+	- Change SP 'OrdersMaster_Insert'
+	- Created OrderDetails Logic and Controller File
+	- Change SP 'OrdersMaster_Insert' For Insert Data In Insert From CartMaster
+
+ASPX Learning (Kudvenkat)= Jay Sir
+	- Dropdownlist in asp.net
+	- Data bind asp.net dropdownlist with data from the database
+
+Hackerank Problem Solving(c#) 
+	- String Construction
+
+05/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Create OrderDetails table (Done)
+	- Create SP 'OrdersMaster_GetAll' SP For Get Orders Data (Done)
+	- Create OrderMasterLogic File and Controller (Done)
+	- Create GetData Function For Data View In OrdersMaster Index Page (Done)
+	- Change Cookie Verify Condition In CartDemo (Done)
+	- Add UserID Parameter In SP 'CartMaster_Insert' (Done)
+	- Create SP 'OrderDetails_GetAll' For Get All Order  (Done)
+	- Change SP 'OrdersMaster_Insert' (Done)
+	- Created OrderDetails Logic and Controller File (Done)
+	- Change SP 'OrdersMaster_Insert' For Insert Data In Insert From CartMaster (Done)
+	- Create OrderDetails Master View Page (Done)
+	- Create GetData Function In OrderDetails Page (Done)
+Learning ASPX (kudvenkat) = Jay Sir
+	- Dropdownlist in asp.net
+		- Adding items to the DropDownList control at design time using the HTML (Done)
+		- Adding items to the DropDownList control at runtime using the code (Done)
+	- Data bind asp.net dropdownlist with data from the database.
+		- binding data from a database table, to a dropdownlist. (Done)
+	- Binding an asp.net dropdownlist with an XML file
+		- binding the DropDownList to Data from an XML file. (Done)
+	- Mapping virtual path to physical path using Server MapPath method 
+		- Use of Server.MapPath() method (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- String Construction (Continue)	
 
 taxes master
 -Chnage Model title

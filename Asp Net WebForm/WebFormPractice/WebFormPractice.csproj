@@ -124,7 +124,11 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Countries.xml" />
     <Content Include="Default.aspx" />
+    <Content Include="DropdownList.aspx" />
+    <Content Include="DropdownUsingXML.aspx" />
+    <Content Include="Dropdownwithdb.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="HyperLinkPractice.aspx" />
@@ -234,6 +238,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DropdownList.aspx.cs">
+      <DependentUpon>DropdownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropdownList.aspx.designer.cs">
+      <DependentUpon>DropdownList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DropdownUsingXML.aspx.cs">
+      <DependentUpon>DropdownUsingXML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropdownUsingXML.aspx.designer.cs">
+      <DependentUpon>DropdownUsingXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dropdownwithdb.aspx.cs">
+      <DependentUpon>Dropdownwithdb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dropdownwithdb.aspx.designer.cs">
+      <DependentUpon>Dropdownwithdb.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
