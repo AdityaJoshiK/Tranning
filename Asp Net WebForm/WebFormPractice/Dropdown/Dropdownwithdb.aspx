@@ -12,6 +12,7 @@
             <asp:DropDownList ID="DropDownList1" runat="server" DataTextField="CityName" DataValueField="CityId" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
             </asp:DropDownList>
         </div>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Print " />
     </form>
 </body>
 </html>

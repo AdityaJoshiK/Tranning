@@ -3074,6 +3074,31 @@ Others
 	- Hackerank Problem Solving in C# 
 		- String Construction (Continue)	
 
+06/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Change SP 'OrdersMaster_Insert' For Remove CartDetails
+	- Display TotalTax In OrderDetails Page
+	- Add Subtotal Column In OrdersMaster Table
+	- Change SP 'OrdersMaster_Insert' and 'OrdersMaster_GetAll' 
+	- Add Clear Cookie Function In LogOut Method
+	- Add Condition Of Check Cache In MenuMaster and OrdersMaster
+	- Create SP 'OrdersMaster_GetByID'
+	- Add GetByID Method In OrdersMaster Controller and Logic
+	- Add Order Details View Modal In OrdersMaster Page
+	- Create Function For Bind OrderDetail Data In View Modal
+Learning ASPX (kudvenkat) = Jay Sir
+	- Mapping virtual path using Server MapPath method Example
+		-> Techniques to Mapping Virtual Path to Physical Path
+	- Retrieving selected item text, value and index of an asp.net dropdownlist
+		-> Use of SelectedIndex, SelectedValue, SelectedItem.Text, SelectedItem.Value Properties
+	- Cascading dropdown asp.net (continue)
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the smallest number of deletions required to make adjacent characters different in a string. (Continue)
+
+Alternating Characters
 taxes master
 -Chnage Model title
 -duplicate validation

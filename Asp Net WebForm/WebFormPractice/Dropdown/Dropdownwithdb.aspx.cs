@@ -29,13 +29,31 @@ namespace WebFormPractice
                     //DropDownList1.DataTextField = "CityName";
 
                     DropDownList1.DataBind();
+                    DropDownList1.SelectedValue = "London";
+                    //DropDownList1.SelectedIndex = 1;
                 }
             }
+
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (DropDownList1.SelectedValue == "-1")
+            {
+                Response.Write("Please Select City");
+            }
+            else
+            {
+                //Print Selected Values Of Dropdown
+                Response.Write(DropDownList1.SelectedItem.Text + "<br/>");
+                Response.Write(DropDownList1.SelectedItem.Value + "<br/>");
+                Response.Write(DropDownList1.SelectedIndex + "<br/>");
+            }
         }
     }
 }

@@ -126,9 +126,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Countries.xml" />
     <Content Include="Default.aspx" />
-    <Content Include="DropdownList.aspx" />
-    <Content Include="DropdownUsingXML.aspx" />
-    <Content Include="Dropdownwithdb.aspx" />
+    <Content Include="Dropdown\Cascading.aspx" />
+    <Content Include="Dropdown\DropdownList.aspx" />
+    <Content Include="Dropdown\DropdownUsingXML.aspx" />
+    <Content Include="Dropdown\Dropdownwithdb.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="HyperLinkPractice.aspx" />
@@ -239,25 +240,32 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DropdownList.aspx.cs">
+    <Compile Include="Dropdown\Cascading.aspx.cs">
+      <DependentUpon>Cascading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dropdown\Cascading.aspx.designer.cs">
+      <DependentUpon>Cascading.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dropdown\DropdownList.aspx.cs">
       <DependentUpon>DropdownList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DropdownList.aspx.designer.cs">
+    <Compile Include="Dropdown\DropdownList.aspx.designer.cs">
       <DependentUpon>DropdownList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DropdownUsingXML.aspx.cs">
+    <Compile Include="Dropdown\DropdownUsingXML.aspx.cs">
       <DependentUpon>DropdownUsingXML.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DropdownUsingXML.aspx.designer.cs">
+    <Compile Include="Dropdown\DropdownUsingXML.aspx.designer.cs">
       <DependentUpon>DropdownUsingXML.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Dropdownwithdb.aspx.cs">
+    <Compile Include="Dropdown\Dropdownwithdb.aspx.cs">
       <DependentUpon>Dropdownwithdb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Dropdownwithdb.aspx.designer.cs">
+    <Compile Include="Dropdown\Dropdownwithdb.aspx.designer.cs">
       <DependentUpon>Dropdownwithdb.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
