@@ -3098,6 +3098,31 @@ Others
 	- Hackerank Problem Solving in C# 
 		- Find the smallest number of deletions required to make adjacent characters different in a string. (Continue)
 
+07/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Display Data  RoleWise In OrdersMaster (Done)
+	- Change SP 'OrdersMaster_GetAll' to Display Seat Number with Location (Done) 
+	- Change SP 'OrderDetails_GetAll' (Done)
+	- Create SP 'OrdersMaster_GeneralAction' (Done)
+	- Add Dropdown Of Order Status In OrderMaster (Done) 
+	- Add OrdersMaster_GeneralAction Method In OrderMasterLogic and Controller (Done)
+	- Create Function 'updateOrderStatus' in OrderDetails Page to change Order Status (Done)
+	- Change Function 'getdata' For Display Action Column In OrdersMaster Page  (Done)
+	- Create Drodpown Of OrderStatus In OrdersMaster (Done)
+	- Add Export to PDF and Column Show/Hide Functionality In OrdersMaster (Done)
+	- Change Function 'getdata' For Display TotalAmount Column in OrderDetails Page (Done)
+Learning ASPX (kudvenkat) = Jay Sir
+	- Cascading dropdown asp.net	
+		-> Create table tblContinents,tblCountries and tblCities (Done)
+		-> Create SP spGetContinents,spGetCountriesByContinentId and spGetCitiesByCountryId (Done)
+		-> Create Method to Cascading Dropdown Of Continents,Country and City (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the smallest number of deletions required to make adjacent characters different in a string. (Continue)
+
+
 Alternating Characters
 taxes master
 -Chnage Model title

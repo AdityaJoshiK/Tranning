@@ -30,6 +30,7 @@ namespace WebFormPractice
 
                     DropDownList1.DataBind();
                     DropDownList1.SelectedValue = "London";
+                    //DropDownList1.SelectedItem 
                     //DropDownList1.SelectedIndex = 1;
                 }
             }
