@@ -3122,7 +3122,31 @@ Others
 	- Hackerank Problem Solving in C# 
 		- Find the smallest number of deletions required to make adjacent characters different in a string. (Continue)
 
-
+07/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Functionality Review Of QRT With JD Sir(11AM to 1PM) (Done)
+	- Testing Of Rolewise Data In OrdersMaster (Done)
+	- Add More Information Button In OrderDetails (Done) 
+	- Change SP 'OrdersMaster_GetByID' to Get TAXRates (Done)
+	- Change SP 'OrdersMaster_GetAll' to Get Records RoleWise (Done)
+	- Change OrdersMaster View Page Add Condition Of User Role (Done)
+	- Add Tab Layout In OrderMaster View (Done)
+	- Change 'GetData' Method Of OrdersMaster Controller Add Condition Of SiteIDF (Done)
+	- Change SP 'OrderDetails_GetAll' to Get Records RoleWise (Done)
+	- Add Tab Layout In OrderDetail View (Done)
+	- Add Print Invoice Button In OrderMaster Page (Done)
+	- Change 'GetData' Method Of OrderDetail Controller Add Condition Of SiteIDF (Done)
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net checkboxlist control 
+		-> Properties Of CheckBox Control In ASPX (Done)
+	- Asp.net checkboxlist, select or deselect all list items	
+		-> SelectAll and DesselectAll Checkbox (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the smallest number of deletions required to make adjacent characters different in a string. (Done)	
+			
 Alternating Characters
 taxes master
 -Chnage Model title
