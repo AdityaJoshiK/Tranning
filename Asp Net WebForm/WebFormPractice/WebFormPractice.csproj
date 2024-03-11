@@ -105,6 +105,7 @@
     <Content Include="About.aspx" />
     <Content Include="ButtonPractice.aspx" />
     <Content Include="CheckboxPractice.aspx" />
+    <Content Include="Checkbox\Checkboxand Listbox.aspx" />
     <Content Include="Checkbox\CheckboxList.aspx" />
     <Content Include="CommandEventPractice.aspx" />
     <Content Include="Contact.aspx" />
@@ -135,6 +136,8 @@
     <Content Include="Global.asax" />
     <Content Include="HyperLinkPractice.aspx" />
     <Content Include="Images\logo.png" />
+    <Content Include="ListBox\ListFormBasic.aspx" />
+    <Content Include="RadioButtonList\RadioButtonListBasics.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -220,6 +223,13 @@
     <Compile Include="CheckboxPractice.aspx.designer.cs">
       <DependentUpon>CheckboxPractice.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Checkbox\Checkboxand Listbox.aspx.cs">
+      <DependentUpon>Checkboxand Listbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkbox\Checkboxand Listbox.aspx.designer.cs">
+      <DependentUpon>Checkboxand Listbox.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Checkbox\CheckboxList.aspx.cs">
       <DependentUpon>CheckboxList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -286,7 +296,21 @@
     <Compile Include="HyperLinkPractice.aspx.designer.cs">
       <DependentUpon>HyperLinkPractice.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListBox\ListFormBasic.aspx.cs">
+      <DependentUpon>ListFormBasic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListBox\ListFormBasic.aspx.designer.cs">
+      <DependentUpon>ListFormBasic.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonList\RadioButtonListBasics.aspx.cs">
+      <DependentUpon>RadioButtonListBasics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioButtonList\RadioButtonListBasics.aspx.designer.cs">
+      <DependentUpon>RadioButtonListBasics.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

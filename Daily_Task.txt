@@ -3146,17 +3146,87 @@ Learning ASPX(Kudvenkat)= Jay Sir
 Others
 	- Hackerank Problem Solving in C# 
 		- Find the smallest number of deletions required to make adjacent characters different in a string. (Done)	
+
+11/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Redesigned Login Form (Done)	
+	- Resolve Password Show/Hide Functionality In Login Page (Done)	
+	- Explored ASP .NET Identity's 'LockoutEndDateUtc' attribute (Done)	
+	- Change 'GeneralAction' Method to Set Lockoutenddateutc In Registration Controller (Done)	
+	- Resolve Issue Of Clear Error In Companytype Controller (Done)	
+	- Change Validation of CompanyName Field In Company Master (Done)	
+	- Removed Table Sorting Property Of Datatable In All Master (Done)	
+	- Customized Column Show/Hide Feature Of Datatable In Orders Master & OrderDetail (Done)	
+Learning ASPX (Kudvenkat)= Jay Sir
+	- Asp.net ListBox control (Done)	 
+	- Asp.net checkboxlist and listbox With example (Done)
+	- Asp.net RadioButtonList Control (Done)	
+Others
+	- Hackerank Problem Solving in C# 
+		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)	
+
+
 			
-Alternating Characters
-taxes master
--Chnage Model title
--duplicate validation
--tax rate validation
--Edit site drodpown not coming
+	-> Login Page Design
+	-> Modal Header Footer Colour Change (Footer Colour Default, Header Length Decrease, 	-> modal-title h5,model-header height decrease(55px) 
+	-> trim befor insert save
+	-> Nav Tabs Overlay for loading for Tabs (https://adminlte.io/themes/v3/pages/UI/navbar.html)
+	-> border on logo and center in loader
+	-> inactive record dropdown issue	-> 
+	-> lockoutenddateutc column aspnetusers 
+	-> sweet alert warning instead of toaster in active and delete
+	-> Clear error in CompanyTypeMaster
+	-> dot remove in companyname
+	-> Focus on first not fill field CompanyMaster
+	-> Focus on all master
+	-> Not Call Without Fill All Field
+	-> Theme Date Field
+	-> Row Class For All Input Filed
+	-> All Hidden Field Above In CompanyMaster
+	-> Registration Date Should Be dd/mm/yy in All
+	-> Outlet Instead Of Site
+	-> PinCode Validation After Select Not Edit
+	-> Filter Dropdown In Category For Company
+	-> New Modal Of Priority Index 
+	-> Remove href # from All
+	-> isExists Condition In ALL
+	-> Remove Model Body From SubCategory Modal Form In All
+	-> Image Upload Div Width Fix
+	-> Datatable sorting disable in all master
+	-> Feedbackmaster,Modifiermaster Submit Auto On Serverside validation
+	-> Validation Not Working IN ModifiersMaster
+	-> MenuMaster
+     	- Alignment Proper In MenuMaster
+     	- Quantity Specification In Note
+     	- Quantity Specification Change
+     	- Dropdown Issue In Edit
+	-> On Modal Open Table Scroll Issue
+	-> No Download On EMpty and Conditon for required Column (Comp,Site,Quantity,item,total)
+	-> Feedback Response Design Change and Close Button Not Working
+	-> Register New User Change 
+	-> ViewTitle Change For ALl Master
+	-> Space Between Master Name
+	-> taxesmaster site wise data
 
-item wise Modifier mapping
-add modfierid in cartmaster
+Admin Side
+	- Order Invoice Download Functionality
+	- RewardMaster
 
+Client Side - Pending
+
+	- Login Page Design
+	- lockoutenddateutc column aspnetusers 
+	- border on logo and center in loader (not apply)
+	- Clear error in CompanyTypeMaster
+	- dot remove in companyname
+	- Focus on first not fill field CompanyMaster
+	- Outlet Instead Of Site
+	- Datatable sorting disable in all master
+	- On Modal Open Table Scroll Issue
+	- No Download On EMpty and Conditon for required Column (Comp,Site,Quantity,item,total)
+	- Register New User Change 
 
 multi tab login token issue
 

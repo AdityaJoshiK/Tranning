@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\checkbox\\checkboxlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:checkbox\\checkboxlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\radiobuttonlist\\radiobuttonlistbasics.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:radiobuttonlist\\radiobuttonlistbasics.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\checkbox\\checkboxlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:checkbox\\checkboxlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\radiobuttonlist\\radiobuttonlistbasics.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:radiobuttonlist\\radiobuttonlistbasics.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CheckboxList.aspx.cs",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Checkbox\\CheckboxList.aspx.cs",
-              "RelativeDocumentMoniker": "Checkbox\\CheckboxList.aspx.cs",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Checkbox\\CheckboxList.aspx.cs*",
-              "RelativeToolTip": "Checkbox\\CheckboxList.aspx.cs*",
-              "ViewState": "AQIAACcAAAAAAAAAAAAMwDMAAAA5AAAA",
+              "Title": "RadioButtonListBasics.aspx.cs",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\RadioButtonList\\RadioButtonListBasics.aspx.cs",
+              "RelativeDocumentMoniker": "RadioButtonList\\RadioButtonListBasics.aspx.cs",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\RadioButtonList\\RadioButtonListBasics.aspx.cs",
+              "RelativeToolTip": "RadioButtonList\\RadioButtonListBasics.aspx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAMwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T12:32:50.263Z",
+              "WhenOpened": "2024-03-11T13:22:52.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CheckboxList.aspx",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Checkbox\\CheckboxList.aspx",
-              "RelativeDocumentMoniker": "Checkbox\\CheckboxList.aspx",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\Checkbox\\CheckboxList.aspx*",
-              "RelativeToolTip": "Checkbox\\CheckboxList.aspx*",
+              "Title": "RadioButtonListBasics.aspx",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\RadioButtonList\\RadioButtonListBasics.aspx",
+              "RelativeDocumentMoniker": "RadioButtonList\\RadioButtonListBasics.aspx",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\RadioButtonList\\RadioButtonListBasics.aspx",
+              "RelativeToolTip": "RadioButtonList\\RadioButtonListBasics.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-08T12:32:07.936Z",
+              "WhenOpened": "2024-03-11T13:22:13.161Z",
               "EditorCaption": ""
             }
           ]
