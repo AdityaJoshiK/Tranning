@@ -3167,8 +3167,29 @@ Others
 	- Hackerank Problem Solving in C# 
 		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)	
 
+11/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Add Custom CSS in 'Site.css' For Select2 Drodpown (Done)
+	- Resolve Select2 Drodpown Focus Issue (Done)
+	- Add Focus On Error Field Validation In
+		- CategoryMaster (Done)
+		- SubcategoryMaster (Done)
+		- FeedbackQuestionsMaster (Done)
+		- RegistrationMaster (Done)
+		- SitesMaster (Done)
+		- SubcategoryMaster (Done)
+		- TaxesMaster (Done)
+		- ADSMaster (Continue)
+	- Change 'Login' Method Of Registration Controller for Disable Login Of Locked User (Done)
+Learning ASPX (Kudvenkat)= Jay Sir
+	- Bulleted List In ASP .Net (Done)
+	- List Controls In ASP .Net (Continue)
+Others
+	- Hackerank Problem Solving in C# 
+		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)
 
-			
 	-> Login Page Design
 	-> Modal Header Footer Colour Change (Footer Colour Default, Header Length Decrease, 	-> modal-title h5,model-header height decrease(55px) 
 	-> trim befor insert save

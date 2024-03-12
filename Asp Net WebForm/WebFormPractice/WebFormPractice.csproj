@@ -137,6 +137,7 @@
     <Content Include="HyperLinkPractice.aspx" />
     <Content Include="Images\logo.png" />
     <Content Include="ListBox\ListFormBasic.aspx" />
+    <Content Include="RadioButtonList\BulletedList.aspx" />
     <Content Include="RadioButtonList\RadioButtonListBasics.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -304,6 +305,13 @@
       <DependentUpon>ListFormBasic.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonList\BulletedList.aspx.cs">
+      <DependentUpon>BulletedList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioButtonList\BulletedList.aspx.designer.cs">
+      <DependentUpon>BulletedList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RadioButtonList\RadioButtonListBasics.aspx.cs">
       <DependentUpon>RadioButtonListBasics.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
