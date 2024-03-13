@@ -3167,7 +3167,7 @@ Others
 	- Hackerank Problem Solving in C# 
 		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)	
 
-11/03/24
+12/03/24
 Good morning	
 hello sir,
 QRT Project = Hardik sir
@@ -3190,47 +3190,29 @@ Others
 	- Hackerank Problem Solving in C# 
 		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)
 
-	-> Login Page Design
-	-> Modal Header Footer Colour Change (Footer Colour Default, Header Length Decrease, 	-> modal-title h5,model-header height decrease(55px) 
-	-> trim befor insert save
-	-> Nav Tabs Overlay for loading for Tabs (https://adminlte.io/themes/v3/pages/UI/navbar.html)
-	-> border on logo and center in loader
-	-> inactive record dropdown issue	-> 
-	-> lockoutenddateutc column aspnetusers 
-	-> sweet alert warning instead of toaster in active and delete
-	-> Clear error in CompanyTypeMaster
-	-> dot remove in companyname
-	-> Focus on first not fill field CompanyMaster
-	-> Focus on all master
-	-> Not Call Without Fill All Field
-	-> Theme Date Field
-	-> Row Class For All Input Filed
-	-> All Hidden Field Above In CompanyMaster
-	-> Registration Date Should Be dd/mm/yy in All
-	-> Outlet Instead Of Site
-	-> PinCode Validation After Select Not Edit
-	-> Filter Dropdown In Category For Company
-	-> New Modal Of Priority Index 
-	-> Remove href # from All
-	-> isExists Condition In ALL
-	-> Remove Model Body From SubCategory Modal Form In All
-	-> Image Upload Div Width Fix
-	-> Datatable sorting disable in all master
-	-> Feedbackmaster,Modifiermaster Submit Auto On Serverside validation
-	-> Validation Not Working IN ModifiersMaster
-	-> MenuMaster
-     	- Alignment Proper In MenuMaster
-     	- Quantity Specification In Note
-     	- Quantity Specification Change
-     	- Dropdown Issue In Edit
-	-> On Modal Open Table Scroll Issue
-	-> No Download On EMpty and Conditon for required Column (Comp,Site,Quantity,item,total)
-	-> Feedback Response Design Change and Close Button Not Working
-	-> Register New User Change 
-	-> ViewTitle Change For ALl Master
-	-> Space Between Master Name
-	-> taxesmaster site wise data
-
+12/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Add Focus On Error Field Validation In ADSMaster, CompanyMaster and MenuMaster (Done)
+	- Redesign Loader and Add QRT Logo In Loader (Done)
+	- Remove href="#" from All Masters (Done)
+	- Add condition of Record Exists in SP 'SitesMaster_Insert_Update' (Done) 
+	- Change Save Method In Sites Controller For Display Error Msg (Done)
+	- Rename "Site" to "Outlet" in SitesMaster View Page (Done)
+	- Resolve Page Scroll Issue when opening modals in all masters (Done)
+	- Resolve Status Change Error Issue in 'GeneralAction' Method Of Registration Controller (Done) 
+Learning ASPX (Kudvenkat)= Jay Sir	
+	- List Controls In ASP .Net (Done)
+		-> DropDownList
+		-> CheckBoxList
+		-> RadioButtonList
+		-> ListBox
+		-> BulletedList
+	- Fileupload control in asp.net	 (Continue)
+Others
+	- Hackerank Problem Solving in C# 
+		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)
 Admin Side
 	- Order Invoice Download Functionality
 	- RewardMaster

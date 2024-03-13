@@ -133,6 +133,7 @@
     <Content Include="Dropdown\DropdownUsingXML.aspx" />
     <Content Include="Dropdown\Dropdownwithdb.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FileUploadPractice.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HyperLinkPractice.aspx" />
     <Content Include="Images\logo.png" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="Dropdown\Dropdownwithdb.aspx.designer.cs">
       <DependentUpon>Dropdownwithdb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUploadPractice.aspx.cs">
+      <DependentUpon>FileUploadPractice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUploadPractice.aspx.designer.cs">
+      <DependentUpon>FileUploadPractice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
