@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tranning\\ASP .Net MVC\\QRCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|d:\\tranning\\asp .net mvc\\qrcode\\controllers\\employeenewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|solutionrelative:controllers\\employeenewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|D:\\Tranning\\ASP .Net MVC\\QRCode\\views\\employeenews\\scanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|solutionrelative:views\\employeenews\\scanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|D:\\Tranning\\ASP .Net MVC\\QRCode\\views\\employeenews\\scanqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|solutionrelative:views\\employeenews\\scanqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|D:\\Tranning\\ASP .Net MVC\\QRCode\\views\\employeenews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|solutionrelative:views\\employeenews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|D:\\Tranning\\ASP .Net MVC\\QRCode\\views\\employeenews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA3B11B-E998-4983-8858-38A9117DFEF8}|QRCode.csproj|solutionrelative:views\\employeenews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScanQR.cshtml",
+              "DocumentMoniker": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\ScanQR.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employeenews\\ScanQR.cshtml",
+              "ToolTip": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\ScanQR.cshtml",
+              "RelativeToolTip": "Views\\Employeenews\\ScanQR.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-24T09:51:44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scanner.cshtml",
+              "DocumentMoniker": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Scanner.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employeenews\\Scanner.cshtml",
+              "ToolTip": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Scanner.cshtml",
+              "RelativeToolTip": "Views\\Employeenews\\Scanner.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-24T08:11:05.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employeenews\\Index.cshtml",
+              "ToolTip": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employeenews\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-24T07:45:18.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employeenews\\Create.cshtml",
+              "ToolTip": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Views\\Employeenews\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employeenews\\Create.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-24T07:44:39.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeenewsController.cs",
+              "DocumentMoniker": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Controllers\\EmployeenewsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeenewsController.cs",
+              "ToolTip": "D:\\Tranning\\ASP .Net MVC\\QRCode\\Controllers\\EmployeenewsController.cs",
+              "RelativeToolTip": "Controllers\\EmployeenewsController.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAuwLgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T07:43:31.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

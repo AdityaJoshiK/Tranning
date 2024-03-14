@@ -78,10 +78,13 @@ D:\Tranning\ASP .Net MVC\QRCode\bin\Antlr3.Runtime.pdb
 D:\Tranning\ASP .Net MVC\QRCode\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.csproj.AssemblyReference.cache
 D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.csproj.CoreCompileInputs.cache
-D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.csproj.CopyComplete
 D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.dll
 D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.pdb
 D:\Tranning\ASP .Net MVC\QRCode\bin\zxing.dll
 D:\Tranning\ASP .Net MVC\QRCode\bin\zxing.presentation.dll
 D:\Tranning\ASP .Net MVC\QRCode\bin\zxing.xml
 D:\Tranning\ASP .Net MVC\QRCode\bin\zxing.presentation.xml
+D:\Tranning\ASP .Net MVC\QRCode\bin\BouncyCastle.Crypto.dll
+D:\Tranning\ASP .Net MVC\QRCode\bin\itextsharp.dll
+D:\Tranning\ASP .Net MVC\QRCode\bin\itextsharp.xml
+D:\Tranning\ASP .Net MVC\QRCode\obj\Debug\QRCode.csproj.Up2Date

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Newtonsoft.Json;
 using QRCode.Models;
 using ZXing;
@@ -178,6 +181,36 @@ namespace QRCode.Controllers
             //return View();
             return Json(new { success = true,employee, message = "Employee data processed successfully" });
         }
+
+        public ActionResult PrintInvoice()
+        {
+            MemoryStream ms = new MemoryStream();
+            Document document = new Document();
+            PdfWriter writer = PdfWriter.GetInstance(document, ms);
+            document.Open();
+
+            // Add content to the PDF
+            iTextSharp.text.Font regularFont = FontFactory.GetFont(FontFactory.COURIER, 8);
+            iTextSharp.text.Font titleFont = FontFactory.GetFont(FontFactory.COURIER, 14);
+
+            document.Add(new Paragraph("----------------------------------------", regularFont));
+            document.Add(new Paragraph("Item Name".PadRight(30) + "Price", regularFont));
+            document.Add(new Paragraph("----------------------------------------", regularFont));
+
+            document.Close();
+            writer.Close();
+
+            // Send the PDF to the browser
+            Response.ContentType = "application/pdf";
+            Response.AddHeader("content-disposition", "attachment;filename=Invoice.pdf");
+            Response.OutputStream.Write(ms.GetBuffer(), 0, ms.GetBuffer().Length);
+            Response.OutputStream.Flush();
+            Response.OutputStream.Close();
+            Response.End();
+
+            return View();
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

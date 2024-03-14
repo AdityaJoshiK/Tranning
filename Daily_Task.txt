@@ -3190,7 +3190,7 @@ Others
 	- Hackerank Problem Solving in C# 
 		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)
 
-12/03/24
+13/03/24
 Good morning	
 hello sir,
 QRT Project = Hardik sir
@@ -3209,13 +3209,39 @@ Learning ASPX (Kudvenkat)= Jay Sir
 		-> RadioButtonList
 		-> ListBox
 		-> BulletedList
-	- Fileupload control in asp.net	 (Continue)
+	- Fileupload control in asp.netContinue)
 Others
 	- Hackerank Problem Solving in C# 
-		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Continue)
+		-  flipping all the bits of a given 32-bit unsigned integer and returning the result as an unsigned integer (Done)
+
+14/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Resolve Focus On Error Field Validation Issue In SeatMappingMaster (Done)
+	- Design Filter Dropdown In View Page (Done)
+	- Create SP 'SitesMaster_Filter' (Done)
+	- Add Filter Method In SitesMaster Controller and Logic (Done)
+	- Create SP 'AspNetUsers_Filter' (Done)
+	- Add Filter Method In Registration Controller and Logic (Done)
+	- Create SP 'SeatMappingMaster_Filter' (Done)
+	- Add Filter Method In SeatMappingMaster Controller and Logic (Done)
+	- Add Search Filter Functionality In Registraton and SitesMaster (Done)
+	- Add Search Filter Functionality In SeatMappingMaster (Continue)
+Learning ASPX (Kudvenkat)= Jay Sir
+	- Fileupload control in asp.net	(Done)
+	- Adrotator control in asp net (Done)
+		- Display Ads Using ASPX Ad Control
+	- Asp net calendar control (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
+
+
 Admin Side
 	- Order Invoice Download Functionality
 	- RewardMaster
+
 
 Client Side - Pending
 
@@ -3232,6 +3258,15 @@ Client Side - Pending
 	- Register New User Change 
 
 multi tab login token issue
+get data page wise 
+head office name option in company
+
+https://parzibyte.me/blog/en/2019/10/10/print-receipt-thermal-printer-javascript-css-html/
+
+https://www.neodynamic.com/articles/How-to-print-raw-ESC-POS-commands-from-ASP-NET-directly-to-the-client-printer/
+
+
+
 
 rakesh@foodfresho.com
 https://apalfrey.github.io/select2-bootstrap-5-theme/getting-started/basic-usage/
