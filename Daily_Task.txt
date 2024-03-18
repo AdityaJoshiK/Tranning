@@ -3237,6 +3237,50 @@ Others
 	- Hackerank Problem Solving in C# 
 		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
 
+14/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Create SP 'FeedbackResponse_Filter' (Done)
+	- Add Filter Method In FeedbackResponse Controller and Logic (Done)
+	- Create SP 'OrderDetails_Filter' (Done)
+	- Add Filter Method In OrderDetails Controller and Logic (Done)
+	- Create SP 'OrdersMaster_Filter' (Done)
+	- Add Filter Method In OrderMaster Controller and Logic (Done)
+	- Add Search Filter Functionality In FilterResponse,OrderDetail and OrderMaster (Done)
+	- Resolve Filter Functionality Issue In CartMaster (Done)
+	- Change SP 'CartMaster_GetAll' to Get RoleWise Data (Done)
+	- Resolve Issue On New Record In Company Master  (Done)
+	- Resolve Registration Controller LockoutEndDateUtc Issue (Done)
+	- Live QRT Project by JD sir (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
+
+14/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Create Documentation Of How to Generate QR Code in .Net
+	- Chnage SP 'OrdersMaster_GetByID' to Generate Invoice
+	- Change SP 'OrderDetails_GetAll' to Resolve Duplicate Record Issue
+	- Change SP 'TaxesMaster_GetAllTaxRates' to Get Tax Records By Site
+	- Add Download Order Invoice Functionality
+	- Add PrintInvoice Function In OrderMaster View Page
+	- Create Dynamic Html Templates to Generate POS receipt
+	- Change 'Logoff' Method to Resolve Log out Issue
+	- Create SP 'GetRecordCounts' to Get Record Counters
+	- Create File 'DashboardLogic' and GetRecordCounts Method
+	- Display Records Count In dashboard
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net calendar control properties and events
+	- Hidden field in asp.net 
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
+
+Order Date
+type indoor
 
 Admin Side
 	- Order Invoice Download Functionality
@@ -3260,6 +3304,9 @@ Client Side - Pending
 multi tab login token issue
 get data page wise 
 head office name option in company
+update company and site on user update
+
+select 'truncate table '+ name from SYS.tables order by name 
 
 https://parzibyte.me/blog/en/2019/10/10/print-receipt-thermal-printer-javascript-css-html/
 

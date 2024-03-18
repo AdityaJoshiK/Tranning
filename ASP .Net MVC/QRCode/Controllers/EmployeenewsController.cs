@@ -8,11 +8,13 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Windows.Markup;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Newtonsoft.Json;
 using QRCode.Models;
 using ZXing;
+using ZXing.Common;
 
 namespace QRCode.Controllers
 {
@@ -59,12 +61,14 @@ namespace QRCode.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FullName,Gender,Age,HireDate,EmailAddress,Salary,PersonalWebSite,QRCode")] Employeenew employeenew)
         {
+                string a = GenerateQRCode("a");
             if (ModelState.IsValid)
             {
                 db.Employeenews.Add(employeenew);
                 db.SaveChanges();
 
                 employeenew.QRCode = GenerateQRCode(employeenew);
+
 
                 // Update the database with the generated QR code
                 db.SaveChanges();
@@ -132,6 +136,54 @@ namespace QRCode.Controllers
             return RedirectToAction("Index");
         }
 
+        private string GenerateQRCode(string qrData)
+        {
+            //// Create a BarcodeWriter instance
+            //BarcodeWriter barcodeWriter = new BarcodeWriter();
+            //barcodeWriter.Format = BarcodeFormat.QR_CODE;
+
+            //// Write the QR code content
+            //var qrCodeBitmap = barcodeWriter.Write(qrData);
+
+            //// Convert the QR code to a bitmap
+            //Bitmap qrCodeImage = new Bitmap(qrCodeBitmap);
+
+            //// Save the QR code image to a file
+            //string filePath = $"~/QRCodes/{Guid.NewGuid()}_QRCode.png"; // Unique file name
+            //qrCodeImage.Save(Server.MapPath(filePath));
+
+            //// Return the file path
+            //return filePath;
+
+            // Create a BarcodeWriter instance
+            BarcodeWriter barcodeWriter = new BarcodeWriter();
+            barcodeWriter.Format = BarcodeFormat.QR_CODE;
+
+            // Set encoding options for customizing QR code
+            EncodingOptions options = new EncodingOptions();
+            options.Width = 450; // Set width of QR code
+            options.Height = 450; // Set height of QR code
+            options.NoPadding = true; // Disable padding
+            barcodeWriter.Options = options;
+
+            // Generate QR code image
+            BitMatrix qrCode = barcodeWriter.Encode(qrData);
+
+            // Convert BitMatrix to bitmap
+            Bitmap qrCodeBitmap = barcodeWriter.Write(qrCode);
+
+            // Save the QR code image to a file
+            //qrCodeBitmap.Save(filePath);
+
+            // Save the QR code image to a file
+            string filePath = $"~/QRCodes/{Guid.NewGuid()}_QRCode.png"; // Unique file name
+            qrCodeBitmap.Save(Server.MapPath(filePath));
+
+            // Return the file path
+            return filePath;
+        }
+
+
         private string GenerateQRCode(Employeenew employee)
         {
             // Create a BarcodeWriter instance
@@ -146,9 +198,7 @@ namespace QRCode.Controllers
                 Id = employee.Id,
                 Salary = employee.Salary,
                 Gender = employee.Gender
-        };
-
-
+            };
             var qrCodeContent = JsonConvert.SerializeObject(qrCodeData);
             var qrCodeBitmap = barcodeWriter.Write(qrCodeContent);
 
