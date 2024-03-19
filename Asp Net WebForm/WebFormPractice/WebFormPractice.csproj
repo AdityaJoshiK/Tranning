@@ -136,6 +136,7 @@
     <Content Include="favicon.ico" />
     <Content Include="FileUploadPractice.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HiddenField.aspx" />
     <Content Include="HyperLinkPractice.aspx" />
     <Content Include="Images\logo.png" />
     <Content Include="ListBox\ListFormBasic.aspx" />
@@ -305,6 +306,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HiddenField.aspx.cs">
+      <DependentUpon>HiddenField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiddenField.aspx.designer.cs">
+      <DependentUpon>HiddenField.aspx</DependentUpon>
     </Compile>
     <Compile Include="HyperLinkPractice.aspx.cs">
       <DependentUpon>HyperLinkPractice.aspx</DependentUpon>

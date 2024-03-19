@@ -3257,27 +3257,46 @@ Others
 	- Hackerank Problem Solving in C# 
 		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
 
-14/03/24
+18/03/24
 Good morning	
 hello sir,
 QRT Project = Hardik sir
-	- Create Documentation Of How to Generate QR Code in .Net
-	- Chnage SP 'OrdersMaster_GetByID' to Generate Invoice
-	- Change SP 'OrderDetails_GetAll' to Resolve Duplicate Record Issue
-	- Change SP 'TaxesMaster_GetAllTaxRates' to Get Tax Records By Site
-	- Add Download Order Invoice Functionality
-	- Add PrintInvoice Function In OrderMaster View Page
-	- Create Dynamic Html Templates to Generate POS receipt
-	- Change 'Logoff' Method to Resolve Log out Issue
-	- Create SP 'GetRecordCounts' to Get Record Counters
-	- Create File 'DashboardLogic' and GetRecordCounts Method
-	- Display Records Count In dashboard
+	- Create Documentation on How to Generate QR Code in .NET (Done)
+	- Chnage SP 'OrdersMaster_GetByID' to Generate Invoice (Done)
+	- Change SP 'OrderDetails_GetAll' to Resolve Duplicate Record Issue (Done)
+	- Change SP 'TaxesMaster_GetAllTaxRates' to Get Tax Records By Site (Done)
+	- Add Download Order Invoice Functionality (Done)
+	- Add PrintInvoice Function In OrderMaster View Page (Done)
+	- Create Dynamic HTML Templates to Generate POS Receipt (Done)
+	- Change 'Logoff' Method to Resolve Logout Issue (Done)
+	- Create SP 'GetRecordCounts' to Get Record Counters (Done)
+	- Create File 'DashboardLogic' and GetRecordCounts Method (Done)
+	- Display Records Count In dashboard (Done)
 Learning ASPX(Kudvenkat)= Jay Sir
-	- Asp.net calendar control properties and events
-	- Hidden field in asp.net 
+	- Asp.net calendar control properties and events (Continue)
 Others
 	- Hackerank Problem Solving in C# 
 		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue)
+
+19/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Add Column VariantIDF In TempCartDetails and OrderDetails Table
+	- Change SP 'OrdersMaster_Insert' to Insert Variant Details
+	- Change SP 'TempCartDetails_GetAll' to Get Variant Name and Discount
+	- Create Dropdown Of Variants In CartDemo Page
+	- Add Parameter VariantIDF In 'TempCartDetails_Insert' SP and Cart Logic Save Method
+	- Change Function 'AddtoCart' Of Cart Page For Bind Variant Dropdown
+	- Resolve the issue with the 'getdata' function on the CartDemo page
+	- Change 'getdata' function of CartDemo Page For Display Discount Price and Percentage
+	- Change 'ProcessOrder' Function In Payment View Page
+Learning ASPX(Kudvenkat)= Jay Sir	
+	- Hidden field in asp.net
+	- Multiview control in asp.net 
+Others
+	- Hackerank Problem Solving in C# 
+		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue) 
 
 Order Date
 type indoor
@@ -3305,6 +3324,8 @@ multi tab login token issue
 get data page wise 
 head office name option in company
 update company and site on user update
+add isHeadOffice bit in Sitesmaster
+add other field in user
 
 select 'truncate table '+ name from SYS.tables order by name 
 
