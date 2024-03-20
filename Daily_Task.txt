@@ -3282,21 +3282,41 @@ Others
 Good morning	
 hello sir,
 QRT Project = Hardik sir
-	- Add Column VariantIDF In TempCartDetails and OrderDetails Table
-	- Change SP 'OrdersMaster_Insert' to Insert Variant Details
-	- Change SP 'TempCartDetails_GetAll' to Get Variant Name and Discount
-	- Create Dropdown Of Variants In CartDemo Page
-	- Add Parameter VariantIDF In 'TempCartDetails_Insert' SP and Cart Logic Save Method
-	- Change Function 'AddtoCart' Of Cart Page For Bind Variant Dropdown
-	- Resolve the issue with the 'getdata' function on the CartDemo page
-	- Change 'getdata' function of CartDemo Page For Display Discount Price and Percentage
-	- Change 'ProcessOrder' Function In Payment View Page
+	- Add Column VariantIDF In TempCartDetails and OrderDetails Table and Model (Done)
+	- Change SP 'OrdersMaster_Insert' to Insert Variant Details (Done)
+	- Change SP 'TempCartDetails_GetAll' to Get Variant Name and Discount (Done)
+	- Create Dropdown Of Variants In CartDemo Page (Done)
+	- Add Parameter VariantIDF In 'TempCartDetails_Insert' SP and Cart Logic Save Method (Done)
+	- Change Function 'AddtoCart' Of Cart Page For Bind Variant Dropdown (Done)
+	- Resolve the issue with the 'getdata' function on the CartDemo page (Done)
+	- Change 'getdata' function of CartDemo Page For Display Discount Price and Percentage (Done)
+	- Change 'ProcessOrder' Function In Payment View Page (Done)
+	- Change Function 'updatePrices' and 'updateTaxes' to Display Price With Discount Percentage (Done)
 Learning ASPX(Kudvenkat)= Jay Sir	
-	- Hidden field in asp.net
-	- Multiview control in asp.net 
+	- Asp.net calendar control properties and events (Done)
+	- Hidden field in asp.net (Done)
 Others
 	- Hackerank Problem Solving in C# 
-		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Continue) 
+		- Find the index of a character in a lowercase string where removing it could make the string a palindrome (Done) 
+
+20/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Change Function 'removeFromCart' to Resolve Item Remove Issue In CartDemo and Payment View Page (Done) 
+	- Change SP 'OrdersMaster_GetByID' to Get VariantName and Discount Price (Done) 
+	- Change SP 'OrdersMaster_Insert' to Insert Discount Price (Done) 
+	- Change SP 'OrderDetails_Filter' and 'OrderDetails_GetAll' to Get Discount Column (Done) 
+	- Display Column Discount In OrderDetails and CartMaster View Page (Done) 
+	- Change SP 'CartMaster_Filter' and 'CartMaster_GetAll' to Get VariantName and Discount Price (Done) 
+	- Change JS Function 'openOrderDetailsModal' to Display List Of Modifiers with Price (Done) 
+	- Change Function 'PrintInvoice' to Display Modifier With Price (Done) 
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Multiview control in asp.net (Done)
+	- Wizard control in asp.net (continue)
+Others
+	- Hackerank Problem Solving in C# 
+		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (continue)
 
 Order Date
 type indoor
@@ -3323,9 +3343,6 @@ Client Side - Pending
 multi tab login token issue
 get data page wise 
 head office name option in company
-update company and site on user update
-add isHeadOffice bit in Sitesmaster
-add other field in user
 
 select 'truncate table '+ name from SYS.tables order by name 
 
