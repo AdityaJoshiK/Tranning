@@ -13,5 +13,23 @@ namespace WebFormPractice.WizardControl
         {
 
         }
+
+        protected void Wizard1_NextButtonClick(object sender, WizardNavigationEventArgs e)
+        {
+            if (e.NextStepIndex == 2)
+            {
+                lblFirstName.Text = txtFirstName.Text;
+                lblLastName.Text = txtLastName.Text;
+                lblGender.Text = ddlGender.SelectedValue;
+
+                lblEmail.Text = txtEmail.Text;
+                lblMobile.Text = txtMobile.Text;
+            }
+        }
+
+        protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
+        {
+            Response.Write("Submit Successfully");
+        }
     }
 }

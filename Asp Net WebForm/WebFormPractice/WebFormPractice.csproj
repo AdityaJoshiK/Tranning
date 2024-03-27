@@ -171,7 +171,9 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="UseSubmitBehaviour.aspx" />
     <Content Include="WizardControl\WizadControl.aspx" />
+    <Content Include="WizardControl\WizardEvents.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -366,6 +368,13 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="UseSubmitBehaviour.aspx.cs">
+      <DependentUpon>UseSubmitBehaviour.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseSubmitBehaviour.aspx.designer.cs">
+      <DependentUpon>UseSubmitBehaviour.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -379,6 +388,13 @@
     </Compile>
     <Compile Include="WizardControl\WizadControl.aspx.designer.cs">
       <DependentUpon>WizadControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardControl\WizardEvents.aspx.cs">
+      <DependentUpon>WizardEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WizardControl\WizardEvents.aspx.designer.cs">
+      <DependentUpon>WizardEvents.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

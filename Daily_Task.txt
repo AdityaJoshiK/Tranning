@@ -3318,33 +3318,142 @@ Others
 	- Hackerank Problem Solving in C# 
 		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (continue)
 
-Order Date
-type indoor
+21/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Resolve Issue of Item total In CartMaster  (Done) 
+	- Change SP 'SeatMappingMaster_Insert_Update' For Insert New SeatID (Done) 
+	- Change SP 'OrdersMaster_GetByID' For Display Discount and Total Price (Done) 
+	- Change SP 'TempCartDetails_GetAll' For Display Modifier Price (Done) 
+	- Change SP 'OrdersMaster_Insert' For Insert Total Price  (Done) 
+	- Resolve Issue Of Seat ID Insert In SeatMappingMaster Controller (Done) 
+	- Resolve Login Form Design Issue (Done) 
+	- Change 'PrintInvoice' Function Of OrderMaster to Display Discount and Total Price (Done) 
+	- Resolve Validation Issue In SeatMappingMaster (Done) 
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Wizard control in asp.net (Done)
+	- Asp net Wizard control properties (Done)
+Others
+	- Hackerank Problem Solving in C# 
+		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (continue)
 
-Admin Side
-	- Order Invoice Download Functionality
-	- RewardMaster
+22/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Display OrderDetails with Discount and Total Price (Done)
+	- Add Additional Notes Column In OrdersMaster (Done)
+	- Change SP 'OrdersMaster_GetByID'For Resolve Price Issue (Done)
+	- Change OrderMaster Logic and Model File For Add AdditionalNote (Done)
+	- Add AdditionalNote Field CartDemo and Payment View Page (Done)
+	- Create Function 'updateCharacterCount' For Display remaining  Characters (Done)
+	- Display Total Tax and Grand Total In OrderMaster View Page (Done)
+	- Create Function 'calculateTotalPrice' In OrderMaster View Page For Calculate Price (Done)
+	- Change 'PrintInvoice' Function For Display Modifier Name and Discount (Done)
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net Wizard control events (Pending)
+Others
+	- Hackerank Problem Solving in C# 
+		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (continue)
+
+23/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Resolve Record Issue In CartMaster (Done)
+	- Change SP 'CompanyMaster_Insert_Update' For Resolve Comany Edit Issue (Done)
+	- Change SP 'CartMaster_GetAll' to Get Record Counters (Done)
+	- Design Forgot Password View Page (Done)
+	- Change Method 'ForgotPassword' In AccountController (Done)
+	- Change Method 'EmailSender' In to Send Reset Password Email (Done)
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net Wizard control events (Pending)
+Others
+	- Hackerank Problem Solving in C# 
+		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (continue)
+
+23/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Add Forgot Password Functionality (Done)
+	- Add Price, Discount and All Tax Columns In OrderDetails (Done)
+	- Change SP 'OrdersMaster_GetByID' For Insert Price and Tax (Done)
+	- Chnage OrderMaster Logic File and Index View For Column Price and Tax (Done)
+	- Design Reset Password Email Template (Done)
+	- Change Method ResetPassword In AccountController (Done)
+	- Change ResetPassword View Page (Done)
+	- Designed KOT Template For OrderMaster
+	- Create Function printKOT and Set Data Of KOT (Done)
+	- Chnage Function PrintInvoice In OrderMaster For Display Total Price (Done)
+	- QRT Changes Live With JD Sir (Done)
+	- Live Testing Of QRT (Done)
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net Wizard control events (Continue)
+Others
+	- Hackerank Problem Solving in C# 
+		- Given two integers, find the maximum value of their bitwise XOR when one integer is in the range of another. (Done)	
+
+23/03/24
+Good morning	
+hello sir,
+QRT Project = Hardik sir
+	- Change SP 'AspNetUsers_GetAll' and 'AspNetUsers_Filter' to Hide Admin Users (Done)	
+	- Change SP 'OrdersMaster_GetByID' to Get Price From OrderDetails_Filter (Done)	
+	- Change All View Page to Resolve Dropdown Binding Issue (Done)	
+	- Change Function 'PrintInvoice' and 'printKOT' to Display OrderDetail In Tabular Formating (Done)	
+	- Resolve Pdf Export Issue In OrderDetails (Done)	
+	- Change Export to PDF Functionality In OrderDetails to Export PDF In Landscape Mode (Done)	
+	- Resolve Order bill and Order kot render issue (Done)	
+Learning ASPX(Kudvenkat)= Jay Sir
+	- Asp.net Wizard control events (Done)
+	- UseSubmitBehavior property of the Button control (Done)	
+	- Asp.net wizard control templates (Continue)
+Others
+	- Hackerank Problem Solving in C# 
+		- Determine if a string is "Funny" by comparing the absolute differences in ASCII values between consecutive characters and their reverse. (Continue)	
+
+ add no data available in modifier,subcategory
+
+feedback response get records company and admin wise
+ 
+ bill and kot render issue
+
+ resolve download image issue seat Mapping
 
 
-Client Side - Pending
 
-	- Login Page Design
-	- lockoutenddateutc column aspnetusers 
-	- border on logo and center in loader (not apply)
-	- Clear error in CompanyTypeMaster
-	- dot remove in companyname
-	- Focus on first not fill field CompanyMaster
-	- Outlet Instead Of Site
-	- Datatable sorting disable in all master
-	- On Modal Open Table Scroll Issue
-	- No Download On EMpty and Conditon for required Column (Comp,Site,Quantity,item,total)
-	- Register New User Change 
+ remove no companies available
+change validation in subcategory and category(Dosa & Rava)
+add rupee symbol agad in menu variant
 
+ in publish,
+
+ add fonts folder
+ add site.css 
+ tax
+ category
+ subcategory
+ OrderDetails
+menu
+modifier
+order
+companytype
+layout
+home
+login
+favicon
+
+
+display company and site in header
 multi tab login token issue
-get data page wise 
-head office name option in company
+add custom error page
 
 select 'truncate table '+ name from SYS.tables order by name 
+
+//Fprgot pwd
+https://github.com/ActiveCampaign/postmark-templates/blob/main/templates/basic-full/password-reset/content.html
 
 https://parzibyte.me/blog/en/2019/10/10/print-receipt-thermal-printer-javascript-css-html/
 
@@ -3378,8 +3487,8 @@ where email='chris@mcdonald.com'
 
 select * from AspNetUsers where Id='8A211DC0-AD23-4B80-8BB5-F613EFB446B4'
 
-select * from ErrorLogs order by EntryDate desc
-select * from ProcErrorLog order by EntryDateTime desc
+	select * from ErrorLogs order by EntryDate desc
+	select * from ProcErrorLog order by EntryDateTime desc
 select * from AspNetUSers order by CreationDate desc
 
 
@@ -3410,11 +3519,13 @@ select * from SubCategoryMaster where SiteIDF='6cb14b37-9cd4-457c-b4a5-86083c17e
 
 
 lifecycle of sp
+sql server profiler
+index and statstics
 
 
 
 
-
+https://www.linkedin.com/learning/sql-server-performance-for-developers
 
 
 

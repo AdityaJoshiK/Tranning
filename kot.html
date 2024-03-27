@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Receipt</title>
+    <style>
+        @@font-face {
+            font-family: 'thermal-receipt';
+            src: url('../../Content/dist/fonts/MerchantCopy.ttf');
+        }
+        * {
+            font-size: 12px;
+             font-family: 'MerchantCopy', 'Times New Roman', sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 5px;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .header{
+            width:100%;
+        }
+
+        .ticket {
+            width: 80mm;
+            max-width:  80mm;
+        }
+
+        img {
+            max-width: inherit;
+            width: inherit;
+        }
+
+        .separator {
+            border: none;
+            border-top: 1px dashed black;
+        }
+
+        .subtotal-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .subtotal {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .subtotal-value {
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+
+        .total-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            font-size: 18px !important;
+            font-weight: bold;
+            background-color: #f4f4f4;
+        }
+
+        .total {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .total-value {
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+
+
+        ul li {
+          list-style: none;
+          position: relative;
+          padding: 3px 0 2px 8px;
+          font-size:9px;
+        }
+
+        ul li::before {
+          content: '*';
+          position: absolute;
+          top: 6px;
+          left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <!-- <img src="./logo.png" alt="Logo"> -->
+        <div class="header">
+            <p class="centered" style="font-weight: bold;font-size: 20px;">${data.CompanyName}</p>
+            <hr class="separator">
+            <p class="centered" style="font-weight: bold;font-size: 15px;">${data.SiteName}</p>
+            <p class="centered"><b>*Kitchen Order Ticket*</b></p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="7" class="separator"></td>
+                </tr>
+                <tr>
+                    <th class="description">Item</th>
+                    <th class="price">Price</th>
+                </tr>
+                <tr>
+                    <td colspan="7" class="separator"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Populate dynamic data for items here -->
+                ${populateItems(response)}
+            </tbody>
+        </table>
+         ${data.AdditionalNotes ? `
+            <hr class="separator">
+            <div style="margin-bottom: 20px;">
+                <p><strong>Note:</strong> <span id="additionalNotes">${data.AdditionalNotes}</span></p>
+            </div>
+            ` : ''}
+        <hr class="separator">
+        <div class="total-container">
+            <div class="subtotal-container">
+                <p class="subtotal" style="text-align: left;">Total Items:</p>
+                <p class="subtotal-value">${data.TotalItems}</p> <!-- This should reflect the total number of items -->
+            </div>
+            <div class="subtotal-container">
+                <p class="subtotal" style="text-align: left;">Total Quantity:</p>
+                <p class="subtotal-value">${data.TotalQuantity}</p> <!-- This should reflect the total quantity -->
+            </div>
+        </div>
+        <hr class="separator">
+        <p class="centered">Thanks for your order!<br>
+            qrt.appsmith.com</p>
+    </div>
+</body>
+</html>

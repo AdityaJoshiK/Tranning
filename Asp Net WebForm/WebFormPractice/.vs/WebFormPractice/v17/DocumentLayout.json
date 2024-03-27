@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\multiview\\multiviewcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:multiview\\multiviewcontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\usesubmitbehaviour.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:usesubmitbehaviour.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\multiview\\multiviewcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:multiview\\multiviewcontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\usesubmitbehaviour.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:usesubmitbehaviour.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|d:\\tranning\\asp net webform\\webformpractice\\wizardcontrol\\wizardevents.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:wizardcontrol\\wizardevents.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\wizardcontrol\\wizardevents.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0DDE2E5E-7DDC-4758-8267-9E57926C685E}|WebFormPractice.csproj|solutionrelative:wizardcontrol\\wizardevents.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MultiViewControl.aspx.cs",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\MultiView\\MultiViewControl.aspx.cs",
-              "RelativeDocumentMoniker": "MultiView\\MultiViewControl.aspx.cs",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\MultiView\\MultiViewControl.aspx.cs",
-              "RelativeToolTip": "MultiView\\MultiViewControl.aspx.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAIwCkAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "UseSubmitBehaviour.aspx.cs",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\UseSubmitBehaviour.aspx.cs",
+              "RelativeDocumentMoniker": "UseSubmitBehaviour.aspx.cs",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\UseSubmitBehaviour.aspx.cs",
+              "RelativeToolTip": "UseSubmitBehaviour.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T13:19:35.935Z",
+              "WhenOpened": "2024-03-27T13:15:48.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MultiViewControl.aspx",
-              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\MultiView\\MultiViewControl.aspx",
-              "RelativeDocumentMoniker": "MultiView\\MultiViewControl.aspx",
-              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\MultiView\\MultiViewControl.aspx",
-              "RelativeToolTip": "MultiView\\MultiViewControl.aspx",
+              "DocumentIndex": 0,
+              "Title": "UseSubmitBehaviour.aspx",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\UseSubmitBehaviour.aspx",
+              "RelativeDocumentMoniker": "UseSubmitBehaviour.aspx",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\UseSubmitBehaviour.aspx",
+              "RelativeToolTip": "UseSubmitBehaviour.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-20T13:17:51.39Z",
+              "WhenOpened": "2024-03-27T13:09:35.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WizardEvents.aspx.cs",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\WizardControl\\WizardEvents.aspx.cs",
+              "RelativeDocumentMoniker": "WizardControl\\WizardEvents.aspx.cs",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\WizardControl\\WizardEvents.aspx.cs",
+              "RelativeToolTip": "WizardControl\\WizardEvents.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:08:52.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WizardEvents.aspx",
+              "DocumentMoniker": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\WizardControl\\WizardEvents.aspx",
+              "RelativeDocumentMoniker": "WizardControl\\WizardEvents.aspx",
+              "ToolTip": "D:\\Tranning\\Asp Net WebForm\\WebFormPractice\\WizardControl\\WizardEvents.aspx",
+              "RelativeToolTip": "WizardControl\\WizardEvents.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-21T13:07:57.413Z",
               "EditorCaption": ""
             }
           ]
